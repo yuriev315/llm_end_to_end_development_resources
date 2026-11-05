@@ -1,0 +1,86 @@
+{
+ "id": "P1227",
+ "repo": "allenai/wildguard",
+ "upstream": "https://github.com/allenai/wildguard",
+ "seed": {
+  "id": "P1227",
+  "repo": "allenai/wildguard",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "安全分类器与评测（有害提示/回复/拒答）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "495b9dc837be594c6c5665b0f7f56169baf0d5be",
+ "ref": "main",
+ "version": "main@495b9dc837",
+ "kind": "分支快照",
+ "commit": "495b9dc837be594c6c5665b0f7f56169baf0d5be",
+ "commit_date": "2024-12-02",
+ "commit_subject": "Update README.md",
+ "static": {
+  "file_count": 14,
+  "size_mb": 0.0,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 1,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 1,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "torch>=2.3.0",
+  "dep_count": 4,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install wildguard"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-12-02",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1227_allenai_wildguard_main-495b9dc837_src_en.tar",
+ "archive_mb": 0.1,
+ "archive_prefix": "wildguard-main-495b9dc837",
+ "finished": "2026-10-29T20:02:46Z"
+}

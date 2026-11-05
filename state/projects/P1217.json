@@ -1,0 +1,130 @@
+{
+ "id": "P1217",
+ "repo": "567-labs/instructor",
+ "upstream": "https://github.com/567-labs/instructor",
+ "seed": {
+  "id": "P1217",
+  "repo": "567-labs/instructor",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Pydantic 结构化输出、校验失败重试"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "6cd771c5254a69f6a6cf9cdf357fb2f9523f0b85",
+ "ref": "v1.17.0",
+ "version": "v1.17.0",
+ "kind": "发布标签",
+ "commit": "f539bf2bf43ef4d1cb4e2a405751d6a8815ce05f",
+ "commit_date": "2026-09-08",
+ "commit_subject": "chore(release): consolidate fixes and prepare Instructor 1.17.0 (#2597)",
+ "static": {
+  "file_count": 1000,
+  "size_mb": 77.0,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "examples/batch_api",
+   "examples/sqlmodel",
+   "tests"
+  ],
+  "test_file_count": 189,
+  "ci": [
+   ".github/workflows/oss-issue-deduplicator.yml",
+   ".github/workflows/scheduled-release.yml",
+   ".github/workflows/evals.yml",
+   ".github/workflows/ruff.yml",
+   ".github/workflows/test_docs.yml",
+   ".github/workflows/mutation.yml",
+   ".github/workflows/ty.yml",
+   ".github/workflows/test.yml",
+   ".github/workflows/python-publish.yml",
+   ".github/workflows/oss-issue-tagger.yml"
+  ],
+  "docker": [
+   "examples/citation_with_extraction/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "examples/chain-of-density/requirements.txt",
+   "examples/logfire/requirements.txt",
+   "examples/citation_with_extraction/requirements.txt",
+   "examples/logfire-fastapi/requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "requirements-examples.txt",
+   "requirements-doc.txt",
+   "examples/chain-of-density/requirements.txt",
+   "examples/logfire/requirements.txt",
+   "examples/citation_with_extraction/requirements.txt",
+   "examples/logfire-fastapi/requirements.txt"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 344,
+  "config_files": 3,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "<4.0,>=3.9",
+  "py_scripts": [
+   "instructor"
+  ],
+  "torch_spec": "",
+  "dep_count": 18,
+  "optional_groups": [
+   "dev",
+   "docs",
+   "test-docs",
+   "anthropic",
+   "groq",
+   "cohere",
+   "vertexai",
+   "cerebras_cloud_sdk",
+   "fireworks-ai",
+   "writer",
+   "bedrock",
+   "mistral"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install instructor",
+   "uv add instructor",
+   "poetry add instructor"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-20",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1217_567-labs_instructor_v1.17.0_src_en.tar",
+ "archive_mb": 77.9,
+ "archive_prefix": "instructor-v1.17.0",
+ "finished": "2026-10-29T20:02:08Z"
+}

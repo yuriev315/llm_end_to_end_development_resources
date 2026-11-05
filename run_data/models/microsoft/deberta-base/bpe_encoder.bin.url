@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/microsoft/deberta-base/resolve/0d1b43ccf21b5acd9f4e5f7b077fa698f05cf195/bpe_encoder.bin
+
+[FileInfo]
+Filename=bpe_encoder.bin
+Size=3917897
+SHA256=e7c6f9eecb461c01e09c00656ccf3e27944b9e74bfe29e51632b13d3cd9d6c8e
+Version=0d1b43ccf21b5acd9f4e5f7b077fa698f05cf195
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

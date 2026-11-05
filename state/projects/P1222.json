@@ -1,0 +1,91 @@
+{
+ "id": "P1222",
+ "repo": "messense/nh3",
+ "upstream": "https://github.com/messense/nh3",
+ "seed": {
+  "id": "P1222",
+  "repo": "messense/nh3",
+  "mod": "12",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Python 端 HTML 净化（ammonia 绑定）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "2be3bbf0ddd827aac67fdb1051f92f7d906e37e7",
+ "ref": "v0.3.7",
+ "version": "v0.3.7",
+ "kind": "发布标签",
+ "commit": "74f36b850c5cb36435b7d9774fe20d1ba3dd663e",
+ "commit_date": "2026-08-23",
+ "commit_subject": "Bump pyo3 from 0.29.0 to 0.29.2 (#140)",
+ "static": {
+  "file_count": 19,
+  "size_mb": 0.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 2,
+  "ci": [
+   ".github/workflows/CI.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "Cargo.toml",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt"
+  ],
+  "lock_files": [
+   "Cargo.lock"
+  ],
+  "docs_files": 5,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.8",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install nh3"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1222_messense_nh3_v0.3.7_src_en.tar",
+ "archive_mb": 0.1,
+ "archive_prefix": "nh3-v0.3.7",
+ "finished": "2026-10-29T20:02:25Z"
+}

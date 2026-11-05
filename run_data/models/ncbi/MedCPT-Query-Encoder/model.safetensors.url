@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/ncbi/MedCPT-Query-Encoder/resolve/d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=437951328
+SHA256=19d78c0d5eaee2f81e6c47c5425bbadcc0c6af016cbb5da4a000d64e59d6e342
+Version=d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc
+License=other
+Reason=PLACEHOLDER_OVERSIZE

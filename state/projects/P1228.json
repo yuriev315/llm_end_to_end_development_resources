@@ -1,0 +1,122 @@
+{
+ "id": "P1228",
+ "repo": "ShishirPatil/gorilla",
+ "upstream": "https://github.com/ShishirPatil/gorilla",
+ "seed": {
+  "id": "P1228",
+  "repo": "ShishirPatil/gorilla",
+  "mod": "12",
+  "x": [
+   "05",
+   "08"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)(?:\\.(\\d+))?$",
+  "purpose": "含 BFCL 函数调用评测（名称/参数/多轮）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "6ea57973c7a6097fd7c5915698c54c17c5b1b6c8",
+ "ref": "v1.3",
+ "version": "v1.3",
+ "kind": "发布标签",
+ "commit": "ea13468e4423454d0c213704fb87cf7cb3990433",
+ "commit_date": "2025-07-17",
+ "commit_subject": "[BFCL] Multi Turn Customer Support & Vehicle Control Function Fix (#1110)",
+ "static": {
+  "file_count": 509,
+  "size_mb": 187.0,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "agent-arena/client",
+   "gorilla/eval",
+   "raft/tests"
+  ],
+  "test_file_count": 4,
+  "ci": [
+   ".github/workflows/push-apizoo-updates.yml",
+   ".github/workflows/bfcl-pipy-release.yml",
+   ".github/workflows/validate-apizoo-contribution.yml"
+  ],
+  "docker": [
+   ".devcontainer/raft/Dockerfile",
+   "goex/docker/mysql_docker/dockerfile",
+   "goex/docker/docker/dockerfile",
+   "goex/docker/sqllite_docker/dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "goex/requirements.txt",
+   "goex/setup.py",
+   "gorilla/requirements.txt",
+   "gorilla/inference/requirements.txt",
+   "agent-arena/client/package.json",
+   "openfunctions/requirements.txt",
+   "berkeley-function-call-leaderboard/pyproject.toml",
+   "raft/requirements.txt"
+  ],
+  "req_files": [
+   "goex/requirements.txt",
+   "gorilla/requirements.txt",
+   "gorilla/inference/requirements.txt",
+   "openfunctions/requirements.txt",
+   "raft/requirements.txt"
+  ],
+  "lock_files": [
+   "agent-arena/client/package-lock.json"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_live_relevance.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_parallel_multiple.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_live_simple.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_irrelevance.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_multi_turn_miss_param.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_live_multiple.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_javascript.json",
+   "berkeley-function-call-leaderboard/bfcl_eval/data/BFCL_v3_multi_turn_miss_func.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "gorilla/inference/requirements.txt: torch==2.0.1",
+  "entry_files": [
+   "goex/cli.py",
+   "goex/main.py",
+   "goex/server.py",
+   "raft/eval.py",
+   "raft/client_utils.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install gorilla-cli",
+   "git clone https://github.com/ShishirPatil/gorilla.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-03-23",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1228_ShishirPatil_gorilla_v1.3_src_en.tar",
+ "archive_mb": 187.5,
+ "archive_prefix": "gorilla-v1.3",
+ "finished": "2026-10-29T20:02:52Z"
+}

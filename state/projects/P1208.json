@@ -1,0 +1,92 @@
+{
+ "id": "P1208",
+ "repo": "lm-sys/RouteLLM",
+ "upstream": "https://github.com/lm-sys/RouteLLM",
+ "seed": {
+  "id": "P1208",
+  "repo": "lm-sys/RouteLLM",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "强弱模型路由（成本-质量权衡）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "0b64fdafe049e596a3f5657c219329f24af24198",
+ "ref": "main",
+ "version": "main@0b64fdafe0",
+ "kind": "分支快照",
+ "commit": "0b64fdafe049e596a3f5657c219329f24af24198",
+ "commit_date": "2024-08-10",
+ "commit_subject": "create /health endpoint for health checks",
+ "static": {
+  "file_count": 108,
+  "size_mb": 16.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "routellm/tests"
+  ],
+  "test_file_count": 2,
+  "ci": [
+   ".github/workflows/python-publish.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "torch",
+  "dep_count": 12,
+  "optional_groups": [
+   "serve",
+   "eval",
+   "dev"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install \"routellm[serve,eval]\"",
+   "git clone https://github.com/lm-sys/RouteLLM.git",
+   "pip install -e .[serve,eval]",
+   "python -m examples.router_chat --router mf --threshold 0.11593",
+   "python -m routellm.openai_server --routers mf --config config.example.yaml",
+   "python -m routellm.evals.evaluate --routers random sw_ranking bert --benchmark gsm8k --config config.example.yaml"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-08-10",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1208_lm-sys_RouteLLM_main-0b64fdafe0_src_en.tar",
+ "archive_mb": 16.9,
+ "archive_prefix": "RouteLLM-main-0b64fdafe0",
+ "finished": "2026-10-29T20:01:23Z"
+}

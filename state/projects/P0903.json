@@ -1,0 +1,163 @@
+{
+ "id": "P0903",
+ "repo": "open-webui/open-webui",
+ "upstream": "https://github.com/open-webui/open-webui",
+ "seed": {
+  "id": "P0903",
+  "repo": "open-webui/open-webui",
+  "mod": "09",
+  "x": [
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "自托管对话界面：RBAC、RAG、管道、Ollama/OpenAI 接入"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+ "ref": "v0.12.5",
+ "version": "v0.12.5",
+ "kind": "发布标签",
+ "commit": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+ "commit_date": "2026-10-29",
+ "commit_subject": "0.12.5 (#33371)",
+ "static": {
+  "file_count": 5199,
+  "size_mb": 54.7,
+  "license_files": [
+   "LICENSE_HISTORY",
+   "LICENSE",
+   "LICENSE_NOTICE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "src/lib",
+   "test"
+  ],
+  "test_file_count": 1,
+  "ci": [
+   ".github/workflows/lint-frontend.disabled",
+   ".github/workflows/frontend.yaml",
+   ".github/workflows/release-pypi.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/docker.yaml",
+   ".github/workflows/regression.yaml",
+   ".github/workflows/issue-label.yaml",
+   ".github/workflows/backend.yaml",
+   ".github/workflows/lint-backend.disabled",
+   ".github/workflows/codespell.disabled"
+  ],
+  "docker": [
+   "Dockerfile"
+  ],
+  "compose": [
+   "docker-compose.a1111-test.yaml",
+   "docker-compose.playwright.yaml",
+   "docker-compose.data.yaml",
+   "docker-compose.yaml",
+   "docker-compose.gpu.yaml",
+   "docker-compose.amdgpu.yaml",
+   "docker-compose.api.yaml",
+   "docker-compose.otel.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "pyproject.toml",
+   "backend/requirements.txt",
+   "crypto/encryption/Cargo.toml"
+  ],
+  "req_files": [
+   "backend/requirements.txt",
+   "backend/requirements-slim.txt"
+  ],
+  "lock_files": [
+   "package-lock.json",
+   "uv.lock",
+   "crypto/encryption/Cargo.lock"
+  ],
+  "docs_files": 1,
+  "config_files": 0,
+  "config_dirs": [
+   "src/lib"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "backend/open_webui/data/readme.txt",
+   "backend/data/readme.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">= 3.11, < 3.13.0a1",
+  "py_scripts": [
+   "open-webui"
+  ],
+  "torch_spec": "",
+  "dep_count": 91,
+  "optional_groups": [
+   "postgres",
+   "mariadb",
+   "unstructured",
+   "all"
+  ],
+  "node_engines": {
+   "node": ">=18.13.0 <=22.x.x",
+   "npm": ">=6.0.0"
+  },
+  "npm_scripts": [
+   "crypto:verify",
+   "predev",
+   "predev:5050",
+   "prebuild",
+   "prebuild:watch",
+   "dev",
+   "dev:5050",
+   "build",
+   "build:watch",
+   "preview",
+   "check",
+   "check:watch",
+   "lint",
+   "lint:frontend",
+   "lint:types"
+  ],
+  "entry_files": [
+   "src/app.d.ts"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install open-webui",
+   "docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda",
+   "docker run -d -p 3000:8080 -e OPENAI_API_KEY=your_secret_key -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama",
+   "docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama",
+   "docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main",
+   "docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui --add-host=host.docker.internal:host-gateway --restart always ghcr.io/open-webui/open-webui:dev"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "applications/P0903_open-webui_open-webui_v0.12.5_src_en.tar",
+ "archive_mb": 58.8,
+ "archive_prefix": "open-webui-v0.12.5",
+ "finished": "2026-10-29T19:58:37Z"
+}

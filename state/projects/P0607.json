@@ -1,0 +1,112 @@
+{
+ "id": "P0607",
+ "repo": "vllm-project/guidellm",
+ "upstream": "https://github.com/vllm-project/guidellm",
+ "seed": {
+  "id": "P0607",
+  "repo": "vllm-project/guidellm",
+  "mod": "06",
+  "x": [
+   "10"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "推理服务负载测试：吞吐、延迟、并发扫描"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "99a24c5278800f813d9e316658a5a773330f0cb9",
+ "ref": "v0.8.1",
+ "version": "v0.8.1",
+ "kind": "发布标签",
+ "commit": "597bc014ef78daeb11312374022430939b611f11",
+ "commit_date": "2026-10-08",
+ "commit_subject": "fix: console log omits prime-parameter on sub-benchmarks (#1260)",
+ "static": {
+  "file_count": 530,
+  "size_mb": 7.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 119,
+  "ci": [
+   ".github/workflows/quality.yml",
+   ".github/workflows/container-maintenance.yml",
+   ".github/workflows/build-multiarch-container.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/pr-styling.yml",
+   ".github/workflows/main.yml",
+   ".github/workflows/nightly.yml",
+   ".github/workflows/testing.yml",
+   ".github/workflows/development.yml"
+  ],
+  "docker": [
+   "Containerfile",
+   "tests/e2e/vllm-sim-macos.Dockerfile",
+   "tests/e2e/vllm-sim.Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   "tests/js/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock",
+   "tests/js/package-lock.json"
+  ],
+  "docs_files": 57,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "tox.ini"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10.0,<4.0",
+  "py_scripts": [],
+  "torch_spec": "torch",
+  "dep_count": 23,
+  "optional_groups": [
+   "all",
+   "recommended",
+   "plot",
+   "perf",
+   "tokenizers",
+   "audio",
+   "vision"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install guidellm[recommended]",
+   "pip install git+https://github.com/vllm-project/guidellm.git",
+   "vllm serve \"neuralmagic/Meta-Llama-3.1-8B-Instruct-quantized.w4a16\""
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "inference/P0607_vllm-project_guidellm_v0.8.1_src_en.tar",
+ "archive_mb": 8.0,
+ "archive_prefix": "guidellm-v0.8.1",
+ "finished": "2026-10-29T19:57:01Z"
+}

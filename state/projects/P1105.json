@@ -1,0 +1,79 @@
+{
+ "id": "P1105",
+ "repo": "ncbi-nlp/MedCalc-Bench",
+ "upstream": "https://github.com/ncbi-nlp/MedCalc-Bench",
+ "seed": {
+  "id": "P1105",
+  "repo": "ncbi-nlp/MedCalc-Bench",
+  "mod": "11",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "医学计算器评测（公式与单位计算，含参考实现）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "20b10f9d66a8c3b0356ae3138533f5ec91666b6a",
+ "ref": "main",
+ "version": "main@20b10f9d66",
+ "kind": "分支快照",
+ "commit": "20b10f9d66a8c3b0356ae3138533f5ec91666b6a",
+ "commit_date": "2025-12-18",
+ "commit_subject": "Merge pull request #11 from nikhilk7153/main",
+ "static": {
+  "file_count": 78,
+  "size_mb": 19.2,
+  "license_files": [],
+  "license_guess": "",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "environment.yml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "calculator_implementations/maintenance_fluid_calc.py",
+   "evaluation/run.py",
+   "evaluation/evaluate.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "许可证文件"
+ ],
+ "head_commit_date": "2025-12-18",
+ "archived": "否",
+ "archive": "applications/P1105_ncbi-nlp_MedCalc-Bench_main-20b10f9d66_src_en.tar",
+ "archive_mb": 19.3,
+ "archive_prefix": "MedCalc-Bench-main-20b10f9d66",
+ "finished": "2026-10-29T19:59:58Z"
+}

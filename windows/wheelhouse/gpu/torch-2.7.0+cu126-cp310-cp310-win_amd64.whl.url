@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cu126/torch-2.7.0%2Bcu126-cp310-cp310-win_amd64.whl
+
+[FileInfo]
+Filename=torch-2.7.0+cu126-cp310-cp310-win_amd64.whl
+Size=2770884935
+SHA256=587dec2f6c9e3316faea05f22434a386d402cf02d6faeb97a8978f73b3a0ed7a
+Version=2.7.0+cu126
+License=UNKNOWN
+Reason=PLACEHOLDER_OVERSIZE

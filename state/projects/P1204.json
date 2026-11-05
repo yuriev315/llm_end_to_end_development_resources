@@ -1,0 +1,175 @@
+{
+ "id": "P1204",
+ "repo": "NVIDIA-NeMo/Guardrails",
+ "upstream": "https://github.com/NVIDIA-NeMo/Guardrails",
+ "seed": {
+  "id": "P1204",
+  "repo": "NVIDIA-NeMo/Guardrails",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "运行时护栏：输入/输出/检索/执行 rails、对话流程、配置"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "develop",
+ "head_commit": "096fe9b7859a5aa58b429a0346f4d041a3cc5e8d",
+ "ref": "v0.24.1",
+ "version": "v0.24.1",
+ "kind": "发布标签",
+ "commit": "5d81d6700e713018e3b74065f8b1f56d1051f290",
+ "commit_date": "2026-09-16",
+ "commit_subject": "chore: prepare for release v0.24.1 (#2387)",
+ "static": {
+  "file_count": 2083,
+  "size_mb": 19.8,
+  "license_files": [
+   "LICENSE.md",
+   "LICENSE-Apache-2.0.txt"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "benchmark/tests",
+   "examples/deployment",
+   "qa/test_execution_rails.py",
+   "qa/test_grounding_rail.py",
+   "qa/test_jailbreak_check.py",
+   "qa/test_moderation_rail.py",
+   "qa/test_topical_rail.py",
+   "scripts/tests",
+   "tests"
+  ],
+  "test_file_count": 400,
+  "ci": [
+   ".gitlab-ci.yml",
+   ".github/workflows/full-tests.yml",
+   ".github/workflows/docs-remove-stale-reviews.yaml",
+   ".github/workflows/develop-coverage.yml",
+   ".github/workflows/publish-pypi-approval.yml",
+   ".github/workflows/publish-wheel.yml",
+   ".github/workflows/api-conformance-docs.yml",
+   ".github/workflows/test-and-build-wheel.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/codeql.yml",
+   ".github/workflows/uv-latest.yml",
+   ".github/workflows/_test.yml",
+   ".github/workflows/stale.yml",
+   ".github/workflows/triage-label.yml",
+   ".github/workflows/latest-deps-tests.yml",
+   ".github/workflows/pr-tests.yml",
+   ".github/workflows/pr-tests-skip.yml",
+   ".github/workflows/create-tag.yml",
+   ".github/workflows/pr-size-label.yml",
+   ".github/workflows/pr-coverage.yml",
+   ".github/workflows/zizmor.yml",
+   ".github/workflows/test-published-dist.yml",
+   ".github/workflows/pr-merge-guidance.yml",
+   ".github/workflows/pr-fix-regression-proof.yml",
+   ".github/workflows/api-conformance-impl.yml",
+   ".github/workflows/test-docker.yml",
+   ".github/workflows/close-contribution-workflow-violation.yml",
+   ".github/workflows/review-response-reminder.yml",
+   ".github/workflows/_coverage.yml",
+   ".github/workflows/docs-build.yaml",
+   ".github/workflows/lint.yml"
+  ],
+  "docker": [
+   "Dockerfile",
+   ".devcontainer/Dockerfile",
+   "qa/Dockerfile.qa",
+   "nemoguardrails/library/factchecking/align_score/Dockerfile",
+   "nemoguardrails/library/jailbreak_detection/Dockerfile-GPU",
+   "nemoguardrails/library/jailbreak_detection/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "pyproject.toml",
+   "vscode_extension/colang-2-lang/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json",
+   "uv.lock"
+  ],
+  "docs_files": 261,
+  "config_files": 192,
+  "config_dirs": [
+   "benchmark/aiperf",
+   "benchmark/locust",
+   "benchmark/mock_llm_server",
+   "examples/configs",
+   "examples/eval",
+   "tests/recorded"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "examples/notebooks/data/content_safety_subset.csv",
+   "examples/notebooks/data/topic_control_subset.csv",
+   "examples/notebooks/data/pii_detection_subset.csv",
+   "tests/integrations/langchain/data/openai_reasoning_probe_baseline.json",
+   "tests/llm/clients/fixtures/nim_multiturn_tool_roundtrip.json",
+   "tests/llm/clients/fixtures/nim_generate_text.json",
+   "tests/llm/clients/fixtures/openai_stream_tool_calls.json",
+   "tests/llm/clients/fixtures/openai_error_401.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG-Colang.md",
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<3.14",
+  "py_scripts": [
+   "nemoguardrails"
+  ],
+  "torch_spec": "",
+  "dep_count": 21,
+  "optional_groups": [
+   "tracing",
+   "server",
+   "sdd",
+   "gcp",
+   "jailbreak",
+   "multilingual",
+   "chat-ui",
+   "eval",
+   "all"
+  ],
+  "node_engines": {},
+  "npm_scripts": [
+   "docs",
+   "docs:convert",
+   "docs:deps",
+   "docs:preview:watch",
+   "docs:strict",
+   "docs:live",
+   "test:docs-scripts"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1204_NVIDIA-NeMo_Guardrails_v0.24.1_src_en.tar",
+ "archive_mb": 21.8,
+ "archive_prefix": "Guardrails-v0.24.1",
+ "finished": "2026-10-29T20:01:06Z"
+}

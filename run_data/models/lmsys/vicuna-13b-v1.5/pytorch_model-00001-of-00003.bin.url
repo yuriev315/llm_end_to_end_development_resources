@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/lmsys/vicuna-13b-v1.5/resolve/c8327bf999adbd2efe2e75f6509fa01436100dc2/pytorch_model-00001-of-00003.bin
+
+[FileInfo]
+Filename=pytorch_model-00001-of-00003.bin
+Size=9948728430
+SHA256=e9b54ba4bf8f87c6129f1e35c63d1ed248971d827ee5559f1a3bb48b39e43187
+Version=c8327bf999adbd2efe2e75f6509fa01436100dc2
+License=llama2
+Reason=PLACEHOLDER_OVERSIZE

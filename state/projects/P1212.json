@@ -1,0 +1,136 @@
+{
+ "id": "P1212",
+ "repo": "NVIDIA/garak",
+ "upstream": "https://github.com/NVIDIA/garak",
+ "seed": {
+  "id": "P1212",
+  "repo": "NVIDIA/garak",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LLM 漏洞扫描（探针/检测器/报告）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "4b7761c2108446043012549cbe8f7c942cabb26d",
+ "ref": "v0.17.1",
+ "version": "v0.17.1",
+ "kind": "发布标签",
+ "commit": "7aa740fe7412cc9bc33cdc39ca211843223cd3e1",
+ "commit_date": "2026-10-16",
+ "commit_subject": "bump version",
+ "static": {
+  "file_count": 877,
+  "size_mb": 11.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "garak-report/src",
+   "tests"
+  ],
+  "test_file_count": 180,
+  "ci": [
+   ".github/workflows/needs_triage.yml",
+   ".github/workflows/test_macos.yml",
+   ".github/workflows/test_report_build.yaml",
+   ".github/workflows/test_windows.yml",
+   ".github/workflows/maintain_cache.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/prepare_package.yml",
+   ".github/workflows/stale.yml",
+   ".github/workflows/test_linux.yml",
+   ".github/workflows/labels.yml",
+   ".github/workflows/nightly.yml",
+   ".github/workflows/remote_package_install.yml",
+   ".github/workflows/docs.yml",
+   ".github/workflows/lint.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "tools/requirements.txt",
+   "tools/propile/requirements.txt",
+   "garak-report/package.json"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "tools/requirements.txt",
+   "tools/propile/requirements.txt",
+   "docs/requirements-docs.txt"
+  ],
+  "lock_files": [
+   "garak-report/yarn.lock"
+  ],
+  "docs_files": 159,
+  "config_files": 2,
+  "config_dirs": [
+   "garak/configs"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "garak/data/truefalse_falseclaims.txt",
+   "garak/data/slurprompts.jsonl",
+   "garak/data/senator_search.json",
+   "garak/data/inthewild_jailbreak_llms.json",
+   "garak/data/truefalse_falseclaims_50.txt",
+   "garak/data/safebench_filenames.txt",
+   "garak/data/safebenchtiny_filenames.txt",
+   "garak/data/ldnoobw-en.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11",
+  "py_scripts": [
+   "garak"
+  ],
+  "torch_spec": "torch>=2.13.0",
+  "dep_count": 45,
+  "optional_groups": [
+   "tests",
+   "lint",
+   "calibration",
+   "audio",
+   "dra"
+  ],
+  "entry_files": [
+   "garak/cli.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "python -m pip install -U garak",
+   "python -m pip install -U git+https://github.com/NVIDIA/garak.git@main",
+   "conda create --name garak \"python>=3.11,<=3.14\"",
+   "conda activate garak",
+   "python -m pip install -e .",
+   "python3 -m garak --target_type openai --target_name gpt-5-nano --spec probes.encoding",
+   "python3 -m garak --target_type huggingface --target_name gpt2 --spec probes.dan.Dan_11_0",
+   "garak --target_type bedrock --target_name claude-3-sonnet --spec probes.dan"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1212_NVIDIA_garak_v0.17.1_src_en.tar",
+ "archive_mb": 12.6,
+ "archive_prefix": "garak-v0.17.1",
+ "finished": "2026-10-29T20:01:49Z"
+}

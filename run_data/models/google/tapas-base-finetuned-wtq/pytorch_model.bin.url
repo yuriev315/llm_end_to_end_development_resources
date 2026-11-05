@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/google/tapas-base-finetuned-wtq/resolve/e3dde1905dea877b0df1a5c057533e48327dee77/pytorch_model.bin
+
+[FileInfo]
+Filename=pytorch_model.bin
+Size=442791751
+SHA256=2062cd99b44d4c0cf361fa1ab56c0c147b1cb687c23f369dae9474d72f451f70
+Version=e3dde1905dea877b0df1a5c057533e48327dee77
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

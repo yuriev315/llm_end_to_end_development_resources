@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/c170c708c41dac9275d15a8fff4eca08d52bab71/model-00003-of-00003.safetensors
+
+[FileInfo]
+Filename=model-00003-of-00003.safetensors
+Size=4546807800
+SHA256=905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca
+Version=c170c708c41dac9275d15a8fff4eca08d52bab71
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

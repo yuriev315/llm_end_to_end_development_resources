@@ -1,0 +1,110 @@
+{
+ "id": "P1209",
+ "repo": "aurelio-labs/semantic-router",
+ "upstream": "https://github.com/aurelio-labs/semantic-router",
+ "seed": {
+  "id": "P1209",
+  "repo": "aurelio-labs/semantic-router",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "基于嵌入的意图/路由判定"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "1fa1937e390fe57fb85ee3bbb8b3db593a4145db",
+ "ref": "v1.1.1",
+ "version": "v1.1.1",
+ "kind": "发布标签",
+ "commit": "aef831098a0822944f32a3a8693138604d9c938b",
+ "commit_date": "2026-10-22",
+ "commit_subject": "fix(deps): exclude litellm 1.107.0, release 1.1.1 (#809)",
+ "static": {
+  "file_count": 196,
+  "size_mb": 3.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 43,
+  "ci": [
+   ".github/workflows/release.yml",
+   ".github/workflows/live.yml",
+   ".github/workflows/conventional_commits.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/docs.yml",
+   ".github/workflows/pr_agent.yml"
+  ],
+  "docker": [
+   "docs/indexes/postgres/Dockerfile"
+  ],
+  "compose": [
+   "compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 76,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<3.14",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 15,
+  "optional_groups": [
+   "litellm",
+   "ollama",
+   "local",
+   "pinecone",
+   "vision",
+   "qdrant",
+   "google",
+   "bedrock",
+   "postgres",
+   "mongodb",
+   "fastembed",
+   "all"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install -qU \"semantic-router>=1,<2\"   # 1.x",
+   "pip install -qU \"semantic-router<1\"       # 0.x",
+   "pip install -qU \"semantic-router[fastembed]\""
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-22",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1209_aurelio-labs_semantic-router_v1.1.1_src_en.tar",
+ "archive_mb": 3.7,
+ "archive_prefix": "semantic-router-v1.1.1",
+ "finished": "2026-10-29T20:01:26Z"
+}

@@ -1,0 +1,112 @@
+{
+ "id": "P0801",
+ "repo": "modelcontextprotocol/python-sdk",
+ "upstream": "https://github.com/modelcontextprotocol/python-sdk",
+ "seed": {
+  "id": "P0801",
+  "repo": "modelcontextprotocol/python-sdk",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "MCP 官方 Python SDK：工具/资源/提示接口，服务端与客户端"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "d7845c073a2b9ba5ab2817ecf93d3e45ef24cd14",
+ "ref": "v2.3.0",
+ "version": "v2.3.0",
+ "kind": "发布标签",
+ "commit": "2118f14f8a19bc158d8a1cf90af58d85d187f849",
+ "commit_date": "2026-10-02",
+ "commit_subject": "docs: refresh translations for recent English changes (#3636)",
+ "static": {
+  "file_count": 1717,
+  "size_mb": 15.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   ".github/scripts",
+   "scripts/test",
+   "tests"
+  ],
+  "test_file_count": 236,
+  "ci": [
+   ".github/workflows/shared.yml",
+   ".github/workflows/deploy-docs.yml",
+   ".github/workflows/docs-preview-cleanup.yml",
+   ".github/workflows/docs-preview.yml",
+   ".github/workflows/main.yml",
+   ".github/workflows/conformance.yml",
+   ".github/workflows/publish-pypi.yml",
+   ".github/workflows/claude.yml",
+   ".github/workflows/zizmor.yml",
+   ".github/workflows/require-linked-issue.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "src/mcp-types/pyproject.toml",
+   "examples/pyproject.toml",
+   "examples/snippets/pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 57,
+  "config_files": 17,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASE.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "mcp"
+  ],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [
+   "rich",
+   "cli"
+  ],
+  "entry_files": [
+   "scripts/serve-docs.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "uv add \"mcp[cli]\"      # or: pip install \"mcp[cli]\"",
+   "uv run mcp dev server.py",
+   "uv run mcp run server.py --transport streamable-http"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "agents_coding/P0801_modelcontextprotocol_python-sdk_v2.3.0_src_en.tar",
+ "archive_mb": 16.9,
+ "archive_prefix": "python-sdk-v2.3.0",
+ "finished": "2026-10-29T19:57:27Z"
+}

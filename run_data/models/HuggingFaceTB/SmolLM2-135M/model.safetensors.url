@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/HuggingFaceTB/SmolLM2-135M/resolve/93efa2f097d58c2a74874c7e644dbc9b0cee75a2/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=269060552
+SHA256=80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1
+Version=93efa2f097d58c2a74874c7e644dbc9b0cee75a2
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

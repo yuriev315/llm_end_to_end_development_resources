@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://api.ngc.nvidia.com/v2/models/nvidia/megatron_bert_345m/versions/v0.1_cased/files/release/mp_rank_00/model_optim_rng.pt
+
+[FileInfo]
+Filename=model_optim_rng.pt
+Size=669513499
+SHA256=UNKNOWN
+Version=as of 2026-11-04
+License=UNKNOWN (see source)
+Reason=PLACEHOLDER_OVERSIZE

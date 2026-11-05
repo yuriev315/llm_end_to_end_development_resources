@@ -1,0 +1,139 @@
+{
+ "id": "P1005",
+ "repo": "NVIDIA/k8s-device-plugin",
+ "upstream": "https://github.com/NVIDIA/k8s-device-plugin",
+ "seed": {
+  "id": "P1005",
+  "repo": "NVIDIA/k8s-device-plugin",
+  "mod": "10",
+  "x": [],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Kubernetes GPU 设备插件（GPU 调度、时间切片、MIG）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "29dad4b682b5abc1df469d50a2bfe1f57abc7132",
+ "ref": "v0.20.1",
+ "version": "v0.20.1",
+ "kind": "发布标签",
+ "commit": "487d7a93894b0f3ad08097169593972eb3ca8206",
+ "commit_date": "2026-09-22",
+ "commit_subject": "Merge pull request #2058 from NVIDIA/backport-2057-to-release-0.20",
+ "static": {
+  "file_count": 11536,
+  "size_mb": 147.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "api/config",
+   "cmd/config-manager",
+   "cmd/gpu-feature-discovery",
+   "cmd/mps-control-daemon",
+   "internal/cdi",
+   "internal/lm",
+   "internal/plugin",
+   "internal/resource",
+   "internal/rm",
+   "internal/vgpu",
+   "tests"
+  ],
+  "test_file_count": 28,
+  "ci": [
+   ".github/workflows/ci.yaml",
+   ".github/workflows/basic-checks.yaml",
+   ".github/workflows/stale.yaml",
+   ".github/workflows/cherrypick.yml",
+   ".github/workflows/helm.yaml",
+   ".github/workflows/release.yaml",
+   ".github/workflows/deploy-to-pages.yaml",
+   ".github/workflows/code_scanning.yaml",
+   ".github/workflows/e2e.yaml",
+   ".github/workflows/golang.yaml",
+   ".github/workflows/variables.yaml",
+   ".github/workflows/image.yaml",
+   ".github/workflows/publish-helm.yaml",
+   ".github/workflows/third-party-notices-check.yaml"
+  ],
+  "docker": [
+   "tests/vendor/github.com/rubenv/sql-migrate/Dockerfile",
+   "deployments/container/Dockerfile"
+  ],
+  "compose": [
+   "tests/vendor/github.com/lib/pq/compose.yaml"
+  ],
+  "helm_k8s": [
+   "deployments/helm/nvidia-device-plugin/Chart.yaml",
+   "deployments/helm/nvidia-device-plugin/values.yaml"
+  ],
+  "dep_files": [
+   "go.mod",
+   "tests/go.mod",
+   "deployments/devel/go.mod"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "go.sum",
+   "tests/go.sum",
+   "deployments/devel/go.sum"
+  ],
+  "docs_files": 2,
+  "config_files": 0,
+  "config_dirs": [
+   "api/config",
+   "tests/vendor",
+   "vendor/github.com"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASE.md",
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "kubectl create -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.17.1/deployments/static/nvidia-device-plugin.yml",
+   "kubectl logs gpu-pod",
+   "kubectl describe node",
+   "kubectl describe node",
+   "kubectl describe pod gpu-pod",
+   "kubectl describe node",
+   "kubectl describe node",
+   "helm repo add nvdp https://nvidia.github.io/k8s-device-plugin",
+   "helm repo update",
+   "helm search repo nvdp --devel",
+   "helm upgrade -i nvdp nvdp/nvidia-device-plugin \\",
+   "helm upgrade -i nvdp nvdp/nvidia-device-plugin \\",
+   "kubectl create ns nvidia-device-plugin",
+   "kubectl create cm -n nvidia-device-plugin nvidia-plugin-configs \\",
+   "helm upgrade -i nvdp nvdp/nvidia-device-plugin \\"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "deployment_operations/P1005_NVIDIA_k8s-device-plugin_v0.20.1_src_en.tar",
+ "archive_mb": 160.7,
+ "archive_prefix": "k8s-device-plugin-v0.20.1",
+ "finished": "2026-10-29T19:59:30Z"
+}

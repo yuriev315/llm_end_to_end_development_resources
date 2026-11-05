@@ -1,0 +1,136 @@
+{
+ "id": "P0806",
+ "repo": "langchain-ai/langgraph",
+ "upstream": "https://github.com/langchain-ai/langgraph",
+ "seed": {
+  "id": "P0806",
+  "repo": "langchain-ai/langgraph",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "有状态智能体编排：检查点、人工中断审批、重试、持久执行"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "6f2df053f4487ce6ea8decc0d7482c8e46e0f132",
+ "ref": "1.2.18",
+ "version": "1.2.18",
+ "kind": "发布标签",
+ "commit": "3521f08e21a7d89c28331191374bc85c11ecb6e2",
+ "commit_date": "2026-10-26",
+ "commit_subject": "release(checkpoint): 4.3.1 (#9447)",
+ "static": {
+  "file_count": 699,
+  "size_mb": 14.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   ".github/scripts",
+   "libs/checkpoint",
+   "libs/checkpoint-conformance",
+   "libs/checkpoint-postgres",
+   "libs/checkpoint-sqlite",
+   "libs/cli",
+   "libs/langgraph",
+   "libs/prebuilt",
+   "libs/sdk-py"
+  ],
+  "test_file_count": 199,
+  "ci": [
+   ".github/workflows/_sdk_integration_test.yml",
+   ".github/workflows/_integration_test.yml",
+   ".github/workflows/tag-external-prs.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/_lint.yml",
+   ".github/workflows/_test.yml",
+   ".github/workflows/uv_lock_ugprade.yml",
+   ".github/workflows/tag-external-issues.yml",
+   ".github/workflows/pr_lint.yml",
+   ".github/workflows/bench.yml",
+   ".github/workflows/baseline.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/_test_langgraph.yml",
+   ".github/workflows/_test_release.yml",
+   ".github/workflows/reopen_on_assignment.yml",
+   ".github/workflows/deploy-redirects.yml",
+   ".github/workflows/require_issue_link.yml"
+  ],
+  "docker": [
+   "libs/sdk-py/integration/Dockerfile"
+  ],
+  "compose": [
+   "libs/langgraph/tests/compose-redis.yml",
+   "libs/langgraph/tests/compose-postgres.yml",
+   "libs/prebuilt/tests/compose-redis.yml",
+   "libs/prebuilt/tests/compose-postgres.yml",
+   "libs/sdk-py/integration/docker-compose.yml",
+   "libs/checkpoint-postgres/tests/compose-postgres.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "libs/langgraph/pyproject.toml",
+   "libs/cli/pyproject.toml",
+   "libs/prebuilt/pyproject.toml",
+   "libs/sdk-py/pyproject.toml",
+   "libs/checkpoint/pyproject.toml",
+   "libs/checkpoint-conformance/pyproject.toml",
+   "libs/checkpoint-postgres/pyproject.toml",
+   "libs/checkpoint-sqlite/pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "libs/langgraph/uv.lock",
+   "libs/cli/uv.lock",
+   "libs/prebuilt/uv.lock",
+   "libs/sdk-py/uv.lock",
+   "libs/checkpoint/uv.lock",
+   "libs/checkpoint-conformance/uv.lock",
+   "libs/checkpoint-postgres/uv.lock",
+   "libs/checkpoint-sqlite/uv.lock"
+  ],
+  "docs_files": 4,
+  "config_files": 11,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "libs/sdk-py/tests/fixtures/response.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install -U langgraph"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "agents_coding/P0806_langchain-ai_langgraph_1.2.18_src_en.tar",
+ "archive_mb": 15.0,
+ "archive_prefix": "langgraph-1.2.18",
+ "finished": "2026-10-29T19:57:59Z"
+}

@@ -1,0 +1,112 @@
+{
+ "id": "P1007",
+ "repo": "GokuMohandas/Made-With-ML（复用）",
+ "upstream": "https://madewithml.com/",
+ "seed": {
+  "id": "P1007",
+  "title": "GokuMohandas/Made-With-ML（复用）",
+  "src": "/root/ai_undergraduate_graduate_curriculum_literature/practice/MadeWithML_repo_en",
+  "mod": "10",
+  "routes": "C",
+  "role": "教学实现",
+  "purpose": "MLOps 端到端课程代码（测试、CI/CD、部署）",
+  "x": [],
+  "tag": "复用"
+ },
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/practice/MadeWithML_repo_en",
+ "version": "快照日 2026-10-29",
+ "commit": "",
+ "commit_date": "",
+ "kind": "复用快照",
+ "static": {
+  "file_count": 57,
+  "size_mb": 3.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 7,
+  "ci": [
+   ".github/workflows/serve.yaml",
+   ".github/workflows/workloads.yaml",
+   ".github/workflows/json_to_md.py",
+   ".github/workflows/documentation.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 9,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "notebooks"
+  ],
+  "sample_data": [
+   "datasets/holdout.csv",
+   "datasets/projects.csv",
+   "datasets/tags.csv",
+   "datasets/dataset.csv"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "requirements.txt: torch==2.0.0",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "madewithml/serve.py",
+   "madewithml/evaluate.py",
+   "madewithml/train.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone https://github.com/GokuMohandas/Made-With-ML.git .",
+   "python3 -m venv venv  # recommend using Python 3.10",
+   "python3 -m pip install --upgrade pip setuptools wheel",
+   "python3 -m pip install -r requirements.txt",
+   "python madewithml/train.py \\",
+   "python madewithml/tune.py \\",
+   "python madewithml/evaluate.py \\",
+   "python madewithml/predict.py predict \\",
+   "python madewithml/serve.py --run_id $RUN_ID",
+   "python madewithml/serve.py --run_id $RUN_ID",
+   "python3 -m pytest tests/code --verbose --disable-warnings",
+   "pytest --dataset-loc=$DATASET_LOC tests/data --verbose --disable-warnings",
+   "pytest --run-id=$RUN_ID tests/model --verbose --disable-warnings",
+   "python3 -m pytest tests/code --cov madewithml --cov-report html --disable-warnings  # html report",
+   "python3 -m pytest tests/code --cov madewithml --cov-report term --disable-warnings  # terminal report"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "archive": "deployment_operations/P1007_MadeWithML_repo_en_src_en.tar",
+ "archive_mb": 3.2,
+ "access_date": "2026-10-29",
+ "sibling_verify": "官方仓库快照 commit 3361aeb8ddfc：归档 zip 完整性通过，解压 57 个文件（2 个 notebook）；应有文件已见 ['madewithml', 'notebooks']；许可证文件 ['LICENSE']",
+ "head_commit_date": "",
+ "archived": ""
+}

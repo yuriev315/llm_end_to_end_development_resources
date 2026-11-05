@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/EleutherAI/gpt-neox-20b/resolve/c292233c833e336628618a88a648727eb3dff0a7/model-00032-of-00046.safetensors
+
+[FileInfo]
+Filename=model-00032-of-00046.safetensors
+Size=910325501
+SHA256=d26e8d4c5811c42d8172eb0624f941b747fdfa22add2f42c6d2eb93be137db43
+Version=c292233c833e336628618a88a648727eb3dff0a7
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

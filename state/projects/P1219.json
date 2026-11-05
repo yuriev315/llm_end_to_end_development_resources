@@ -1,0 +1,102 @@
+{
+ "id": "P1219",
+ "repo": "python-jsonschema/jsonschema",
+ "upstream": "https://github.com/python-jsonschema/jsonschema",
+ "seed": {
+  "id": "P1219",
+  "repo": "python-jsonschema/jsonschema",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "JSON Schema 校验"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "c497561ea0a95f5aac09cd63d15eb1420eb7bbec",
+ "ref": "v4.26.0",
+ "version": "v4.26.0",
+ "kind": "发布标签",
+ "commit": "a7277432b0f7bcd0551f6e589d30457017125df4",
+ "commit_date": "2026-01-07",
+ "commit_subject": "Add a changelog entry for 4.26.",
+ "static": {
+  "file_count": 631,
+  "size_mb": 3.2,
+  "license_files": [
+   "COPYING"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "json/annotations",
+   "json/tests",
+   "jsonschema/tests"
+  ],
+  "test_file_count": 9,
+  "ci": [
+   ".github/workflows/ci.yml",
+   ".github/workflows/zizmor.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "json/package.json",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt",
+   "docs/requirements.in"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 16,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.rst"
+  ],
+  "changelog": [
+   "CHANGELOG.rst"
+  ],
+  "makefile": [
+   "noxfile.py",
+   "json/tox.ini",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "jsonschema"
+  ],
+  "torch_spec": "",
+  "dep_count": 4,
+  "optional_groups": [
+   "format",
+   "format-nongpl"
+  ],
+  "entry_files": [
+   "jsonschema/cli.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-07",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1219_python-jsonschema_jsonschema_v4.26.0_src_en.tar",
+ "archive_mb": 3.7,
+ "archive_prefix": "jsonschema-v4.26.0",
+ "finished": "2026-10-29T20:02:16Z"
+}

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B/resolve/1aa090b41282e64fadd79c10572221f91ec21924/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=2312126640
+SHA256=41256db636a3e619a55f4349e21c0403f27c91fd1b03655359c3092497cecd89
+Version=1aa090b41282e64fadd79c10572221f91ec21924
+License=agpl-3.0
+Reason=PLACEHOLDER_OVERSIZE

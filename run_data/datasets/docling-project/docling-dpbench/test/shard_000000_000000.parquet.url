@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/docling-project/docling-dpbench/resolve/8fb4a3b9a57ae119f27f42ce223dbc55f43f0e55/test/shard_000000_000000.parquet
+
+[FileInfo]
+Filename=shard_000000_000000.parquet
+Size=262806806
+SHA256=0b0436d1e7e09a6ecc9c3043d87b4cdec959cb5a2532a1e0872320a03689920f
+Version=8fb4a3b9a57ae119f27f42ce223dbc55f43f0e55
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

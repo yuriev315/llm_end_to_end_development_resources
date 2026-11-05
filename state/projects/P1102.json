@@ -1,0 +1,88 @@
+{
+ "id": "P1102",
+ "repo": "Teddy-XiongGZ/MIRAGE",
+ "upstream": "https://github.com/Teddy-XiongGZ/MIRAGE",
+ "seed": {
+  "id": "P1102",
+  "repo": "Teddy-XiongGZ/MIRAGE",
+  "mod": "11",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "医学 RAG 评测基准（MMLU-Med、MedQA 等 5 个数据集）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "392943af99cd94cafd50a0de2e7fca24bbf65494",
+ "ref": "main",
+ "version": "main@392943af99",
+ "kind": "分支快照",
+ "commit": "392943af99cd94cafd50a0de2e7fca24bbf65494",
+ "commit_date": "2026-02-06",
+ "commit_subject": "add LinCogRAG results",
+ "static": {
+  "file_count": 30769,
+  "size_mb": 53.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "",
+  "tests": [
+   "rawdata/mmlu"
+  ],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 67,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "rawdata/medmcqa/data/dev.json",
+   "rawdata/pubmedqa/data/test_set.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "src/evaluate.py"
+  ],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-35-turbo-16k",
+   "python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-35-turbo-16k --rag --k 32",
+   "python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k",
+   "python src/evaluate.py --results_dir ./prediction --llm_name OpenAI/gpt-4-32k --rag --k 32"
+  ]
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-02-06",
+ "archived": "否",
+ "archive": "applications/P1102_Teddy-XiongGZ_MIRAGE_main-392943af99_src_en.tar",
+ "archive_mb": 99.1,
+ "archive_prefix": "MIRAGE-main-392943af99",
+ "finished": "2026-10-29T19:59:45Z"
+}

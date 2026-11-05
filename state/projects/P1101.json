@@ -1,0 +1,79 @@
+{
+ "id": "P1101",
+ "repo": "Teddy-XiongGZ/MedRAG",
+ "upstream": "https://github.com/Teddy-XiongGZ/MedRAG",
+ "seed": {
+  "id": "P1101",
+  "repo": "Teddy-XiongGZ/MedRAG",
+  "mod": "11",
+  "x": [
+   "07"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "医学 RAG 工具包（检索器、语料、MIRAGE 评测配套）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "7599a728a28789fd601728c08d313b1148051f41",
+ "ref": "main",
+ "version": "main@7599a728a2",
+ "kind": "分支快照",
+ "commit": "7599a728a28789fd601728c08d313b1148051f41",
+ "commit_date": "2025-05-07",
+ "commit_subject": "Update README.md",
+ "static": {
+  "file_count": 15,
+  "size_mb": 0.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口"
+ ],
+ "head_commit_date": "2025-05-08",
+ "archived": "否",
+ "archive": "applications/P1101_Teddy-XiongGZ_MedRAG_main-7599a728a2_src_en.tar",
+ "archive_mb": 0.2,
+ "archive_prefix": "MedRAG-main-7599a728a2",
+ "finished": "2026-10-29T19:59:37Z"
+}

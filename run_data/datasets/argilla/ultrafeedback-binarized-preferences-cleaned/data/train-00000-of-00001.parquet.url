@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences-cleaned/resolve/770076f077c4c5e298498fa32f804857f46d5134/data/train-00000-of-00001.parquet
+
+[FileInfo]
+Filename=train-00000-of-00001.parquet
+Size=143257393
+SHA256=27dc59041d73654aecfa7685b6f839a0bbb2014d640ee92eefa047b262d1f1ca
+Version=770076f077c4c5e298498fa32f804857f46d5134
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

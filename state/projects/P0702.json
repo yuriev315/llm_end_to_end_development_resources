@@ -1,0 +1,169 @@
+{
+ "id": "P0702",
+ "repo": "infiniflow/ragflow",
+ "upstream": "https://github.com/infiniflow/ragflow",
+ "seed": {
+  "id": "P0702",
+  "repo": "infiniflow/ragflow",
+  "mod": "07",
+  "x": [
+   "09",
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "完整 RAG 产品：深度文档解析、分块模板、引用、多租户、Docker Compose"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a609e62d05d8d077d7698d3760dba2f1472d5c1c",
+ "ref": "v0.27.3",
+ "version": "v0.27.3",
+ "kind": "发布标签",
+ "commit": "8090ffd8ba6098813d7f7ec2c4b8774f36c8423a",
+ "commit_date": "2026-10-23",
+ "commit_subject": "Docs: Update version references to v0.27.3 in READMEs and docs (#21354)",
+ "static": {
+  "file_count": 3692,
+  "size_mb": 42.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "agent/sandbox",
+   "agent/test",
+   "deepdoc/vision",
+   "helm/templates",
+   "rag/flow",
+   "ragflow_deps/test_download_go_deps.py",
+   "ragflow_deps/test_tokenizer_assets.py",
+   "sdk/python",
+   "test",
+   "tools/es-to-oceanbase-migration",
+   "tools/gen-component-parity",
+   "tools/migrate-canvas"
+  ],
+  "test_file_count": 757,
+  "ci": [
+   ".github/workflows/release-python.yml",
+   ".github/workflows/sep-tests.yml",
+   ".github/workflows/serenedb.yml"
+  ],
+  "docker": [
+   "Dockerfile_base",
+   "Dockerfile_go",
+   "Dockerfile_ci",
+   "Dockerfile",
+   "Dockerfile_deepdoc_oss",
+   "Dockerfile_tei",
+   "Dockerfile.scratch.oc9",
+   "ragflow_deps/Dockerfile",
+   "agent/sandbox/sandbox_base_image/nodejs/Dockerfile",
+   "agent/sandbox/sandbox_base_image/python/Dockerfile",
+   "agent/sandbox/executor_manager/Dockerfile"
+  ],
+  "compose": [
+   "docker/docker-compose-macos.yml",
+   "docker/docker-compose.yml",
+   "docker/docker-compose-base.yml",
+   "docker/docker-compose-CN-oc9.yml",
+   "docker/docker-compose-go.yml",
+   "agent/sandbox/docker-compose.yml"
+  ],
+  "helm_k8s": [
+   "helm/Chart.yaml",
+   "helm/values.yaml"
+  ],
+  "dep_files": [
+   "pyproject.toml",
+   "go.mod",
+   "tools/es-to-oceanbase-migration/pyproject.toml",
+   "tools/firecrawl/requirements.txt",
+   "web/package.json",
+   "sdk/python/pyproject.toml",
+   "agent/sandbox/pyproject.toml",
+   "deepdoc/server/pyproject.toml",
+   "admin/client/pyproject.toml"
+  ],
+  "req_files": [
+   "tools/firecrawl/requirements.txt"
+  ],
+  "lock_files": [
+   "uv.lock",
+   "go.sum",
+   "tools/es-to-oceanbase-migration/uv.lock",
+   "web/package-lock.json",
+   "sdk/python/uv.lock",
+   "agent/sandbox/uv.lock",
+   "admin/client/uv.lock"
+  ],
+  "docs_files": 146,
+  "config_files": 1,
+  "config_dirs": [],
+  "examples_dirs": [
+   "example"
+  ],
+  "sample_data": [
+   "test/fixtures/term_weight_oov.json",
+   "docs/guides/dataset/_category_.json"
+  ],
+  "readme": [
+   "README_ar.md",
+   "README_ru.md",
+   "README_tr.md",
+   "README_fr.md",
+   "README_pt_br.md",
+   "README_tzh.md",
+   "README.md",
+   "README_ko.md",
+   "README_zh.md",
+   "README_ja.md",
+   "README_id.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.13,<3.14",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 144,
+  "optional_groups": [],
+  "entry_files": [
+   "run_tests.py",
+   "run_go_tests.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone https://github.com/infiniflow/ragflow.git",
+   "docker compose -f docker-compose.yml up -d",
+   "docker logs -f docker-ragflow-cpu-1",
+   "docker compose -f docker/docker-compose.yml down -v",
+   "docker compose -f docker/docker-compose.yml up -d",
+   "git clone https://github.com/infiniflow/ragflow.git",
+   "docker build --platform linux/amd64 -f Dockerfile -t infiniflow/ragflow:nightly .",
+   "docker build --platform linux/amd64 \\",
+   "git clone https://github.com/infiniflow/ragflow.git",
+   "uv sync --python 3.13 # install RAGFlow dependent python modules",
+   "uv run python3 ragflow_deps/download_deps.py",
+   "uv tool install lefthook",
+   "docker compose -f docker/docker-compose-base.yml up -d",
+   "bash docker/launch_backend_service.sh",
+   "npm install"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "rag/P0702_infiniflow_ragflow_v0.27.3_src_en.tar",
+ "archive_mb": 45.6,
+ "archive_prefix": "ragflow-v0.27.3",
+ "finished": "2026-10-29T19:57:13Z"
+}

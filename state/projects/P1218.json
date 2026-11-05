@@ -1,0 +1,112 @@
+{
+ "id": "P1218",
+ "repo": "pydantic/pydantic",
+ "upstream": "https://github.com/pydantic/pydantic",
+ "seed": {
+  "id": "P1218",
+  "repo": "pydantic/pydantic",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "请求/响应数据模型与类型校验"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "dd0c36a4be235522e34659ba372c59b43b55f33e",
+ "ref": "v2.14.2",
+ "version": "v2.14.2",
+ "kind": "发布标签",
+ "commit": "aa540acc29960fb394312cf97d888c99f9686814",
+ "commit_date": "2026-10-29",
+ "commit_subject": "Update changelog for v2.14.2",
+ "static": {
+  "file_count": 851,
+  "size_mb": 11.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "pydantic-core/tests",
+   "tests"
+  ],
+  "test_file_count": 245,
+  "ci": [
+   ".github/workflows/coverage.yml",
+   ".github/workflows/upload-previews.yml",
+   ".github/workflows/docs-navigation.yml",
+   ".github/workflows/enforce-issue-assignment.yml",
+   ".github/workflows/update-pydantic-people.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/third-party.yml",
+   ".github/workflows/codspeed.yml",
+   ".github/workflows/integration.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "pydantic-core/pyproject.toml",
+   "pydantic-core/Cargo.toml",
+   "tests/typechecking/pyproject.toml",
+   "tests/plugin/pyproject.toml"
+  ],
+  "req_files": [
+   ".github/pyodide/requirements.in"
+  ],
+  "lock_files": [
+   "uv.lock",
+   "pydantic-core/Cargo.lock",
+   "pydantic-core/uv.lock",
+   "tests/typechecking/uv.lock"
+  ],
+  "docs_files": 169,
+  "config_files": 7,
+  "config_dirs": [
+   ".hyperlint/styles",
+   "tests/mypy"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "HISTORY.md"
+  ],
+  "makefile": [
+   "Makefile",
+   "pydantic-core/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 4,
+  "optional_groups": [
+   "email",
+   "timezone"
+  ],
+  "entry_files": [
+   "pydantic/main.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1218_pydantic_pydantic_v2.14.2_src_en.tar",
+ "archive_mb": 12.3,
+ "archive_prefix": "pydantic-v2.14.2",
+ "finished": "2026-10-29T20:02:12Z"
+}

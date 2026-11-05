@@ -1,0 +1,122 @@
+{
+ "id": "P1221",
+ "repo": "cure53/DOMPurify",
+ "upstream": "https://github.com/cure53/DOMPurify",
+ "seed": {
+  "id": "P1221",
+  "repo": "cure53/DOMPurify",
+  "mod": "12",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "前端 HTML 净化（防 XSS 的模型输出呈现）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "b7e0edc1293359d6ab54dc0ccc9cf9bbdd72aff7",
+ "ref": "3.4.17",
+ "version": "3.4.17",
+ "kind": "发布标签",
+ "commit": "a77a3e78b59f72fa4d1c83f22e121ad9cc7d3575",
+ "commit_date": "2026-10-12",
+ "commit_subject": "release: 3.4.17 (#1672)",
+ "static": {
+  "file_count": 118,
+  "size_mb": 2.1,
+  "license_files": [
+   "LICENSE",
+   "LICENSE-MPL"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "test"
+  ],
+  "test_file_count": 1,
+  "ci": [
+   ".github/workflows/codeql-analysis.yml",
+   ".github/workflows/build-and-test.yml",
+   ".github/workflows/scorecard.yml",
+   ".github/workflows/slsa-provenance.yml",
+   ".github/workflows/sign-release.yml",
+   ".github/workflows/legacy-browsers.yml",
+   ".github/workflows/build-and-test-skip.yml",
+   ".github/workflows/dependency-review.yml",
+   ".github/workflows/fuzz.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "typescript/package.json",
+   "typescript/esm-with-no-types/package.json",
+   "typescript/esm-with-specific-types/package.json",
+   "typescript/commonjs-typescript-4.4/package.json",
+   "typescript/esm/package.json",
+   "test/legacy-playwright/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json",
+   "test/legacy-playwright/package-lock.json"
+  ],
+  "docs_files": 0,
+  "config_files": 1,
+  "config_dirs": [
+   "config",
+   "test/config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {},
+  "npm_scripts": [
+   "prepare",
+   "lint",
+   "format",
+   "format:md",
+   "format:js",
+   "commit-amend-build",
+   "prebuild",
+   "dev",
+   "build",
+   "build:types",
+   "build:rolldown",
+   "build:fix-types",
+   "build:umd",
+   "build:umd:min",
+   "build:es"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "npm install dompurify",
+   "npm install jsdom",
+   "npm install isomorphic-dompurify"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-24",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1221_cure53_DOMPurify_3.4.17_src_en.tar",
+ "archive_mb": 2.2,
+ "archive_prefix": "DOMPurify-3.4.17",
+ "finished": "2026-10-29T20:02:22Z"
+}

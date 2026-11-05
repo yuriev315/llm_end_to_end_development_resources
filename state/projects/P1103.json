@@ -1,0 +1,92 @@
+{
+ "id": "P1103",
+ "repo": "Google-Health/medgemma",
+ "upstream": "https://github.com/Google-Health/medgemma",
+ "seed": {
+  "id": "P1103",
+  "repo": "Google-Health/medgemma",
+  "mod": "11",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "MedGemma 官方笔记本：推理、微调示例（权重另有使用条款）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a60a66024f6153496dfa9490dba12d4f1fbd092e",
+ "ref": "main",
+ "version": "main@a60a66024f",
+ "kind": "分支快照",
+ "commit": "a60a66024f6153496dfa9490dba12d4f1fbd092e",
+ "commit_date": "2026-04-07",
+ "commit_subject": "Fix notebook formatting",
+ "static": {
+  "file_count": 145,
+  "size_mb": 41.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "python/data_accessors",
+   "python/data_processing",
+   "python/serving"
+  ],
+  "test_file_count": 31,
+  "ci": [],
+  "docker": [
+   "python/serving/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "python/requirements.txt",
+   "python/serving/requirements.txt"
+  ],
+  "req_files": [
+   "python/requirements.txt",
+   "python/serving/requirements.txt",
+   "python/serving/requirements.in",
+   "python/data_accessors/requirements.in"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "notebooks"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-04-07",
+ "archived": "否",
+ "archive": "applications/P1103_Google-Health_medgemma_main-a60a66024f_src_en.tar",
+ "archive_mb": 42.0,
+ "archive_prefix": "medgemma-main-a60a66024f",
+ "finished": "2026-10-29T19:59:51Z"
+}

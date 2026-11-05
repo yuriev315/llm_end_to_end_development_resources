@@ -1,0 +1,97 @@
+{
+ "id": "P1115",
+ "repo": "midea-ai/SemaPLC",
+ "upstream": "https://github.com/midea-ai/SemaPLC",
+ "seed": {
+  "id": "P1115",
+  "repo": "midea-ai/SemaPLC",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "PLC 结构化文本生成与验证门控（控制代码研究，不可直接下发设备）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "fea1b87a112bf947197f501168ee35771fdc6377",
+ "ref": "main",
+ "version": "main@fea1b87a11",
+ "kind": "分支快照",
+ "commit": "fea1b87a112bf947197f501168ee35771fdc6377",
+ "commit_date": "2026-10-21",
+ "commit_subject": "Add standalone Agents4PLC and Spec2Control benchmarks",
+ "static": {
+  "file_count": 970,
+  "size_mb": 16.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "sema-plc-tools/tests",
+   "sema-plc-web/tests"
+  ],
+  "test_file_count": 104,
+  "ci": [],
+  "docker": [
+   "sema-plc-tools/runtime/Dockerfile.plc-dev"
+  ],
+  "compose": [
+   "sema-plc-tools/runtime/docker-compose.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "sema-plc-web/package.json",
+   "sema-plc-tools/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "sema-plc-web/package-lock.json",
+   "sema-plc-tools/package-lock.json"
+  ],
+  "docs_files": 56,
+  "config_files": 1,
+  "config_dirs": [
+   "sema-plc-web/templates"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "sema-plc-benchmark/agents4plc-benchmark/data/v2_high_fidelity.jsonl",
+   "sema-plc-benchmark/agents4plc-benchmark/data/v2_hard.jsonl",
+   "sema-plc-benchmark/agents4plc-benchmark/data/v1_easy.jsonl",
+   "sema-plc-benchmark/agents4plc-benchmark/data/v2_medium.jsonl",
+   "sema-plc-benchmark/agents4plc-benchmark/data/v1_medium.jsonl"
+  ],
+  "readme": [
+   "README.zh-CN.md",
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/midea-ai/SemaPLC.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-21",
+ "archived": "否",
+ "archive": "applications/P1115_midea-ai_SemaPLC_main-fea1b87a11_src_en.tar",
+ "archive_mb": 17.9,
+ "archive_prefix": "SemaPLC-main-fea1b87a11",
+ "finished": "2026-10-29T20:00:36Z"
+}

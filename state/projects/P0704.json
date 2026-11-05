@@ -1,0 +1,113 @@
+{
+ "id": "P0704",
+ "repo": "facebookresearch/faiss",
+ "upstream": "https://github.com/facebookresearch/faiss",
+ "seed": {
+  "id": "P0704",
+  "repo": "facebookresearch/faiss",
+  "mod": "07",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "向量相似检索与索引库"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a6505c5c5d76eaf86f9196669564ee766a9a1b69",
+ "ref": "v1.15.1",
+ "version": "v1.15.1",
+ "kind": "发布标签",
+ "commit": "75c755c5a1fc854756aaf3bd1131213aeb21d8d1",
+ "commit_date": "2026-09-16",
+ "commit_subject": "Add missing CHANGELOG entry for #5632 in v1.15.1 (#5651)",
+ "static": {
+  "file_count": 1097,
+  "size_mb": 9.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "benchs/avx512_result_handlers",
+   "demos/offline_ivf",
+   "faiss/gpu",
+   "faiss/gpu_metal",
+   "tests"
+  ],
+  "test_file_count": 75,
+  "ci": [
+   ".github/workflows/build-pip-gpu.yml",
+   ".github/workflows/build.yml",
+   ".github/workflows/publish-docs.yml",
+   ".github/workflows/index-io-backward-compatibility.yml",
+   ".github/workflows/nightly.yml",
+   ".github/workflows/build-pull-request.yml",
+   ".github/workflows/retry_build.yml",
+   ".github/workflows/update-doxygen.yml",
+   ".github/workflows/build-pip.yml",
+   ".github/workflows/build-release.yml",
+   ".github/workflows/autoclose.yml"
+  ],
+  "docker": [
+   "faiss/cppcontrib/docker_dev/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "CMakeLists.txt",
+   "benchs/CMakeLists.txt",
+   "demos/CMakeLists.txt",
+   "demos/rocksdb_ivf/CMakeLists.txt",
+   "demos/diversity_filter/CMakeLists.txt",
+   "perf_tests/CMakeLists.txt",
+   "c_api/CMakeLists.txt",
+   "c_api/gpu/CMakeLists.txt",
+   "faiss/CMakeLists.txt",
+   "faiss/gpu/CMakeLists.txt",
+   "faiss/gpu_metal/CMakeLists.txt"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "tutorial"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 2,
+  "optional_groups": [],
+  "entry_files": [
+   "contrib/evaluation.py",
+   "contrib/client_server.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "rag/P0704_facebookresearch_faiss_v1.15.1_src_en.tar",
+ "archive_mb": 10.8,
+ "archive_prefix": "faiss-v1.15.1",
+ "finished": "2026-10-29T19:57:23Z"
+}

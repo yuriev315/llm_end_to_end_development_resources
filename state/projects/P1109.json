@@ -1,0 +1,92 @@
+{
+ "id": "P1109",
+ "repo": "CadQuery/cadquery",
+ "upstream": "https://github.com/CadQuery/cadquery",
+ "seed": {
+  "id": "P1109",
+  "repo": "CadQuery/cadquery",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "参数化 CAD 脚本库（LLM 生成 CAD 代码的执行目标）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "8178185a24a035c9af7f4679033be14267f6a6ef",
+ "ref": "v2.8.0",
+ "version": "v2.8.0",
+ "kind": "发布标签",
+ "commit": "fb4c6d41863aee270c46ab64397f0d2675e74be0",
+ "commit_date": "2026-06-20",
+ "commit_subject": "Prep for 2.8 (#2050)",
+ "static": {
+  "file_count": 218,
+  "size_mb": 12.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 20,
+  "ci": [
+   "azure-pipelines.yml",
+   ".github/workflows/apptainer_build.yml"
+  ],
+  "docker": [
+   "images/dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "environment.yml",
+   "setup.py",
+   "setup.cfg"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 75,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "changes.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "conda create -n cadquery",
+   "conda activate cadquery",
+   "python3 -m pip install --upgrade pip",
+   "pip install cadquery",
+   "pip install git+https://github.com/CadQuery/cadquery.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-24",
+ "archived": "否",
+ "archive": "applications/P1109_CadQuery_cadquery_v2.8.0_src_en.tar",
+ "archive_mb": 12.3,
+ "archive_prefix": "cadquery-v2.8.0",
+ "finished": "2026-10-29T20:00:14Z"
+}

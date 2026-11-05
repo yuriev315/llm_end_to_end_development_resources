@@ -1,0 +1,115 @@
+{
+ "id": "P0706",
+ "repo": "FlagOpen/FlagEmbedding",
+ "upstream": "https://github.com/FlagOpen/FlagEmbedding",
+ "seed": {
+  "id": "P0706",
+  "repo": "FlagOpen/FlagEmbedding",
+  "mod": "07",
+  "x": [
+   "04"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "BGE 嵌入与重排序模型的推理、微调、评测代码"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "897baa67c0ffddbfccf4e6776ff55310d67809d4",
+ "ref": "v1.4.2",
+ "version": "v1.4.2",
+ "kind": "发布标签",
+ "commit": "fd1a2bdf69488ffebe0327999d4400d8c8058a0b",
+ "commit_date": "2026-08-24",
+ "commit_subject": "Merge pull request #1596 from hanhainebula/master",
+ "static": {
+  "file_count": 1152,
+  "size_mb": 57.7,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "research/BGE_Coder",
+   "tests"
+  ],
+  "test_file_count": 6,
+  "ci": [
+   ".github/workflows/documentation.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "setup.py",
+   "research/llm_embedder/environment.yaml",
+   "research/Reinforced_IR/requirements.txt",
+   "research/Matroyshka_reranker/requirements.txt",
+   "research/LM_Cocktail/setup.py",
+   "research/visual_bge/setup.py",
+   "research/C_MTEB/setup.py",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "research/Reinforced_IR/requirements.txt",
+   "research/Matroyshka_reranker/requirements.txt",
+   "docs/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 178,
+  "config_files": 67,
+  "config_dirs": [
+   "Tutorials/7_Fine-tuning",
+   "research/Long_LLM"
+  ],
+  "examples_dirs": [
+   "Tutorials",
+   "examples"
+  ],
+  "sample_data": [
+   "research/MLVU/data/8_sub_scene.json",
+   "research/MLVU/data/4_count.json",
+   "research/MLVU/data/9_summary.json",
+   "research/MLVU/data/2_needle.json",
+   "research/MLVU/data/5_order.json",
+   "research/MLVU/data/1_plotQA.json",
+   "research/MLVU/data/3_ego.json",
+   "research/MLVU/data/6_anomaly_reco.json"
+  ],
+  "readme": [
+   "README.md",
+   "README_zh.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install -U FlagEmbedding",
+   "pip install -U FlagEmbedding[finetune]",
+   "git clone https://github.com/FlagOpen/FlagEmbedding.git",
+   "pip install  .",
+   "pip install -e ."
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "rag/P0706_FlagOpen_FlagEmbedding_v1.4.2_src_en.tar",
+ "archive_mb": 58.8,
+ "archive_prefix": "FlagEmbedding-v1.4.2",
+ "finished": "2026-10-29T20:03:28Z"
+}

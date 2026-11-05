@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/microsoft/deberta-base/resolve/0d1b43ccf21b5acd9f4e5f7b077fa698f05cf195/pytorch_model.bin
+
+[FileInfo]
+Filename=pytorch_model.bin
+Size=558614189
+SHA256=81ab61c5dc9111f81e528b7b3ae93997f4ae72ba531e60587835be894ab0ffe5
+Version=0d1b43ccf21b5acd9f4e5f7b077fa698f05cf195
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

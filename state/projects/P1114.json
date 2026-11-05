@@ -1,0 +1,127 @@
+{
+ "id": "P1114",
+ "repo": "csml-rpi/Foam-Agent",
+ "upstream": "https://github.com/csml-rpi/Foam-Agent",
+ "seed": {
+  "id": "P1114",
+  "repo": "csml-rpi/Foam-Agent",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "OpenFOAM 仿真智能体：前处理、运行、错误修复（仿真辅助）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "ed8db9415eb7941e47a0a319b611f29e747087f5",
+ "ref": "main",
+ "version": "main@ed8db9415e",
+ "kind": "分支快照",
+ "commit": "ed8db9415eb7941e47a0a319b611f29e747087f5",
+ "commit_date": "2026-09-20",
+ "commit_subject": "feat: add safe existing-case import and native ESI v2006 target (#43)",
+ "static": {
+  "file_count": 134,
+  "size_mb": 0.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 4,
+  "ci": [],
+  "docker": [
+   "docker/Dockerfile.esi-v2006",
+   "docker/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "environment.yml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [
+   "*.faiss",
+   "*.pkl",
+   "overview.png",
+   "wechat_foamagent.JPG",
+   "database/foundation-v10/raw/*",
+   "database/esi-v2006/raw/*",
+   "database/esi-v2006/faiss/**/*.faiss",
+   "database/esi-v2006/faiss/**/*.pkl",
+   "database/foundation-v10/faiss/**/*.faiss",
+   "database/foundation-v10/faiss/**/*.pkl"
+  ],
+  "lfs_pointer_files": 57,
+  "lfs_pointer_examples": [
+   "tandem_wing.msh",
+   "overview.png",
+   "wechat_foamagent.JPG",
+   "database/foundation-v10/raw/foamagent_target.json",
+   "database/foundation-v10/raw/openfoam_allrun_scripts.txt"
+  ],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "foamagent-mcp"
+  ],
+  "torch_spec": "",
+  "dep_count": 14,
+  "optional_groups": [
+   "hpc",
+   "ollama",
+   "bedrock",
+   "all"
+  ],
+  "entry_files": [
+   "app.py",
+   "src/main.py",
+   "scripts/run_esi_docker_verify.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "docker run -it \\",
+   "python foambench_main.py --output ./output --prompt_path ./user_requirement.txt",
+   "python foambench_main.py \\",
+   "python foambench_main.py \\",
+   "python foambench_main.py \\",
+   "docker run -it \\",
+   "python foambench_main.py \\",
+   "docker run -it \\",
+   "pip install -e .",
+   "docker run -it \\",
+   "docker run -it \\",
+   "git clone https://github.com/csml-rpi/Foam-Agent.git",
+   "conda env create -n FoamAgent -f environment.yml",
+   "conda activate FoamAgent",
+   "python foambench_main.py --output ./output --prompt_path ./user_requirement.txt"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-09-20",
+ "archived": "否",
+ "archive": "applications/P1114_csml-rpi_Foam-Agent_main-ed8db9415e_src_en.tar",
+ "archive_mb": 0.8,
+ "archive_prefix": "Foam-Agent-main-ed8db9415e",
+ "finished": "2026-10-29T20:00:32Z"
+}

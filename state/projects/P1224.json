@@ -1,0 +1,94 @@
+{
+ "id": "P1224",
+ "repo": "uiuc-kang-lab/InjecAgent",
+ "upstream": "https://github.com/uiuc-kang-lab/InjecAgent",
+ "seed": {
+  "id": "P1224",
+  "repo": "uiuc-kang-lab/InjecAgent",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "工具集成智能体间接提示注入基准"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
+ "ref": "main",
+ "version": "main@f19c9f2c79",
+ "kind": "分支快照",
+ "commit": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
+ "commit_date": "2024-07-02",
+ "commit_subject": "update",
+ "static": {
+  "file_count": 24,
+  "size_mb": 6.4,
+  "license_files": [
+   "LICENCE"
+  ],
+  "license_guess": "MIT",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "data/test_cases_dh_enhanced.json",
+   "data/test_cases_ds_base.json",
+   "data/attacker_cases_ds.jsonl",
+   "data/tools.json",
+   "data/attacker_cases_dh.jsonl",
+   "data/test_cases_ds_enhanced.json",
+   "data/user_cases.jsonl",
+   "data/attacker_simulated_responses.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "src/evaluate_prompted_agent.py",
+   "src/evaluate_finetuned_agent.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/uiuc-kang-lab/InjecAgent.git",
+   "pip install -r requirements.txt",
+   "python3 src/evaluate_prompted_agent.py \\",
+   "python3 src/evaluate_finetuned_agent.py \\"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-07-02",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1224_uiuc-kang-lab_InjecAgent_main-f19c9f2c79_src_en.tar",
+ "archive_mb": 6.4,
+ "archive_prefix": "InjecAgent-main-f19c9f2c79",
+ "finished": "2026-10-29T20:02:31Z"
+}

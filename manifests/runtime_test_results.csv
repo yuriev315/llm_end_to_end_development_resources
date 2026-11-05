@@ -1,0 +1,28 @@
+test_id,scope,what,status,result
+repo_commit,repository,git rev-parse HEAD against the upstream tag,PASSED,84bfe4e624e3321a397bf8d903485d596c83d9c7; local changes: 0
+repo_fsck,repository,git fsck --connectivity-only on the mirror,PASSED,exit 0
+syntax_py310,repository,ast.parse at Python 3.10 for 12 script modules,PASSED,"0 syntax errors; parsed only, not executed"
+csv_integrity,repository,parse every registry CSV and compare row widths,PASSED,11 files; 0 malformed rows
+state_json,repository,parse every state JSON,PASSED,413 files; 0 invalid
+cards_vs_readiness,repository,every readiness row has a project card,PASSED,116 projects; missing cards: []
+md_relative_links,repository,resolve relative links in Markdown,FAILED,10 links; 10 broken; e.g. project_cards/P0602_cn.md -> docs/build.md
+run_build_catalog_en,repository,python -I scripts/build_catalog_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: IMPORT_FAILS
+run_build_guides_en,repository,python -I scripts/build_guides_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: IMPORT_FAILS
+run_build_route_guides_en,repository,python -I scripts/build_route_guides_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: IMPORT_FAILS
+run_fetch_projects_en,repository,python -I scripts/fetch_projects_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: IMPORT_FAILS; Windows py3.10: IMPORT_FAILS
+run_materials_en,repository,python -I scripts/materials_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: IMPORT_FAILS
+run_papers_en,repository,python -I scripts/papers_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: IMPORT_FAILS
+run_projects_seed_en,repository,python -I scripts/projects_seed_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: no_static_blocker; Windows py3.10: no_static_blocker
+run_reuse_projects_en,repository,python -I scripts/reuse_projects_en.py,BLOCKED,not executed: the session's auto-mode permission check denied running repository code. Static finding Linux py3.10: IMPORT_FAILS; Windows py3.10: IMPORT_FAILS
+windows_scripts,repository,the scripts on Windows 10/11 x64 CPython 3.10,BLOCKED,"no Windows host here. Static finding: common_en.py imports fcntl at top level, which Python does not provide on Windows, so every script importing it fails"
+pypdf_install,optional dependency,"pip install --no-index pypdf==6.21.4 typing-extensions==4.16.0 in a Python 3.10 venv, then pip check",PASSED,installed from the Ubuntu wheelhouse; no broken requirements
+pypdf_import,optional dependency,import pypdf and round-trip a one-page PDF in memory,PASSED,pypdf 6.21.4 read back 1 page
+generated_ubuntu_scripts,per-project archive,"ubuntu/projects/{P1218,P1219,P1008,P0102}/install_base.sh, then pip check",PASSED,"4 of 65 scripts; real offline install on Python 3.10, repeated after the wheels were downloaded again; packages not imported"
+generated_windows_scripts,per-project archive,windows/projects/*/*.bat,NOT_TESTED,693 scripts; paths and locks checked statically; no Windows host
+lock_resolution,per-project archive,"uv offline resolution for Windows targets, tiers 1 and 2",PASSED,"618 passed, 0 failed, 49 could not be tested"
+min_closure,selected Windows set,"uv offline resolution of each selected lock using only the selected wheels, Windows target",PASSED,"82 groups; resolution only, nothing installed"
+min_bats,selected Windows set,windows/min_projects/*/*.bat,NOT_TESTED,82 scripts; paths and locks checked statically; no Windows host
+all_groups_resolution,all Windows groups,"uv offline resolution of 1,409 groups against the local wheelhouse",PASSED,"1,229 passed; 180 need wheels over 100 MiB; 0 other failures; resolution only"
+release_restore,Release packages,"download 3 packages from the Release, extract, compare every file with the local copy",PASSED,"pack_windows_min_003, pack_models_datasets_002, run_install: all files identical"
+placeholder_urls,archive,live anonymous check before each .url is written,PASSED,475 .url files; 0 without validation evidence
+repo_official_tests,repository,official tests and examples,NOT_TESTED,the repository contains none

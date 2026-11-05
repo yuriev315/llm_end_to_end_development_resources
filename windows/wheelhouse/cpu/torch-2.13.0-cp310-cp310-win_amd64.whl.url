@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://files.pythonhosted.org/packages/2e/c9/0bb9d097b03cbaf96bb75b15e867347b8e41bfcdfe0539452d17d9e63993/torch-2.13.0-cp310-cp310-win_amd64.whl
+
+[FileInfo]
+Filename=torch-2.13.0-cp310-cp310-win_amd64.whl
+Size=122015602
+SHA256=2bd30b6b730d987fa386ce3898933762c5cb8cc82eb0535211d787cc3ce2dfeb
+Version=2.13.0
+License=Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause 
+Reason=PLACEHOLDER_OVERSIZE

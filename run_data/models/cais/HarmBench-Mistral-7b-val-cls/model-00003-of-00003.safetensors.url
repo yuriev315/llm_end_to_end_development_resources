@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/cais/HarmBench-Mistral-7b-val-cls/resolve/51182c7cdaf9b2e5f05b745b81b047b67e7384a1/model-00003-of-00003.safetensors
+
+[FileInfo]
+Filename=model-00003-of-00003.safetensors
+Size=4540516344
+SHA256=5f44a15c9223436dcb1119f79a285ddf389e3629b9c19e0f8f1f204bb0525ee3
+Version=51182c7cdaf9b2e5f05b745b81b047b67e7384a1
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

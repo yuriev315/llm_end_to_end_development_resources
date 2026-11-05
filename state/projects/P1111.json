@@ -1,0 +1,89 @@
+{
+ "id": "P1111",
+ "repo": "neka-nat/freecad-mcp",
+ "upstream": "https://github.com/neka-nat/freecad-mcp",
+ "seed": {
+  "id": "P1111",
+  "repo": "neka-nat/freecad-mcp",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "FreeCAD 的 MCP 服务器（设计辅助，需本地 FreeCAD）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "8babe9927ce8e6e8fe7dd6ae2ffa2c93776e845a",
+ "ref": "main",
+ "version": "main@8babe9927c",
+ "kind": "分支快照",
+ "commit": "8babe9927ce8e6e8fe7dd6ae2ffa2c93776e845a",
+ "commit_date": "2026-10-25",
+ "commit_subject": "v0.1.28",
+ "static": {
+  "file_count": 81,
+  "size_mb": 8.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 25,
+  "ci": [
+   ".github/workflows/test.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 5,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.12",
+  "py_scripts": [
+   "freecad-mcp"
+  ],
+  "torch_spec": "",
+  "dep_count": 5,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/neka-nat/freecad-mcp.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-25",
+ "archived": "否",
+ "archive": "applications/P1111_neka-nat_freecad-mcp_main-8babe9927c_src_en.tar",
+ "archive_mb": 8.3,
+ "archive_prefix": "freecad-mcp-main-8babe9927c",
+ "finished": "2026-10-29T20:00:22Z"
+}

@@ -1,0 +1,119 @@
+{
+ "id": "P0703",
+ "repo": "explodinggradients/ragas",
+ "upstream": "https://github.com/explodinggradients/ragas",
+ "seed": {
+  "id": "P0703",
+  "repo": "explodinggradients/ragas",
+  "mod": "07",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "RAG 评测指标与测试集生成"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+ "ref": "v0.4.3",
+ "version": "v0.4.3",
+ "kind": "发布标签",
+ "commit": "4ecab384fda829ca50bec3f07cc49589d756e172",
+ "commit_date": "2026-01-13",
+ "commit_subject": "fix: add repository parameter to checkout action for fork PR support (#2559)",
+ "static": {
+  "file_count": 693,
+  "size_mb": 48.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 96,
+  "ci": [
+   ".github/workflows/ci.yaml",
+   ".github/workflows/claude-docs-check.yml",
+   ".github/workflows/publish-examples.yml",
+   ".github/workflows/claude-docs-apply.yml",
+   ".github/workflows/claude.yml",
+   ".github/workflows/issue-manager.yaml",
+   ".github/workflows/python-publish.yml",
+   ".github/workflows/claude-code-review.yml"
+  ],
+  "docker": [
+   "tests/benchmarks/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "examples/pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 243,
+  "config_files": 6,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "examples/ragas_examples/benchmark_llm/datasets/discount_benchmark.csv",
+   "examples/ragas_examples/ag_ui_agent_experiments/test_data/datasets/scientist_biographies.csv",
+   "examples/ragas_examples/ag_ui_agent_experiments/test_data/datasets/weather_tool_calls.csv",
+   "examples/ragas_examples/improve_rag/evals/datasets/hf_doc_qa_eval.csv",
+   "examples/ragas_examples/text2sql/datasets/booksql_sample.csv",
+   "examples/iterate_prompt/datasets/support_triage.csv"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.9",
+  "py_scripts": [
+   "ragas"
+  ],
+  "torch_spec": "",
+  "dep_count": 19,
+  "optional_groups": [
+   "all",
+   "git",
+   "tracing",
+   "gdrive",
+   "ai-frameworks",
+   "oci",
+   "ag-ui",
+   "dspy",
+   "dev-minimal",
+   "test"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install ragas",
+   "pip install git+https://github.com/vibrantlabsai/ragas"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-02-24",
+ "archived": "否",
+ "archive": "rag/P0703_explodinggradients_ragas_v0.4.3_src_en.tar",
+ "archive_mb": 49.4,
+ "archive_prefix": "ragas-v0.4.3",
+ "finished": "2026-10-29T19:57:19Z"
+}

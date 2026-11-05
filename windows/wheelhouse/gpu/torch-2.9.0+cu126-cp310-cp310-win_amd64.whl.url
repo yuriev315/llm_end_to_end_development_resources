@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cu126/torch-2.9.0%2Bcu126-cp310-cp310-win_amd64.whl
+
+[FileInfo]
+Filename=torch-2.9.0+cu126-cp310-cp310-win_amd64.whl
+Size=2582740763
+SHA256=e8fa700af633d4dcfacc39e8e4d75827d13023243292d9a7fe1e5e5215a6e633
+Version=2.9.0+cu126
+License=UNKNOWN
+Reason=PLACEHOLDER_OVERSIZE

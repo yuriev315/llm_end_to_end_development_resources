@@ -1,0 +1,89 @@
+{
+ "id": "P1223",
+ "repo": "microsoft/BIPIA",
+ "upstream": "https://github.com/microsoft/BIPIA",
+ "seed": {
+  "id": "P1223",
+  "repo": "microsoft/BIPIA",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "间接提示注入基准（外部内容嵌入指令）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a004b69ec0dd446e0afd461d98cb5e96e120a5d0",
+ "ref": "main",
+ "version": "main@a004b69ec0",
+ "kind": "分支快照",
+ "commit": "a004b69ec0dd446e0afd461d98cb5e96e120a5d0",
+ "commit_date": "2024-04-15",
+ "commit_subject": "Update README.md",
+ "static": {
+  "file_count": 99,
+  "size_mb": 2.5,
+  "license_files": [
+   "LICENSE",
+   "NOTICE.md"
+  ],
+  "license_guess": "MIT",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 36,
+  "config_dirs": [
+   "config"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.8",
+  "py_scripts": [],
+  "torch_spec": "torch>=2.0.1",
+  "dep_count": 20,
+  "optional_groups": [],
+  "entry_files": [
+   "examples/run.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone git@github.com:microsoft/BIPIA.git",
+   "pip install .",
+   "python run.py --seed 2023 --dataset_name {task} \\",
+   "python run.py --mode evaluate --seed 2023 \\"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-04-15",
+ "archived": "是",
+ "archive": "input_output_pipeline/P1223_microsoft_BIPIA_main-a004b69ec0_src_en.tar",
+ "archive_mb": 2.6,
+ "archive_prefix": "BIPIA-main-a004b69ec0",
+ "finished": "2026-10-29T20:02:28Z"
+}

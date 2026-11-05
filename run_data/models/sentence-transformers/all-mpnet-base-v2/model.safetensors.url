@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/sentence-transformers/all-mpnet-base-v2/resolve/e8c3b32edf5434bc2275fc9bab85f82640a19130/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=437971872
+SHA256=78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658
+Version=e8c3b32edf5434bc2275fc9bab85f82640a19130
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

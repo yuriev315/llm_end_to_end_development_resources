@@ -1,0 +1,77 @@
+{
+ "id": "P1229",
+ "repo": "paul-rottger/xstest",
+ "upstream": "https://github.com/paul-rottger/xstest",
+ "seed": {
+  "id": "P1229",
+  "repo": "paul-rottger/xstest",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "过度拒答（误报）测试集"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+ "ref": "main",
+ "version": "main@d7bb5bd738",
+ "kind": "分支快照",
+ "commit": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+ "commit_date": "2025-02-24",
+ "commit_subject": "Update readme.md",
+ "static": {
+  "file_count": 22,
+  "size_mb": 6.0,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "CC 类",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "readme.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明",
+  "明确入口",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2025-02-24",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1229_paul-rottger_xstest_main-d7bb5bd738_src_en.tar",
+ "archive_mb": 6.1,
+ "archive_prefix": "xstest-main-d7bb5bd738",
+ "finished": "2026-10-29T20:02:55Z"
+}

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/Qwen/Qwen2-0.5B-Instruct/resolve/c540970f9e29518b1d8f06ab8b24cba66ad77b6d/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=988097824
+SHA256=130282af0dfa9fe5840737cc49a0d339d06075f83c5a315c3372c9a0740d0b96
+Version=c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

@@ -1,0 +1,152 @@
+{
+ "id": "P0808",
+ "repo": "astral-sh/ruff",
+ "upstream": "https://github.com/astral-sh/ruff",
+ "seed": {
+  "id": "P0808",
+  "repo": "astral-sh/ruff",
+  "mod": "08",
+  "x": [
+   "11"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Python 静态检查与格式化（规则集、配置）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "0a7cf4af531bc2c486a4c6bdbc5e2a451fef7022",
+ "ref": "0.17.3",
+ "version": "0.17.3",
+ "kind": "发布标签",
+ "commit": "ba65abf8ba7bfbcc059f7fb9712be5ba9cab6abc",
+ "commit_date": "2026-10-26",
+ "commit_subject": "Bump version to 0.17.3 (#29745)",
+ "static": {
+  "file_count": 11271,
+  "size_mb": 94.7,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "crates/ruff",
+   "crates/ruff_annotate_snippets",
+   "crates/ruff_cache",
+   "crates/ruff_linter",
+   "crates/ruff_mdtest",
+   "crates/ruff_notebook",
+   "crates/ruff_python_ast_integration_tests",
+   "crates/ruff_python_formatter",
+   "crates/ruff_python_parser",
+   "crates/ruff_python_semantic",
+   "crates/ruff_python_trivia_integration_tests",
+   "crates/ruff_server"
+  ],
+  "test_file_count": 6,
+  "ci": [
+   ".github/workflows/publish-wasm.yml",
+   ".github/workflows/build-wasm.yml",
+   ".github/workflows/notify-dependents.yml",
+   ".github/workflows/build-docker.yml",
+   ".github/workflows/ci.yaml",
+   ".github/workflows/sign-release-binaries.yml",
+   ".github/workflows/ai-policy.yml",
+   ".github/workflows/publish-versions.yml",
+   ".github/workflows/memory_report.yaml",
+   ".github/workflows/release.yml",
+   ".github/workflows/publish-docs.yml",
+   ".github/workflows/daily_fuzz.yaml",
+   ".github/workflows/typing_conformance.yaml",
+   ".github/workflows/build-binaries.yml",
+   ".github/workflows/ty-ecosystem-analyzer.yaml",
+   ".github/workflows/publish-pull-request-report.yml",
+   ".github/workflows/publish-playground.yml",
+   ".github/workflows/publish-ty-playground.yml",
+   ".github/workflows/pull-request-reviewers.yml",
+   ".github/workflows/publish-pypi.yml",
+   ".github/workflows/build-playground.yml",
+   ".github/workflows/publish-mirror.yml",
+   ".github/workflows/release-prepare.yml",
+   ".github/workflows/sync-ruff-security.yml",
+   ".github/workflows/publish-crates.yml",
+   ".github/workflows/sync_typeshed.yaml"
+  ],
+  "docker": [
+   "Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "Cargo.toml",
+   "fuzz/Cargo.toml",
+   "scripts/ty_benchmark/package.json",
+   "scripts/ty_benchmark/pyproject.toml",
+   "scripts/benchmarks/pyproject.toml",
+   "crates/ruff_memory_usage/Cargo.toml",
+   "crates/ruff_options_metadata/Cargo.toml",
+   "crates/ty_static/Cargo.toml",
+   "crates/ruff_annotate_snippets/Cargo.toml",
+   "crates/ty_completion_bench/Cargo.toml",
+   "crates/ty/Cargo.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "Cargo.lock",
+   "uv.lock",
+   "fuzz/Cargo.lock",
+   "scripts/ty_benchmark/package-lock.json",
+   "scripts/ty_benchmark/uv.lock",
+   "scripts/benchmarks/uv.lock",
+   "python/ruff-ecosystem/uv.lock",
+   "python/py-fuzzer/uv.lock",
+   "playground/package-lock.json",
+   "playground/api/package-lock.json"
+  ],
+  "docs_files": 27,
+  "config_files": 2,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "crates/ruff_unicode_names2/data/UnicodeData.txt",
+   "crates/ruff_unicode_names2/data/NameAliases.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.7",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "scripts/run_ty_ecosystem_repro.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "uv tool install ruff@latest  # Install Ruff globally.",
+   "uv add --dev ruff            # Or add Ruff to your project.",
+   "pip install ruff"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "agents_coding/P0808_astral-sh_ruff_0.17.3_src_en.tar",
+ "archive_mb": 108.2,
+ "archive_prefix": "ruff-0.17.3",
+ "finished": "2026-10-29T19:58:13Z"
+}

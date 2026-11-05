@@ -1,0 +1,82 @@
+{
+ "id": "P1220",
+ "repo": "shmsw25/FActScore",
+ "upstream": "https://github.com/shmsw25/FActScore",
+ "seed": {
+  "id": "P1220",
+  "repo": "shmsw25/FActScore",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "长文本事实性逐条原子事实打分"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "f28272deffcf33efc1f1117d5479c10bb75221a9",
+ "ref": "v0.2.0",
+ "version": "v0.2.0",
+ "kind": "发布标签",
+ "commit": "03ff67253028337a7d26a33515aa647d98c7898b",
+ "commit_date": "2023-10-14",
+ "commit_subject": "Bumping up to version 0.2",
+ "static": {
+  "file_count": 18,
+  "size_mb": 0.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口"
+ ],
+ "head_commit_date": "2025-04-13",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1220_shmsw25_FActScore_v0.2.0_src_en.tar",
+ "archive_mb": 0.1,
+ "archive_prefix": "FActScore-v0.2.0",
+ "finished": "2026-10-29T20:02:19Z"
+}

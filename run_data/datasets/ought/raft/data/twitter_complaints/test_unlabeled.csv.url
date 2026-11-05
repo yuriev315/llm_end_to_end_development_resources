@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/ought/raft/resolve/9ee50172ea9afda2f1033c6f1b986e568b862fb3/data/twitter_complaints/test_unlabeled.csv
+
+[FileInfo]
+Filename=test_unlabeled.csv
+Size=336272
+SHA256=7f6f975ec98a5b467b39c487bbc711b29e177119d12c49c79b31faba83609082
+Version=9ee50172ea9afda2f1033c6f1b986e568b862fb3
+License=other
+Reason=PLACEHOLDER_RESTRICTED

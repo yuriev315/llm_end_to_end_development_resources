@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/SWE-bench/SWE-bench/resolve/c6fe717fd7a4c3ac1daa4055a4fd082c6a1d28a2/data/test-00000-of-00001.parquet
+
+[FileInfo]
+Filename=test-00000-of-00001.parquet
+Size=33293897
+SHA256=d4f5a245c75319fa8240c540674958c4d491e82edf274b144d43836bdcbc4567
+Version=c6fe717fd7a4c3ac1daa4055a4fd082c6a1d28a2
+License=UNKNOWN
+Reason=PLACEHOLDER_RESTRICTED

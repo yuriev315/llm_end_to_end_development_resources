@@ -1,0 +1,78 @@
+{
+ "id": "P1113",
+ "repo": "filapro/cad-recode",
+ "upstream": "https://github.com/filapro/cad-recode",
+ "seed": {
+  "id": "P1113",
+  "repo": "filapro/cad-recode",
+  "mod": "11",
+  "x": [],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "点云到 CadQuery 代码逆向（研究代码）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "03e3262119b38939feaa44b8368ad8db99243d47",
+ "ref": "main",
+ "version": "main@03e3262119",
+ "kind": "分支快照",
+ "commit": "03e3262119b38939feaa44b8368ad8db99243d47",
+ "commit_date": "2025-11-16",
+ "commit_subject": "update citation",
+ "static": {
+  "file_count": 5,
+  "size_mb": 0.1,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "CC 类",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [
+   "Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明",
+  "明确入口"
+ ],
+ "head_commit_date": "2025-11-16",
+ "archived": "否",
+ "archive": "applications/P1113_filapro_cad-recode_main-03e3262119_src_en.tar",
+ "archive_mb": 0.1,
+ "archive_prefix": "cad-recode-main-03e3262119",
+ "finished": "2026-10-29T20:00:27Z"
+}

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/c170c708c41dac9275d15a8fff4eca08d52bab71/consolidated.safetensors
+
+[FileInfo]
+Filename=consolidated.safetensors
+Size=14496078512
+SHA256=76d5729be995fb6510c7f103c5b8825d3d82f8126ac949db6be367a638694d1f
+Version=c170c708c41dac9275d15a8fff4eca08d52bab71
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

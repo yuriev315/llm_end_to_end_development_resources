@@ -1,0 +1,135 @@
+{
+ "id": "P0701",
+ "repo": "deepset-ai/haystack",
+ "upstream": "https://github.com/deepset-ai/haystack",
+ "seed": {
+  "id": "P0701",
+  "repo": "deepset-ai/haystack",
+  "mod": "07",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "RAG/智能体管线框架：组件、检索、重排序、评测"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "4b5dd70fde2a53f1913b6856d77c6f9c1def6720",
+ "ref": "v3.4.1",
+ "version": "v3.4.1",
+ "kind": "发布标签",
+ "commit": "7f0ab62afb01c096557d5d69ec57276dd6583a57",
+ "commit_date": "2026-10-21",
+ "commit_subject": "bump version to 3.4.1",
+ "static": {
+  "file_count": 12134,
+  "size_mb": 106.2,
+  "license_files": [
+   "license-header.txt",
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "docs-website/scripts",
+   "e2e/__init__.py",
+   "e2e/conftest.py",
+   "e2e/pipelines",
+   "e2e/samples",
+   "haystack/testing",
+   "test"
+  ],
+  "test_file_count": 226,
+  "ci": [
+   ".github/workflows/auto_approve_api_ref_sync.yml",
+   ".github/workflows/nightly_testpypi_release.yml",
+   ".github/workflows/promote_unstable_docs.yml",
+   ".github/workflows/update-platform-components.yml",
+   ".github/workflows/priority_label_sync.yml",
+   ".github/workflows/docstring_labeler_apply.yml",
+   ".github/workflows/first_pr_limit.yml",
+   ".github/workflows/e2e.yml",
+   ".github/workflows/slow.yml",
+   ".github/workflows/push_release_notes_to_website.yml",
+   ".github/workflows/cflite_pr.yml",
+   ".github/workflows/license_compliance.yml",
+   ".github/workflows/linked_issue_review.yml",
+   ".github/workflows/release_notes_skipper.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/check_api_ref.yml",
+   ".github/workflows/codeql.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/docstring_labeler.yml",
+   ".github/workflows/docs_search_sync.yml",
+   ".github/workflows/labeler.yml",
+   ".github/workflows/stale.yml",
+   ".github/workflows/cla_draft_gate.yml",
+   ".github/workflows/scorecard.yml",
+   ".github/workflows/workflows_linting.yml",
+   ".github/workflows/pr_flood_guard.yml",
+   ".github/workflows/branch_off.yml",
+   ".github/workflows/github_release.yml",
+   ".github/workflows/docker_release.yml",
+   ".github/workflows/coverage_comment.yml",
+   ".github/workflows/project.yml",
+   ".github/workflows/docusaurus_sync.yml",
+   ".github/workflows/handled_internally_pr_guard.yml",
+   ".github/workflows/docs-website-test-docs-snippets.yml",
+   ".github/workflows/pypi_release.yml",
+   ".github/workflows/handled_internally_footer.yml",
+   ".github/workflows/release_notes.yml"
+  ],
+  "docker": [
+   "docker/Dockerfile.base",
+   ".clusterfuzzlite/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "docs-website/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "e2e/samples/doc_1.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 19,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install haystack-ai",
+   "pip install --pre haystack-ai"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "rag/P0701_deepset-ai_haystack_v3.4.1_src_en.tar",
+ "archive_mb": 121.8,
+ "archive_prefix": "haystack-v3.4.1",
+ "finished": "2026-10-29T19:57:07Z"
+}

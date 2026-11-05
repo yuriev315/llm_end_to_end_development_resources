@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/dslim/distilbert-NER/resolve/dfa2838a127384aabb82ed7719e16dab84c42a2a/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=260803668
+SHA256=235ecd699f650ca36513b122d11ce5a80339be1388f06c33c2278368b99914e1
+Version=dfa2838a127384aabb82ed7719e16dab84c42a2a
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

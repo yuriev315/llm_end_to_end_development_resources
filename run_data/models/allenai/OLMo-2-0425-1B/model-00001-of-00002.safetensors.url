@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/allenai/OLMo-2-0425-1B/resolve/a1847dff35000b4271fa70afc5db10fd29fedbdf/model-00001-of-00002.safetensors
+
+[FileInfo]
+Filename=model-00001-of-00002.safetensors
+Size=4983360992
+SHA256=c52e4ac8bf4867e698d908f9e8c2b84aa891b91dff066d46bf2a7cf453ad77fb
+Version=a1847dff35000b4271fa70afc5db10fd29fedbdf
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

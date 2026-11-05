@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/openai/whisper-base/resolve/e37978b90ca9030d5170a5c07aadb050351a65bb/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=290403936
+SHA256=07cadb9f25677c8d50df603e66a98fbd842cce45047139baeb16e6219a1e807b
+Version=e37978b90ca9030d5170a5c07aadb050351a65bb
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

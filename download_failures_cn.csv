@@ -1,0 +1,6 @@
+﻿编号,类型,名称,地址,失败原因,处理,下一步
+D0902,官方文档,open-webui/docs,https://github.com/open-webui/docs,上游文档仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）,已下载但按规则排除，不计入,待上游补充许可证后重新收录
+P1104,源码项目,FreedomIntelligence/HuatuoGPT-II,https://github.com/FreedomIntelligence/HuatuoGPT-II,上游仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）,已下载但按规则排除，不计入,待上游补充许可证后重新收录
+1808.06226,论文,SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing,https://arxiv.org/abs/1808.06226,核验未通过：pypdf 可解析 6 页；首两页标题词匹配 0.00；参考文献节缺失,未计入,人工核对或换版本
+G03,资料,Clinical Decision Support Software: Guidance for Industry and FDA Staff,https://www.fda.gov/media/109618/download,下载失败 HTTP 403,未计入,人工下载或换源
+G04,资料,Good Machine Learning Practice for Medical Device Development: Guiding Principles,https://www.fda.gov/media/153486/download,下载失败 HTTP 403,未计入,人工下载或换源

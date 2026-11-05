@@ -1,0 +1,77 @@
+{
+ "id": "P1116",
+ "repo": "YuchenXia/LLM4IAS",
+ "upstream": "https://github.com/YuchenXia/LLM4IAS",
+ "seed": {
+  "id": "P1116",
+  "repo": "YuchenXia/LLM4IAS",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "工业自动化系统 LLM 智能体（仿真/实验环境控制研究）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "2029d581d425dbe4f70136f08a06296fd774400f",
+ "ref": "main",
+ "version": "main@2029d581d4",
+ "kind": "分支快照",
+ "commit": "2029d581d425dbe4f70136f08a06296fd774400f",
+ "commit_date": "2026-06-18",
+ "commit_subject": "Update README.md",
+ "static": {
+  "file_count": 10,
+  "size_mb": 29.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "CC 类",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明",
+  "明确入口",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-06-18",
+ "archived": "否",
+ "archive": "applications/P1116_YuchenXia_LLM4IAS_main-2029d581d4_src_en.tar",
+ "archive_mb": 29.1,
+ "archive_prefix": "LLM4IAS-main-2029d581d4",
+ "finished": "2026-10-29T20:00:41Z"
+}

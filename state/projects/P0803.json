@@ -1,0 +1,154 @@
+{
+ "id": "P0803",
+ "repo": "OpenHands/OpenHands",
+ "upstream": "https://github.com/OpenHands/OpenHands",
+ "seed": {
+  "id": "P0803",
+  "repo": "OpenHands/OpenHands",
+  "mod": "08",
+  "x": [
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "软件开发智能体平台：沙箱运行时、权限、前后端、Docker"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "beb0666e6ddedd606a128a352216771c2ba8656e",
+ "ref": "v1.34.0",
+ "version": "v1.34.0",
+ "kind": "发布标签",
+ "commit": "6c120073f5a1e1c838ba6fdd9a075c79ff997b98",
+ "commit_date": "2026-10-27",
+ "commit_subject": "chore(main): release 1.34.0 (#18873)",
+ "static": {
+  "file_count": 2750,
+  "size_mb": 26.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   ".agents/skills",
+   ".github/scripts",
+   "__tests__/MSW.md",
+   "__tests__/agent-server-ui-providers.test.tsx",
+   "__tests__/agent-server-ui-style-scope.test.ts",
+   "__tests__/api",
+   "__tests__/bin",
+   "__tests__/build-websocket-url.test.ts",
+   "__tests__/components",
+   "__tests__/constants",
+   "__tests__/contexts",
+   "__tests__/conversation-local-storage.test.ts"
+  ],
+  "test_file_count": 892,
+  "ci": [
+   ".github/workflows/remove-duplicate-candidate-label.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/mock-llm-docker-e2e.yml",
+   ".github/workflows/release-ready.yml",
+   ".github/workflows/pr-description-check.yml",
+   ".github/workflows/issue-duplicate-checker.yml",
+   ".github/workflows/bump-chart.yml",
+   ".github/workflows/sdk-version-sync.yml",
+   ".github/workflows/verify-skill-isolation.yml",
+   ".github/workflows/update-debian-snapshot.yml",
+   ".github/workflows/docker.yml",
+   ".github/workflows/desktop-linux.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/desktop-windows.yml",
+   ".github/workflows/npm-publish.yml",
+   ".github/workflows/issue-readiness-check.yml",
+   ".github/workflows/pr-artifacts.yml",
+   ".github/workflows/pr.yml",
+   ".github/workflows/verify-skill-isolation-tests.yml",
+   ".github/workflows/mock-llm-e2e.yml",
+   ".github/workflows/desktop-macos.yml",
+   ".github/workflows/ci-script-tests.yml"
+  ],
+  "docker": [
+   "docker/Dockerfile",
+   "docs/pr-screenshots/dockerfile-language-before.jpg",
+   "docs/pr-screenshots/dockerfile-language-after.jpg"
+  ],
+  "compose": [
+   "examples/acp-docker/docker-compose.yml"
+  ],
+  "helm_k8s": [
+   "helm/agent-canvas/Chart.yaml",
+   "helm/agent-canvas/values.yaml"
+  ],
+  "dep_files": [
+   "package.json",
+   "electron/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json"
+  ],
+  "docs_files": 10,
+  "config_files": 2,
+  "config_dirs": [
+   "config"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.windows.md",
+   "README.md"
+  ],
+  "changelog": [
+   "release-please-config.json",
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {
+   "node": ">=24"
+  },
+  "npm_scripts": [
+   "dev",
+   "dev:static",
+   "dev:extra-backend",
+   "dev:minimal",
+   "dev:frontend",
+   "dev:mock",
+   "build",
+   "build:mock",
+   "start",
+   "test",
+   "test:e2e",
+   "test:e2e:live",
+   "test:e2e:mock-llm",
+   "test:e2e:mock-llm:docker",
+   "test:e2e:bind-policy"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "docker pull ghcr.io/openhands/agent-canvas:1.34.0 # x-release-please-version",
+   "docker run -it --rm `"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "agents_coding/P0803_OpenHands_OpenHands_v1.34.0_src_en.tar",
+ "archive_mb": 29.3,
+ "archive_prefix": "OpenHands-v1.34.0",
+ "finished": "2026-10-29T19:57:38Z"
+}

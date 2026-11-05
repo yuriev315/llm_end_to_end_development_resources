@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cpu/torch-2.13.0%2Bcpu-cp310-cp310-manylinux_2_28_x86_64.whl
+
+[FileInfo]
+Filename=torch-2.13.0+cpu-cp310-cp310-manylinux_2_28_x86_64.whl
+Size=191774032
+SHA256=f5cbb61180a9793d9e12fe115a2310d2600bd449dfb9a01ec5640e21359fa5ea
+Version=2.13.0+cpu
+License=UNKNOWN
+Reason=PLACEHOLDER_OVERSIZE

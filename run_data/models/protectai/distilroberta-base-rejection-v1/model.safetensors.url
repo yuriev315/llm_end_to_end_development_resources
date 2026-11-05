@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/protectai/distilroberta-base-rejection-v1/resolve/86520b5f35829cf9209a449e1716b56c70ddd802/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=328492280
+SHA256=6e45fc9cdbde270a898f01b4fa01beaf06a0eb1f4c0f6ca88110af59759a0b26
+Version=86520b5f35829cf9209a449e1716b56c70ddd802
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

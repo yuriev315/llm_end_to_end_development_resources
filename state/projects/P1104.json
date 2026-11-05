@@ -1,0 +1,93 @@
+{
+ "id": "P1104",
+ "repo": "FreedomIntelligence/HuatuoGPT-II",
+ "upstream": "https://github.com/FreedomIntelligence/HuatuoGPT-II",
+ "seed": {
+  "id": "P1104",
+  "repo": "FreedomIntelligence/HuatuoGPT-II",
+  "mod": "11",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "中文医疗领域一阶段适配训练代码与评测"
+ },
+ "access_date": "2026-10-29",
+ "status": "excluded",
+ "default_branch": "main",
+ "head_commit": "88ddf9abc77651e108a2f5abbe38789c8e33efa7",
+ "ref": "main",
+ "version": "main@88ddf9abc7",
+ "kind": "分支快照",
+ "commit": "88ddf9abc77651e108a2f5abbe38789c8e33efa7",
+ "commit_date": "2024-08-31",
+ "commit_subject": "Update gpt4key.txt",
+ "static": {
+  "file_count": 27,
+  "size_mb": 43.3,
+  "license_files": [],
+  "license_guess": "",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "requirements.txt: torch==2.0.0",
+  "entry_files": [
+   "cli_demo.py",
+   "evaluation/eval_qa.py",
+   "evaluation/eval_huatuo_conv.py",
+   "evaluation/eval_huatuo_inst.py"
+  ],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "python cli_demo.py --model_name FreedomIntelligence/HuatuoGPT2-7B",
+   "python adaption/data_unification/rewrite.py",
+   "python adaption/one_stage_training/data_process.py",
+   "bash adaption/one_stage_training/train.sh",
+   "accelerate launch evaluation/eval_qa.py --model_path=FreedomIntelligence/HuatuoGPT2-7B --data_path=./evaluation/data/eval_qa.json",
+   "python evaluation/eval_huatuo_inst.py",
+   "python evaluation/eval_huatuo_conv.py"
+  ]
+ },
+ "level": "L0",
+ "level_missing": [
+  "许可证文件",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2024-08-30",
+ "archived": "否",
+ "archive": "applications/P1104_FreedomIntelligence_HuatuoGPT-II_main-88ddf9abc7_src_en.tar",
+ "archive_mb": 43.3,
+ "archive_prefix": "HuatuoGPT-II-main-88ddf9abc7",
+ "finished": "2026-10-29T19:59:55Z",
+ "error": "上游仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）",
+ "excluded_archive": "/root/.cache/lede_lit/excluded/P1104_FreedomIntelligence_HuatuoGPT-II_main-88ddf9abc7_src_en.tar"
+}

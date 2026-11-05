@@ -1,0 +1,125 @@
+{
+ "id": "P1205",
+ "repo": "guardrails-ai/guardrails",
+ "upstream": "https://github.com/guardrails-ai/guardrails",
+ "seed": {
+  "id": "P1205",
+  "repo": "guardrails-ai/guardrails",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "输出校验器框架：结构、类型、重问修复"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "06d0ff2c5f9bcb493d976b76f885e37e41ce845d",
+ "ref": "v0.11.0",
+ "version": "v0.11.0",
+ "kind": "发布标签",
+ "commit": "27a5d7ca568291c61c33a189206802c09b61701c",
+ "commit_date": "2026-08-14",
+ "commit_subject": "Merge pull request #1623 from guardrails-ai/fix-notebooks",
+ "static": {
+  "file_count": 562,
+  "size_mb": 15.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "server_ci/tests",
+   "tests"
+  ],
+  "test_file_count": 94,
+  "ci": [
+   ".github/workflows/server_ci.yml",
+   ".github/workflows/find_dead_links.yml",
+   ".github/workflows/install_from_hub.yml",
+   ".github/workflows/cli-compatibility.yml",
+   ".github/workflows/dependency-audit.yml",
+   ".github/workflows/autoclose_stale_issues_and_prs.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/premerge.yml",
+   ".github/workflows/examples_check.yml",
+   ".github/workflows/release_version.yml",
+   ".github/workflows/scripts/run_notebooks.sh",
+   ".github/workflows/scripts/update_notebook_matrix.sh"
+  ],
+  "docker": [
+   "server_ci/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "server_ci/requirements.txt"
+  ],
+  "req_files": [
+   "server_ci/requirements.txt"
+  ],
+  "lock_files": [
+   "poetry.lock"
+  ],
+  "docs_files": 73,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "tests/data/article1.txt",
+   "docs/examples/data/twain.txt",
+   "docs/examples/data/article1.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<3.14",
+  "py_scripts": [
+   "guardrails"
+  ],
+  "torch_spec": "",
+  "dep_count": 27,
+  "optional_groups": [
+   "dev",
+   "sql",
+   "vectordb",
+   "manifest",
+   "anthropic",
+   "docs-build",
+   "huggingface",
+   "api",
+   "databricks",
+   "uv",
+   "llama"
+  ],
+  "entry_files": [
+   "server_ci/run.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install guardrails-ai",
+   "pip install guardrails-ai",
+   "pip install guardrails-ai-regex-match",
+   "pip install guardrails-ai-competitor-check guardrails-ai-toxic-language"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-08-26",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1205_guardrails-ai_guardrails_v0.11.0_src_en.tar",
+ "archive_mb": 16.3,
+ "archive_prefix": "guardrails-v0.11.0",
+ "finished": "2026-10-29T20:01:10Z"
+}

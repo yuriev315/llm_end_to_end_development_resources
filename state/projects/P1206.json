@@ -1,0 +1,111 @@
+{
+ "id": "P1206",
+ "repo": "meta-llama/PurpleLlama",
+ "upstream": "https://github.com/meta-llama/PurpleLlama",
+ "seed": {
+  "id": "P1206",
+  "repo": "meta-llama/PurpleLlama",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "Llama Guard/Prompt Guard 安全分类与 CyberSecEval 评测"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "d934ea285d124d81c10f7e15a06a1e1f74eff2c3",
+ "ref": "main",
+ "version": "main@d934ea285d",
+ "kind": "分支快照",
+ "commit": "d934ea285d124d81c10f7e15a06a1e1f74eff2c3",
+ "commit_date": "2026-10-12",
+ "commit_subject": "fbcode/security/genai/CybersecurityBenchmarks/datasets/canary_exploit/memory_corruption/build/challenges/example_state_m",
+ "static": {
+  "file_count": 894,
+  "size_mb": 105.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Llama 社区许可",
+  "tests": [
+   "CodeShield/insecure_code_detector",
+   "CodeShield/tests",
+   "CybersecurityBenchmarks/benchmark",
+   "CybersecurityBenchmarks/datasets",
+   "LlamaFirewall/tests",
+   "SensitiveDocClassification/tests"
+  ],
+  "test_file_count": 35,
+  "ci": [
+   ".github/workflows/sites_deployment.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/lint.yml"
+  ],
+  "docker": [
+   "CybersecurityBenchmarks/benchmark/autopatch/build/dockerfile_fix_template",
+   "CybersecurityBenchmarks/benchmark/autopatch/build/dockerfile_vul_template",
+   "SensitiveDocClassification/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "LlamaFirewall/pyproject.toml",
+   "LlamaFirewall/website/package.json",
+   "CodeShield/pyproject.toml",
+   "CybersecurityBenchmarks/requirements.txt",
+   "CybersecurityBenchmarks/website/package.json",
+   "SensitiveDocClassification/requirements.txt",
+   "SensitiveDocClassification/setup.py"
+  ],
+  "req_files": [
+   "CybersecurityBenchmarks/requirements.txt",
+   "SensitiveDocClassification/requirements.txt"
+  ],
+  "lock_files": [
+   "LlamaFirewall/website/package-lock.json",
+   "LlamaFirewall/website/yarn.lock",
+   "CybersecurityBenchmarks/website/package-lock.json"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "CyberSOCEval_data",
+    "url": "https://github.com/CrowdStrike/CyberSOCEval_data",
+    "commit": ""
+   }
+  ],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口"
+ ],
+ "head_commit_date": "2026-10-12",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1206_meta-llama_PurpleLlama_main-d934ea285d_src_en.tar",
+ "archive_mb": 106.3,
+ "archive_prefix": "PurpleLlama-main-d934ea285d",
+ "finished": "2026-10-29T20:01:16Z"
+}

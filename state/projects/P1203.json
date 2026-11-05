@@ -1,0 +1,87 @@
+{
+ "id": "P1203",
+ "repo": "pemistahl/lingua-py",
+ "upstream": "https://github.com/pemistahl/lingua-py",
+ "seed": {
+  "id": "P1203",
+  "repo": "pemistahl/lingua-py",
+  "mod": "12",
+  "x": [
+   "02"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "语言识别（短文本、多语言置信度）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "754ce21122c083a7200763015fdaf7cda8d85453",
+ "ref": "v2.2.0",
+ "version": "v2.2.0",
+ "kind": "发布标签",
+ "commit": "754ce21122c083a7200763015fdaf7cda8d85453",
+ "commit_date": "2026-03-09",
+ "commit_subject": "Update release notes",
+ "static": {
+  "file_count": 6337,
+  "size_mb": 19.8,
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [
+   ".github/workflows/build.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "poetry.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASE_NOTES.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/pemistahl/lingua-py.git",
+   "python3 -m venv .venv",
+   "pip install --find-links=lingua lingua-language-detector"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-03-09",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1203_pemistahl_lingua-py_v2.2.0_src_en.tar",
+ "archive_mb": 24.0,
+ "archive_prefix": "lingua-py-v2.2.0",
+ "finished": "2026-10-29T20:01:01Z"
+}

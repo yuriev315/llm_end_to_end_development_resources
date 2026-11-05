@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/ought/raft/resolve/9ee50172ea9afda2f1033c6f1b986e568b862fb3/data/twitter_complaints/train.csv
+
+[FileInfo]
+Filename=train.csv
+Size=5376
+SHA256=365b067c2d2a7f30128d766baf4901936e047295bb2a693878164dbb84d828fa
+Version=9ee50172ea9afda2f1033c6f1b986e568b862fb3
+License=other
+Reason=PLACEHOLDER_RESTRICTED

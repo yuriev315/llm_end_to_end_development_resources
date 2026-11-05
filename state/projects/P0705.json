@@ -1,0 +1,138 @@
+{
+ "id": "P0705",
+ "repo": "qdrant/qdrant",
+ "upstream": "https://github.com/qdrant/qdrant",
+ "seed": {
+  "id": "P0705",
+  "repo": "qdrant/qdrant",
+  "mod": "07",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "向量数据库：载荷过滤（按用户/租户/文档权限过滤）、快照、分布式部署"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+ "ref": "v1.20.0",
+ "version": "v1.20.0",
+ "kind": "发布标签",
+ "commit": "222b2e44ab1c3f17e8246396ead6558e45041df7",
+ "commit_date": "2026-10-21",
+ "commit_subject": "Bump version to 1.20.0 (#11298)",
+ "static": {
+  "file_count": 2556,
+  "size_mb": 39.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "lib/collection",
+   "lib/common",
+   "lib/edge",
+   "lib/quantization",
+   "lib/segment",
+   "lib/sparse",
+   "lib/storage",
+   "lib/wal",
+   "tests",
+   "tools/ast-grep"
+  ],
+  "test_file_count": 201,
+  "ci": [
+   ".github/workflows/coverage.yml",
+   ".github/workflows/nightly-model-testing.yml",
+   ".github/workflows/edge-py-release.yml",
+   ".github/workflows/dev-docker-image-build.yml",
+   ".github/workflows/rust-lint.yml",
+   ".github/workflows/edge-test.yml",
+   ".github/workflows/dev-docker-image-build-gpu.yml",
+   ".github/workflows/io-bridge-object-store-tests.yml",
+   ".github/workflows/integration-tests.yml",
+   ".github/workflows/debug-tools.yml",
+   ".github/workflows/docker-image.yml",
+   ".github/workflows/release-artifacts.yml",
+   ".github/workflows/dev-docker-image-prune.yml",
+   ".github/workflows/codespell.yml",
+   ".github/workflows/edge-rust-release.yml",
+   ".github/workflows/long-e2e-tests.yml",
+   ".github/workflows/rust-gpu.yml",
+   ".github/workflows/rust.yml"
+  ],
+  "docker": [
+   "Dockerfile",
+   "tools/schema2openapi/Dockerfile"
+  ],
+  "compose": [
+   "tools/compose/docker-compose.yaml",
+   "tests/consensus_tests/docker-compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "Cargo.toml",
+   "tools/schema2openapi/package.json",
+   "lib/wal/Cargo.toml",
+   "lib/blobstore/Cargo.toml",
+   "lib/api/Cargo.toml",
+   "lib/edge/Cargo.toml",
+   "lib/quantization/Cargo.toml",
+   "lib/gpu/Cargo.toml",
+   "lib/storage/Cargo.toml",
+   "lib/bm25/Cargo.toml",
+   "lib/segment/Cargo.toml",
+   "lib/trififo/Cargo.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "Cargo.lock",
+   "tools/schema2openapi/package-lock.json",
+   "tests/uv.lock"
+  ],
+  "docs_files": 72,
+  "config_files": 5,
+  "config_dirs": [
+   "config",
+   "lib/edge"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [
+   "tests/storage-compat/storage.tar.bz2",
+   "tests/storage-compat/collection.snapshot.gz",
+   "tests/e2e_tests/test_data/storage.tar.xz",
+   "tests/storage-compat/full-snapshot.snapshot.gz"
+  ],
+  "lfs_pointer_files": 1,
+  "lfs_pointer_examples": [
+   "tests/e2e_tests/test_data/storage.tar.xz"
+  ],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "docker run -p 6333:6333 qdrant/qdrant"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-21",
+ "archived": "否",
+ "archive": "rag/P0705_qdrant_qdrant_v1.20.0_src_en.tar",
+ "archive_mb": 41.5,
+ "archive_prefix": "qdrant-v1.20.0",
+ "finished": "2026-10-29T20:03:23Z"
+}

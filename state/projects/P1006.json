@@ -1,0 +1,87 @@
+{
+ "id": "P1006",
+ "repo": "jd/tenacity",
+ "upstream": "https://github.com/jd/tenacity",
+ "seed": {
+  "id": "P1006",
+  "repo": "jd/tenacity",
+  "mod": "10",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "重试库：退避、停止条件、异步重试"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "32ac68f0941319c0d2f4fb927f96e4ee29bb46c6",
+ "ref": "9.2.1",
+ "version": "9.2.1",
+ "kind": "发布标签",
+ "commit": "4410996dd9a96864a2733ce0778bcaa112b72811",
+ "commit_date": "2026-10-07",
+ "commit_subject": "ci: check built distributions with twine (#742)",
+ "static": {
+  "file_count": 94,
+  "size_mb": 0.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 6,
+  "ci": [
+   ".github/workflows/ci.yaml",
+   ".github/workflows/release.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 4,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.rst"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [
+   "doc",
+   "test"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口"
+ ],
+ "head_commit_date": "2026-10-12",
+ "archived": "否",
+ "archive": "deployment_operations/P1006_jd_tenacity_9.2.1_src_en.tar",
+ "archive_mb": 0.3,
+ "archive_prefix": "tenacity-9.2.1",
+ "finished": "2026-10-29T19:59:34Z"
+}

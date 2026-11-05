@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cpu/torch-2.3.0%2Bcpu-cp310-cp310-linux_x86_64.whl
+
+[FileInfo]
+Filename=torch-2.3.0+cpu-cp310-cp310-linux_x86_64.whl
+Size=190419606
+SHA256=e3c220702d82c7596924150e0499fbbffcf62a88a59adc860fa357cd8dc1c302
+Version=2.3.0+cpu
+License=UNKNOWN
+Reason=PLACEHOLDER_OVERSIZE

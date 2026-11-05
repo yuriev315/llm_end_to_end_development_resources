@@ -1,0 +1,103 @@
+{
+ "id": "P1106",
+ "repo": "medspacy/medspacy",
+ "upstream": "https://github.com/medspacy/medspacy",
+ "seed": {
+  "id": "P1106",
+  "repo": "medspacy/medspacy",
+  "mod": "11",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "临床文本处理：否定/上下文、段落、术语匹配"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "b7bb7d82f2e8fbadc9ab26d6b4c37578f8883c2c",
+ "ref": "1.3.1",
+ "version": "1.3.1",
+ "kind": "发布标签",
+ "commit": "c9f7781f88256190d32eb06480fcea8c4a617382",
+ "commit_date": "2024-11-21",
+ "commit_subject": "Merge pull request #309 from medspacy/develop",
+ "static": {
+  "file_count": 356,
+  "size_mb": 5.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "test",
+   "tests"
+  ],
+  "test_file_count": 39,
+  "ci": [
+   ".github/workflows/build_release.yml",
+   ".github/workflows/python-app.yml",
+   ".github/workflows/manual_test_multi_oldversion.yml",
+   ".github/workflows/manual_test_pip.yml",
+   ".github/workflows/python-publish.yml",
+   ".github/workflows/manual_test_multiversion.yml"
+  ],
+  "docker": [
+   ".devcontainer/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   ".devcontainer/environment.yml",
+   "requirements/requirements.txt"
+  ],
+  "req_files": [
+   "requirements/requirements.txt",
+   "requirements/requirements_tests.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "notebooks"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.8",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "python setup.py install",
+   "pip install medspacy",
+   "pip install medspacy==medspacy 0.1.0.2"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-06-03",
+ "archived": "否",
+ "archive": "applications/P1106_medspacy_medspacy_1.3.1_src_en.tar",
+ "archive_mb": 6.1,
+ "archive_prefix": "medspacy-1.3.1",
+ "finished": "2026-10-29T20:00:02Z"
+}

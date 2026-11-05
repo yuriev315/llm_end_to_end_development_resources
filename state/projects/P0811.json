@@ -1,0 +1,145 @@
+{
+ "id": "P0811",
+ "repo": "OpenHands/software-agent-sdk",
+ "upstream": "https://github.com/OpenHands/software-agent-sdk",
+ "seed": {
+  "id": "P0811",
+  "repo": "OpenHands/software-agent-sdk",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "OpenHands 智能体 SDK 与 Agent Server：工具、沙箱工作区（Docker/远程）、安全分析与确认策略"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "c3985a4c1fc8ecb8fdc196610754a82aa0e3464a",
+ "ref": "v1.59.0",
+ "version": "v1.59.0",
+ "kind": "发布标签",
+ "commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
+ "commit_date": "2026-10-28",
+ "commit_subject": "Release v1.59.0 (#6282)",
+ "static": {
+  "file_count": 1957,
+  "size_mb": 23.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "clients/typescript",
+   "openhands-sdk/openhands",
+   "openhands-workspace/openhands",
+   "tests"
+  ],
+  "test_file_count": 700,
+  "ci": [
+   ".github/workflows/README-RELEASE.md",
+   ".github/workflows/typescript-client-endpoint-audit.yml",
+   ".github/workflows/storage-scenario.yml",
+   ".github/workflows/version-bump-prs.yml",
+   ".github/workflows/remove-duplicate-candidate-label.yml",
+   ".github/workflows/pip-revendoring-retirement.yml",
+   ".github/workflows/check-docstrings.yml",
+   ".github/workflows/version-bump-guard.yml",
+   ".github/workflows/deploy-docs.yml",
+   ".github/workflows/pypi-release.yml",
+   ".github/workflows/run-eval.yml",
+   ".github/workflows/pr-description-check.yml",
+   ".github/workflows/issue-duplicate-checker.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/precommit.yml",
+   ".github/workflows/integration-runner.yml",
+   ".github/workflows/security-scan.yml",
+   ".github/workflows/run-examples.yml",
+   ".github/workflows/persisted-settings-compat.yml",
+   ".github/workflows/typescript-client-ci.yml",
+   ".github/workflows/cancel-eval.yml",
+   ".github/workflows/check-documented-examples.yml",
+   ".github/workflows/typescript-client-npm-publish.yml",
+   ".github/workflows/typescript-client-integration-tests.yml",
+   ".github/workflows/review-thread-gate.yml",
+   ".github/workflows/update-debian-snapshot.yml",
+   ".github/workflows/agent-server-rest-api-breakage.yml",
+   ".github/workflows/typescript-client-github-packages-publish.yml",
+   ".github/workflows/tests-macos.yml",
+   ".github/workflows/create-release.yml",
+   ".github/workflows/check-duplicate-examples.yml",
+   ".github/workflows/issue-readiness-check.yml",
+   ".github/workflows/release-binaries.yml",
+   ".github/workflows/oh-update-documentation.yml.back",
+   ".github/workflows/pr-artifacts.yml",
+   ".github/workflows/prepare-release.yml",
+   ".github/workflows/deprecation-check.yml",
+   ".github/workflows/server.yml",
+   ".github/workflows/todo-management.yml",
+   ".github/workflows/update-npm-pin.yml"
+  ],
+  "docker": [
+   "examples/02_remote_agent_server/06_custom_tool/Dockerfile",
+   "openhands-agent-server/openhands/agent_server/docker/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   "clients/typescript/package.json",
+   "openhands-tools/pyproject.toml",
+   "openhands-workspace/pyproject.toml",
+   "openhands-agent-server/pyproject.toml",
+   "openhands-sdk/pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock",
+   "clients/typescript/package-lock.json"
+  ],
+  "docs_files": 0,
+  "config_files": 24,
+  "config_dirs": [
+   "clients/typescript",
+   "tests/sdk"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "tests/sdk/conversation/goal/fixtures/events.jsonl",
+   "tests/sdk/conversation/goal/fixtures/expected_transcript.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "agents_coding/P0811_OpenHands_software-agent-sdk_v1.59.0_src_en.tar",
+ "archive_mb": 25.3,
+ "archive_prefix": "software-agent-sdk-v1.59.0",
+ "finished": "2026-10-29T20:07:56Z"
+}

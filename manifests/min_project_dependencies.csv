@@ -1,0 +1,120 @@
+project_id,project,selection_status,reason,subdir,group,python,lock,wheels,bytes,wheels_in_release,wheels_over_100mib_url,wheels_license_local_only,offline_resolution
+D0601,openai/openai-openapi,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+D0801,modelcontextprotocol/modelcontextprotocol,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+D0901,LibreChat-AI/librechat.ai,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+D0903,langgenius/dify-docs,NOT_SELECTED,documentation project,,,,,0,0,0,0,0,
+D1001,langfuse/langfuse-docs,NOT_SELECTED,documentation project,,,,,0,0,0,0,0,
+D1201,OWASP/www-project-top-10-for-large-language-model-applications,NOT_SELECTED,"documentation and samples, no core package",,,,,0,0,0,0,0,
+P0101,karpathy/micrograd,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0102,karpathy/minbpe,SELECTED,root base,.,base,3.10,windows/min_projects/P0102/base.lock.txt,7,1853678,7,0,0,PASSED
+P0103,rasbt/LLMs-from-scratch,SELECTED,root base,.,base,3.10,windows/min_projects/P0103/base.lock.txt,139,970746944,136,3,0,PASSED
+P0104,karpathy/nanochat,SELECTED,root base,.,base,3.10,windows/min_projects/P0104/base.lock.txt,39,188129338,38,1,0,PASSED
+P0105,karpathy/nanoGPT（复用）,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0201,huggingface/datatrove,SELECTED,root base,.,base,3.10,windows/min_projects/P0201/base.lock.txt,30,20702655,30,0,0,PASSED
+P0202,docling-project/docling,SELECTED,root base,.,base,3.10,windows/min_projects/P0202/base.lock.txt,44,43353558,44,0,0,PASSED
+P0203,argilla-io/distilabel,SELECTED,root base,.,base,3.10,windows/min_projects/P0203/base.lock.txt,63,110225024,63,0,0,PASSED
+P0204,argilla-io/argilla,SELECTED,hand-picked core package,argilla,base,3.10,windows/min_projects/P0204/argilla__base.lock.txt,51,72937282,51,0,0,PASSED
+P0204,argilla-io/argilla,SELECTED,hand-picked core package,argilla-server,base,3.10,windows/min_projects/P0204/argilla-server__base.lock.txt,95,84180171,95,0,0,PASSED
+P0205,allenai/dolma,SELECTED,root base,.,base,3.10,windows/min_projects/P0205/base.lock.txt,60,90331845,60,0,0,PASSED
+P0206,HumanSignal/label-studio,SELECTED,root base,.,base,3.10,windows/min_projects/P0206/base.lock.txt,156,167738125,154,0,2,PASSED
+P0207,iterative/dvc,SELECTED,root base,.,base,3.10,windows/min_projects/P0207/base.lock.txt,99,28001904,95,0,4,PASSED
+P0208,opendatalab/MinerU,SELECTED,root base,.,base,3.11,windows/min_projects/P0208/base.lock.txt,116,181575004,116,0,0,PASSED
+P0301,pytorch/torchtitan,NOT_SELECTED,core requirements have no Windows solution,,,,,0,0,0,0,0,
+P0302,NVIDIA/Megatron-LM,SELECTED,root base,.,base,3.12,windows/min_projects/P0302/base.lock.txt,12,147033779,11,1,0,PASSED
+P0303,allenai/OLMo-core,SELECTED,root base,.,base,3.10,windows/min_projects/P0303/base.lock.txt,63,188401803,62,1,0,PASSED
+P0304,Lightning-AI/litgpt,SELECTED,root base,.,base,3.10,windows/min_projects/P0304/base.lock.txt,51,162209238,50,1,0,PASSED
+P0305,stas00/ml-engineering,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0401,huggingface/trl,SELECTED,root base,.,base,3.11,windows/min_projects/P0401/base.lock.txt,53,216553055,52,1,0,PASSED
+P0402,huggingface/peft,SELECTED,root base,.,base,3.10,windows/min_projects/P0402/base.lock.txt,64,295000063,63,1,0,PASSED
+P0403,hiyouga/LLaMA-Factory,SELECTED,root base,.,base,3.11,windows/min_projects/P0403/base.lock.txt,110,397819615,109,1,0,PASSED
+P0404,volcengine/verl,SELECTED,root base,.,base,3.10,windows/min_projects/P0404/base.lock.txt,136,301051779,135,1,0,PASSED
+P0501,EleutherAI/lm-evaluation-harness,SELECTED,root base,.,base,3.10,windows/min_projects/P0501/base.lock.txt,69,120691656,68,0,1,PASSED
+P0502,UKGovernmentBEIS/inspect_ai,SELECTED,root base,.,base,3.11,windows/min_projects/P0502/base.lock.txt,80,44795036,80,0,0,PASSED
+P0503,evalplus/evalplus,SELECTED,root base,.,base,3.10,windows/min_projects/P0503/base.lock.txt,89,117794290,89,0,0,PASSED
+P0504,promptfoo/promptfoo,NOT_SELECTED,core is not Python,,,,,0,0,0,0,0,
+P0505,SWE-bench/SWE-bench,SELECTED,root base,.,base,3.10,windows/min_projects/P0505/base.lock.txt,80,80496048,80,0,0,PASSED
+P0506,stanford-crfm/helm,SELECTED,root base,.,base,3.10,windows/min_projects/P0506/base.lock.txt,102,304032555,101,1,0,PASSED
+P0507,openai/simple-evals,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0601,vllm-project/vllm,SELECTED,hand-picked core package,requirements,req-cpu,3.10,windows/min_projects/P0601/requirements__req-cpu.lock.txt,149,328189445,147,1,1,PASSED
+P0602,ggml-org/llama.cpp,SELECTED,root base,.,base,3.10,windows/min_projects/P0602/base.lock.txt,75,194104403,74,1,0,PASSED
+P0603,sgl-project/sglang,NOT_SELECTED,core python package has no Windows solution,,,,,0,0,0,0,0,
+P0604,dottxt-ai/outlines,SELECTED,root base,.,base,3.10,windows/min_projects/P0604/base.lock.txt,17,12364887,17,0,0,PASSED
+P0605,mlc-ai/xgrammar,SELECTED,root base,.,base,3.10,windows/min_projects/P0605/base.lock.txt,42,176762393,41,1,0,PASSED
+P0606,vllm-project/llm-compressor,NOT_SELECTED,only build requirements could be parsed; runtime dependencies are dynamic,,,,,0,0,0,0,0,
+P0607,vllm-project/guidellm,SELECTED,root base,.,base,3.10,windows/min_projects/P0607/base.lock.txt,89,220464624,87,1,1,PASSED
+P0701,deepset-ai/haystack,SELECTED,root base,.,base,3.11,windows/min_projects/P0701/base.lock.txt,42,23820531,42,0,0,PASSED
+P0702,infiniflow/ragflow,SELECTED,"hand-picked core package; the root base has no Windows solution, so only the SDK is covered",sdk/python,base,3.13,windows/min_projects/P0702/sdk_python__base.lock.txt,6,2202047,6,0,0,PASSED
+P0703,explodinggradients/ragas,SELECTED,root base,.,base,3.10,windows/min_projects/P0703/base.lock.txt,98,132522745,98,0,0,PASSED
+P0704,facebookresearch/faiss,SELECTED,root base,.,base,3.10,windows/min_projects/P0704/base.lock.txt,2,13034576,2,0,0,PASSED
+P0705,qdrant/qdrant,NOT_SELECTED,core is Rust,,,,,0,0,0,0,0,
+P0706,FlagOpen/FlagEmbedding,SELECTED,root base,.,base,3.10,windows/min_projects/P0706/base.lock.txt,74,272796918,73,1,0,PASSED
+P0801,modelcontextprotocol/python-sdk,SELECTED,hand-picked core package,.,extra-cli,3.10,windows/min_projects/P0801/extra-cli.lock.txt,10,1823161,10,0,0,PASSED
+P0802,Aider-AI/aider,SELECTED,root base,.,base,3.10,windows/min_projects/P0802/base.lock.txt,110,118043045,110,0,0,PASSED
+P0803,OpenHands/OpenHands,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0804,continuedev/continue,SELECTED,hand-picked core package,packages/continue-sdk/python/api,base,3.10,windows/min_projects/P0804/packages_continue-sdk_python_api__base.lock.txt,9,3395955,9,0,0,PASSED
+P0805,SWE-agent/SWE-agent,SELECTED,root base,.,base,3.11,windows/min_projects/P0805/base.lock.txt,112,130663703,111,0,1,PASSED
+P0806,langchain-ai/langgraph,SELECTED,hand-picked core package,libs/langgraph,base,3.10,windows/min_projects/P0806/libs_langgraph__base.lock.txt,38,7359241,38,0,0,PASSED
+P0807,microsoft/multilspy,SELECTED,root base,.,base,3.10,windows/min_projects/P0807/base.lock.txt,28,4769487,27,0,1,PASSED
+P0808,astral-sh/ruff,NOT_SELECTED,core is Rust,,,,,0,0,0,0,0,
+P0809,mem0ai/mem0,SELECTED,root base,.,base,3.10,windows/min_projects/P0809/base.lock.txt,37,38204348,37,0,0,PASSED
+P0810,SWE-agent/mini-swe-agent（复用）,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0811,OpenHands/software-agent-sdk,SELECTED,hand-picked core package,openhands-sdk,base,3.12,windows/min_projects/P0811/openhands-sdk__base.lock.txt,138,111362307,137,0,1,PASSED
+P0901,danny-avila/LibreChat,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0902,huggingface/chat-ui,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P0903,open-webui/open-webui,SELECTED,root base,.,base,3.11,windows/min_projects/P0903/base.lock.txt,245,500220965,239,1,5,PASSED
+P0904,langgenius/dify,NOT_SELECTED,core api package has no Windows solution,,,,,0,0,0,0,0,
+P1001,vllm-project/production-stack,SELECTED,root base,.,base,3.12,windows/min_projects/P1001/base.lock.txt,68,36662348,68,0,0,PASSED
+P1002,kserve/kserve,SELECTED,hand-picked core package,python/kserve,base,3.10,windows/min_projects/P1002/python_kserve__base.lock.txt,67,59346550,67,0,0,PASSED
+P1003,BerriAI/litellm,SELECTED,root base,.,base,3.10,windows/min_projects/P1003/base.lock.txt,61,32881910,61,0,0,PASSED
+P1004,langfuse/langfuse,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1005,NVIDIA/k8s-device-plugin,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1006,jd/tenacity,NOT_SELECTED,declares no runtime dependency,,,,,0,0,0,0,0,
+P1007,GokuMohandas/Made-With-ML（复用）,SELECTED,root base,.,base,3.10,windows/min_projects/P1007/base.lock.txt,220,433058324,218,1,1,PASSED
+P1008,temporalio/sdk-python,SELECTED,root base,.,base,3.10,windows/min_projects/P1008/base.lock.txt,6,839666,6,0,0,PASSED
+P1101,Teddy-XiongGZ/MedRAG,SELECTED,root base,.,base,3.10,windows/min_projects/P1101/base.lock.txt,112,339304627,110,1,1,PASSED
+P1102,Teddy-XiongGZ/MIRAGE,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1103,Google-Health/medgemma,SELECTED,hand-picked core package,python/serving/serving_framework,base,3.10,windows/min_projects/P1103/python_serving_serving_framework__base.lock.txt,22,23735705,22,0,0,PASSED
+P1105,ncbi-nlp/MedCalc-Bench,SELECTED,root base,.,base,3.10,windows/min_projects/P1105/base.lock.txt,175,546137783,169,2,4,PASSED
+P1106,medspacy/medspacy,NOT_SELECTED,runtime requirements have no Windows solution,,,,,0,0,0,0,0,
+P1107,nazrulworld/fhir.resources,NOT_SELECTED,only build requirements could be parsed,,,,,0,0,0,0,0,
+P1108,hgrecco/pint,SELECTED,root base,.,base,3.12,windows/min_projects/P1108/base.lock.txt,4,121861,4,0,0,PASSED
+P1109,CadQuery/cadquery,SELECTED,root base,.,base,3.10,windows/min_projects/P1109/base.lock.txt,25,24938765,25,0,0,PASSED
+P1110,gumyr/build123d,SELECTED,root base,.,base,3.11,windows/min_projects/P1110/base.lock.txt,56,224151334,56,0,0,PASSED
+P1111,neka-nat/freecad-mcp,SELECTED,root base,.,base,3.12,windows/min_projects/P1111/base.lock.txt,37,19671130,37,0,0,PASSED
+P1112,SadilKhan/Text2CAD,SELECTED,root base,.,base,3.10,windows/min_projects/P1112/base.lock.txt,156,475235064,154,1,1,PASSED
+P1113,filapro/cad-recode,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1114,csml-rpi/Foam-Agent,SELECTED,root base,.,base,3.10,windows/min_projects/P1114/base.lock.txt,298,779206318,295,1,2,PASSED
+P1115,midea-ai/SemaPLC,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1116,YuchenXia/LLM4IAS,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1117,SWE-bench/SWE-smith,SELECTED,root base,.,base,3.10,windows/min_projects/P1117/base.lock.txt,146,176829578,146,0,0,PASSED
+P1201,microsoft/presidio,SELECTED,hand-picked core package,presidio-analyzer,base,3.11,windows/min_projects/P1201/presidio-analyzer__base.lock.txt,51,48577026,51,0,0,PASSED
+P1201,microsoft/presidio,SELECTED,hand-picked core package,presidio-anonymizer,base,3.11,windows/min_projects/P1201/presidio-anonymizer__base.lock.txt,3,4072388,3,0,0,PASSED
+P1202,Yelp/detect-secrets,SELECTED,root base,.,base,3.10,windows/min_projects/P1202/base.lock.txt,6,787464,6,0,0,PASSED
+P1203,pemistahl/lingua-py,NOT_SELECTED,core is Rust,,,,,0,0,0,0,0,
+P1204,NVIDIA-NeMo/Guardrails,SELECTED,root base,.,base,3.10,windows/min_projects/P1204/base.lock.txt,71,57171396,71,0,0,PASSED
+P1205,guardrails-ai/guardrails,SELECTED,root base,.,base,3.10,windows/min_projects/P1205/base.lock.txt,102,50496021,102,0,0,PASSED
+P1206,meta-llama/PurpleLlama,SELECTED,hand-picked core package,CodeShield,base,3.10,windows/min_projects/P1206/CodeShield__base.lock.txt,68,82559561,67,0,1,PASSED
+P1206,meta-llama/PurpleLlama,SELECTED,hand-picked core package,LlamaFirewall,base,3.10,windows/min_projects/P1206/LlamaFirewall__base.lock.txt,95,253875202,93,1,1,PASSED
+P1207,protectai/llm-guard,SELECTED,root base,.,base,3.10,windows/min_projects/P1207/base.lock.txt,79,204850354,78,1,0,PASSED
+P1208,lm-sys/RouteLLM,SELECTED,root base,.,base,3.10,windows/min_projects/P1208/base.lock.txt,92,327597398,91,1,0,PASSED
+P1209,aurelio-labs/semantic-router,SELECTED,root base,.,base,3.10,windows/min_projects/P1209/base.lock.txt,84,42547774,84,0,0,PASSED
+P1210,google-research/camel-prompt-injection,SELECTED,root base,.,base,3.10,windows/min_projects/P1210/base.lock.txt,119,62018008,119,0,0,PASSED
+P1211,ethz-spylab/agentdojo,SELECTED,root base,.,base,3.10,windows/min_projects/P1211/base.lock.txt,63,16720844,63,0,0,PASSED
+P1212,NVIDIA/garak,SELECTED,root base,.,base,3.11,windows/min_projects/P1212/base.lock.txt,212,424834649,208,1,3,PASSED
+P1213,microsoft/PyRIT,SELECTED,root base,.,base,3.10,windows/min_projects/P1213/base.lock.txt,112,179729051,112,0,0,PASSED
+P1214,openfga/openfga,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1215,openai/model_spec,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1216,microsoft/LLMLingua,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1217,567-labs/instructor,SELECTED,root base,.,base,3.10,windows/min_projects/P1217/base.lock.txt,43,8774506,43,0,0,PASSED
+P1218,pydantic/pydantic,SELECTED,root base,.,base,3.10,windows/min_projects/P1218/base.lock.txt,4,2316008,4,0,0,PASSED
+P1219,python-jsonschema/jsonschema,SELECTED,root base,.,base,3.10,windows/min_projects/P1219/base.lock.txt,5,393255,5,0,0,PASSED
+P1220,shmsw25/FActScore,SELECTED,root base,.,base,3.10,windows/min_projects/P1220/base.lock.txt,77,287064894,75,1,1,PASSED
+P1221,cure53/DOMPurify,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,
+P1222,messense/nh3,NOT_SELECTED,core is Rust,,,,,0,0,0,0,0,
+P1223,microsoft/BIPIA,SELECTED,root base,.,base,3.10,windows/min_projects/P1223/base.lock.txt,106,297861261,105,1,0,PASSED
+P1224,uiuc-kang-lab/InjecAgent,SELECTED,root base,.,base,3.10,windows/min_projects/P1224/base.lock.txt,47,178746953,46,1,0,PASSED
+P1225,centerforaisafety/HarmBench,SELECTED,root base,.,base,3.10,windows/min_projects/P1225/base.lock.txt,168,394432413,167,1,0,PASSED
+P1226,JailbreakBench/jailbreakbench,SELECTED,root base,.,base,3.10,windows/min_projects/P1226/base.lock.txt,92,328688248,90,1,1,PASSED
+P1227,allenai/wildguard,SELECTED,root base,.,base,3.10,windows/min_projects/P1227/base.lock.txt,37,170900506,36,1,0,PASSED
+P1228,ShishirPatil/gorilla,SELECTED,hand-picked core package,berkeley-function-call-leaderboard,base,3.10,windows/min_projects/P1228/berkeley-function-call-leaderboard__base.lock.txt,119,91978720,119,0,0,PASSED
+P1229,paul-rottger/xstest,NO_PYTHON_MANIFEST,no Python dependency manifest in the snapshot,,,,,0,0,0,0,0,

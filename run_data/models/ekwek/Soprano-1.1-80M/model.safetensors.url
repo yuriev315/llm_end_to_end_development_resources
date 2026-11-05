@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/ekwek/Soprano-1.1-80M/resolve/27b5a5f5f541a1db3a51d6fd1b0fc7147b92cd01/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=159449112
+SHA256=10e8c4223e14115688a1c8a1c5464ebb78826f17fb98ad459da9bce5471866ed
+Version=27b5a5f5f541a1db3a51d6fd1b0fc7147b92cd01
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

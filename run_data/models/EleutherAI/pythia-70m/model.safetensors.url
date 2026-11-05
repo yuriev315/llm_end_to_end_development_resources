@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/EleutherAI/pythia-70m/resolve/a39f36b100fe8a5377810d56c3f4789b9c53ac42/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=166029852
+SHA256=ebfa4e2f18696ebd83716a0d39fe2c025f2ff8483f72a83ca59c475692fc9d15
+Version=a39f36b100fe8a5377810d56c3f4789b9c53ac42
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

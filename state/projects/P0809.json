@@ -1,0 +1,191 @@
+{
+ "id": "P0809",
+ "repo": "mem0ai/mem0",
+ "upstream": "https://github.com/mem0ai/mem0",
+ "seed": {
+  "id": "P0809",
+  "repo": "mem0ai/mem0",
+  "mod": "08",
+  "x": [
+   "09",
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "对话记忆层：记忆写入/更新/删除、按用户/会话隔离"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "26cdefb46600c0fa5953c4b5ee5003c125539fc4",
+ "ref": "v2.2.1",
+ "version": "v2.2.1",
+ "kind": "发布标签",
+ "commit": "94c3fe9f238f3dbf29c9ce98643bd71eb13077cd",
+ "commit_date": "2026-09-25",
+ "commit_subject": "chore(release): bump Python SDK to 2.2.1 and TypeScript SDK to 3.3.1 (#7456)",
+ "static": {
+  "file_count": 1835,
+  "size_mb": 35.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   ".github/scripts",
+   "cli/node",
+   "cli/python",
+   "integrations/agent-plugin-core",
+   "integrations/antigravity-plugin",
+   "integrations/claude-code-plugin",
+   "integrations/codex-plugin",
+   "integrations/cursor-plugin",
+   "integrations/deepseek-plugin",
+   "integrations/hermes-plugin-mem0",
+   "integrations/kimi-plugin",
+   "integrations/mem0-strands"
+  ],
+  "test_file_count": 306,
+  "ci": [
+   ".github/workflows/vouch-manage-by-issue.yml",
+   ".github/workflows/n8n-nodes-mem0-cd.yml",
+   ".github/workflows/cli-python-ci.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/opencode-plugin-checks.yml",
+   ".github/workflows/ts-sdk-ci.yml",
+   ".github/workflows/pi-agent-plugin-checks.yml",
+   ".github/workflows/stale.yml",
+   ".github/workflows/deepseek-plugin-cd.yml",
+   ".github/workflows/agent-plugins-typescript-checks.yml",
+   ".github/workflows/opencode-plugin-cd.yml",
+   ".github/workflows/zapier-mem0-checks.yml",
+   ".github/workflows/zapier-mem0-cd.yml",
+   ".github/workflows/pi-agent-plugin-cd.yml",
+   ".github/workflows/n8n-nodes-mem0-checks.yml",
+   ".github/workflows/pr-gate.yml",
+   ".github/workflows/ci-gate.yml",
+   ".github/workflows/cd.yml",
+   ".github/workflows/cli-node-cd.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/ts-sdk-cd.yml",
+   ".github/workflows/vercel-ai-cd.yml",
+   ".github/workflows/cli-node-ci.yml",
+   ".github/workflows/cli-python-cd.yml",
+   ".github/workflows/docs-llms-txt-check.yml",
+   ".github/workflows/openclaw-cd.yml",
+   ".github/workflows/mem0-strands-checks.yml",
+   ".github/workflows/openclaw-checks.yml",
+   ".github/workflows/deepseek-plugin-checks.yml",
+   ".github/workflows/mem0-strands-cd.yml",
+   ".github/workflows/agent-plugins-python-checks.yml",
+   ".github/workflows/vouch-check-pr.yml",
+   ".github/workflows/pr-labeler.yml",
+   ".github/workflows/issue-labeler.yml"
+  ],
+  "docker": [
+   "server/dev.Dockerfile",
+   "server/Dockerfile",
+   "server/dashboard/Dockerfile"
+  ],
+  "compose": [
+   "server/docker-compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "mem0/memory/setup.py",
+   "server/requirements.txt",
+   "server/dashboard/package.json",
+   "cli/node/package.json",
+   "cli/python/pyproject.toml",
+   "examples/multimodal-demo/package.json",
+   "examples/yt-assistant-chrome/package.json",
+   "examples/openai-inbuilt-tools/package.json",
+   "examples/vercel-ai-sdk-chat-app/package.json",
+   "examples/mem0-demo/package.json",
+   "integrations/n8n-nodes-mem0/package.json"
+  ],
+  "req_files": [
+   "server/requirements.txt",
+   "integrations/agent-plugin-core/requirements-dev.txt"
+  ],
+  "lock_files": [
+   "poetry.lock",
+   "server/dashboard/pnpm-lock.yaml",
+   "cli/node/pnpm-lock.yaml",
+   "integrations/n8n-nodes-mem0/pnpm-lock.yaml",
+   "integrations/vercel-ai-sdk/pnpm-lock.yaml",
+   "integrations/openclaw/pnpm-lock.yaml",
+   "integrations/opencode-plugin/bun.lock",
+   "integrations/zapier-mem0/pnpm-lock.yaml",
+   "integrations/deepseek-plugin/pnpm-lock.yaml",
+   "integrations/pi-agent-plugin/pnpm-lock.yaml"
+  ],
+  "docs_files": 359,
+  "config_files": 16,
+  "config_dirs": [
+   "integrations/pi-agent-plugin",
+   "integrations/vercel-ai-sdk",
+   "mem0-ts/src",
+   "mem0/configs",
+   "tests/configs"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile",
+   "server/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "evaluation",
+    "url": "https://github.com/mem0ai/memory-benchmarks",
+    "commit": "4b61c5d31b9c668a12b4f5e78064248a02c82d2b"
+   }
+  ],
+  "requires_python": ">=3.10,<4.0",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 8,
+  "optional_groups": [
+   "nlp",
+   "vector-stores",
+   "llms",
+   "extras",
+   "test",
+   "dev"
+  ],
+  "entry_files": [
+   "server/server_state.py",
+   "server/main.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "npm install -g @mem0/cli      # or: pip install mem0-cli",
+   "pip install mem0ai",
+   "pip install mem0ai[nlp]",
+   "python -m spacy download en_core_web_sm",
+   "npm install mem0ai",
+   "npm install -g @mem0/cli   # or: pip install mem0-cli"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-26",
+ "archived": "否",
+ "archive": "agents_coding/P0809_mem0ai_mem0_v2.2.1_src_en.tar",
+ "archive_mb": 37.5,
+ "archive_prefix": "mem0-v2.2.1",
+ "finished": "2026-10-29T19:58:18Z"
+}

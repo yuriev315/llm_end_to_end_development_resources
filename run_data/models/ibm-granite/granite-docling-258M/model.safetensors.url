@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/ibm-granite/granite-docling-258M/resolve/982fe3b40f2fa73c365bdb1bcacf6c81b7184bfe/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=515093104
+SHA256=1cdad234deb1cde18ee6a586f849057f19851daf1fedce2e40aff791dbe46f61
+Version=982fe3b40f2fa73c365bdb1bcacf6c81b7184bfe
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

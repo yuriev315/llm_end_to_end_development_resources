@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2/resolve/90c9989b1a342275dd0d1a95aad283c04e075671/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=737719272
+SHA256=6521cb8d0ac08148c81464899c424e6148fcc62befa371089fa4061d8b6e0424
+Version=90c9989b1a342275dd0d1a95aad283c04e075671
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

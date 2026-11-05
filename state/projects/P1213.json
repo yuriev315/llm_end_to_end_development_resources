@@ -1,0 +1,123 @@
+{
+ "id": "P1213",
+ "repo": "microsoft/PyRIT",
+ "upstream": "https://github.com/microsoft/PyRIT",
+ "seed": {
+  "id": "P1213",
+  "repo": "microsoft/PyRIT",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "生成式 AI 风险识别与红队自动化框架"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "93503cdbad7a18c7fb7e77bc8aae44edb0c1a60d",
+ "ref": "v1.1.0",
+ "version": "v1.1.0",
+ "kind": "发布标签",
+ "commit": "d0524f0714840519b826eb770687ca1d4f46a761",
+ "commit_date": "2026-09-04",
+ "commit_subject": "Add technique to default deployment initializers (#2580)",
+ "static": {
+  "file_count": 2922,
+  "size_mb": 113.5,
+  "license_files": [
+   "NOTICE.txt",
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "frontend/e2e",
+   "frontend/src",
+   "tests"
+  ],
+  "test_file_count": 711,
+  "ci": [
+   ".github/workflows/docker_build.yml",
+   ".github/workflows/bicep_topology.yml",
+   ".github/workflows/build_and_test.yml",
+   ".github/workflows/diff_cover.yml",
+   ".github/workflows/triage-feedback.yml",
+   ".github/workflows/frontend_tests.yml",
+   ".github/workflows/docs.yml"
+  ],
+  "docker": [
+   ".devcontainer/Dockerfile",
+   "docker/Dockerfile",
+   "pyrit/executor/promptgen/gcg/src/Dockerfile"
+  ],
+  "compose": [
+   ".devcontainer/docker-compose.yml",
+   "docker/docker-compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "frontend/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock",
+   "frontend/package-lock.json"
+  ],
+  "docs_files": 273,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "pyrit/datasets/scorer_evals/sample/mini_refusal.csv",
+   "tests/unit/data/embedding_2.json",
+   "tests/unit/data/embedding_1.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10, <3.15",
+  "py_scripts": [
+   "pyrit_backend",
+   "pyrit_scan",
+   "pyrit_shell"
+  ],
+  "torch_spec": "",
+  "dep_count": 44,
+  "optional_groups": [
+   "huggingface",
+   "gcg",
+   "playwright",
+   "fairness_bias",
+   "opencv",
+   "speech",
+   "litellm",
+   "all"
+  ],
+  "entry_files": [
+   "docker/run_pyrit_docker.py",
+   "build_scripts/evaluate_scorers.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1213_microsoft_PyRIT_v1.1.0_src_en.tar",
+ "archive_mb": 115.9,
+ "archive_prefix": "PyRIT-v1.1.0",
+ "finished": "2026-10-29T20:06:11Z"
+}

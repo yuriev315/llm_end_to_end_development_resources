@@ -1,0 +1,91 @@
+{
+ "id": "P1112",
+ "repo": "SadilKhan/Text2CAD",
+ "upstream": "https://github.com/SadilKhan/Text2CAD",
+ "seed": {
+  "id": "P1112",
+  "repo": "SadilKhan/Text2CAD",
+  "mod": "11",
+  "x": [],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "文本到 CAD 序列生成（研究代码）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "669a81472ede2269837c22a4d00070eaac360c82",
+ "ref": "main",
+ "version": "main@669a81472e",
+ "kind": "分支快照",
+ "commit": "669a81472ede2269837c22a4d00070eaac360c82",
+ "commit_date": "2025-05-15",
+ "commit_subject": "readme update",
+ "static": {
+  "file_count": 65,
+  "size_mb": 0.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "CC 类",
+  "tests": [
+   "CadSeqProc/test_recon_step.py",
+   "CadSeqProc/test_recon_stl.py",
+   "Cad_VLM/test_user_input.py"
+  ],
+  "test_file_count": 3,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "environment.yml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 3,
+  "config_dirs": [
+   "Cad_VLM/config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "Cad_VLM/train.py",
+   "App/app.py",
+   "Evaluation/eval_seq.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "conda env create --file environment.yml",
+   "python3 json2vec.py --input_dir $DEEPCAD_JSON --split_json $TRAIN_TEST_VAL_JSON --output_dir $OUTPUT_DIR --max_workers $WORKERS --padding --deduplicate",
+   "python3 train.py --config_path config/trainer.yaml",
+   "python3 test.py --config_path config/inference.yaml",
+   "python3 eval_seq.py --input_path ./output.pkl --output_dir ./output",
+   "python3 test_user_input.py --config_path config/inference_user_input.yaml --prompt \"A rectangular prism with a hole in the middle.\"",
+   "python3 test_user_input.py --config_path config/inference_user_input.yaml"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-05-15",
+ "archived": "否",
+ "archive": "applications/P1112_SadilKhan_Text2CAD_main-669a81472e_src_en.tar",
+ "archive_mb": 0.7,
+ "archive_prefix": "Text2CAD-main-669a81472e",
+ "finished": "2026-10-29T20:00:25Z"
+}

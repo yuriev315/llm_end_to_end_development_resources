@@ -1,0 +1,125 @@
+{
+ "id": "P0902",
+ "repo": "huggingface/chat-ui",
+ "upstream": "https://github.com/huggingface/chat-ui",
+ "seed": {
+  "id": "P0902",
+  "repo": "huggingface/chat-ui",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "开源对话前后端（SvelteKit、MongoDB 会话、OpenAI 兼容后端）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "10bfb75e49ffb8f1d2d79989abe6fe619ee63529",
+ "ref": "v0.10.0",
+ "version": "v0.10.0",
+ "kind": "发布标签",
+ "commit": "cac5329f4c7f95cffc2988546c34a12b1730969f",
+ "commit_date": "2026-05-11",
+ "commit_subject": "style(chat): tighten margins around tool blocks",
+ "static": {
+  "file_count": 446,
+  "size_mb": 5.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "src/lib",
+   "src/routes"
+  ],
+  "test_file_count": 25,
+  "ci": [
+   ".github/workflows/trufflehog.yml",
+   ".github/workflows/upload-pr-documentation.yml",
+   ".github/workflows/slugify.yaml",
+   ".github/workflows/deploy-dev.yml",
+   ".github/workflows/build-pr-docs.yml",
+   ".github/workflows/lint-and-test.yml",
+   ".github/workflows/build-image.yml",
+   ".github/workflows/deploy-prod.yml",
+   ".github/workflows/build-docs.yml"
+  ],
+  "docker": [
+   "Dockerfile",
+   ".devcontainer/Dockerfile"
+  ],
+  "compose": [
+   "docker-compose.yml"
+  ],
+  "helm_k8s": [
+   "chart/Chart.yaml",
+   "chart/values.yaml"
+  ],
+  "dep_files": [
+   "package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json"
+  ],
+  "docs_files": 13,
+  "config_files": 0,
+  "config_dirs": [
+   "src/routes"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {},
+  "npm_scripts": [
+   "dev",
+   "build",
+   "build:static",
+   "preview",
+   "check",
+   "check:watch",
+   "lint",
+   "format",
+   "test",
+   "updateLocalEnv",
+   "populate",
+   "config",
+   "prepare"
+  ],
+  "entry_files": [
+   "src/app.d.ts"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/huggingface/chat-ui",
+   "npm install",
+   "npm run dev -- --open",
+   "docker run -d -p 27017:27017 --name mongo-chatui mongo:latest",
+   "npm install",
+   "npm run dev",
+   "docker run \\",
+   "npm run build"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "applications/P0902_huggingface_chat-ui_v0.10.0_src_en.tar",
+ "archive_mb": 5.8,
+ "archive_prefix": "chat-ui-v0.10.0",
+ "finished": "2026-10-29T19:58:29Z"
+}

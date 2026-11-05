@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/garak-llm/attackgeneration-toxicity_gpt2/resolve/565f41dd443592c2146a604211468974d7a7d1a7/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=497774208
+SHA256=34fb828df032f83ab2feeed83fc16063a64ef9f69e67b50c0635ffbb2e71529b
+Version=565f41dd443592c2146a604211468974d7a7d1a7
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

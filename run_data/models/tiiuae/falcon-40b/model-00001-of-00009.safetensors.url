@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/tiiuae/falcon-40b/resolve/05ab2ee8d6b593bdbab17d728de5c028a7a94d83/model-00001-of-00009.safetensors
+
+[FileInfo]
+Filename=model-00001-of-00009.safetensors
+Size=9504757808
+SHA256=33d1225539f0a027f946e4d2a170317daee0c2a4e680e806f7fd876b0e4c012f
+Version=05ab2ee8d6b593bdbab17d728de5c028a7a94d83
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

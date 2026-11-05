@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/docling-project/docling-models/resolve/2199320848bb9a8a519d22e4b528185a4f9a6f64/model_artifacts/tableformer/fast/tableformer_fast.safetensors
+
+[FileInfo]
+Filename=tableformer_fast.safetensors
+Size=145453276
+SHA256=3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718
+Version=2199320848bb9a8a519d22e4b528185a4f9a6f64
+License=cdla-permissive-2.0
+Reason=PLACEHOLDER_OVERSIZE

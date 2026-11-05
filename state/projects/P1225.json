@@ -1,0 +1,104 @@
+{
+ "id": "P1225",
+ "repo": "centerforaisafety/HarmBench",
+ "upstream": "https://github.com/centerforaisafety/HarmBench",
+ "seed": {
+  "id": "P1225",
+  "repo": "centerforaisafety/HarmBench",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "红队与拒答鲁棒性标准化评测"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+ "ref": "main",
+ "version": "main@8e1604d117",
+ "kind": "分支快照",
+ "commit": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+ "commit_date": "2024-08-05",
+ "commit_subject": "Merge pull request #63 from ronakrm/save-test-cases-logging-bugfix",
+ "static": {
+  "file_count": 429,
+  "size_mb": 383.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "adversarial_training/alignment-handbook"
+  ],
+  "test_file_count": 3,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "adversarial_training/alignment-handbook/requirements.txt",
+   "adversarial_training/alignment-handbook/setup.py",
+   "adversarial_training/alignment-handbook/setup.cfg"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "adversarial_training/alignment-handbook/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 4,
+  "config_files": 33,
+  "config_dirs": [
+   "adversarial_training/alignment-handbook",
+   "configs/method_configs",
+   "configs/model_configs",
+   "configs/pipeline_configs"
+  ],
+  "examples_dirs": [
+   "notebooks"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "adversarial_training/alignment-handbook/requirements.txt: torch==2.1.0",
+  "entry_files": [
+   "eval_utils.py",
+   "evaluate_completions.py",
+   "scripts/run_pipeline.py",
+   "scripts/evaluate_completions.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/centerforaisafety/HarmBench.git",
+   "pip install -r requirements.txt",
+   "python -m spacy download en_core_web_sm",
+   "python ./scripts/run_pipeline.py --methods GCG --models all --step all --mode slurm",
+   "python ./scripts/run_pipeline.py --methods all --models llama2_7b --step all --mode slurm",
+   "python ./scripts/run_pipeline.py --methods ZeroShot,PEZ,TAP --models baichuan2_7b,mistral_7b,llama2_70b --step 1 --mode slurm",
+   "python ./scripts/run_pipeline.py --methods ZeroShot,PEZ,TAP --models baichuan2_7b,mistral_7b,llama2_70b --step 1.5 --mode local",
+   "python ./scripts/run_pipeline.py --methods ZeroShot,PEZ,TAP --models baichuan2_7b,mistral_7b,llama2_70b --step 2_and_3 --mode slurm"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-08-05",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1225_centerforaisafety_HarmBench_main-8e1604d117_src_en.tar",
+ "archive_mb": 383.8,
+ "archive_prefix": "HarmBench-main-8e1604d117",
+ "finished": "2026-10-29T20:02:40Z"
+}

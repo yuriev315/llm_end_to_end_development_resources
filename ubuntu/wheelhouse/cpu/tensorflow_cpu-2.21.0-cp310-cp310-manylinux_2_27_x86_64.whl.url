@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://files.pythonhosted.org/packages/d9/6e/134b8f01c4a978cb8aa30b776836ef6335348db73d4feb91bcc7392bf629/tensorflow_cpu-2.21.0-cp310-cp310-manylinux_2_27_x86_64.whl
+
+[FileInfo]
+Filename=tensorflow_cpu-2.21.0-cp310-cp310-manylinux_2_27_x86_64.whl
+Size=273601549
+SHA256=d143e92f5c0661cdfa26eaca8f73cd2efd0ec53a68af8dec82f584ba8eb14b83
+Version=2.21.0
+License=Apache 2.0
+Reason=PLACEHOLDER_OVERSIZE

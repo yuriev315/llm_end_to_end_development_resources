@@ -1,0 +1,92 @@
+{
+ "id": "P1210",
+ "repo": "google-research/camel-prompt-injection",
+ "upstream": "https://github.com/google-research/camel-prompt-injection",
+ "seed": {
+  "id": "P1210",
+  "repo": "google-research/camel-prompt-injection",
+  "mod": "12",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "CaMeL：控制流/数据流隔离防提示注入（研究实现）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "f083b6b396399d3b3c7f2ddaf613a5945eaf32d8",
+ "ref": "main",
+ "version": "main@f083b6b396",
+ "kind": "分支快照",
+ "commit": "f083b6b396399d3b3c7f2ddaf613a5945eaf32d8",
+ "commit_date": "2025-06-20",
+ "commit_subject": "Update README.md, add .env template",
+ "static": {
+  "file_count": 63,
+  "size_mb": 2.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 15,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "capybility-learning"
+  ],
+  "torch_spec": "",
+  "dep_count": 11,
+  "optional_groups": [],
+  "entry_files": [
+   "main.py",
+   "run_code.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "uv run --env-file .env main.py MODEL_NAME [--use-original] [--ad_defense] [--reasoning-effort] [--thinking_budget_tokens] [--run-attack] [--replay-with-policies] [--eval_mode]",
+   "uv run ruff check --fix",
+   "uv run format",
+   "uv run pyright",
+   "uv run pytest"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-06-20",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1210_google-research_camel-prompt-injection_main-f083b6b396_src_en.tar",
+ "archive_mb": 2.2,
+ "archive_prefix": "camel-prompt-injection-main-f083b6b396",
+ "finished": "2026-10-29T20:01:29Z"
+}

@@ -1,0 +1,146 @@
+{
+ "id": "P1201",
+ "repo": "microsoft/presidio",
+ "upstream": "https://github.com/microsoft/presidio",
+ "seed": {
+  "id": "P1201",
+  "repo": "microsoft/presidio",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "PII 识别与脱敏（分析器/匿名器、自定义识别器、Docker）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "17d19468de60558965155a43aa1868336db4f7db",
+ "ref": "2.2.366",
+ "version": "2.2.366",
+ "kind": "发布标签",
+ "commit": "211afc337241aee8bf495f282e83ef639a5d015f",
+ "commit_date": "2026-10-27",
+ "commit_subject": "Release 2.2.366 / 0.0.62 (#2424)",
+ "static": {
+  "file_count": 923,
+  "size_mb": 160.3,
+  "license_files": [
+   "LICENSE",
+   "NOTICE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "docs/samples",
+   "e2e-tests/tests",
+   "presidio-analyzer/tests",
+   "presidio-anonymizer/tests",
+   "presidio-cli/tests",
+   "presidio-image-redactor/tests",
+   "presidio-structured/tests"
+  ],
+  "test_file_count": 195,
+  "ci": [
+   ".github/workflows/release-docs.yml",
+   ".github/workflows/codeql-analysis.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/defender-for-devops.yml",
+   ".github/workflows/label-external.yml",
+   ".github/workflows/label-areas.yml",
+   ".github/workflows/ci.yml"
+  ],
+  "docker": [
+   "presidio-analyzer/Dockerfile.dev",
+   "presidio-analyzer/Dockerfile",
+   "presidio-analyzer/Dockerfile.stanza",
+   "presidio-analyzer/Dockerfile.transformers",
+   "presidio-analyzer/Dockerfile.windows",
+   "presidio-analyzer/Dockerfile.distroless",
+   "presidio-image-redactor/Dockerfile.dev",
+   "presidio-image-redactor/Dockerfile",
+   "presidio-anonymizer/Dockerfile.dev",
+   "presidio-anonymizer/Dockerfile",
+   "presidio-anonymizer/Dockerfile.windows",
+   "presidio-anonymizer/Dockerfile.distroless",
+   "docs/samples/python/streamlit/Dockerfile",
+   "docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/client_app/Dockerfile",
+   "docs/samples/deployments/openai-anonymaztion-and-deanonymaztion-best-practices/src/api/Dockerfile"
+  ],
+  "compose": [
+   "docker-compose.distroless.yml",
+   "docker-compose.yml",
+   "docs/samples/deployments/redacting-telemetry/docker-compose.yml"
+  ],
+  "helm_k8s": [
+   "docs/samples/deployments/k8s/charts/presidio/Chart.yaml",
+   "docs/samples/deployments/k8s/charts/presidio/values.yaml"
+  ],
+  "dep_files": [
+   "pyproject.toml",
+   "presidio-structured/pyproject.toml",
+   "e2e-tests/requirements.txt",
+   "presidio-analyzer/pyproject.toml",
+   "presidio-cli/pyproject.toml",
+   "presidio-image-redactor/pyproject.toml",
+   "presidio-anonymizer/pyproject.toml",
+   "presidio/pyproject.toml"
+  ],
+  "req_files": [
+   ".github/pipelines/requirements-ruff.txt",
+   ".github/pipelines/requirements-build.txt",
+   "e2e-tests/requirements.txt",
+   "docs/requirements-docs.txt"
+  ],
+  "lock_files": [
+   "presidio-structured/uv.lock",
+   "presidio-analyzer/uv.lock",
+   "presidio-cli/uv.lock",
+   "presidio-image-redactor/uv.lock",
+   "presidio-anonymizer/uv.lock"
+  ],
+  "docs_files": 276,
+  "config_files": 3,
+  "config_dirs": [
+   "docs/recipes",
+   "docs/samples",
+   "presidio-structured/presidio_structured"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "presidio-analyzer/tests/data/context_sentences_tests.txt",
+   "docs/samples/fabric/data/fabric_sample_data.csv"
+  ],
+  "readme": [
+   "README.MD"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "presidio-analyzer/app.py",
+   "presidio-image-redactor/app.py",
+   "presidio-anonymizer/app.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1201_microsoft_presidio_2.2.366_src_en.tar",
+ "archive_mb": 161.4,
+ "archive_prefix": "presidio-2.2.366",
+ "finished": "2026-10-29T20:00:53Z"
+}

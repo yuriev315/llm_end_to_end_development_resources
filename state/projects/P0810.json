@@ -1,0 +1,103 @@
+{
+ "id": "P0810",
+ "repo": "SWE-agent/mini-swe-agent（复用）",
+ "upstream": "https://github.com/SWE-agent/mini-swe-agent",
+ "seed": {
+  "id": "P0810",
+  "title": "SWE-agent/mini-swe-agent（复用）",
+  "src": "/root/programming_reference_literature/practice/mini_swe_agent_main_en.tar",
+  "mod": "08",
+  "routes": "C",
+  "role": "教学实现",
+  "purpose": "约百行的参考代码智能体",
+  "x": [],
+  "tag": "复用"
+ },
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/mini_swe_agent_main_en.tar",
+ "version": "main 提交",
+ "commit": "04d809ceab9df28f9adaed044884180159172930",
+ "commit_date": "2026-09-03T01:05:59-04:00",
+ "kind": "复用快照",
+ "static": {
+  "file_count": 221,
+  "size_mb": 1.5,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "src/minisweagent",
+   "tests"
+  ],
+  "test_file_count": 42,
+  "ci": [
+   ".github/workflows/check-links-pr.yaml",
+   ".github/workflows/pylint.yaml",
+   ".github/workflows/release.yaml",
+   ".github/workflows/build-docs.yaml",
+   ".github/workflows/check-links-periodic.yaml",
+   ".github/workflows/pytest.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 67,
+  "config_files": 8,
+  "config_dirs": [
+   "src/minisweagent",
+   "tests/config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "docs/data/all_models.txt"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "mini",
+   "mini-swe-agent",
+   "mini-extra",
+   "mini-e"
+  ],
+  "torch_spec": "",
+  "dep_count": 14,
+  "optional_groups": [
+   "full",
+   "modal",
+   "dev",
+   "contree"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install uv && uvx mini-swe-agent",
+   "pip install pipx && pipx ensurepath && pipx run mini-swe-agent",
+   "pip install mini-swe-agent",
+   "git clone https://github.com/SWE-agent/mini-swe-agent.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "archive": "agents_coding/P0810_mini_swe_agent_main_en.tar",
+ "archive_mb": 2.0,
+ "access_date": "2026-10-29",
+ "sibling_verify": "通过：221 个文件（HTML 2，文档源 63）",
+ "head_commit_date": "",
+ "archived": ""
+}

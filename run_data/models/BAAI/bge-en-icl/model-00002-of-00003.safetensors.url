@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/BAAI/bge-en-icl/resolve/971c7e1445cc86656ca0bd85ed770b8675a40bb5/model-00002-of-00003.safetensors
+
+[FileInfo]
+Filename=model-00002-of-00003.safetensors
+Size=9999625600
+SHA256=e38a3e6db4861026eb6467f88ce6b413e2b487669f9b3cb5b5a140f33b7a7075
+Version=971c7e1445cc86656ca0bd85ed770b8675a40bb5
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

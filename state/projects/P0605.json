@@ -1,0 +1,131 @@
+{
+ "id": "P0605",
+ "repo": "mlc-ai/xgrammar",
+ "upstream": "https://github.com/mlc-ai/xgrammar",
+ "seed": {
+  "id": "P0605",
+  "repo": "mlc-ai/xgrammar",
+  "mod": "06",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "结构化生成语法引擎（vLLM/SGLang 后端）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "ca1acf28bf35b9ba9092800b69aebc7d4ce1f7a7",
+ "ref": "v0.2.8",
+ "version": "v0.2.8",
+ "kind": "发布标签",
+ "commit": "97787376faee5ed8466cfad57c99855e4ce2f6aa",
+ "commit_date": "2026-09-22",
+ "commit_subject": "feat: support MiMo-V2.6 Pro and Flash structural tags (#916)",
+ "static": {
+  "file_count": 271,
+  "size_mb": 4.5,
+  "license_files": [
+   "LICENSE",
+   "NOTICE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests",
+   "web/tests"
+  ],
+  "test_file_count": 34,
+  "ci": [
+   ".github/workflows/close_issues.yaml",
+   ".github/workflows/tmate.yaml",
+   ".github/workflows/benchmark.yaml",
+   ".github/workflows/build_web_xgrammar.yaml",
+   ".github/workflows/routine_unit_test.yaml",
+   ".github/workflows/documentation.yaml",
+   ".github/workflows/build_and_release.yaml",
+   ".github/workflows/unit_test.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "CMakeLists.txt",
+   "site/Gemfile",
+   "web/package.json",
+   "web/example/package.json",
+   "cpp/CMakeLists.txt",
+   "cpp/tvm_ffi/CMakeLists.txt",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt"
+  ],
+  "lock_files": [
+   "web/package-lock.json"
+  ],
+  "docs_files": 42,
+  "config_files": 2,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "3rdparty/dlpack",
+    "url": "https://github.com/dmlc/dlpack.git",
+    "commit": "bbd2f4d32427e548797929af08cfe2a9cbb3cf12"
+   },
+   {
+    "path": "3rdparty/googletest",
+    "url": "https://github.com/google/googletest.git",
+    "commit": "df1544bcee0c7ce35cd5ea0b3eb8cc81855a4140"
+   },
+   {
+    "path": "3rdparty/cpptrace",
+    "url": "https://github.com/jeremy-rifkin/cpptrace.git",
+    "commit": "6689d14c203eed390ae7bb64f56a983cfd7dff9c"
+   }
+  ],
+  "requires_python": ">=3.8, <4",
+  "py_scripts": [],
+  "torch_spec": "torch>=1.10.0",
+  "dep_count": 7,
+  "optional_groups": [
+   "test",
+   "metal"
+  ],
+  "entry_files": [
+   "scripts/run_ctest.sh",
+   "scripts/run_coverage.sh",
+   "web/run_test.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install xgrammar",
+   "pip install \"xgrammar[metal]\""
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "inference/P0605_mlc-ai_xgrammar_v0.2.8_src_en.tar",
+ "archive_mb": 4.7,
+ "archive_prefix": "xgrammar-v0.2.8",
+ "finished": "2026-10-29T19:56:53Z"
+}

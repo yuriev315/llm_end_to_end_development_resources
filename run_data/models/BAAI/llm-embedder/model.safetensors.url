@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/BAAI/llm-embedder/resolve/c3e8ac86ff4859012570d6b59341fe67b88e55ad/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=437955512
+SHA256=56706b084e5defefeb88119b44cac212a9dbc376cc259e3816f1e35e30dacfc5
+Version=c3e8ac86ff4859012570d6b59341fe67b88e55ad
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

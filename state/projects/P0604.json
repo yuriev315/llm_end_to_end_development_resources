@@ -1,0 +1,111 @@
+{
+ "id": "P0604",
+ "repo": "dottxt-ai/outlines",
+ "upstream": "https://github.com/dottxt-ai/outlines",
+ "seed": {
+  "id": "P0604",
+  "repo": "dottxt-ai/outlines",
+  "mod": "06",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "受约束生成：JSON Schema/正则/语法"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "c52af8472c6fe8a607a733ec11b709476af77a96",
+ "ref": "1.3.3",
+ "version": "1.3.3",
+ "kind": "发布标签",
+ "commit": "3d251f8d758a01cfee4ddc99646886845dbd8c6d",
+ "commit_date": "2026-08-06",
+ "commit_subject": "Note standalone use in comments and pin the e164 upper bound",
+ "static": {
+  "file_count": 298,
+  "size_mb": 4.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 53,
+  "ci": [
+   ".github/workflows/build_documentation.yml",
+   ".github/workflows/deploy_documentation.yml",
+   ".github/workflows/release_pypi.yaml",
+   ".github/workflows/publish_documentation.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/tests_api_models.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "environment.yml",
+   "setup.cfg",
+   "examples/bentoml/requirements.txt"
+  ],
+  "req_files": [
+   "requirements-doc.txt",
+   "examples/bentoml/requirements.txt"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 124,
+  "config_files": 2,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<3.14",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 9,
+  "optional_groups": [
+   "anthropic",
+   "dottxt",
+   "gemini",
+   "llamacpp",
+   "mlxlm",
+   "lmstudio",
+   "ollama",
+   "openai",
+   "mistral",
+   "sglang",
+   "tgi",
+   "transformers"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install outlines"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-08-24",
+ "archived": "否",
+ "archive": "inference/P0604_dottxt-ai_outlines_1.3.3_src_en.tar",
+ "archive_mb": 5.0,
+ "archive_prefix": "outlines-1.3.3",
+ "finished": "2026-10-29T19:56:50Z"
+}

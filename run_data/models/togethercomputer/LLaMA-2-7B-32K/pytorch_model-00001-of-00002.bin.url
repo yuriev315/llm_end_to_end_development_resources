@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/pytorch_model-00001-of-00002.bin
+
+[FileInfo]
+Filename=pytorch_model-00001-of-00002.bin
+Size=9976634558
+SHA256=e79a35ab0e3e1cde7d3707f80a226cb6d0d2fde58a5d8435a8d903586115fa97
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_OVERSIZE

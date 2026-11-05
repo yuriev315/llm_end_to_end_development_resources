@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/BAAI/bge-reranker-large/resolve/55611d7bca2a7133960a6d3b71e083071bbfc312/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=2239618772
+SHA256=c5ae4e262c60ed2fb507ec587358285377ec36ee0a2e6da029f0534272b06d36
+Version=55611d7bca2a7133960a6d3b71e083071bbfc312
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

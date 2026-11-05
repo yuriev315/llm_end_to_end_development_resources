@@ -1,0 +1,125 @@
+{
+ "id": "P1214",
+ "repo": "openfga/openfga",
+ "upstream": "https://github.com/openfga/openfga",
+ "seed": {
+  "id": "P1214",
+  "repo": "openfga/openfga",
+  "mod": "12",
+  "x": [
+   "07",
+   "09"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "细粒度授权（关系型访问控制，适用于用户/租户/文档权限过滤）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "44054f542f64e9b9589dd26a595081b3d2cfd942",
+ "ref": "v1.22.1",
+ "version": "v1.22.1",
+ "kind": "发布标签",
+ "commit": "44054f542f64e9b9589dd26a595081b3d2cfd942",
+ "commit_date": "2026-10-28",
+ "commit_subject": "Update changelog to prep for 1.22.1 release (#3367)",
+ "static": {
+  "file_count": 578,
+  "size_mb": 7.0,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "assets/tests",
+   "cmd/migrate",
+   "cmd/openfga",
+   "cmd/run",
+   "cmd/validatemodels",
+   "internal/authn",
+   "internal/authz",
+   "internal/cachecontroller",
+   "internal/check",
+   "internal/checkutil",
+   "internal/concurrency",
+   "internal/condition"
+  ],
+  "test_file_count": 183,
+  "ci": [
+   ".github/workflows/create-helm-release-pr.yaml",
+   ".github/workflows/claude-code-review.yaml",
+   ".github/workflows/main.yaml",
+   ".github/workflows/codeql.yml",
+   ".github/workflows/release.yaml",
+   ".github/workflows/scorecard.yml",
+   ".github/workflows/enforce-changelog-entry.yaml",
+   ".github/workflows/pull_request.yaml",
+   ".github/workflows/markdown-links.yaml",
+   ".github/workflows/release-nightly.yaml",
+   ".github/workflows/create-release-tag.yaml"
+  ],
+  "docker": [
+   "Dockerfile.goreleaser",
+   "Dockerfile",
+   ".github/instructions/dockerfile-goreleaser-sync.instructions.md"
+  ],
+  "compose": [
+   "docker-compose.yaml",
+   "docker-compose.override.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "go.mod"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "go.sum"
+  ],
+  "docs_files": 27,
+  "config_files": 0,
+  "config_dirs": [
+   "pkg/server"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASES.md",
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "docker run -p 8080:8080 -p 3000:3000 openfga/openfga run",
+   "docker pull openfga/openfga",
+   "docker run -p 8080:8080 -p 3000:3000 openfga/openfga run",
+   "docker compose up",
+   "go install github.com/openfga/openfga/cmd/openfga",
+   "git clone https://github.com/openfga/openfga.git && cd openfga",
+   "go build -o ./openfga ./cmd/openfga"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-28",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1214_openfga_openfga_v1.22.1_src_en.tar",
+ "archive_mb": 7.5,
+ "archive_prefix": "openfga-v1.22.1",
+ "finished": "2026-10-29T20:01:55Z"
+}

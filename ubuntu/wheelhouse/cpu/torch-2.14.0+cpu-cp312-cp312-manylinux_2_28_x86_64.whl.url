@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cpu/torch-2.14.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+
+[FileInfo]
+Filename=torch-2.14.0+cpu-cp312-cp312-manylinux_2_28_x86_64.whl
+Size=196253793
+SHA256=a09987c95ec4cffdb6df798d3d641558110a334cfccce22f2f046d83142bc260
+Version=2.14.0+cpu
+License=UNKNOWN
+Reason=PLACEHOLDER_OVERSIZE

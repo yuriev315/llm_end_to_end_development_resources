@@ -1,0 +1,98 @@
+{
+ "id": "P1117",
+ "repo": "SWE-bench/SWE-smith",
+ "upstream": "https://github.com/SWE-bench/SWE-smith",
+ "seed": {
+  "id": "P1117",
+  "repo": "SWE-bench/SWE-smith",
+  "mod": "11",
+  "x": [
+   "04",
+   "08"
+  ],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Coding 智能体训练数据合成（任务实例生成、轨迹）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "9b74ac08118a85c39c356802f7961893af73e07f",
+ "ref": "v0.0.6",
+ "version": "v0.0.6",
+ "kind": "发布标签",
+ "commit": "057f0478b6918bfcd89a51ceeec7229c60bb1028",
+ "commit_date": "2025-07-21",
+ "commit_subject": "v0.0.6",
+ "static": {
+  "file_count": 227,
+  "size_mb": 21.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "CC 类",
+  "tests": [
+   "swesmith/train",
+   "tests"
+  ],
+  "test_file_count": 23,
+  "ci": [
+   ".github/workflows/build-docs.yaml",
+   ".github/workflows/check-links.yaml",
+   ".github/workflows/pytest.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 45,
+  "config_files": 11,
+  "config_dirs": [
+   "configs",
+   "configs/bug_gen",
+   "configs/issue_gen",
+   "configs/train"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 28,
+  "optional_groups": [
+   "docs",
+   "test"
+  ],
+  "entry_files": [
+   "scripts/train.serve_sglang.sh",
+   "scripts/train.run_ft_torchtune.sh",
+   "scripts/train.get_difficulties.sh",
+   "scripts/train.run_ft_unsloth.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-03-21",
+ "archived": "否",
+ "archive": "applications/P1117_SWE-bench_SWE-smith_v0.0.6_src_en.tar",
+ "archive_mb": 21.8,
+ "archive_prefix": "SWE-smith-v0.0.6",
+ "finished": "2026-10-29T20:00:45Z"
+}

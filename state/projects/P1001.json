@@ -1,0 +1,147 @@
+{
+ "id": "P1001",
+ "repo": "vllm-project/production-stack",
+ "upstream": "https://github.com/vllm-project/production-stack",
+ "seed": {
+  "id": "P1001",
+  "repo": "vllm-project/production-stack",
+  "mod": "10",
+  "x": [
+   "06"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^vllm-stack-(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "vLLM 生产部署：Helm、路由、KV 缓存复用、Prometheus/Grafana 监控"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "2f879ef8a7c21f975ac0b2675267b7ba681b2cfa",
+ "ref": "vllm-stack-0.1.13",
+ "version": "vllm-stack-0.1.13",
+ "kind": "发布标签",
+ "commit": "e8cb4959ebfa333714ef468a3aefe158a65a09e6",
+ "commit_date": "2026-09-29",
+ "commit_subject": "feat(helm): optional runtime AI inventory via k8s-aibom (default off) (#1099)",
+ "static": {
+  "file_count": 610,
+  "size_mb": 5.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "helm/tests",
+   "operator/internal",
+   "operator/test",
+   "src/tests",
+   "tests"
+  ],
+  "test_file_count": 36,
+  "ci": [
+   ".github/workflows/runner-cleanup.yml",
+   ".github/workflows/gatekeeper.yml",
+   ".github/workflows/scheduled-release.yml",
+   ".github/workflows/pre-commit.yml",
+   ".github/workflows/router-docker-release.yml",
+   ".github/workflows/operator-test.yml",
+   ".github/workflows/functionality-helm-chart.yml",
+   ".github/workflows/gateway-inference-extension.yml",
+   ".github/workflows/router-e2e-test.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/operator-docker-release.yml",
+   ".github/workflows/helm-release.yml",
+   ".github/workflows/matchers/actionlint.json"
+  ],
+  "docker": [
+   "docker/Dockerfile.kvaware",
+   "docker/Dockerfile.sidecar",
+   "docker/Dockerfile",
+   "operator/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [
+   "helm/Chart.yaml",
+   "helm/values.yaml",
+   "operator/config/default/kustomization.yaml",
+   "operator/config/prometheus/kustomization.yaml",
+   "operator/config/crd/kustomization.yaml",
+   "operator/config/rbac/kustomization.yaml",
+   "operator/config/samples/kustomization.yaml",
+   "operator/config/manager/kustomization.yaml",
+   "operator/config/network-policy/kustomization.yaml"
+  ],
+  "dep_files": [
+   "pyproject.toml",
+   "benchmarks/multi-round-qa/requirements.txt",
+   "src/tests/requirements.txt",
+   "src/vllm_router/requirements.txt",
+   "operator/go.mod"
+  ],
+  "req_files": [
+   "requirements-test.txt",
+   "benchmarks/multi-round-qa/requirements.txt",
+   "src/tests/requirements.txt",
+   "src/vllm_router/requirements.txt",
+   "docs/requirements-docs.txt"
+  ],
+  "lock_files": [
+   "uv.lock",
+   "operator/go.sum"
+  ],
+  "docs_files": 37,
+  "config_files": 76,
+  "config_dirs": [
+   "operator/config",
+   "src/gateway_inference_extension",
+   "tutorials/terraform"
+  ],
+  "examples_dirs": [
+   "examples",
+   "tutorials"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile",
+   "operator/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.12",
+  "py_scripts": [
+   "vllm-router"
+  ],
+  "torch_spec": "",
+  "dep_count": 19,
+  "optional_groups": [
+   "default",
+   "semantic_cache",
+   "lmcache",
+   "test"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone https://github.com/vllm-project/production-stack.git",
+   "helm repo add vllm https://vllm-project.github.io/production-stack",
+   "helm install vllm vllm/vllm-stack -f tutorials/assets/values-01-minimal-example.yaml",
+   "helm uninstall vllm"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "deployment_operations/P1001_vllm-project_production-stack_vllm-stack-0.1.13_src_en.tar",
+ "archive_mb": 6.1,
+ "archive_prefix": "production-stack-vllm-stack-0.1.13",
+ "finished": "2026-10-29T19:58:53Z"
+}

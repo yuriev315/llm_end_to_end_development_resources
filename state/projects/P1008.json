@@ -1,0 +1,128 @@
+{
+ "id": "P1008",
+ "repo": "temporalio/sdk-python",
+ "upstream": "https://github.com/temporalio/sdk-python",
+ "seed": {
+  "id": "P1008",
+  "repo": "temporalio/sdk-python",
+  "mod": "10",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "持久执行：活动超时、重试策略、取消、幂等工作流（需 Temporal 服务）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "e744623a33b96d87cfb89881a10631249b9415c8",
+ "ref": "1.35.0",
+ "version": "1.35.0",
+ "kind": "发布标签",
+ "commit": "b625314857b608d57aa3e1e6809c9baed086d1b4",
+ "commit_date": "2026-10-28",
+ "commit_subject": "Prepare release 1.35.0 (#2034)",
+ "static": {
+  "file_count": 690,
+  "size_mb": 11.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 92,
+  "ci": [
+   ".github/workflows/run-bench.yml",
+   ".github/workflows/sdk-sentinel-pr-responder.yml",
+   ".github/workflows/release-publish.yml",
+   ".github/workflows/nightly.yml",
+   ".github/workflows/changelog.yml",
+   ".github/workflows/ci.yml"
+  ],
+  "docker": [
+   "scripts/_proto/Dockerfile",
+   "scripts/_proto/Dockerfile.dockerignore"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "temporalio/bridge/Cargo.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock",
+   "temporalio/bridge/Cargo.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "temporalio/bridge/sdk-core",
+    "url": "https://github.com/temporalio/sdk-rust.git",
+    "commit": "c8d91918958c98d24e46b544507788c4273e13c7"
+   }
+  ],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 5,
+  "optional_groups": [
+   "grpc",
+   "opentelemetry",
+   "pydantic",
+   "openai-agents",
+   "google-adk",
+   "langgraph",
+   "langsmith",
+   "deepagents",
+   "lambda-worker-otel",
+   "cloud-run-worker-otel",
+   "aioboto3",
+   "gcloud-aio-storage"
+  ],
+  "entry_files": [
+   "temporalio/runtime.py",
+   "scripts/run_bench.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "uv tool install poethepoet",
+   "git clone --recursive https://github.com/temporalio/sdk-python.git",
+   "uv sync --all-extras",
+   "uv build",
+   "pip install wheel",
+   "pip install /path/to/cloned/sdk-python/dist/*.whl",
+   "python example.py",
+   "git clone --recursive https://github.com/temporalio/sdk-python.git",
+   "uv sync --all-extras",
+   "uv run pytest"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "deployment_operations/P1008_temporalio_sdk-python_1.35.0_src_en.tar",
+ "archive_mb": 12.1,
+ "archive_prefix": "sdk-python-1.35.0",
+ "finished": "2026-10-29T20:03:33Z"
+}

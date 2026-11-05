@@ -1,0 +1,35 @@
+﻿路线,环节/资料,覆盖判定,缺口说明,优先级,优先级含义,相关条目,建议处理
+2 专业知识 RAG（医疗）,术语与编码,部分覆盖,术语库本体缺失（许可限制）,P0,阻塞：缺少后无法连接流程,P1106；P1107,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（医疗）,指南版本与证据追踪、专家评价、人工接管,部分覆盖,指南全文及其版本库缺失；FDA CDS 指南下载 403 未取得；人工接管流程只有通用标注平台,P0,阻塞：缺少后无法连接流程,P0507；P0204；G05；G01,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（机械制造）,单位、公差、材料数据,缺失,公差标准与材料数据无开放参考实现,P0,阻塞：缺少后无法连接流程,P1108,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（机械制造）,仿真结果检查与工程师审核,缺失,无开放的仿真结果独立校验参考实现；审核只能借用通用标注平台,P0,阻塞：缺少后无法连接流程,P1114；P0206,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（机械制造）,实际控制（PLC/工业自动化）,部分覆盖,仅研究原型；不得作为实际控制方案,P0,阻塞：缺少后无法连接流程,P1115；P1116,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（通用环节）,权限过滤,部分覆盖,OpenFGA 与向量库的过滤拼接无上游参考实现，属本库建议，未验证,P0,阻塞：缺少后无法连接流程,P1214；P0705；P0903,见 reference_stacks_cn.md 对应路线“待补”
+4 模型微调与发布,基座和许可证,部分覆盖,未下载任何权重；具体基座许可需逐个核对模型卡,P0,阻塞：缺少后无法连接流程,D10；P0403,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,模型接入或自托管,已覆盖,接口规范快照为 main 分支提交，未与 vLLM 版本逐字段比对,P1,测试/权限/隔离/回归/恢复/部署不足,D0601；P0601；P0602；P1003,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,输入处理,部分覆盖,lingua-py 2.x 快照不含 Rust 实现（lingua-rs）；多语言误报/漏报需自建评测；原始/处理后输入关联需业务侧实现（见 input_output_pipeline）,P1,测试/权限/隔离/回归/恢复/部署不足,P1218；P1203；P1201；P1202；P1204；P1209；P1206,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,上下文与记忆,部分覆盖,记忆删除的不可恢复性与多租户隔离只有上游接口，没有独立评测集,P1,测试/权限/隔离/回归/恢复/部署不足,P1215；P0809；P1216；P0806,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,生成,已覆盖,流式中断/取消的端到端测试需自建,P1,测试/权限/隔离/回归/恢复/部署不足,P0601；P0605；P0604,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,输出处理,部分覆盖,llm-guard 上游已归档（只作参考）；事实正确性需独立证据检查（见 RAG 路线）,P1,测试/权限/隔离/回归/恢复/部署不足,P1217；P1219；P1205；P1221；P1222；P1207,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,认证与隔离,部分覆盖,跨产品统一身份（OIDC/SAML）仅有各项目自带实现，未见统一参考,P1,测试/权限/隔离/回归/恢复/部署不足,P0901；P0903；P1214；P1003,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,部署,已覆盖,无执行证据（L1）,P1,测试/权限/隔离/回归/恢复/部署不足,P0901；P1001；P1002；P1005,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（医疗）,医学检索语料与评测,部分覆盖,研究原型，未声明临床用途；语料未下载,P1,测试/权限/隔离/回归/恢复/部署不足,P1101；P1102,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（医疗）,单位与计算工具,部分覆盖,计算器实现为研究代码，未经临床验证,P1,测试/权限/隔离/回归/恢复/部署不足,P1108；P1105,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（机械制造）,CAD/CAE 接口,部分覆盖,Foam-Agent 含 57 个 LFS 指针未取回；研究原型均非生产级,P1,测试/权限/隔离/回归/恢复/部署不足,P1109；P1110；P1111；P1114；P1112；P1113,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（通用环节）,文档获取,部分覆盖,业务系统连接器（SharePoint/Confluence 等）只在 RAGFlow/Dify 内置，未单独核对,P1,测试/权限/隔离/回归/恢复/部署不足,P0702；P0904；P0207,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（通用环节）,解析与来源定位,已覆盖,工程图纸（尺寸标注/公差/图框）无专门解析器,P1,测试/权限/隔离/回归/恢复/部署不足,P0202；P0208；P0702,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（通用环节）,回答与引用,部分覆盖,“有证据支持”与“事实正确”需分开评测，上游只给指标实现,P1,测试/权限/隔离/回归/恢复/部署不足,P0702；P0703；P1220,见 reference_stacks_cn.md 对应路线“待补”
+2 专业知识 RAG（通用环节）,更新维护,部分覆盖,知识库版本与答案日志的关联需自建,P1,测试/权限/隔离/回归/恢复/部署不足,P0207；P0705,见 reference_stacks_cn.md 对应路线“待补”
+3 Coding 智能体,隔离执行,已覆盖,资源配额与网络策略需部署方配置,P1,测试/权限/隔离/回归/恢复/部署不足,P0811；P0505；D41,见 reference_stacks_cn.md 对应路线“待补”
+4 模型微调与发布,微调,已覆盖,LLaMA-Factory v0.9.5 约束 trl<=0.24.0、peft<=0.18.1、vllm<=0.11.0，与本库 TRL/PEFT/vLLM 快照不兼容；verl 固定 vllm==0.24.0。所需旧版本未下载,P1,测试/权限/隔离/回归/恢复/部署不足,P0401；P0402；P0403；P0404,见 reference_stacks_cn.md 对应路线“待补”
+4 模型微调与发布,服务部署,已覆盖,production-stack helm/values.yaml 默认引擎镜像 lmcache/vllm-openai:latest 未固定版本，部署前需固定,P1,测试/权限/隔离/回归/恢复/部署不足,P0601；P0403；P1001,见 reference_stacks_cn.md 对应路线“待补”
+4 模型微调与发布,回归、灰度与回滚,部分覆盖,数据—模型—分词器—提示—适配器版本关联需用 DVC/MLflow/Langfuse 组合，未见上游一体化参考,P1,测试/权限/隔离/回归/恢复/部署不足,P0504；P1002；P0607；P1004,见 reference_stacks_cn.md 对应路线“待补”
+全局,资料获取：open-webui/docs,缺失,上游文档仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）,P1,资料缺口,D0902,待上游补充许可证后重新收录
+全局,资料获取：FreedomIntelligence/HuatuoGPT-II,缺失,上游仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）,P1,资料缺口,P1104,待上游补充许可证后重新收录
+1 通用对话助手,前后端,已覆盖,open-webui 为 Open WebUI License（含品牌保留条款），商用前需审阅,P2,优化参考,P0901；P0902；P0903,见 reference_stacks_cn.md 对应路线“待补”
+1 通用对话助手,监控与反馈,已覆盖,失败分类体系需业务自定义,P2,优化参考,P1004；P1001；D18；D19,见 reference_stacks_cn.md 对应路线“待补”
+3 Coding 智能体,计划与工具调用,已覆盖,OpenHands SDK 固定 litellm==1.93.0，与本库 LiteLLM 1.106.6 快照不同环境,P2,优化参考,P0801；P0811；D26,见 reference_stacks_cn.md 对应路线“待补”
+3 Coding 智能体,构建测试与静态分析,已覆盖,依赖解析只按 SWE-bench 规格，通用依赖解析器（uv 等）未收录源码,P2,优化参考,P0505；P0802；P0808；D37；D42,见 reference_stacks_cn.md 对应路线“待补”
+3 Coding 智能体,IDE 或终端集成,已覆盖,continue 快照 README 缺安装说明（文档在 docs/）,P2,优化参考,P0804；P0802；D28,见 reference_stacks_cn.md 对应路线“待补”
+全局,资料获取：Clinical Decision Support Software: Guidance for Industry and FDA Staff,缺失,下载失败 HTTP 403,P2,资料缺口,G03,人工下载或换源
+全局,资料获取：Good Machine Learning Practice for Medical Device Development: Guiding Principles,缺失,下载失败 HTTP 403,P2,资料缺口,G04,人工下载或换源

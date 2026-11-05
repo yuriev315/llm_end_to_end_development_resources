@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/BAAI/bge-base-en-v1.5/resolve/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=437955512
+SHA256=c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7
+Version=a5beb1e3e68b9ab74eb54cfd186867f64f240e1a
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

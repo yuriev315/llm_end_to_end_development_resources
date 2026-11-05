@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/allenai/specter/resolve/81cbfb43d4fc2e728d5b4201ce14987db8d0854c/pytorch_model.bin
+
+[FileInfo]
+Filename=pytorch_model.bin
+Size=439803023
+SHA256=a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c
+Version=81cbfb43d4fc2e728d5b4201ce14987db8d0854c
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

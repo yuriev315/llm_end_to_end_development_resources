@@ -1,0 +1,100 @@
+{
+ "id": "P1110",
+ "repo": "gumyr/build123d",
+ "upstream": "https://github.com/gumyr/build123d",
+ "seed": {
+  "id": "P1110",
+  "repo": "gumyr/build123d",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "参数化 CAD（基于 OCCT），导出 STEP/STL"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "dev",
+ "head_commit": "4f8c549b58cf6141fc536e22da202fbf5bef5746",
+ "ref": "v0.13.0",
+ "version": "v0.13.0",
+ "kind": "发布标签",
+ "commit": "38effd343e1508964673faf59300a5cc68fbedc1",
+ "commit_date": "2026-09-19",
+ "commit_subject": "Merge pull request #1442 from bernhard-42/ocp8",
+ "static": {
+  "file_count": 712,
+  "size_mb": 33.9,
+  "license_files": [
+   "LICENSE",
+   "NOTICE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 69,
+  "ci": [
+   ".github/workflows/coverage.yml",
+   ".github/workflows/publish.yml",
+   ".github/workflows/type.yml",
+   ".github/workflows/benchmark.yml",
+   ".github/workflows/test.yml",
+   ".github/workflows/lint.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "docs/environment.yaml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 468,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">= 3.11, < 3.15",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 20,
+  "optional_groups": [
+   "ocp_vscode",
+   "development",
+   "stubs",
+   "docs",
+   "all"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install build123d",
+   "pip install --upgrade pip",
+   "pip install git+https://github.com/gumyr/build123d"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "applications/P1110_gumyr_build123d_v0.13.0_src_en.tar",
+ "archive_mb": 34.5,
+ "archive_prefix": "build123d-v0.13.0",
+ "finished": "2026-10-29T20:00:19Z"
+}

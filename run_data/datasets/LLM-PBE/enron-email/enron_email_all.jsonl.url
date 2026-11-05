@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/LLM-PBE/enron-email/resolve/a4761f17a981d79bd286bfff7dd0d53645aa5027/enron_email_all.jsonl
+
+[FileInfo]
+Filename=enron_email_all.jsonl
+Size=980990740
+SHA256=477bed314edc4e1a746b55f41ca9c8e64a954b7e6dda1aa1d0d866fd9ec7e360
+Version=a4761f17a981d79bd286bfff7dd0d53645aa5027
+License=apache-2.0
+Reason=PLACEHOLDER_OVERSIZE

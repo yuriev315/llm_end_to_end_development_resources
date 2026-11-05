@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/lmsys/vicuna-13b-v1.5/resolve/c8327bf999adbd2efe2e75f6509fa01436100dc2/generation_config.json
+
+[FileInfo]
+Filename=generation_config.json
+Size=192
+SHA256=684451ef5b02bb2883d15bff0aef7be79726bdd936ea45e599248e073d5b4d2f
+Version=c8327bf999adbd2efe2e75f6509fa01436100dc2
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

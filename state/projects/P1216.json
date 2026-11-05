@@ -1,0 +1,88 @@
+{
+ "id": "P1216",
+ "repo": "microsoft/LLMLingua",
+ "upstream": "https://github.com/microsoft/LLMLingua",
+ "seed": {
+  "id": "P1216",
+  "repo": "microsoft/LLMLingua",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "提示/上下文压缩"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "5a4c78ae18ab17a98cf997e8259354e546081d64",
+ "ref": "v0.2.2",
+ "version": "v0.2.2",
+ "kind": "发布标签",
+ "commit": "a411a3fa61df74411157b2512b592d5357bd8f17",
+ "commit_date": "2024-04-09",
+ "commit_subject": "Prereleased(LLMLinguia): fix the chunck issue and prepare for v0.2.2 (#130)",
+ "static": {
+  "file_count": 67,
+  "size_mb": 4.4,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 3,
+  "ci": [
+   ".github/workflows/release.yml",
+   ".github/workflows/unittest.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   "setup.cfg"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install llmlingua"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-09-10",
+ "archived": "否",
+ "archive": "input_output_pipeline/P1216_microsoft_LLMLingua_v0.2.2_src_en.tar",
+ "archive_mb": 4.5,
+ "archive_prefix": "LLMLingua-v0.2.2",
+ "finished": "2026-10-29T20:02:02Z"
+}

@@ -1,0 +1,113 @@
+{
+ "id": "P0805",
+ "repo": "SWE-agent/SWE-agent",
+ "upstream": "https://github.com/SWE-agent/SWE-agent",
+ "seed": {
+  "id": "P0805",
+  "repo": "SWE-agent/SWE-agent",
+  "mod": "08",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "仓库问题修复智能体：ACI 工具、配置、轨迹、批量评测"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+ "ref": "v1.1.0",
+ "version": "v1.1.0",
+ "kind": "发布标签",
+ "commit": "0f3acafacabc0def8cc76b4e48acb4b6cf302cb9",
+ "commit_date": "2025-05-22",
+ "commit_subject": "Doc: Update changelog",
+ "static": {
+  "file_count": 441,
+  "size_mb": 31.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "sweagent/frontend",
+   "sweagent/run",
+   "tests"
+  ],
+  "test_file_count": 21,
+  "ci": [
+   ".github/workflows/build-docs.yaml",
+   ".github/workflows/check-links.yaml",
+   ".github/workflows/pytest.yaml"
+  ],
+  "docker": [
+   "Dockerfile",
+   "tests/test_data/data_sources/ctf/pwn/warmup/Dockerfile",
+   "tests/test_data/data_sources/ctf/crypto/Katy/Dockerfile",
+   "tests/test_data/data_sources/ctf/web/i_got_id_demo/Dockerfile"
+  ],
+  "compose": [
+   "tests/test_data/data_sources/ctf/pwn/warmup/docker-compose.yml",
+   "tests/test_data/data_sources/ctf/crypto/Katy/docker-compose.yml",
+   "tests/test_data/data_sources/ctf/web/i_got_id_demo/docker-compose.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "sweagent/api/requirements.txt",
+   "sweagent/frontend/package.json"
+  ],
+  "req_files": [
+   "sweagent/api/requirements.txt"
+  ],
+  "lock_files": [
+   "sweagent/frontend/package-lock.json"
+  ],
+  "docs_files": 84,
+  "config_files": 15,
+  "config_dirs": [
+   "config",
+   "config/benchmarks",
+   "config/exotic",
+   "config/human",
+   "config/sweagent_0_7",
+   "docs/config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "release_dockerhub.sh"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11",
+  "py_scripts": [
+   "sweagent"
+  ],
+  "torch_spec": "",
+  "dep_count": 21,
+  "optional_groups": [
+   "dev"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-07-16",
+ "archived": "否",
+ "archive": "agents_coding/P0805_SWE-agent_SWE-agent_v1.1.0_src_en.tar",
+ "archive_mb": 31.9,
+ "archive_prefix": "SWE-agent-v1.1.0",
+ "finished": "2026-10-29T19:57:55Z"
+}

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/intfloat/e5-small-v2/resolve/ffb93f3bd4047442299a41ebb6fa998a38507c52/model.safetensors
+
+[FileInfo]
+Filename=model.safetensors
+Size=133466304
+SHA256=45bfa60070649aae2244fbc9d508537779b93b6f353c17b0f95ceccb1c5116c1
+Version=ffb93f3bd4047442299a41ebb6fa998a38507c52
+License=mit
+Reason=PLACEHOLDER_OVERSIZE

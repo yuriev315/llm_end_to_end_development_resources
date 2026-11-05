@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/datasets/ought/raft/resolve/9ee50172ea9afda2f1033c6f1b986e568b862fb3/data/banking_77/test_unlabeled.csv
+
+[FileInfo]
+Filename=test_unlabeled.csv
+Size=327152
+SHA256=aebd62e56a3b8ebf618afa519cc261fedc7700d96053357ebff83fab44bbaeac
+Version=9ee50172ea9afda2f1033c6f1b986e568b862fb3
+License=other
+Reason=PLACEHOLDER_RESTRICTED

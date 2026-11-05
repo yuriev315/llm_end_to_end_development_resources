@@ -1,0 +1,88 @@
+{
+ "id": "P1107",
+ "repo": "nazrulworld/fhir.resources",
+ "upstream": "https://github.com/nazrulworld/fhir.resources",
+ "seed": {
+  "id": "P1107",
+  "repo": "nazrulworld/fhir.resources",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "FHIR 资源 Python 模型（与医疗业务系统对接的数据结构校验）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "cf7bb2cfe6aa3faa64a5ca2cbb67af6d01251cdb",
+ "ref": "8.3.0",
+ "version": "8.3.0",
+ "kind": "发布标签",
+ "commit": "61831208f39d8eb58aac681d9b5c22d6134faa24",
+ "commit_date": "2026-07-03",
+ "commit_subject": "Preparing release 8.3.0",
+ "static": {
+  "file_count": 1210,
+  "size_mb": 30.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "BSD 类",
+  "tests": [
+   "fhir/resources",
+   "tests"
+  ],
+  "test_file_count": 309,
+  "ci": [
+   ".travis.yml",
+   ".github/workflows/ci.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   "setup.cfg"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.rst"
+  ],
+  "changelog": [
+   "HISTORY.rst"
+  ],
+  "makefile": [
+   "Makefile",
+   "tox.ini"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-09-14",
+ "archived": "否",
+ "archive": "applications/P1107_nazrulworld_fhir.resources_8.3.0_src_en.tar",
+ "archive_mb": 31.0,
+ "archive_prefix": "fhir.resources-8.3.0",
+ "finished": "2026-10-29T20:00:06Z"
+}
