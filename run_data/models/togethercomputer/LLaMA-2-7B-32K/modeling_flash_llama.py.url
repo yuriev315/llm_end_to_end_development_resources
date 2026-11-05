@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/modeling_flash_llama.py
+
+[FileInfo]
+Filename=modeling_flash_llama.py
+Size=45343
+SHA256=ef7b9567c7097a34e0481cf3e2b0e3b2c4e2a9489083c8cf02c459d32a399d58
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

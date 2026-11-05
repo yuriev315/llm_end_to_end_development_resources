@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/lmsys/vicuna-13b-v1.5/resolve/c8327bf999adbd2efe2e75f6509fa01436100dc2/tokenizer.model
+
+[FileInfo]
+Filename=tokenizer.model
+Size=499723
+SHA256=9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347
+Version=c8327bf999adbd2efe2e75f6509fa01436100dc2
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

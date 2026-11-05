@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/lmsys/vicuna-13b-v1.5/resolve/c8327bf999adbd2efe2e75f6509fa01436100dc2/special_tokens_map.json
+
+[FileInfo]
+Filename=special_tokens_map.json
+Size=438
+SHA256=719833ff26ac897a3ec8ed946028a135de2a351470af59b4008744ab1f0ee9b7
+Version=c8327bf999adbd2efe2e75f6509fa01436100dc2
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

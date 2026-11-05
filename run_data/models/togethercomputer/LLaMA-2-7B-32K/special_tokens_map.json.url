@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/special_tokens_map.json
+
+[FileInfo]
+Filename=special_tokens_map.json
+Size=96
+SHA256=c7869b435de14d46342ee8a81758ecfb18e564629d2a94f9f2a542fee970e16e
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

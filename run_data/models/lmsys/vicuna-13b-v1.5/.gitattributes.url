@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/lmsys/vicuna-13b-v1.5/resolve/c8327bf999adbd2efe2e75f6509fa01436100dc2/.gitattributes
+
+[FileInfo]
+Filename=.gitattributes
+Size=1519
+SHA256=11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361
+Version=c8327bf999adbd2efe2e75f6509fa01436100dc2
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

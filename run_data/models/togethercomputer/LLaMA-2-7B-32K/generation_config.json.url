@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/generation_config.json
+
+[FileInfo]
+Filename=generation_config.json
+Size=132
+SHA256=02121f5384f8b5f6c7272d65eb9048b94f1a05c5f0406e8e8a3f3297ea9a3ca2
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

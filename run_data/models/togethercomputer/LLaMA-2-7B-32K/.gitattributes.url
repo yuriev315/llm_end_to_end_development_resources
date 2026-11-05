@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/.gitattributes
+
+[FileInfo]
+Filename=.gitattributes
+Size=1519
+SHA256=11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://huggingface.co/togethercomputer/LLaMA-2-7B-32K/resolve/46c24bb5aef59722fa7aa6d75e832afd1d64b980/tokenizer_config.json
+
+[FileInfo]
+Filename=tokenizer_config.json
+Size=942
+SHA256=4cf7520d8fe06671b6e22f23f346d236dbfa4475ac62ab22547d5ca064a3b29a
+Version=46c24bb5aef59722fa7aa6d75e832afd1d64b980
+License=llama2
+Reason=PLACEHOLDER_RESTRICTED
