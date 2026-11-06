@@ -1,0 +1,18 @@
+{
+  "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+  "files": [
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "vocab.json",
+    "merges.txt",
+    "LICENSE",
+    "README.md"
+  ],
+  "dest": "tokenizers/Qwen2.5-1.5B-Instruct",
+  "license": "Apache-2.0",
+  "hw": "仅分词器/模板，不是权重",
+  "retrieved": "2026-10-30",
+  "sidecar_ok": true,
+  "downloaded_weights": false,
+  "weight_urls": []
+}

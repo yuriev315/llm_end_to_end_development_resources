@@ -1,0 +1,27 @@
+{
+  "repo": "BAAI/bge-small-zh-v1.5",
+  "files": [
+    "model.safetensors",
+    "config.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "vocab.txt",
+    "sentence_bert_config.json",
+    "modules.json",
+    "1_Pooling/config.json",
+    "README.md"
+  ],
+  "dest": "embeddings/bge-small-zh-v1.5",
+  "license": "MIT",
+  "hw": "CPU 即可，约 95 MiB 权重",
+  "retrieved": "2026-10-30",
+  "sidecar_ok": true,
+  "downloaded_weights": false,
+  "weight_urls": [
+    {
+      "file": "model.safetensors",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/resolve/main/model.safetensors?download=true"
+    }
+  ]
+}

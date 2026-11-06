@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>应用对照</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>应用对照</h1>
+<table><thead><tr><th>应用</th><th>本库落点</th><th>常见额外需求</th><th>本轮</th></tr></thead><tbody><tr><td>编码 Agent</td><td>A03 + aider 源码 + SWE-agent 论文</td><td>仓库、测试、隔离</td><td>仅沙箱文件，无 Docker</td></tr><tr><td>研究 Agent</td><td>A02 + 综述论文</td><td>联网检索</td><td>本地文档，不提供开放网络搜索引擎</td></tr><tr><td>文档问答</td><td>A02</td><td>嵌入+生成模型</td><td>权重按 inventories</td></tr><tr><td>浏览器自动化</td><td>A04</td><td>Chromium</td><td>zip 若在；未启动</td></tr><tr><td>数据分析</td><td>未单列项目</td><td>pandas 等已在原科学环境，但<strong>不</strong>自动等于 Agent 环境</td><td>可用 A01 工具模式扩展，本轮无独立项目</td></tr><tr><td>业务流程</td><td>A05 角色流</td><td>HITL、审计</td><td>mock 状态机</td></tr></tbody></table>
+<p>不要把 HuggingGPT、Voyager、OpenHands 论文里的环境当作本套件已镜像。</p>
+</body></html>

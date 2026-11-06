@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>A05 多 Agent 协作</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>A05 多 Agent 协作</h1>
+<h2>状态</h2>
+<ul><li>云 API 必需：否（可选）。CrewAI 文档默认云厂商<br></li><li>可连接本地模型：是（两个框架都走 OpenAI 兼容，但 <strong>openai 主版本不同</strong>）<br></li><li>离线资源已备齐：mock 协作代码、AG2/CrewAI Linux 与 Windows wheel 已写；<strong>未执行</strong><br></li><li>已断网运行验证：<strong>否</strong></li></ul>
+<h2>为什么拆两个环境</h2>
+<p>CrewAI 1.15.33 → <code>openai</code> 2.x<br>
+AG2 1.2.2 → <code>openai</code> 3.x<br></p>
+<p>混装会解析失败。mock 脚本不导入二者，用标准库即可阅读角色 / 共享状态 / 预算 / 失败处理。</p>
+<p>角色：researcher → writer → critic。共享状态在内存 dataclass。成本按估算 token。写作者失败则停止。</p>
+<p>Windows 上 CrewAI 的 <code>uvicorn[standard]</code> 依赖 <code>uvloop</code>（仅 POSIX）。在 Linux 主机上用 <code>pip download --platform win_amd64</code> 时，标记按<strong>主机</strong>求值，会错误地去拉 uvloop 并失败。Linux wheelhouse 已备齐；Windows CrewAI 若重试仍空，只能在 Windows 本机再解析，或安装不带 <code>[standard]</code> 的 uvicorn。AG2 的 Windows wheelhouse 不受此影响。</p>
+</body></html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>RAG 与引用（示意文档）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>RAG 与引用（示意文档）</h1>
+<p>检索增强生成先把问题变成向量，在本地文档块中找近邻，再让模型只用检索到的片段作答。</p>
+<p>引用要求：每个关键事实对应 chunk 编号与源文件路径。hash 嵌入只能做流水线演示，不能当作语义检索结果。</p>
+<p>知识更新时要记录文档版本与切块时间，避免旧块与新块混用却不声明。</p>
+</body></html>

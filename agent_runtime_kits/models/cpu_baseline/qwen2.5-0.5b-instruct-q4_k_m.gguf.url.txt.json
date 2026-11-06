@@ -1,0 +1,16 @@
+{
+  "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf?download=true",
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "policy": "url_only_no_weight_file",
+  "id": "qwen25_05b_q4km",
+  "tier": "cpu_smoke",
+  "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+  "file": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "license": "Apache-2.0",
+  "hw": "CPU RAM 约 1–2 GiB；不作为可用工具调用模型",
+  "tool_call": "未验证；参数量过小，预期工具调用/结构化输出经常失败",
+  "dest": "cpu_baseline",
+  "public": true,
+  "alts": []
+}

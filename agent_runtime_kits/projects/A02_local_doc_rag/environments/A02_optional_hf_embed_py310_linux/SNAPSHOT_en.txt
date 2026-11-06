@@ -1,0 +1,6 @@
+project=A02_optional_hf_embed
+python=3.10
+platform=linux
+retrieved=2026-10-30
+optional=True
+note=

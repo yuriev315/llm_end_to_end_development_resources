@@ -1,0 +1,4 @@
+tag=b11998
+retrieved=2026-10-30
+assets=['cudart-llama-b11998-bin-ubuntu-cuda-12.8-x64.tar.gz', 'cudart-llama-bin-win-cuda-12.4-x64.zip', 'llama-b11998-bin-ubuntu-cuda-12.8-x64.tar.gz', 'llama-b11998-bin-ubuntu-vulkan-x64.tar.gz', 'llama-b11998-bin-ubuntu-x64.tar.gz', 'llama-b11998-bin-win-cpu-x64.zip', 'llama-b11998-bin-win-cuda-12.4-x64.zip', 'llama-b11998-bin-win-vulkan-x64.zip']
+note=binaries only; not executed this round

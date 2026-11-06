@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>A03 编码与文件操作</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>A03 编码与文件操作</h1>
+<h2>状态</h2>
+<ul><li>云 API 必需：否（可选）。aider 默认文档大量写云模型，但可改 <code>OPENAI_API_BASE</code><br></li><li>可连接本地模型：是<br></li><li>离线资源已备齐：沙箱代码已写；aider wheel 见 inventories<br></li><li>已断网运行验证：<strong>否</strong></li></ul>
+<h2>两层（必须拆环境）</h2>
+<ol><li><strong>本仓库沙箱脚本</strong> <a href="src/file_agent.py"><code>src/file_agent.py</code></a>：只读写 <a href="fixtures/workspace/README_cn.html"><code>fixtures/workspace</code></a>，无 shell。wheelhouse：<code>environments/py3xx_&lt;platform&gt;/</code>（openai-agents 0.24.0，openai 3.x）。<br></li><li><strong>aider-chat 0.86.2</strong>：社区编码 Agent。wheelhouse：<code>environments/A03_aider_py3xx_&lt;platform&gt;/</code>。它钉死 <code>openai==2.20.0</code>，与 Agents SDK 冲突，不能混装。不要对沙箱外的真实仓库启用任意命令。</li></ol>
+<p>Python：aider 声明 <code>&gt;=3.10,&lt;3.13</code>，3.10 与 3.12 都解析；本轮 <code>--only-binary :all:</code>，不编译 sdist。</p>
+</body></html>

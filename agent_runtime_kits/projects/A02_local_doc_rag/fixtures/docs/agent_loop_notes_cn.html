@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>工具循环笔记（示意文档）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>工具循环笔记（示意文档）</h1>
+<p>ReAct 把推理（Reason）与行动（Act）交错：模型产出思考，调用工具，再观察结果，直到给出答案。</p>
+<p>局限：工具返回值若含不可信文本，可能造成间接提示注入。循环需要步数上限、超时和可审计日志。</p>
+<p>本资料库的 A01 项目实现了计算器、便笺和时间三种无网络工具。</p>
+</body></html>

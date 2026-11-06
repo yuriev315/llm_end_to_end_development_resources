@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>缺失与未验证（写清单时以 inventories 为准）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>缺失与未验证（写清单时以 inventories 为准）</h1>
+<h2>明确不做或未完成</h2>
+<ul><li>未安装任何包，未启动 llama-server，未断网跑 Agent。<br></li><li>未下载 SWE-bench 实例 blob、GAIA 附件、WebArena 站点、OSWorld 虚拟机。GAIA 仓库/HF 数据集当前 404/401，只记地址：<a href="experiments/GAIA_SOURCE.url.txt"><code>experiments/GAIA_SOURCE.url.txt</code></a>。<br></li><li>模型权重（GGUF / safetensors）<strong>只记录官方地址，不下载</strong>；已下过的已删除并换成 <code>*.url.txt</code>。</li><li>未下载 14B/32B/70B 级权重。<br></li><li>未打包 vLLM、Ollama 模型库、闭源 API 客户端密钥。<br></li><li>未验证任何本地模型的工具调用或结构化输出成功率。<br></li><li>browser-use 在 Python 3.10 不可用（上游 <code>&gt;=3.11</code>）。<br></li><li>原 <code>01_math</code>–<code>10_quant_finance</code> 知识领域仍为骨架，不属于本增量完成范围。<br></li><li>Windows 套件不复制权重；两边共用 <code>models/*.url.txt</code> 地址。<br></li><li>LangSmith / 云追踪账号类服务无法离线化。<br></li><li>部分 GitHub tag 可能 404，脚本会退回 latest 或 main，以 implementations 目录实文件为准。</li></ul>
+<h2>硬件</h2>
+<p>目标默认为 <strong>Linux x86-64 glibc</strong> 与 <strong>Windows 10/11 x86-64 CPU</strong>。<br>
+GPU 套件（llama.cpp CUDA/Vulkan + Qwen2.5-7B Q4）是可选增量，<strong>不</strong>声称能在任意电脑运行。未收集本机 GPU 型号。</p>
+</body></html>

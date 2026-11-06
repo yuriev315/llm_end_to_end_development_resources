@@ -1,0 +1,16 @@
+kind,name,source,reason,retrieved
+eval_doc,GAIA_README.md,https://raw.githubusercontent.com/gaia-benchmark/GAIA/main/README.md,readme,2026-10-30
+model,BAAI/bge-reranker-base/vocab.txt,https://huggingface.co/BAAI/bge-reranker-base/resolve/main/vocab.txt?download=true,hf file,2026-10-30
+wheels,A03_coding_files/3.10/linux,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A03_coding_files_3.10_linux.log,2026-10-30
+wheels,A03_coding_files/3.10/windows,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A03_coding_files_3.10_windows.log,2026-10-30
+wheels,A03_coding_files/3.12/linux,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A03_coding_files_3.12_linux.log,2026-10-30
+wheels,A03_coding_files/3.12/windows,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A03_coding_files_3.12_windows.log,2026-10-30
+wheels,A05_multi_agent_crewai/3.10/windows,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A05_multi_agent_crewai_3.10_windows.log,2026-10-30
+wheels,A05_multi_agent_crewai/3.12/windows,pypi,exit=1 wheels=0 see state/logs/agent_topic/wheels_A05_multi_agent_crewai_3.12_windows.log,2026-10-30
+runtime,chromium-1248-linux.zip,https://playwright.azureedge.net/builds/chromium/1248/chromium-linux.zip,playwright chromium,2026-10-30
+source,gaia-benchmark/GAIA,github:main,GAIA metadata if public; files may fail; fell back to main snapshot,2026-10-30
+wheels,A05_crewai_win_plain/3.10/windows,pypi,exit=1 n=1 log=state/logs/agent_topic/retry_A05_crewai_win_plain_3.10_windows.log,2026-10-30
+wheels,A05_crewai_win_plain/3.12/windows,pypi,exit=1 n=1 log=state/logs/agent_topic/retry_A05_crewai_win_plain_3.12_windows.log,2026-10-30
+runtime,chromium-1248-win64.zip,https://playwright.azureedge.net/builds/chromium/1248/chromium-win64.zip,playwright chromium,2026-10-30
+eval_doc,GAIA_README.md,https://raw.githubusercontent.com/gaia-benchmark/GAIA/main/README.md,readme,2026-10-30
+eval_doc,GAIA_HF_README.md,https://huggingface.co/datasets/gaia-benchmark/GAIA/raw/main/README.md,readme,2026-10-30

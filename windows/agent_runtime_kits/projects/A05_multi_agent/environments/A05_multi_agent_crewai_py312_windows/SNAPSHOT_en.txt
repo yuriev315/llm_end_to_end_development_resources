@@ -1,0 +1,5 @@
+project=A05_crewai_win_plain
+python=3.12
+platform=windows
+retrieved=2026-10-30
+wheels=1

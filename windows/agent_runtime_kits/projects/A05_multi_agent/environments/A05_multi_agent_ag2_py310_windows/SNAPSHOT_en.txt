@@ -1,0 +1,6 @@
+project=A05_multi_agent_ag2
+python=3.10
+platform=windows
+retrieved=2026-10-30
+optional=False
+note=

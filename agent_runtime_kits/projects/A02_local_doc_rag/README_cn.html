@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>A02 本地文档 RAG</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>A02 本地文档 RAG</h1>
+<h2>状态</h2>
+<ul><li>云 API 必需：否（可选）<br></li><li>可连接本地模型：是（生成用 llama-server；嵌入地址见 <code>models/embeddings/*.url.txt</code>）<br></li><li>离线资源已备齐：代码与示例文档已写；嵌入 <strong>权重未入库，只记地址</strong><br></li><li>已断网运行验证：<strong>否</strong></li></ul>
+<h2>嵌入后端</h2>
+<table><thead><tr><th>值</th><th>含义</th><th>是否语义检索</th></tr></thead><tbody><tr><td><code>hash</code></td><td>词哈希向量</td><td>否，仅流水线</td></tr><tr><td><code>local</code></td><td>llama-server <code>/v1/embeddings</code></td><td>取决于所加载的嵌入 GGUF</td></tr><tr><td><code>hf</code></td><td>sentence-transformers 加载 bge</td><td>需 optional torch wheelhouse，本轮未执行</td></tr></tbody></table>
+<p>重排：配置 <code>AGENT_RERANK_PATH</code> 才启用，默认关闭。</p>
+<p>引用字段：<code>doc_id, chunk, path, score, text</code>。知识更新需自行替换 <a href="fixtures/docs/"><code>fixtures/docs</code></a> 并重建切块；没有自动增量索引服务。</p>
+<p>LangGraph 钉在独立 wheelhouse，不沿用 env 15 的安装状态。</p>
+</body></html>

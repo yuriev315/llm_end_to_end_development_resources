@@ -1,0 +1,2 @@
+filename,bytes,sha256,reason
+pywin32-312-cp312-cp312-win_amd64.whl,6914841,b457f6d628a47e8a7346ce22acb7e1a46a4a78b52e1d17e1af56871bd19a93bc,目标平台/Python 版本的条件依赖（python_version < 3.11 或 sys_platform == win32），补入 wheelhouse

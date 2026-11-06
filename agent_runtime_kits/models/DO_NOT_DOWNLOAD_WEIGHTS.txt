@@ -1,0 +1,2 @@
+This topic records official/HF URLs for weights and does not store GGUF or safetensors.
+retrieved=2026-10-30

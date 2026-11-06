@@ -1,0 +1,6 @@
+project=A04_browser_automation
+python=3.12
+platform=windows
+retrieved=2026-10-30
+optional=False
+note=browser-use 要求 Python>=3.11，3.10 仅准备 Playwright + Agents SDK 自定义项目

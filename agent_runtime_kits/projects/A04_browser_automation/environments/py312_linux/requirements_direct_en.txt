@@ -1,0 +1,5 @@
+playwright>=1.48
+browser-use==0.13.14
+openai-agents==0.24.0
+openai>=3.20.0,<4
+python-dotenv>=1.0

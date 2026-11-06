@@ -1,0 +1,1 @@
+https://huggingface.co/BAAI/bge-reranker-base/resolve/main/model.safetensors?download=true

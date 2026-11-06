@@ -1,0 +1,4 @@
+{
+  "task": "阅读 calc.py，把 add(a, b) 改成返回两数之和，不要改 mul。",
+  "aider_note": "若改用 aider-chat，必须在本 workspace 内启动，并指向本地 OpenAI 兼容接口。本轮未运行 aider。"
+}

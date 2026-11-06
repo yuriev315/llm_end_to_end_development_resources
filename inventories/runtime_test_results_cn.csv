@@ -1,0 +1,17 @@
+﻿项目,环境,Python,wheel 数,离线安装,导入模块,导入结果,mock 命令,mock 结果
+A01_tool_multistep,py310_linux,3.10,42,pass,"agents, openai, mcp",pass,src/agent_loop.py --mode mock,pass: }
+A01_tool_multistep,py312_linux,3.12,41,pass,"agents, openai, mcp",pass,src/agent_loop.py --mode mock,pass: }
+A02_local_doc_rag,A02_optional_hf_embed_py310_linux,3.10,42,pass,"transformers, faiss",skip (torch is a .url placeholder),src/rag_agent.py --backend hash,
+A02_local_doc_rag,A02_optional_hf_embed_py312_linux,3.12,41,pass,"transformers, faiss",skip (torch is a .url placeholder),src/rag_agent.py --backend hash,
+A02_local_doc_rag,py310_linux,3.10,63,pass,"langgraph, langchain, langchain_community, pypdf, tiktoken",pass,src/rag_agent.py --backend hash,pass: ]
+A02_local_doc_rag,py312_linux,3.12,60,pass,"langgraph, langchain, langchain_community, pypdf, tiktoken",pass,src/rag_agent.py --backend hash,pass: ]
+A03_coding_files,A03_aider_py310_linux,3.10,110,pass,aider,pass,src/file_agent.py --mode mock,pass: }
+A03_coding_files,A03_aider_py312_linux,3.12,108,pass,aider,pass,src/file_agent.py --mode mock,pass: }
+A03_coding_files,py310_linux,3.10,40,pass,"agents, openai",pass,src/file_agent.py --mode mock,pass: }
+A03_coding_files,py312_linux,3.12,39,pass,"agents, openai",pass,src/file_agent.py --mode mock,pass: }
+A04_browser_automation,py310_linux,3.10,43,pass,"playwright, agents",pass,src/browser_agent.py --mode mock,pass: }
+A04_browser_automation,py312_linux,3.12,109,pass,"playwright, agents",pass,src/browser_agent.py --mode mock,pass: }
+A05_multi_agent,A05_multi_agent_ag2_py310_linux,3.10,22,pass,ag2,pass,src/crew_loop.py --mode mock,pass: }
+A05_multi_agent,A05_multi_agent_ag2_py312_linux,3.12,21,pass,ag2,pass,src/crew_loop.py --mode mock,pass: }
+A05_multi_agent,A05_multi_agent_crewai_py310_linux,3.10,145,pass,crewai,pass,src/crew_loop.py --mode mock,pass: }
+A05_multi_agent,A05_multi_agent_crewai_py312_linux,3.12,137,pass,crewai,pass,src/crew_loop.py --mode mock,pass: }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>AI Agent 专题（离线首页）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}a{color:#0645ad}.muted{color:#888}</style></head><body>
+<h1>AI Agent 专题（离线首页）</h1>
+<p>在浏览器中直接打开即可。所有 tar 包解压到同一目录后，本页链接可离线跳转。<code>.url</code> 文件是版权受限或超过 100 MiB 的文件的占位，双击打开官方来源。</p>
+<h2>说明与指南</h2><ul>
+<li><a href="11_ai_agent/README_cn.md">AI Agent 独立专题</a> <span class="muted">（11_ai_agent/README_cn.md）</span></li>
+<li><a href="11_ai_agent/framework_compare_cn.html">框架对照（钉死版本，2026-10-30）</a> <span class="muted">（11_ai_agent/framework_compare_cn.md）</span></li>
+<li><a href="11_ai_agent/learning_path_cn.html">中文学习路线</a> <span class="muted">（11_ai_agent/learning_path_cn.md）</span></li>
+<li><a href="11_ai_agent/licenses_cn.html">许可与再分发</a> <span class="muted">（11_ai_agent/licenses_cn.md）</span></li>
+<li><a href="11_ai_agent/methods/02_engineering_eval_safety_cn.html">方法：工程、评测、安全</a> <span class="muted">（11_ai_agent/methods/02_engineering_eval_safety_cn.md）</span></li>
+<li><a href="11_ai_agent/missing_cn.html">缺失与未验证（写清单时以 inventories 为准）</a> <span class="muted">（11_ai_agent/missing_cn.md）</span></li>
+<li><a href="11_ai_agent/paper_guides_cn.html">论文导读</a> <span class="muted">（11_ai_agent/paper_guides_cn.md）</span></li>
+<li><a href="11_ai_agent/theory/01_mechanisms_cn.html">基础机制</a> <span class="muted">（11_ai_agent/theory/01_mechanisms_cn.md）</span></li>
+<li><a href="11_ai_agent/theory/03_applications_cn.html">应用对照</a> <span class="muted">（11_ai_agent/theory/03_applications_cn.md）</span></li>
+<li><a href="README.md">AI Agent resources</a> <span class="muted">（README.md）</span></li>
+<li><a href="README_cn.html">AI Agent 离线专题（独立目录）</a> <span class="muted">（README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/README_cn.html">Agent 本地运行套件</a> <span class="muted">（agent_runtime_kits/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/models/MODELS_cn.html">权重地址（不下载文件）</a> <span class="muted">（agent_runtime_kits/models/MODELS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/models/embeddings/bge-small-en-v1.5/README.md">for s2p(short query to long passage) retrieval task, suggest to use encode_queries() which will automatically add the instruction to each query</a> <span class="muted">（agent_runtime_kits/models/embeddings/bge-small-en-v1.5/README.md）</span></li>
+<li><a href="agent_runtime_kits/models/embeddings/bge-small-zh-v1.5/README.md">for s2p(short query to long passage) retrieval task, suggest to use encode_queries() which will automatically add the instruction to each query</a> <span class="muted">（agent_runtime_kits/models/embeddings/bge-small-zh-v1.5/README.md）</span></li>
+<li><a href="agent_runtime_kits/models/gpu_optional/MERGE_cn.html">Qwen2.5-7B Q4_K_M 分片地址</a> <span class="muted">（agent_runtime_kits/models/gpu_optional/MERGE_cn.md）</span></li>
+<li><a href="agent_runtime_kits/models/rerankers/bge-reranker-base/README.md">for s2p(short query to long passage) retrieval task, suggest to use encode_queries() which will automatically add the instruction to each query</a> <span class="muted">（agent_runtime_kits/models/rerankers/bge-reranker-base/README.md）</span></li>
+<li><a href="agent_runtime_kits/models/tokenizers/Qwen2.5-1.5B-Instruct/README.md">Qwen2.5-1.5B-Instruct</a> <span class="muted">（agent_runtime_kits/models/tokenizers/Qwen2.5-1.5B-Instruct/README.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A01_tool_multistep/README_cn.html">A01 基础工具调用与多步任务</a> <span class="muted">（agent_runtime_kits/projects/A01_tool_multistep/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A01_tool_multistep/RUN_STATUS_cn.html">RUN_STATUS_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A01_tool_multistep/RUN_STATUS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A02_local_doc_rag/README_cn.html">A02 本地文档 RAG</a> <span class="muted">（agent_runtime_kits/projects/A02_local_doc_rag/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A02_local_doc_rag/RUN_STATUS_cn.html">RUN_STATUS_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A02_local_doc_rag/RUN_STATUS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/agent_loop_notes_cn.html">工具循环笔记（示意文档）</a> <span class="muted">（agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/agent_loop_notes_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/rag_citation_notes_cn.html">RAG 与引用（示意文档）</a> <span class="muted">（agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/rag_citation_notes_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/safety_notes_cn.html">Agent 安全要点（示意文档）</a> <span class="muted">（agent_runtime_kits/projects/A02_local_doc_rag/fixtures/docs/safety_notes_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A03_coding_files/README_cn.html">A03 编码与文件操作</a> <span class="muted">（agent_runtime_kits/projects/A03_coding_files/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A03_coding_files/RUN_STATUS_cn.html">RUN_STATUS_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A03_coding_files/RUN_STATUS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A03_coding_files/fixtures/workspace/README_cn.html">README_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A03_coding_files/fixtures/workspace/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A04_browser_automation/README_cn.html">A04 浏览器自动化</a> <span class="muted">（agent_runtime_kits/projects/A04_browser_automation/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A04_browser_automation/RUN_STATUS_cn.html">RUN_STATUS_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A04_browser_automation/RUN_STATUS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A05_multi_agent/README_cn.html">A05 多 Agent 协作</a> <span class="muted">（agent_runtime_kits/projects/A05_multi_agent/README_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A05_multi_agent/RUN_STATUS_cn.html">RUN_STATUS_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A05_multi_agent/RUN_STATUS_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A05_multi_agent/fixtures/brief_cn.html">brief_cn.md</a> <span class="muted">（agent_runtime_kits/projects/A05_multi_agent/fixtures/brief_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A05_multi_agent/scripts/ag2_notes_cn.html">AG2 连接说明（未执行）</a> <span class="muted">（agent_runtime_kits/projects/A05_multi_agent/scripts/ag2_notes_cn.md）</span></li>
+<li><a href="agent_runtime_kits/projects/A05_multi_agent/scripts/crewai_notes_cn.html">CrewAI 连接说明（未执行）</a> <span class="muted">（agent_runtime_kits/projects/A05_multi_agent/scripts/crewai_notes_cn.md）</span></li>
+<li><a href="agent_runtime_kits/runtimes/windows_x86_64/README_cn.html">Windows 运行时（发布包中的位置）</a> <span class="muted">（agent_runtime_kits/runtimes/windows_x86_64/README_cn.md）</span></li>
+<li><a href="deps/README_cn.md">Windows 最小运行环境（deps/）</a> <span class="muted">（deps/README_cn.md）</span></li>
+<li><a href="download_restore_cn.md">AI Agent 离线专题：下载与解压说明（2026-10-30）</a> <span class="muted">（download_restore_cn.md）</span></li>
+<li><a href="windows/00_portal/README_cn.html">Windows 侧知识入口</a> <span class="muted">（windows/00_portal/README_cn.md）</span></li>
+<li><a href="windows/agent_runtime_kits/README_cn.html">Windows Agent 运行套件</a> <span class="muted">（windows/agent_runtime_kits/README_cn.md）</span></li>
+</ul><h2>文档镜像</h2><ul>
+<li><a href="11_ai_agent/docs_html/ag2/_offline_pages_cn.html">ag2</a></li>
+<li><a href="11_ai_agent/docs_html/aider/_offline_pages_cn.html">aider</a></li>
+<li><a href="11_ai_agent/docs_html/crewai/_offline_pages_cn.html">crewai</a></li>
+<li><a href="11_ai_agent/docs_html/langgraph/_offline_pages_cn.html">langgraph</a></li>
+<li><a href="11_ai_agent/docs_html/mcp/_offline_pages_cn.html">mcp</a></li>
+<li><a href="11_ai_agent/docs_html/openai_agents_python/_offline_pages_cn.html">openai_agents_python</a></li>
+</ul><h2>源码快照</h2><ul>
+<li><a href="11_ai_agent/implementations/Aider-AI__aider_v0.86.2.tar.gz">Aider-AI__aider_v0.86.2.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/THUDM__AgentBench_v0.1.tar.gz">THUDM__AgentBench_v0.1.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/UKGovernmentBEIS__inspect_ai_0.3.286.tar.gz">UKGovernmentBEIS__inspect_ai_0.3.286.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/ag2ai__ag2_v1.2.2.tar.gz">ag2ai__ag2_v1.2.2.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/browser-use__browser-use_0.13.14.tar.gz">browser-use__browser-use_0.13.14.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/crewAIInc__crewAI_1.15.33.tar.gz.url">crewAIInc__crewAI_1.15.33.tar.gz.url</a></li>
+<li><a href="11_ai_agent/implementations/ethz-spylab__agentdojo_v0.1.15.tar.gz">ethz-spylab__agentdojo_v0.1.15.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/huggingface__smolagents_v1.22.0.tar.gz">huggingface__smolagents_v1.22.0.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/langchain-ai__langgraph_1.2.18.tar.gz">langchain-ai__langgraph_1.2.18.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/microsoft__autogen_v0.2.37.tar.gz">microsoft__autogen_v0.2.37.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/modelcontextprotocol__modelcontextprotocol_2026-07-28.tar.gz">modelcontextprotocol__modelcontextprotocol_2026-07-28.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/modelcontextprotocol__python-sdk_v1.16.0.tar.gz">modelcontextprotocol__python-sdk_v1.16.0.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/openai__openai-agents-python_v0.24.0.tar.gz">openai__openai-agents-python_v0.24.0.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/princeton-nlp__SWE-bench_v2.1.0.tar.gz">princeton-nlp__SWE-bench_v2.1.0.tar.gz</a></li>
+<li><a href="11_ai_agent/implementations/sierra-research__tau-bench_main.tar.gz">sierra-research__tau-bench_main.tar.gz</a></li>
+</ul><h2>论文（54）</h2><table><thead><tr><th>arXiv</th><th>简称</th><th>本地文件</th><th>许可</th></tr></thead><tbody>
+<tr><td><a href="https://arxiv.org/abs/2004.04906">2004.04906</a></td><td>DPR</td><td><a href="_public/papers/agent/2004_04906_DPR.pdf.url">2004_04906_DPR.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2005.11401">2005.11401</a></td><td>Lewis RAG</td><td><a href="_public/papers/agent/2005_11401_Lewis_RAG.pdf.url">2005_11401_Lewis_RAG.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2201.11903">2201.11903</a></td><td>CoT</td><td><a href="_public/papers/agent/2201_11903_CoT.pdf">2201_11903_CoT.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2205.00445">2205.00445</a></td><td>MRKL systems</td><td><a href="_public/papers/agent/2205_00445_MRKL_systems.pdf">2205_00445_MRKL_systems.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2210.03629">2210.03629</a></td><td>ReAct</td><td><a href="_public/papers/agent/2210_03629_ReAct.pdf">2210_03629_ReAct.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2211.09527">2211.09527</a></td><td>Ignore Previous Prompt</td><td><a href="_public/papers/agent/2211_09527_Ignore_Previous_Prompt.pdf.url">2211_09527_Ignore_Previous_Prompt.pdf.url</a></td><td>http://creativecommons.org/licenses/by-nc-sa/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2212.10496">2212.10496</a></td><td>HyDE</td><td><a href="_public/papers/agent/2212_10496_HyDE.pdf.url">2212_10496_HyDE.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2302.04761">2302.04761</a></td><td>Toolformer</td><td><a href="_public/papers/agent/2302_04761_Toolformer.pdf.url">2302_04761_Toolformer.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2302.12173">2302.12173</a></td><td>Greshake prompt injection</td><td><a href="_public/papers/agent/2302_12173_Greshake_prompt_injection.pdf.url">2302_12173_Greshake_prompt_injection.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2303.11366">2303.11366</a></td><td>Reflexion</td><td><a href="_public/papers/agent/2303_11366_Reflexion.pdf">2303_11366_Reflexion.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2303.17580">2303.17580</a></td><td>HuggingGPT</td><td><a href="_public/papers/agent/2303_17580_HuggingGPT.pdf.url">2303_17580_HuggingGPT.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2303.17651">2303.17651</a></td><td>Self-Refine</td><td><a href="_public/papers/agent/2303_17651_Self-Refine.pdf">2303_17651_Self-Refine.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2303.17760">2303.17760</a></td><td>CAMEL</td><td><a href="_public/papers/agent/2303_17760_CAMEL.pdf">2303_17760_CAMEL.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2304.03442">2304.03442</a></td><td>Generative Agents</td><td><a href="_public/papers/agent/2304_03442_Generative_Agents.pdf.url">2304_03442_Generative_Agents.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2305.10601">2305.10601</a></td><td>Tree of Thoughts</td><td><a href="_public/papers/agent/2305_10601_Tree_of_Thoughts.pdf.url">2305_10601_Tree_of_Thoughts.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2305.15334">2305.15334</a></td><td>Gorilla</td><td><a href="_public/papers/agent/2305_15334_Gorilla.pdf">2305_15334_Gorilla.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2305.16291">2305.16291</a></td><td>Voyager</td><td><a href="_public/papers/agent/2305_16291_Voyager.pdf.url">2305_16291_Voyager.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2305.18323">2305.18323</a></td><td>ReWOO</td><td><a href="_public/papers/agent/2305_18323_ReWOO.pdf">2305_18323_ReWOO.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2306.05685">2306.05685</a></td><td>LLM-as-a-Judge</td><td><a href="_public/papers/agent/2306_05685_LLM-as-a-Judge.pdf.url">2306_05685_LLM-as-a-Judge.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2307.13854">2307.13854</a></td><td>WebArena</td><td><a href="_public/papers/agent/2307_13854_WebArena.pdf.url">2307_13854_WebArena.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2307.16789">2307.16789</a></td><td>ToolLLM</td><td><a href="_public/papers/agent/2307_16789_ToolLLM.pdf.url">2307_16789_ToolLLM.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2308.00352">2308.00352</a></td><td>MetaGPT</td><td><a href="_public/papers/agent/2308_00352_MetaGPT.pdf">2308_00352_MetaGPT.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2308.03688">2308.03688</a></td><td>AgentBench</td><td><a href="_public/papers/agent/2308_03688_AgentBench.pdf">2308_03688_AgentBench.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2308.08155">2308.08155</a></td><td>AutoGen</td><td><a href="_public/papers/agent/2308_08155_AutoGen.pdf">2308_08155_AutoGen.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2309.02427">2309.02427</a></td><td>CoALA</td><td><a href="_public/papers/agent/2309_02427_CoALA.pdf">2309_02427_CoALA.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2309.07864">2309.07864</a></td><td>Xi et al. survey</td><td><a href="_public/papers/agent/2309_07864_Xi_et_al._survey.pdf.url">2309_07864_Xi_et_al._survey.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2310.03714">2310.03714</a></td><td>DSPy</td><td><a href="_public/papers/agent/2310_03714_DSPy.pdf.url">2310_03714_DSPy.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2310.06770">2310.06770</a></td><td>SWE-bench</td><td><a href="_public/papers/agent/2310_06770_SWE-bench.pdf">2310_06770_SWE-bench.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2310.08560">2310.08560</a></td><td>MemGPT</td><td><a href="_public/papers/agent/2310_08560_MemGPT.pdf">2310_08560_MemGPT.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2310.11511">2310.11511</a></td><td>Self-RAG</td><td><a href="_public/papers/agent/2310_11511_Self-RAG.pdf">2310_11511_Self-RAG.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2311.10709">2311.10709</a></td><td>ChatDev</td><td><a href="_public/papers/agent/2311_10709_ChatDev.pdf.url">2311_10709_ChatDev.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2311.12983">2311.12983</a></td><td>GAIA</td><td><a href="_public/papers/agent/2311_12983_GAIA.pdf.url">2311_12983_GAIA.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2312.10997">2312.10997</a></td><td>Gao RAG survey</td><td><a href="_public/papers/agent/2312_10997_Gao_RAG_survey.pdf.url">2312_10997_Gao_RAG_survey.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2401.05566">2401.05566</a></td><td>CodeAct</td><td><a href="_public/papers/agent/2401_05566_CodeAct.pdf">2401_05566_CodeAct.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2401.14069">2401.14069</a></td><td>AgentScope</td><td><a href="_public/papers/agent/2401_14069_AgentScope.pdf">2401_14069_AgentScope.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2401.15884">2401.15884</a></td><td>RAPTOR</td><td><a href="_public/papers/agent/2401_15884_RAPTOR.pdf.url">2401_15884_RAPTOR.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.01030">2402.01030</a></td><td>OpenHands/OpenDevin</td><td><a href="_public/papers/agent/2402_01030_OpenHands/OpenDevin.pdf">OpenDevin.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.01680">2402.01680</a></td><td>Wang et al. survey</td><td><a href="_public/papers/agent/2402_01680_Wang_et_al._survey.pdf.url">2402_01680_Wang_et_al._survey.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.01817">2402.01817</a></td><td>LLM agent planning</td><td><a href="_public/papers/agent/2402_01817_LLM_agent_planning.pdf">2402_01817_LLM_agent_planning.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.05930">2402.05930</a></td><td>OSWorld</td><td><a href="_public/papers/agent/2402_05930_OSWorld.pdf">2402_05930_OSWorld.pdf</a></td><td>http://creativecommons.org/licenses/by-sa/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.07712">2402.07712</a></td><td>optional follow-on</td><td><a href="_public/papers/agent/2402_07712_optional_follow-on.pdf.url">2402_07712_optional_follow-on.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2402.19473">2402.19473</a></td><td>CRAG</td><td><a href="_public/papers/agent/2402_19473_CRAG.pdf.url">2402_19473_CRAG.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2403.02691">2403.02691</a></td><td>InjecAgent</td><td><a href="_public/papers/agent/2403_02691_InjecAgent.pdf.url">2403_02691_InjecAgent.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2404.06474">2404.06474</a></td><td>ToolSandbox</td><td><a href="_public/papers/agent/2404_06474_ToolSandbox.pdf">2404_06474_ToolSandbox.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2404.16130">2404.16130</a></td><td>GraphRAG</td><td><a href="_public/papers/agent/2404_16130_GraphRAG.pdf">2404_16130_GraphRAG.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2405.15793">2405.15793</a></td><td>SWE-agent</td><td><a href="_public/papers/agent/2405_15793_SWE-agent.pdf">2405_15793_SWE-agent.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2406.04692">2406.04692</a></td><td>multi-agent survey</td><td><a href="_public/papers/agent/2406_04692_multi-agent_survey.pdf">2406_04692_multi-agent_survey.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2406.05804">2406.05804</a></td><td>tool/plan/feedback survey</td><td><a href="_public/papers/agent/2406_05804_tool/plan/feedback_survey.pdf">feedback_survey.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2406.12045">2406.12045</a></td><td>tau-bench</td><td><a href="_public/papers/agent/2406_12045_tau-bench.pdf">2406_12045_tau-bench.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2406.13352">2406.13352</a></td><td>AgentDojo</td><td><a href="_public/papers/agent/2406_13352_AgentDojo.pdf.url">2406_13352_AgentDojo.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2407.01532">2407.01532</a></td><td>AgentBoard</td><td><a href="_public/papers/agent/2407_01532_AgentBoard.pdf">2407_01532_AgentBoard.pdf</a></td><td>http://creativecommons.org/licenses/by/4.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2408.02666">2408.02666</a></td><td>TheAgentCompany</td><td><a href="_public/papers/agent/2408_02666_TheAgentCompany.pdf">2408_02666_TheAgentCompany.pdf</a></td><td>http://creativecommons.org/publicdomain/zero/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2410.09024">2410.09024</a></td><td>AgentHarm</td><td><a href="_public/papers/agent/2410_09024_AgentHarm.pdf.url">2410_09024_AgentHarm.pdf.url</a></td><td>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2503.23037">2503.23037</a></td><td>2025 agentic LLM survey</td><td><a href="_public/papers/agent/2503_23037_2025_agentic_LLM_survey.pdf">2503_23037_2025_agentic_LLM_survey.pdf</a></td><td>http://creativecommons.org/licenses/by-sa/4.0/</td></tr>
+</tbody></table><h2>登记文件</h2><ul>
+<li><a href="inventories/agent_downloads_cn.html">inventories/agent_downloads_cn.html</a></li>
+<li><a href="inventories/agent_download_failures_cn.html">inventories/agent_download_failures_cn.html</a></li>
+<li><a href="inventories/runtime_test_results_cn.csv">inventories/runtime_test_results_cn.csv</a></li>
+<li><a href="url_placeholders_cn.csv">url_placeholders_cn.csv</a></li>
+<li><a href="deps/manifests/minimum_runtime_dependencies.csv">deps/manifests/minimum_runtime_dependencies.csv</a></li>
+</ul>
+</body></html>

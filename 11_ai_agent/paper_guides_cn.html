@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>论文导读</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>论文导读</h1>
+<p>PDF 在 <code>knowledge/_public/papers/agent/</code>。下表只导读<strong>已打算下载</strong>的公开预印本；是否真正落盘以 <a href="../inventories/agent_downloads_cn.csv"><code>inventories/agent_downloads_cn.csv</code></a> 为准。未通过 <code>%PDF</code> 头的条目不算已下载。</p>
+<p>读法：先问题与设定，再方法，再实验是否用真实工具/环境，最后局限。不要用这段文字代替原文。</p>
+<h2>A. 基础机制</h2>
+<table><thead><tr><th>arXiv</th><th>一文一义</th><th>读后应能回答</th></tr></thead><tbody><tr><td>2201.11903 CoT</td><td>让模型写出中间步骤，提高多步推理</td><td>这还不是工具循环</td></tr><tr><td>2210.03629 <strong>ReAct</strong></td><td>交错 Reason / Act / Observe</td><td>观察值进上下文的风险是什么</td></tr><tr><td>2205.00445 MRKL</td><td>把专家模块接到语言模型</td><td>路由谁来决定</td></tr><tr><td>2302.04761 <strong>Toolformer</strong></td><td>自监督插入 API 调用</td><td>与推理时 JSON 工具调用的差别</td></tr><tr><td>2305.10601 Tree of Thoughts</td><td>在思维状态上搜索</td><td>状态怎么表示、谁打分</td></tr><tr><td>2303.17651 Self-Refine</td><td>同一模型起草—批评—修改</td><td>没有外部奖励时何时停止</td></tr><tr><td>2305.18323 ReWOO</td><td>计划与工具调用解耦</td><td>对比 ReAct 少了哪些往返</td></tr><tr><td>2309.02427 <strong>CoALA</strong></td><td>用认知架构整理记忆/动作/决策</td><td>短期记忆与工作记忆怎么分</td></tr><tr><td>2401.05566 CodeAct</td><td>用代码当统一动作空间</td><td>相对 JSON 工具的利弊</td></tr><tr><td>2310.08560 MemGPT</td><td>操作系统式分层记忆</td><td>换页策略依赖什么</td></tr></tbody></table>
+<h2>B. 代表系统与多智能体</h2>
+<table><thead><tr><th>arXiv</th><th>一文一义</th><th>读后应能回答</th></tr></thead><tbody><tr><td>2303.11366 <strong>Reflexion</strong></td><td>语言形式的失败反思写入记忆</td><td>和 RL 中的奖励有何不同</td></tr><tr><td>2304.03442 <strong>Generative Agents</strong></td><td>记忆流 + 反思 + 规划驱动行为</td><td>评测是社会仿真还是任务成功</td></tr><tr><td>2303.17760 CAMEL</td><td>角色扮演对话</td><td>如何避免空转</td></tr><tr><td>2308.08155 AutoGen</td><td>可对话多智能体框架</td><td>对照今天的 AG2 版本，勿把 2023 论文 API 当现行 SDK</td></tr><tr><td>2308.00352 MetaGPT</td><td>SOP 编码进多智能体</td><td>结构化中间产物如何降幻觉级联</td></tr><tr><td>2311.10709 ChatDev</td><td>软件公司角色流水线</td><td>与真实仓库任务的差距</td></tr><tr><td>2303.17580 HuggingGPT</td><td>用 LLM 调度多模型</td><td>编排层与执行层</td></tr><tr><td>2305.16291 Voyager</td><td>开放世界技能库</td><td>技能是怎么固化的</td></tr><tr><td>2305.15334 Gorilla</td><td>生成可调用 API</td><td>与 ToolLLM 数据设定差异</td></tr><tr><td>2307.16789 ToolLLM</td><td>大规模真实 API</td><td>工具检索 vs 一次塞进提示</td></tr></tbody></table>
+<h2>C. RAG 与知识</h2>
+<table><thead><tr><th>arXiv</th><th>一文一义</th></tr></thead><tbody><tr><td>2005.11401 Lewis RAG</td><td>检索到的文档作为条件生成</td></tr><tr><td>2004.04906 DPR</td><td>双塔稠密检索</td></tr><tr><td>2212.10496 HyDE</td><td>先假想答案再检索</td></tr><tr><td>2310.11511 Self-RAG</td><td>模型决定是否检索/是否批评</td></tr><tr><td>2312.10997 Gao 综述</td><td>架构、训练、评测地图</td></tr><tr><td>2401.15884 RAPTOR</td><td>递归摘要树</td></tr><tr><td>2402.19473 CRAG</td><td>检索纠错后再生成</td></tr><tr><td>2404.16130 GraphRAG</td><td>本地到全局图摘要</td></tr></tbody></table>
+<h2>D. 评测</h2>
+<table><thead><tr><th>arXiv</th><th>测什么</th><th>本库数据状态</th></tr></thead><tbody><tr><td>2308.03688 AgentBench</td><td>多环境交互</td><td>论文 + 源码尝试；全量环境未备</td></tr><tr><td>2311.12983 GAIA</td><td>需工具的助手题</td><td>论文；附件/数据可能缺失</td></tr><tr><td>2310.06770 SWE-bench</td><td>真实 GitHub issue</td><td>论文 + 仓库快照；<strong>实例包未下</strong></td></tr><tr><td>2405.15793 SWE-agent</td><td>编码 Agent 方法</td><td>论文</td></tr><tr><td>2406.12045 τ-bench</td><td>工具+用户+政策</td><td>论文 + README</td></tr><tr><td>2306.05685 LLM-as-a-Judge</td><td>用 LLM 打分</td><td>论文；有位置偏差等局限</td></tr><tr><td>2307.13854 WebArena</td><td>真实网站任务</td><td>论文；站点/镜像未下</td></tr><tr><td>2402.05930 OSWorld</td><td>桌面 OS 任务</td><td>论文；虚拟机未下</td></tr></tbody></table>
+<h2>E. 安全（作防护与评测，不提供攻击步骤）</h2>
+<table><thead><tr><th>arXiv</th><th>问题</th></tr></thead><tbody><tr><td>2211.09527</td><td>直接覆盖系统指令</td></tr><tr><td>2302.12173 Greshake</td><td>间接提示注入（数据里藏指令）</td></tr><tr><td>2406.13352 AgentDojo</td><td>工具环境中的注入攻防评测床</td></tr><tr><td>2403.02691 InjecAgent</td><td>工具返回导致的注入</td></tr><tr><td>2410.09024 AgentHarm</td><td>有害多步 Agent 任务合规性</td></tr></tbody></table>
+<h2>F. 综述（后读，用来串地图）</h2>
+<ul><li>2309.07864 Xi 等：LLM Agent 综述<br></li><li>2402.01680 Wang 等：自主 Agent 综述<br></li><li>2406.05804：工具 / 规划 / 反馈 统一术语<br></li><li>2503.23037：2025 年 Agentic LLM 综述（推理、行动、交互三分）</li></ul>
+<p>2023 年框架论文中的类名、安装命令<strong>不要</strong>直接抄到 2026 年的 AG2 / LangGraph 1.2。以本专题钉死的 Release 源码为准。</p>
+</body></html>

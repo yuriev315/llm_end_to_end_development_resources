@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>A04 浏览器自动化</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>A04 浏览器自动化</h1>
+<h2>状态</h2>
+<ul><li>云 API 必需：browser-use 的云浏览器/BU 模型路径是可选云服务，<strong>本项目示例不依赖</strong><br></li><li>可连接本地模型：Playwright 脚本本身可不接 LLM；若用 browser-use 则需模型<br></li><li>离线资源已备齐：本地 <code>shop.html</code>、Playwright wheel、CFT Chromium zip 已写；<strong>未解压未执行</strong><br></li><li>已断网运行验证：<strong>否</strong></li></ul>
+<h2>Python 版本</h2>
+<table><thead><tr><th>版本</th><th>内容</th></tr></thead><tbody><tr><td>3.10</td><td>Playwright + 自定义脚本。 <strong>不上 browser-use</strong>（上游 ≥3.11）</td></tr><tr><td>3.12</td><td>上述 + browser-use 0.13.14 wheel</td></tr></tbody></table>
+<p>mock 模式只读 HTML 字符串，<strong>不是</strong>浏览器自动化。</p>
+<p>浏览器 zip 还要按 Playwright 的目录布局解压并设置 <code>PLAYWRIGHT_BROWSERS_PATH</code>。本轮未解压、未启动 Chromium。</p>
+</body></html>

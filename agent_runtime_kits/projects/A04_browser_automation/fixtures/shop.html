@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>离线示例商店</title></head>
+<body>
+  <h1>离线示例商店</h1>
+  <p id="status">未下单</p>
+  <ul>
+    <li class="item" data-sku="A">螺丝 <span class="price">3</span></li>
+    <li class="item" data-sku="B">垫片 <span class="price">1</span></li>
+  </ul>
+  <button id="buy-a">购买螺丝</button>
+  <script>
+    document.getElementById('buy-a').addEventListener('click', function () {
+      document.getElementById('status').textContent = '已下单 SKU=A 价格=3';
+    });
+  </script>
+</body>
+</html>

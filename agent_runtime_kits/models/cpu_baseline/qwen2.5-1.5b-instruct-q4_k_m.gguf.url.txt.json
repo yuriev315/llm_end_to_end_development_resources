@@ -1,0 +1,16 @@
+{
+  "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true",
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "policy": "url_only_no_weight_file",
+  "id": "qwen25_15b_q4km",
+  "tier": "cpu_baseline",
+  "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "license": "Apache-2.0",
+  "hw": "CPU RAM 约 3–4 GiB，x86-64 AVX2 更佳",
+  "tool_call": "未验证；接口可接 OpenAI 兼容服务，不代表能稳定工具调用",
+  "dest": "cpu_baseline",
+  "public": true,
+  "alts": []
+}

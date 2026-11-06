@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>基础机制</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>基础机制</h1>
+<h2>工具调用</h2>
+<p>模型一次前向只产生文本（或约束解码下的 JSON）。“调用工具”是<strong>运行时</strong>把这段文本解析成 <code>{name, arguments}</code>，在进程内执行函数，再把结果当作下一条消息。<br>
+假设：工具描述进入上下文后模型会遵守 schema。<br>
+失败模式：名称幻觉、类型错误、该停不停、把工具错误当用户指令。<br>
+工程：白名单、参数校验、超时、对工具输出加“数据不可执行”边界。</p>
+<h2>结构化输出</h2>
+<p>用 JSON Schema、工具参数 schema 或受限解码逼近可解析输出。<br>
+接口支持 <code>response_format=json_object</code> <strong>不等于</strong>字段语义正确。0.5B/1.5B 级模型经常产出残缺 JSON。本套件未验证任何本地模型的结构化输出成功率。</p>
+<h2>规划与任务分解</h2>
+<ul><li><strong>隐式</strong>：ReAct 边想边做。<br></li><li><strong>显式</strong>：先计划再执行（ReWOO、部分 planner 节点）。<br></li><li><strong>搜索式</strong>：ToT 在候选思维上展开。<br></li></ul>
+<p>图框架（LangGraph）把规划做成边与条件，而不是又一段散文。</p>
+<h2>记忆</h2>
+<p>短期：当前 transcript。工作记忆：scratchpad。长期：向量库、文件、MemGPT 式分页。<br>
+写入策略比嵌入模型更常决定成败：记什么、何时召回、如何过期。</p>
+<h2>反思</h2>
+<p>Reflexion / Self-Refine 把失败原因写成自然语言再试。没有外部检验时，反思可能自我强化错误。要有停止条件。</p>
+<h2>状态管理与工作流</h2>
+<p>状态应显式：当前目标、已调用工具、待批准动作、预算。<br>
+工作流：线性、星型（主管+工人）、图。持久化 checkpoint 才能在人工介入后恢复。本轮提供的是代码形状，不是已验证的生产编排。</p>
+</body></html>

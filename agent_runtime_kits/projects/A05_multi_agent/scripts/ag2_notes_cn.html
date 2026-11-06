@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>AG2 连接说明（未执行）</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>AG2 连接说明（未执行）</h1>
+<p>源码快照：<code>knowledge/11_ai_agent/implementations/</code> 中 <code>ag2ai__ag2_v1.2.2</code>（若标签下载失败则见实际文件名）。</p>
+<p>独立 wheelhouse：<a href="../environments/A05_multi_agent_ag2_py310_linux/"><code>environments/A05_multi_agent_ag2_py310_linux</code></a> 与对应 3.12 / Windows 目录。</p>
+<p>本地模型：</p>
+<pre><code>config_list = [{
+  &quot;model&quot;: &quot;qwen2.5-1.5b-instruct&quot;,
+  &quot;base_url&quot;: &quot;http://127.0.0.1:8080/v1&quot;,
+  &quot;api_key&quot;: &quot;local-not-a-secret&quot;,
+  &quot;price&quot;: [0, 0],
+}]</code></pre>
+<p>AG2 声明 <code>openai&gt;=3.37,&lt;4</code>。与 CrewAI 的 openai 2.x 冲突。本轮未 import <code>autogen</code>/<code>ag2</code>，不能写“已跑通群聊”。</p>
+</body></html>

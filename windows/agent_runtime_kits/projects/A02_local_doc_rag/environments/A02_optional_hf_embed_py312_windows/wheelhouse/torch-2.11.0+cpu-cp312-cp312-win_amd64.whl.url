@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download.pytorch.org/whl/cpu/torch-2.11.0%2Bcpu-cp312-cp312-win_amd64.whl
+
+[FileInfo]
+Filename=torch-2.11.0+cpu-cp312-cp312-win_amd64.whl
+Size=114469197
+SHA256=1abeaa46fa7532ed35ed79146f4de5d7a9d4b30462c98052ea4ddfe781ea3eca
+Version=2.11.0+cpu
+License=BSD-3-Clause
+Reason=PLACEHOLDER_OVERSIZE

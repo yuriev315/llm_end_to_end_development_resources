@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/gaia-benchmark/GAIA",
+  "alts": [
+    "https://huggingface.co/datasets/gaia-benchmark/GAIA"
+  ],
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "http": "GitHub archive 404; HF dataset README 401/gated as of 2026-10-30",
+  "policy": "url_only_eval_dataset_not_public"
+}

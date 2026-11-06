@@ -1,0 +1,5 @@
+project=A03_aider
+python=3.10
+platform=windows
+retrieved=2026-10-30
+wheels=108

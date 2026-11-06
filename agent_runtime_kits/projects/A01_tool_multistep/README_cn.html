@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>A01 基础工具调用与多步任务</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>A01 基础工具调用与多步任务</h1>
+<h2>状态</h2>
+<ul><li>云 API 必需：否（可选路径）<br></li><li>可连接本地模型：是（llama-server OpenAI 兼容）<br></li><li>离线资源已备齐：代码、配置与 wheel 已写；<strong>GGUF 只记地址，权重未入库</strong><br></li><li>已断网运行验证：<strong>否</strong></li></ul>
+<h2>这是什么</h2>
+<p>一个最小 ReAct 式循环：计算器、便笺、时间。mock 策略覆盖 <a href="examples/task_multistep.json"><code>examples/task_multistep.json</code></a>。真实模型路径使用 JSON object 输出，失败会记入结果，不伪装成功。</p>
+<p>依赖：<code>openai-agents==0.24.0</code> 及闭包（独立 wheelhouse）。主脚本目前只用 <code>openai</code> 客户端，避免把 SDK 当唯一入口；SDK 源码在 <a href="../../../11_ai_agent/implementations/"><code>11_ai_agent/implementations/</code></a>。</p>
+<h2>启动（本轮未执行）</h2>
+<p>Linux：</p>
+<pre><code># 1. 解压 llama.cpp CPU 包，确认 llama-server 可执行文件
+# 2. bash scripts/start_llama_server_linux.sh
+# 3. 用对应 Python 3.10 或 3.12 建 venv，pip install --no-index --find-links environments/py312_linux/wheelhouse -r environments/py312_linux/requirements_direct_en.txt
+# 4. AGENT_LLM_MODE=local python src/agent_loop.py</code></pre>
+<p>mock（仍属“未验证真实 Agent”）：</p>
+<pre><code>AGENT_LLM_MODE=mock python src/agent_loop.py</code></pre>
+<p>Windows 用 <code>environments/py3xx_windows</code> 与 <a href="scripts/start_llama_server_windows.ps1"><code>scripts/start_llama_server_windows.ps1</code></a>。</p>
+</body></html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>Agent 本地运行套件</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>Agent 本地运行套件</h1>
+<p>检索日 <strong>2026-10-30</strong>。与论文专题同步准备。每个代表项目<strong>独立解析依赖</strong>，不复用 <code>09_huggingface_llm</code> / <code>15_nlp_retrieval</code> 的 venv 声明。</p>
+<p>本轮：<strong>下载与配置</strong>。未安装、未执行、未断网验证。</p>
+<h2>五个代表项目</h2>
+<table><thead><tr><th>ID</th><th>覆盖</th><th>主代码</th><th>主框架 wheel</th><th>3.10</th><th>3.12</th></tr></thead><tbody><tr><td>A01</td><td>工具调用与多步任务</td><td><a href="projects/A01_tool_multistep/README_cn.html"><code>projects/A01_tool_multistep</code></a></td><td>openai-agents 0.24.0</td><td>是</td><td>是</td></tr><tr><td>A02</td><td>本地文档 RAG</td><td><a href="projects/A02_local_doc_rag/README_cn.html"><code>projects/A02_local_doc_rag</code></a></td><td>LangGraph 1.2.18 + LangChain 1.4.7</td><td>是</td><td>是</td></tr><tr><td>A03</td><td>编码与文件操作</td><td><a href="projects/A03_coding_files/README_cn.html"><code>projects/A03_coding_files</code></a></td><td>aider-chat 0.86.2 + Agents SDK</td><td>是</td><td>是</td></tr><tr><td>A04</td><td>浏览器自动化</td><td><a href="projects/A04_browser_automation/README_cn.html"><code>projects/A04_browser_automation</code></a></td><td>Playwright；browser-use 仅 3.12</td><td><strong>无 browser-use</strong></td><td>是</td></tr><tr><td>A05</td><td>多 Agent 协作</td><td><a href="projects/A05_multi_agent/README_cn.html"><code>projects/A05_multi_agent</code></a></td><td>AG2 与 CrewAI <strong>两个 wheelhouse</strong></td><td>是</td><td>是</td></tr></tbody></table>
+<p>Windows 对应 wheel 在 <code>ai_agent/windows/agent_runtime_kits/projects/*/environments/</code>。</p>
+<h2>运行时与模型（共享归档）</h2>
+<table><thead><tr><th>路径</th><th>内容</th></tr></thead><tbody><tr><td><a href="runtimes/linux_x86_64/llama_cpp/"><code>runtimes/linux_x86_64/llama_cpp/</code></a></td><td>llama.cpp CPU 官方包</td></tr><tr><td><a href="runtimes/linux_x86_64/llama_cpp_gpu/"><code>runtimes/linux_x86_64/llama_cpp_gpu/</code></a></td><td>Vulkan/CUDA 可选</td></tr><tr><td><a href="runtimes/windows_x86_64/README_cn.html"><code>runtimes/windows_x86_64/</code></a></td><td>同名 Windows 包（亦硬链接到 Windows 库）</td></tr><tr><td><code>runtimes/*/nodejs/</code></td><td>Node.js v22.23.4 官方包</td></tr><tr><td><code>runtimes/*/playwright_browsers/</code></td><td>Playwright 1.64 Chromium = Chrome for Testing 156.0.8078.4 zip（未执行）</td></tr><tr><td><a href="models/cpu_baseline/"><code>models/cpu_baseline/</code></a></td><td>Qwen2.5 0.5B/1.5B/3B Q4_K_M <strong>地址文件</strong>（不存 GGUF）</td></tr><tr><td><a href="models/gpu_optional/"><code>models/gpu_optional/</code></a></td><td>Qwen2.5 7B Q4_K_M <strong>分片地址</strong>（不存 GGUF）</td></tr><tr><td><a href="models/embeddings/"><code>models/embeddings/</code></a></td><td>bge-small-en/zh 与可选 GGUF 的 <strong>地址</strong>；保留 tokenizer/config</td></tr><tr><td><a href="models/rerankers/"><code>models/rerankers/</code></a></td><td>bge-reranker-base <strong>权重地址</strong>；保留 tokenizer/config</td></tr><tr><td><a href="models/tokenizers/"><code>models/tokenizers/</code></a></td><td>Qwen 分词器与模板（不是权重）</td></tr></tbody></table>
+<h2>模型分档（工具调用未验证）</h2>
+<table><thead><tr><th>档</th><th>模型</th><th>许可</th><th>硬件（估计，未测）</th><th>工具调用</th></tr></thead><tbody><tr><td>CPU 冒烟</td><td>Qwen2.5-0.5B Q4_K_M</td><td>Apache-2.0</td><td>RAM 1–2 GiB</td><td>预期经常失败</td></tr><tr><td>CPU 基线</td><td>Qwen2.5-1.5B Q4_K_M</td><td>Apache-2.0</td><td>RAM 3–4 GiB</td><td>未验证</td></tr><tr><td>CPU 增强</td><td>Qwen2.5-3B Q4_K_M</td><td>Apache-2.0</td><td>RAM 5–8 GiB</td><td>未验证</td></tr><tr><td>GPU 可选</td><td>Qwen2.5-7B Q4_K_M</td><td>Apache-2.0</td><td>建议 VRAM ≥ 8 GiB 或 RAM ≥ 12 GiB</td><td>未验证；不能当保证</td></tr><tr><td>嵌入</td><td>bge-small-en/zh</td><td>MIT</td><td>CPU</td><td>嵌入 ≠ 生成工具调用</td></tr><tr><td>重排</td><td>bge-reranker-base</td><td>MIT</td><td>CPU 慢</td><td>需 optional torch 环境才方便加载 safetensors</td></tr></tbody></table>
+<p>OpenAI 兼容接口可连上，<strong>不能</strong>据此认定模型会工具调用。</p>
+<h2>状态标签约定（每个项目 README 重复）</h2>
+<p>四选多，必须据实：</p>
+<ol><li><strong>云 API 必需</strong> — 该路径没有本地后端配置或上游只接云。<br></li><li><strong>可连接本地模型</strong> — 已提供 <code>base_url</code> 模板与 llama.cpp 后端；GGUF <strong>需按 <code>models/*.url.txt</code> 自行获取</strong>。<br></li><li><strong>离线资源已备齐</strong> — 该项目声明的代码、wheel、浏览器已落盘（以 inventories 为准）。<strong>模型权重按约定只记地址，不算已备齐权重。</strong><br></li><li><strong>已断网运行验证</strong> — 本轮 <strong>一律不使用</strong>。</li></ol>
+<p>mock 路径用于学习循环结构，不使用模型，也不得标第 4 项。</p>
+<h2>增量包切分</h2>
+<ol><li>文档 + 源码 + 项目代码 + Linux wheel<br></li><li>模型权重地址清单（不打包 GGUF/safetensors）<br></li><li>可选 GPU 权重 + GPU 版 llama.cpp<br></li><li>Linux 运行时（llama CPU、Node、浏览器）<br></li><li>Windows wheel + Windows 运行时<br></li></ol>
+<p>原 01–33 Release 不动。许可不允许公开的不进公开 tar。</p>
+</body></html>

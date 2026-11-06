@@ -1,0 +1,2 @@
+本 wheelhouse 中 pydantic 2.12.5 与 pydantic-core 2.50.2 版本不配套，按 Windows 平台标记无法解析通过。
+在 Windows 上请改用 deps/wheels/A05_crewai（Python 3.10，已按 Windows 标记解析并离线核对）：deps\windows\install_python.bat A05_crewai

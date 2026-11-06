@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf?download=true",
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "policy": "url_only_no_weight_file",
+  "id": "qwen25_7b_q4km",
+  "tier": "gpu_optional",
+  "repo": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+  "file": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+  "license": "Apache-2.0",
+  "hw": "建议 GPU VRAM ≥ 8 GiB 或 CPU RAM ≥ 12 GiB；本机未测",
+  "tool_call": "未验证；常见社区经验认为 7B 级更接近可用工具调用，不是保证",
+  "dest": "gpu_optional",
+  "public": true,
+  "shards": [
+    "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+    "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf"
+  ],
+  "alts": []
+}

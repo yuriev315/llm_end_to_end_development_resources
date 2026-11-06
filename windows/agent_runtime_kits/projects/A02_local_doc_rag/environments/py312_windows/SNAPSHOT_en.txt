@@ -1,0 +1,6 @@
+project=A02_local_doc_rag
+python=3.12
+platform=windows
+retrieved=2026-10-30
+optional=False
+note=

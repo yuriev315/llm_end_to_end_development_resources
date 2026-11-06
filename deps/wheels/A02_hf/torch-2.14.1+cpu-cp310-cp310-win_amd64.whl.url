@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp310-cp310-win_amd64.whl
+
+[FileInfo]
+Filename=torch-2.14.1+cpu-cp310-cp310-win_amd64.whl
+Size=123978111
+SHA256=bda7043ec45539b1b61538af468e19854b72ac6be8d6fde2f51dfd0c91721568
+Version=2.14.1+cpu
+License=BSD-3-Clause
+Reason=PLACEHOLDER_OVERSIZE

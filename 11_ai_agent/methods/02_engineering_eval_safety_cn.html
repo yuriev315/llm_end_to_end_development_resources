@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>方法：工程、评测、安全</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+</head><body>
+<div class="nav"><a href="../../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>方法：工程、评测、安全</h1>
+<h2>模型接口</h2>
+<p>本套件默认 <strong>OpenAI 兼容 HTTP</strong>（llama-server <code>/v1/chat/completions</code> 与 <code>/v1/embeddings</code>）。<br>
+Ollama 安装包未作为主后端（拉模型走其注册表，离线不闭环）。vLLM 未打包（GPU 服务端，体积与 CUDA 依赖超出 CPU 基线）。</p>
+<p>连接成功只说明 HTTP 与 API 形状。下列能力必须<strong>分别</strong>验证：工具调用、JSON schema、并行工具、停止词、视觉。本轮全部为“未验证”。</p>
+<h2>MCP 与工具协议</h2>
+<p>MCP 2026-07-28 起改为更无状态：按请求携带协议版本，列表接口不再随连接变化。旧教程里的 session header 可能已经过时。以规范 tarball 为准。</p>
+<h2>重试、超时、持久化、人工介入、日志</h2>
+<p>建议最小集合（A01 日志字段已按此留空位）：step、tool、latency、error_class、tokens_est、approval。<br>
+重试要对工具做分类：超时可重试，确认类副作用不可盲目重试。<br>
+人工介入：执行写文件、下单、发浏览器表单之前停。本轮代码只在注释和配置里体现，没有实测 HITL。</p>
+<h2>评测指标</h2>
+<table><thead><tr><th>指标</th><th>定义</th><th>本轮</th></tr></thead><tbody><tr><td>任务成功率</td><td>环境判定或测试通过</td><td>未测</td></tr><tr><td>工具正确性</td><td>名称+参数相对金标</td><td>未测</td></tr><tr><td>成本</td><td>token × 单价或本地秒数</td><td>未测</td></tr><tr><td>延迟</td><td>端到端与每步</td><td>未测</td></tr></tbody></table>
+<p>GAIA / SWE-bench / τ-bench 全量数据或运行镜像<strong>未</strong>当作已备齐。</p>
+<h2>安全</h2>
+<p>提示注入分直接与间接。工具返回值默认不可信。权限：文件系统沙箱、浏览器域名白名单、无任意 shell。<br>
+AgentHarm、AgentDojo 仅作论文与评测框架源码；本库不提供攻击操作步骤。</p>
+</body></html>

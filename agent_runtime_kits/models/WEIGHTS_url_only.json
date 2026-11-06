@@ -1,0 +1,120 @@
+{
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "models": [
+    {
+      "id": "qwen25_05b_q4km",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf?download=true",
+      "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-0.5b-instruct-q4_k_m.gguf.url.txt",
+      "shard_urls": [
+        {
+          "file": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf?download=true",
+          "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-0.5b-instruct-q4_k_m.gguf.url.txt"
+        }
+      ],
+      "tier": "cpu_smoke",
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "file": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "license": "Apache-2.0",
+      "hw": "CPU RAM 约 1–2 GiB；不作为可用工具调用模型",
+      "tool_call": "未验证；参数量过小，预期工具调用/结构化输出经常失败",
+      "dest": "cpu_baseline",
+      "public": true,
+      "alts": []
+    },
+    {
+      "id": "qwen25_15b_q4km",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true",
+      "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-1.5b-instruct-q4_k_m.gguf.url.txt",
+      "shard_urls": [
+        {
+          "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf?download=true",
+          "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-1.5b-instruct-q4_k_m.gguf.url.txt"
+        }
+      ],
+      "tier": "cpu_baseline",
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "license": "Apache-2.0",
+      "hw": "CPU RAM 约 3–4 GiB，x86-64 AVX2 更佳",
+      "tool_call": "未验证；接口可接 OpenAI 兼容服务，不代表能稳定工具调用",
+      "dest": "cpu_baseline",
+      "public": true,
+      "alts": []
+    },
+    {
+      "id": "qwen25_3b_q4km",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
+      "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-3b-instruct-q4_k_m.gguf.url.txt",
+      "shard_urls": [
+        {
+          "file": "qwen2.5-3b-instruct-q4_k_m.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
+          "path": "ai_agent/agent_runtime_kits/models/cpu_baseline/qwen2.5-3b-instruct-q4_k_m.gguf.url.txt"
+        }
+      ],
+      "tier": "cpu_better",
+      "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+      "file": "qwen2.5-3b-instruct-q4_k_m.gguf",
+      "license": "Apache-2.0",
+      "hw": "CPU RAM 约 5–8 GiB",
+      "tool_call": "未验证；相对 0.5B/1.5B 更有机会，仍不能标为已验证",
+      "dest": "cpu_baseline",
+      "public": true,
+      "alts": []
+    },
+    {
+      "id": "qwen25_7b_q4km",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf?download=true",
+      "path": "ai_agent/agent_runtime_kits/models/gpu_optional/qwen2.5-7b-instruct-q4_k_m.gguf.url.txt",
+      "shard_urls": [
+        {
+          "file": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf?download=true",
+          "path": "ai_agent/agent_runtime_kits/models/gpu_optional/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf.url.txt"
+        },
+        {
+          "file": "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf?download=true",
+          "path": "ai_agent/agent_runtime_kits/models/gpu_optional/qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf.url.txt"
+        }
+      ],
+      "tier": "gpu_optional",
+      "repo": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+      "file": "qwen2.5-7b-instruct-q4_k_m.gguf",
+      "license": "Apache-2.0",
+      "hw": "建议 GPU VRAM ≥ 8 GiB 或 CPU RAM ≥ 12 GiB；本机未测",
+      "tool_call": "未验证；常见社区经验认为 7B 级更接近可用工具调用，不是保证",
+      "dest": "gpu_optional",
+      "public": true,
+      "shards": [
+        "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+        "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf"
+      ],
+      "alts": []
+    },
+    {
+      "id": "bge-small-en-v1.5-q8_0.gguf",
+      "url": "https://huggingface.co/CompendiumLabs/bge-small-en-v1.5-gguf/resolve/main/bge-small-en-v1.5-q8_0.gguf?download=true",
+      "path": "ai_agent/agent_runtime_kits/models/embeddings/bge-small-en-v1.5-q8_0.gguf.url.txt",
+      "repo": "CompendiumLabs/bge-small-en-v1.5-gguf",
+      "file": "bge-small-en-v1.5-q8_0.gguf",
+      "dest": "embeddings",
+      "license": "MIT (original BGE) + GGUF conversion",
+      "alts": [
+        {
+          "repo": "ggml-org/bge-small-en-v1.5-GGUF",
+          "file": "bge-small-en-v1.5-q8_0.gguf",
+          "url": "https://huggingface.co/ggml-org/bge-small-en-v1.5-GGUF/resolve/main/bge-small-en-v1.5-q8_0.gguf?download=true"
+        },
+        {
+          "repo": "gpustack/bge-small-en-v1.5-GGUF",
+          "file": "bge-small-en-v1.5-Q8_0.gguf",
+          "url": "https://huggingface.co/gpustack/bge-small-en-v1.5-GGUF/resolve/main/bge-small-en-v1.5-Q8_0.gguf?download=true"
+        }
+      ]
+    }
+  ]
+}

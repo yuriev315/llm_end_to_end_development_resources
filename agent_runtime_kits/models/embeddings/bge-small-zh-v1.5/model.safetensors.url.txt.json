@@ -1,0 +1,9 @@
+{
+  "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/resolve/main/model.safetensors?download=true",
+  "retrieved": "2026-10-30",
+  "downloaded": false,
+  "policy": "url_only_no_weight_file",
+  "repo": "BAAI/bge-small-zh-v1.5",
+  "file": "model.safetensors",
+  "license": "MIT"
+}

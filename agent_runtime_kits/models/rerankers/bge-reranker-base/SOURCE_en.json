@@ -1,0 +1,33 @@
+{
+  "repo": "BAAI/bge-reranker-base",
+  "files": [
+    "model.safetensors",
+    "pytorch_model.bin",
+    "config.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "special_tokens_map.json",
+    "vocab.txt",
+    "README.md"
+  ],
+  "dest": "rerankers/bge-reranker-base",
+  "license": "MIT",
+  "hw": "CPU 可用但慢；建议 4+ GiB RAM。权重只记地址，不下载",
+  "pick_first": [
+    "model.safetensors",
+    "pytorch_model.bin"
+  ],
+  "retrieved": "2026-10-30",
+  "sidecar_ok": true,
+  "downloaded_weights": false,
+  "weight_urls": [
+    {
+      "file": "model.safetensors",
+      "url": "https://huggingface.co/BAAI/bge-reranker-base/resolve/main/model.safetensors?download=true"
+    },
+    {
+      "file": "pytorch_model.bin",
+      "url": "https://huggingface.co/BAAI/bge-reranker-base/resolve/main/pytorch_model.bin?download=true"
+    }
+  ]
+}

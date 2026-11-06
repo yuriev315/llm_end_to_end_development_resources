@@ -1,0 +1,6 @@
+project=A05_multi_agent_crewai
+python=3.10
+platform=linux
+retrieved=2026-10-30
+optional=False
+note=CrewAI 1.15.33 声明 openai>=2.30,<3，与 Agents SDK / AG2 的 openai 3.x 冲突，必须独立 wheelhouse

@@ -1,0 +1,10 @@
+[InternetShortcut]
+URL=https://github.com/ggml-org/llama.cpp/releases/download/b11998/cudart-llama-b11998-bin-ubuntu-cuda-12.8-x64.tar.gz
+
+[FileInfo]
+Filename=cudart-llama-b11998-bin-ubuntu-cuda-12.8-x64.tar.gz
+Size=594371481
+SHA256=
+Version=cudart-llama-b11998-bin-ubuntu-cuda-12.8-x64.tar.gz
+License=NVIDIA CUDA runtime EULA
+Reason=PLACEHOLDER_OVERSIZE
