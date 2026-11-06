@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "1706.03762",
+  "title": "Attention Is All You Need",
+  "classic": "经典：Transformer 原始论文"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1706.03762",
+ "version": "v7",
+ "title": "Attention Is All You Need",
+ "authors": [
+  "Ashish Vaswani",
+  "Noam Shazeer",
+  "Niki Parmar",
+  "Jakob Uszkoreit",
+  "Llion Jones",
+  "Aidan N. Gomez",
+  "Lukasz Kaiser",
+  "Illia Polosukhin"
+ ],
+ "author_count": 8,
+ "published": "2017-06-12",
+ "updated": "2023-08-02",
+ "verify": "pypdf 可解析 15 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1706.03762v7",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2017_Vaswani_AttentionAllYouNeed_en.pdf"
+}

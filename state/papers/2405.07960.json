@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2405.07960",
+  "title": "AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.07960",
+ "version": "v5",
+ "title": "AgentClinic: a multimodal agent benchmark to evaluate AI in simulated clinical environments",
+ "authors": [
+  "Samuel Schmidgall",
+  "Rojin Ziaei",
+  "Carl Harris",
+  "Eduardo Reis",
+  "Jeffrey Jopling",
+  "Michael Moor"
+ ],
+ "author_count": 6,
+ "published": "2024-05-13",
+ "updated": "2025-05-25",
+ "verify": "pypdf 可解析 42 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.07960v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2024_Schmidgall_AgentclinicMultimodalAgentBenchmarkEvaluate_en.pdf"
+}

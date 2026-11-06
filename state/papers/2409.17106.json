@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2409.17106",
+  "title": "Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.17106",
+ "version": "v1",
+ "title": "Text2CAD: Generating Sequential CAD Models from Beginner-to-Expert Level Text Prompts",
+ "authors": [
+  "Mohammad Sadil Khan",
+  "Sankalp Sinha",
+  "Talha Uddin Sheikh",
+  "Didier Stricker",
+  "Sk Aziz Ali",
+  "Muhammad Zeshan Afzal"
+ ],
+ "author_count": 6,
+ "published": "2024-09-25",
+ "updated": "2024-09-25",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.17106v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2024_Khan_Text2cadGeneratingSequentialCadModels_en.pdf"
+}

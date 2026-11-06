@@ -1,0 +1,23 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "1808.06226",
+  "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+  "classic": "经典：SentencePiece"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1808.06226",
+ "version": "v1",
+ "title": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+ "authors": [
+  "Taku Kudo",
+  "John Richardson"
+ ],
+ "author_count": 2,
+ "published": "2018-08-19",
+ "updated": "2018-08-19",
+ "verify": "pypdf 可解析 6 页；首两页标题词匹配 0.00；参考文献节缺失",
+ "url": "https://arxiv.org/abs/1808.06226v1",
+ "status": "failed",
+ "reason": "核验未通过：pypdf 可解析 6 页；首两页标题词匹配 0.00；参考文献节缺失"
+}

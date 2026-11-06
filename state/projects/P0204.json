@@ -1,0 +1,134 @@
+{
+ "id": "P0204",
+ "repo": "argilla-io/argilla",
+ "upstream": "https://github.com/argilla-io/argilla",
+ "seed": {
+  "id": "P0204",
+  "repo": "argilla-io/argilla",
+  "mod": "02",
+  "x": [
+   "04",
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "人工标注与专家审核平台（数据集版本、审核工作流、Docker 部署）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "develop",
+ "head_commit": "5338519accb13ae422f8bf9c0642651c249c49af",
+ "ref": "v2.8.0",
+ "version": "v2.8.0",
+ "kind": "发布标签",
+ "commit": "78cb5183f72e59857cf4da3015c42a91c3b46205",
+ "commit_date": "2025-03-10",
+ "commit_subject": "feat: add Japanese translation (#5816)",
+ "static": {
+  "file_count": 3153,
+  "size_mb": 386.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "argilla-frontend/components",
+   "argilla-frontend/e2e",
+   "argilla-frontend/pages",
+   "argilla-frontend/v1",
+   "argilla-server/tests",
+   "argilla-v1/tests",
+   "argilla/tests",
+   "examples/deployments"
+  ],
+  "test_file_count": 351,
+  "ci": [
+   ".github/workflows/argilla.yml",
+   ".github/workflows/argilla-v1.yml",
+   ".github/workflows/argilla-server.build-docker-images.yml",
+   ".github/workflows/argilla-server.yml",
+   ".github/workflows/argilla-frontend.teardown-all-pr-environments.yml",
+   ".github/workflows/argilla.docs.yml",
+   ".github/workflows/argilla-frontend.build-push-dev-frontend-docker.yml",
+   ".github/workflows/argilla-frontend.teardown-pr-environment.yml",
+   ".github/workflows/argilla-frontend.yml",
+   ".github/workflows/argilla-frontend.deploy-environment.yml",
+   ".github/workflows/close-inactive-issues-bot.yml"
+  ],
+  "docker": [
+   ".github/actions/slack-post-credentials/Dockerfile",
+   ".github/actions/generate-credentials/Dockerfile",
+   ".github/actions/docker-image-tag-from-ref/Dockerfile",
+   "argilla-server/docker/server/Dockerfile",
+   "argilla-server/docker/argilla-hf-spaces/Dockerfile",
+   "argilla-frontend/dev.frontend.Dockerfile"
+  ],
+  "compose": [
+   "examples/deployments/docker/docker-compose.yaml",
+   "examples/deployments/docker/nginx/docker-compose.yaml",
+   "examples/deployments/docker/traefik/docker-compose.yaml"
+  ],
+  "helm_k8s": [
+   "examples/deployments/k8s/argilla-chart/Chart.yaml",
+   "examples/deployments/k8s/argilla-chart/values.yaml"
+  ],
+  "dep_files": [
+   "argilla/pyproject.toml",
+   "argilla-v1/pyproject.toml",
+   "argilla-v1/setup.py",
+   "argilla-server/pyproject.toml",
+   "argilla-frontend/package.json",
+   "docs/_source/requirements.txt"
+  ],
+  "req_files": [
+   "docs/_source/requirements.txt"
+  ],
+  "lock_files": [
+   "argilla/pdm.lock",
+   "argilla-server/pdm.lock",
+   "argilla-frontend/package-lock.json"
+  ],
+  "docs_files": 544,
+  "config_files": 18,
+  "config_dirs": [
+   "argilla-server/docker"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "docs/_source/tutorials/notebooks/data/yt_comments_train.csv",
+   "docs/_source/tutorials/notebooks/data/train_recipes.csv",
+   "docs/_source/tutorials/notebooks/data/yt_comments_test.csv",
+   "docs/_source/tutorials/notebooks/data/test_recipes.csv"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install argilla",
+   "pip install datasets"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-08-05",
+ "archived": "否",
+ "archive": "data/P0204_argilla-io_argilla_v2.8.0_src_en.tar",
+ "archive_mb": 390.0,
+ "archive_prefix": "argilla-v2.8.0",
+ "finished": "2026-10-29T19:54:24Z"
+}

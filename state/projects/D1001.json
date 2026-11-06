@@ -1,0 +1,131 @@
+{
+ "id": "D1001",
+ "repo": "langfuse/langfuse-docs",
+ "upstream": "https://github.com/langfuse/langfuse-docs",
+ "seed": {
+  "id": "D1001",
+  "repo": "langfuse/langfuse-docs",
+  "mod": "10",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Langfuse 官方文档站源（自托管、追踪、评测、提示管理）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "3462fec2048bf80a2c3ba856de8ff51ce079eebf",
+ "ref": "main",
+ "version": "main@3462fec204",
+ "kind": "分支快照",
+ "commit": "3462fec2048bf80a2c3ba856de8ff51ce079eebf",
+ "commit_date": "2026-10-29",
+ "commit_subject": "chore: update GitHub data and sitemap",
+ "static": {
+  "file_count": 3478,
+  "size_mb": 702.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "components/blog",
+   "components/qaChatbot",
+   "components/sentimentClassifier",
+   "lib/compare-labels.test.js",
+   "lib/docs-feedback-url.test.ts",
+   "lib/github-readme.test.ts",
+   "lib/stripMdxForPlainMarkdown.test.js",
+   "scripts/authors",
+   "scripts/check-links.test.js",
+   "scripts/check-sitemap-links.test.js",
+   "scripts/resource-signup-cta.test.js",
+   "scripts/seo-discovery.test.js"
+  ],
+  "test_file_count": 13,
+  "ci": [
+   ".github/workflows/plain-sync-knowledge-docs.yml",
+   ".github/workflows/update-available-internal-links-cursor-rule.yml",
+   ".github/workflows/dependabot-merge.yml",
+   ".github/workflows/update-github-discussions.yml",
+   ".github/workflows/nextjs_bundle_analysis.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/zizmor.yml",
+   ".github/workflows/claude-review-maintainer-prs.yml"
+  ],
+  "docker": [
+   "components/voiceAgent/livekit-agent/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "pnpm-lock.yaml",
+   "uv.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 2,
+  "config_dirs": [],
+  "examples_dirs": [
+   "cookbook"
+  ],
+  "sample_data": [
+   "components/wrapped/data/oss-contributors-2025.json",
+   "content/academy/japan/datasets/meta.json",
+   "content/academy/datasets/meta.json",
+   "data/authors.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.12.0",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "node_engines": {
+   "node": "22"
+  },
+  "npm_scripts": [
+   "agents:check",
+   "agents:sync",
+   "dev",
+   "sync-design-tokens",
+   "format",
+   "format:check",
+   "postinstall",
+   "prebuild",
+   "build",
+   "postbuild",
+   "build:static",
+   "postbuild:static",
+   "start",
+   "analyze",
+   "postbuild:sitemap"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D1001_langfuse_langfuse-docs_main-3462fec204_src_en.tar",
+ "archive_mb": 705.5,
+ "archive_prefix": "langfuse-docs-main-3462fec204",
+ "finished": "2026-10-29T20:04:27Z"
+}

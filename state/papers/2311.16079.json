@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2311.16079",
+  "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2311.16079",
+ "version": "v1",
+ "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+ "authors": [
+  "Zeming Chen",
+  "Alejandro Hernández Cano",
+  "Angelika Romanou",
+  "Antoine Bonnet",
+  "Kyle Matoba",
+  "Francesco Salvi",
+  "Matteo Pagliardini",
+  "Simin Fan"
+ ],
+ "author_count": 20,
+ "published": "2023-11-27",
+ "updated": "2023-11-27",
+ "verify": "pypdf 可解析 38 页；首两页标题词匹配 0.88；参考文献节存在",
+ "url": "https://arxiv.org/abs/2311.16079v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2023_Chen_Meditron70bScalingMedicalPretraining_en.pdf"
+}

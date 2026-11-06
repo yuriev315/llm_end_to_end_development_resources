@@ -1,0 +1,23 @@
+{
+ "id": "D10",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/hf_huggingface_hub_v2.4.0_docs_built_en.zip",
+ "sibling_id": "05D28",
+ "kind": "official_docs",
+ "mods": "04",
+ "title": "Hugging Face huggingface_hub 客户端文档 v2.4.0",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "v2.4.0",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：214 个文件（HTML 53，文档源 55）",
+ "scope": "hf-doc-build 官方构建包 huggingface_hub/v2.4.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/hf_huggingface_hub_v2.4.0_docs_built_en.zip",
+ "size_mb": 3.2,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2403.07974",
+  "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2403.07974",
+ "version": "v2",
+ "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+ "authors": [
+  "Naman Jain",
+  "King Han",
+  "Alex Gu",
+  "Wen-Ding Li",
+  "Fanjia Yan",
+  "Tianjun Zhang",
+  "Sida Wang",
+  "Armando Solar-Lezama"
+ ],
+ "author_count": 10,
+ "published": "2024-03-12",
+ "updated": "2024-06-06",
+ "verify": "pypdf 可解析 46 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2403.07974v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Jain_LivecodebenchHolisticContaminationFreeEvaluation_en.pdf"
+}

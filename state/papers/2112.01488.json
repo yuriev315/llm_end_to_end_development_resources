@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2112.01488",
+  "title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+  "classic": "经典：后期交互"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2112.01488",
+ "version": "v3",
+ "title": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+ "authors": [
+  "Keshav Santhanam",
+  "Omar Khattab",
+  "Jon Saad-Falcon",
+  "Christopher Potts",
+  "Matei Zaharia"
+ ],
+ "author_count": 5,
+ "published": "2021-12-02",
+ "updated": "2022-07-10",
+ "verify": "pypdf 可解析 20 页；首两页标题词匹配 0.86；参考文献节存在",
+ "url": "https://arxiv.org/abs/2112.01488v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2021_Santhanam_Colbertv2EffectiveEfficientRetrievalLightweight_en.pdf"
+}

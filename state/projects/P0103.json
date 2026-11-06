@@ -1,0 +1,127 @@
+{
+ "id": "P0103",
+ "repo": "rasbt/LLMs-from-scratch",
+ "upstream": "https://github.com/rasbt/LLMs-from-scratch",
+ "seed": {
+  "id": "P0103",
+  "repo": "rasbt/LLMs-from-scratch",
+  "mod": "01",
+  "x": [
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "从零实现 GPT：注意力、预训练、分类与指令微调、DPO（配套书籍代码）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "cdbd33e6d57a71e20ea31434841095fac50cecd8",
+ "ref": "main",
+ "version": "main@cdbd33e6d5",
+ "kind": "分支快照",
+ "commit": "cdbd33e6d57a71e20ea31434841095fac50cecd8",
+ "commit_date": "2026-10-02",
+ "commit_subject": "Fix spelling errors (#1097)",
+ "static": {
+  "file_count": 359,
+  "size_mb": 7.4,
+  "license_files": [
+   "LICENSE.txt"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   ".github/scripts",
+   "ch03/02_bonus_efficient-multihead-attention",
+   "ch04/09_dsa",
+   "ch05/07_gpt_to_llama",
+   "ch05/11_qwen3",
+   "ch05/12_gemma3",
+   "ch05/13_olmo3",
+   "ch05/15_tiny-aya",
+   "ch05/16_qwen3.5",
+   "ch05/17_gemma4",
+   "pkg/llms_from_scratch"
+  ],
+  "test_file_count": 28,
+  "ci": [
+   ".github/workflows/basic-tests-windows-uv-pip.yml",
+   ".github/workflows/retry-required-checks.yml",
+   ".github/workflows/basic-tests-pixi.yml",
+   ".github/workflows/check-spelling-errors.yml",
+   ".github/workflows/basic-tests-macos-uv.yml",
+   ".github/workflows/basic-tests-pytorch-rc.yml",
+   ".github/workflows/basic-tests-windows-uv.yml.disabled",
+   ".github/workflows/required-checks.yml",
+   ".github/workflows/basic-tests-old-pytorch.yml",
+   ".github/workflows/basic-tests-linux-uv.yml",
+   ".github/workflows/basic-tests-pip.yml",
+   ".github/workflows/basic-tests-windows-uv-pip.yml.disabled",
+   ".github/workflows/basic-tests-latest-python.yml",
+   ".github/workflows/check-links.yml",
+   ".github/workflows/pep8-linter.yml"
+  ],
+  "docker": [
+   "setup/03_optional-docker-environment/.devcontainer/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "ch06/03_bonus_imdb-classification/requirements-extra.txt",
+   "ch06/04_user_interface/requirements-extra.txt",
+   "ch02/02_bonus_bytepair-encoder/requirements-extra.txt",
+   "ch07/03_model-evaluation/requirements-extra.txt",
+   "ch07/06_user_interface/requirements-extra.txt",
+   "ch07/02_dataset-utilities/requirements-extra.txt",
+   "ch07/05_dataset-generation/requirements-extra.txt",
+   "ch04/02_performance-analysis/requirements-extra.txt",
+   "ch05/07_gpt_to_llama/requirements-extra.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "reasoning-from-scratch",
+    "url": "https://github.com/rasbt/reasoning-from-scratch",
+    "commit": "24b97576614fae02e04d3403bd0732e884950451"
+   }
+  ],
+  "requires_python": ">=3.10,<3.15",
+  "py_scripts": [],
+  "torch_spec": "torch>=2.2.2,<2.6; sys_platform == 'darwin' and platform_machine == 'x86_64' and",
+  "dep_count": 17,
+  "optional_groups": [],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-02",
+ "archived": "否",
+ "archive": "foundations/P0103_rasbt_LLMs-from-scratch_main-cdbd33e6d5_src_en.tar",
+ "archive_mb": 7.8,
+ "archive_prefix": "LLMs-from-scratch-main-cdbd33e6d5",
+ "finished": "2026-10-29T19:53:43Z"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2407.14679",
+  "title": "Compact Language Models via Pruning and Knowledge Distillation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.14679",
+ "version": "v2",
+ "title": "Compact Language Models via Pruning and Knowledge Distillation",
+ "authors": [
+  "Saurav Muralidharan",
+  "Sharath Turuvekere Sreenivas",
+  "Raviraj Joshi",
+  "Marcin Chochowski",
+  "Mostofa Patwary",
+  "Mohammad Shoeybi",
+  "Bryan Catanzaro",
+  "Jan Kautz"
+ ],
+ "author_count": 9,
+ "published": "2024-07-19",
+ "updated": "2024-11-04",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.14679v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Muralidharan_CompactLanguageModelsPruningKnowledge_en.pdf"
+}

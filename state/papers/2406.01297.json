@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2406.01297",
+  "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.01297",
+ "version": "v3",
+ "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+ "authors": [
+  "Ryo Kamoi",
+  "Yusen Zhang",
+  "Nan Zhang",
+  "Jiawei Han",
+  "Rui Zhang"
+ ],
+ "author_count": 5,
+ "published": "2024-06-03",
+ "updated": "2024-12-03",
+ "verify": "pypdf 可解析 23 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.01297v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2024_Kamoi_WhenCanLlmsActuallyCorrect_en.pdf"
+}

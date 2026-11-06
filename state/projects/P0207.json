@@ -1,0 +1,104 @@
+{
+ "id": "P0207",
+ "repo": "iterative/dvc",
+ "upstream": "https://github.com/iterative/dvc",
+ "seed": {
+  "id": "P0207",
+  "repo": "iterative/dvc",
+  "mod": "02",
+  "x": [
+   "04",
+   "10"
+  ],
+  "routes": "A,B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "数据与模型版本管理、流水线与实验追踪（数据—模型—配置关联）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "56e59829512ff134aa269099a2099587b810b4dd",
+ "ref": "3.67.1",
+ "version": "3.67.1",
+ "kind": "发布标签",
+ "commit": "356dfa03278058b02df42124f243c2c345329dae",
+ "commit_date": "2026-03-31",
+ "commit_subject": "[pre-commit.ci] pre-commit autoupdate (#10981)",
+ "static": {
+  "file_count": 591,
+  "size_mb": 3.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "dvc/testing",
+   "tests"
+  ],
+  "test_file_count": 228,
+  "ci": [
+   ".github/workflows/build.yaml",
+   ".github/workflows/codeql.yml",
+   ".github/workflows/plugin_tests.yaml",
+   ".github/workflows/tests.yaml",
+   ".github/workflows/benchmarks.yaml"
+  ],
+  "docker": [],
+  "compose": [
+   "tests/docker-compose.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.rst"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.9",
+  "py_scripts": [
+   "dvc"
+  ],
+  "torch_spec": "",
+  "dep_count": 42,
+  "optional_groups": [
+   "all",
+   "azure",
+   "dev",
+   "gdrive",
+   "gs",
+   "hdfs",
+   "lint",
+   "oss",
+   "s3",
+   "ssh",
+   "ssh_gssapi",
+   "testing"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-08-06",
+ "archived": "否",
+ "archive": "data/P0207_iterative_dvc_3.67.1_src_en.tar",
+ "archive_mb": 3.6,
+ "archive_prefix": "dvc-3.67.1",
+ "finished": "2026-10-29T19:54:54Z"
+}

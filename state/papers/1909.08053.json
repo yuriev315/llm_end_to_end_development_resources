@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "1909.08053",
+  "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+  "classic": "经典：张量并行"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1909.08053",
+ "version": "v4",
+ "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+ "authors": [
+  "Mohammad Shoeybi",
+  "Mostofa Patwary",
+  "Raul Puri",
+  "Patrick LeGresley",
+  "Jared Casper",
+  "Bryan Catanzaro"
+ ],
+ "author_count": 6,
+ "published": "2019-09-17",
+ "updated": "2020-03-13",
+ "verify": "pypdf 可解析 15 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1909.08053v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2019_Shoeybi_MegatronLmTrainingMultiBillion_en.pdf"
+}

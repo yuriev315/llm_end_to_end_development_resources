@@ -1,0 +1,23 @@
+{
+ "id": "D26",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/mcp_specification_main_en.tar",
+ "sibling_id": "15D10",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "Model Context Protocol 规范与文档",
+ "author": "Model Context Protocol 项目（Anthropic 发起）",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "MIT（以仓库为准）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：741 个文件（HTML 0，文档源 375）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/mcp_specification_main_en.tar",
+ "size_mb": 45.5,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

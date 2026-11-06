@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2503.18813",
+  "title": "Defeating Prompt Injections by Design",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2503.18813",
+ "version": "v2",
+ "title": "Defeating Prompt Injections by Design",
+ "authors": [
+  "Edoardo Debenedetti",
+  "Ilia Shumailov",
+  "Tianqi Fan",
+  "Jamie Hayes",
+  "Nicholas Carlini",
+  "Daniel Fabian",
+  "Christoph Kern",
+  "Chongyang Shi"
+ ],
+ "author_count": 10,
+ "published": "2025-03-24",
+ "updated": "2025-06-24",
+ "verify": "pypdf 可解析 125 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2503.18813v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2025_Debenedetti_DefeatingPromptInjectionsDesign_en.pdf"
+}

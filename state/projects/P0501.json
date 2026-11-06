@@ -1,0 +1,125 @@
+{
+ "id": "P0501",
+ "repo": "EleutherAI/lm-evaluation-harness",
+ "upstream": "https://github.com/EleutherAI/lm-evaluation-harness",
+ "seed": {
+  "id": "P0501",
+  "repo": "EleutherAI/lm-evaluation-harness",
+  "mod": "05",
+  "x": [
+   "03",
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "离线基准评测框架，YAML 自定义任务，去污染工具"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "d6de81643928d653435c431bae19945d41d32520",
+ "ref": "v0.4.13",
+ "version": "v0.4.13",
+ "kind": "发布标签",
+ "commit": "ddd67220430a2470529f25fd5c05a576ca1057a0",
+ "commit_date": "2026-09-01",
+ "commit_subject": "chore(version): 0.4.13 (#4071)",
+ "static": {
+  "file_count": 16411,
+  "size_mb": 13.9,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "lm_eval/tasks",
+   "tests"
+  ],
+  "test_file_count": 44,
+  "ci": [
+   ".github/workflows/new_tasks.yml",
+   ".github/workflows/publish.yml",
+   ".github/workflows/unit_tests.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 13,
+  "config_files": 9,
+  "config_dirs": [
+   "lm_eval/config",
+   "lm_eval/tasks"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "lm-eval",
+   "lm_eval"
+  ],
+  "torch_spec": "",
+  "dep_count": 14,
+  "optional_groups": [
+   "api",
+   "archiver",
+   "hf",
+   "vllm",
+   "gptq",
+   "gptqmodel",
+   "ipex",
+   "ibm_watsonx_ai",
+   "onnxruntime-genai",
+   "onnxruntime",
+   "litellm",
+   "optimum"
+  ],
+  "entry_files": [
+   "lm_eval/evaluator_utils.py",
+   "lm_eval/evaluator.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness",
+   "pip install -e .",
+   "pip install \"lm_eval[hf]\"",
+   "pip install \"lm_eval[vllm]\"",
+   "pip install \"lm_eval[api]\"",
+   "pip install \"lm_eval[hf,vllm,api]\"",
+   "lm_eval --model hf \\",
+   "lm_eval --model hf \\",
+   "lm_eval --model hf \\",
+   "lm_eval --model hf \\",
+   "accelerate launch -m lm_eval --model hf \\",
+   "lm_eval --model hf \\",
+   "accelerate launch --multi_gpu --num_processes {nb_of_copies_of_your_model} \\",
+   "torchrun --nproc-per-node=4 -m lm_eval \\",
+   "lm_eval --model steered \\"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-09-14",
+ "archived": "否",
+ "archive": "evaluation/P0501_EleutherAI_lm-evaluation-harness_v0.4.13_src_en.tar",
+ "archive_mb": 32.9,
+ "archive_prefix": "lm-evaluation-harness-v0.4.13",
+ "finished": "2026-10-29T19:55:45Z"
+}

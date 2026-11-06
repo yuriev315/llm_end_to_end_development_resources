@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2401.15884",
+  "title": "Corrective Retrieval Augmented Generation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.15884",
+ "version": "v3",
+ "title": "Corrective Retrieval Augmented Generation",
+ "authors": [
+  "Shi-Qi Yan",
+  "Jia-Chen Gu",
+  "Yun Zhu",
+  "Zhen-Hua Ling"
+ ],
+ "author_count": 4,
+ "published": "2024-01-29",
+ "updated": "2024-10-07",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.15884v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Yan_CorrectiveRetrievalAugmentedGeneration_en.pdf"
+}

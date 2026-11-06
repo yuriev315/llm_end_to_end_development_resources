@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2411.15594",
+  "title": "A Survey on LLM-as-a-Judge",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2411.15594",
+ "version": "v6",
+ "title": "A Survey on LLM-as-a-Judge",
+ "authors": [
+  "Jiawei Gu",
+  "Xuhui Jiang",
+  "Zhichao Shi",
+  "Hexiang Tan",
+  "Xuehao Zhai",
+  "Chengjin Xu",
+  "Wei Li",
+  "Yinghan Shen"
+ ],
+ "author_count": 16,
+ "published": "2024-11-23",
+ "updated": "2025-10-19",
+ "verify": "pypdf 可解析 64 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2411.15594v6",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Gu_SurveyLlmJudge_en.pdf"
+}

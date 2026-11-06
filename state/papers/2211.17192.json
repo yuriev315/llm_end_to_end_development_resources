@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2211.17192",
+  "title": "Fast Inference from Transformers via Speculative Decoding",
+  "classic": "经典：推测解码"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2022_Leviathan_FastInferenceFromTransformersSpeculative_en.pdf",
+ "arxiv_id": "2211.17192",
+ "version": "v2",
+ "title": "Fast Inference from Transformers via Speculative Decoding",
+ "path": "papers_books_courses/papers/06/2022_Leviathan_FastInferenceFromTransformersSpeculative_en.pdf",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

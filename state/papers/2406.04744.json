@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2406.04744",
+  "title": "CRAG -- Comprehensive RAG Benchmark",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.04744",
+ "version": "v2",
+ "title": "CRAG -- Comprehensive RAG Benchmark",
+ "authors": [
+  "Xiao Yang",
+  "Kai Sun",
+  "Hao Xin",
+  "Yushi Sun",
+  "Nikita Bhalla",
+  "Xiangsen Chen",
+  "Sajal Choudhary",
+  "Rongze Daniel Gui"
+ ],
+ "author_count": 27,
+ "published": "2024-06-07",
+ "updated": "2024-11-01",
+ "verify": "pypdf 可解析 20 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.04744v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Yang_CragComprehensiveRagBenchmark_en.pdf"
+}

@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2310.01798",
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2310.01798",
+ "version": "v2",
+ "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+ "authors": [
+  "Jie Huang",
+  "Xinyun Chen",
+  "Swaroop Mishra",
+  "Huaixiu Steven Zheng",
+  "Adams Wei Yu",
+  "Xinying Song",
+  "Denny Zhou"
+ ],
+ "author_count": 7,
+ "published": "2023-10-03",
+ "updated": "2024-03-14",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2310.01798v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Huang_LargeLanguageModelsCannotSelf_en.pdf"
+}

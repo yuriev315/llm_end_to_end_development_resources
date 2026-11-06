@@ -1,0 +1,98 @@
+{
+ "id": "P0105",
+ "repo": "karpathy/nanoGPT（复用）",
+ "upstream": "https://github.com/karpathy/nanoGPT",
+ "seed": {
+  "id": "P0105",
+  "title": "karpathy/nanoGPT（复用）",
+  "src": "/root/programming_reference_literature/practice/karpathy_nanoGPT_master_en.tar",
+  "mod": "01",
+  "routes": "A",
+  "role": "教学实现",
+  "purpose": "最小 GPT 训练/微调代码",
+  "x": [],
+  "tag": "复用"
+ },
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/karpathy_nanoGPT_master_en.tar",
+ "version": "master 提交",
+ "commit": "3adf61e154c3fe3fca428ad6bc3818b27a3b8291",
+ "commit_date": "2025-11-12T11:52:34-08:00",
+ "kind": "复用快照",
+ "static": {
+  "file_count": 26,
+  "size_mb": 0.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [
+   "config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "train.py",
+   "config/eval_gpt2.py",
+   "config/train_shakespeare_char.py",
+   "config/finetune_shakespeare.py",
+   "config/eval_gpt2_large.py",
+   "config/eval_gpt2_xl.py",
+   "config/train_gpt2.py",
+   "config/eval_gpt2_medium.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install torch numpy transformers datasets tiktoken wandb tqdm",
+   "python data/shakespeare_char/prepare.py",
+   "python train.py config/train_shakespeare_char.py",
+   "python sample.py --out_dir=out-shakespeare-char",
+   "python train.py config/train_shakespeare_char.py --device=cpu --compile=False --eval_iters=20 --log_interval=1 --block_size=64 --batch_size=12 --n_layer=4 --n_head=4 --n_embd=128 --max_iters=2000 --lr",
+   "python sample.py --out_dir=out-shakespeare-char --device=cpu",
+   "python data/openwebtext/prepare.py",
+   "torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py",
+   "torchrun --nproc_per_node=8 --nnodes=2 --node_rank=0 --master_addr=123.456.123.456 --master_port=1234 train.py",
+   "torchrun --nproc_per_node=8 --nnodes=2 --node_rank=1 --master_addr=123.456.123.456 --master_port=1234 train.py",
+   "python train.py config/eval_gpt2.py",
+   "python train.py config/eval_gpt2_medium.py",
+   "python train.py config/eval_gpt2_large.py",
+   "python train.py config/eval_gpt2_xl.py",
+   "python train.py config/finetune_shakespeare.py"
+  ]
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明"
+ ],
+ "archive": "foundations/P0105_karpathy_nanoGPT_master_en.tar",
+ "archive_mb": 0.6,
+ "access_date": "2026-10-29",
+ "sibling_verify": "通过：26 个文件（HTML 0，文档源 6）",
+ "head_commit_date": "",
+ "archived": ""
+}

@@ -1,0 +1,18 @@
+{
+ "id": "G01",
+ "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+ "author": "NIST",
+ "version": "July 2024",
+ "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+ "kind": "official_docs",
+ "mods": "12",
+ "license": "美国政府作品（公有领域）",
+ "source": "新下载",
+ "access_date": "2026-10-29",
+ "type": "官方指南/规范",
+ "verify": "pypdf 可解析 64 页；前 4 页标题词匹配 1.00",
+ "status": "done",
+ "path": "papers_books_courses/official_docs/NIST_AI_600-1_GenAI_Profile_2024_en.pdf",
+ "size_mb": 1.2,
+ "complete": true
+}

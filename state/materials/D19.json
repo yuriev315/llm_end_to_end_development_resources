@@ -1,0 +1,23 @@
+{
+ "id": "D19",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/opentelemetry_docs_main_src_en.tar",
+ "sibling_id": "14D21",
+ "kind": "official_docs",
+ "mods": "10",
+ "title": "OpenTelemetry 文档源",
+ "author": "OpenTelemetry Authors (CNCF)",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "CC BY 4.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：509 个文件（HTML 0，文档源 452）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/opentelemetry_docs_main_src_en.tar",
+ "size_mb": 12.2,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

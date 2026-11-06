@@ -1,0 +1,23 @@
+{
+ "id": "D36",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/github_actions_docs_main_src_en.tar",
+ "sibling_id": "06D10",
+ "kind": "official_docs",
+ "mods": "10",
+ "title": "GitHub Actions 官方文档（github/docs content/actions）",
+ "author": "GitHub",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "CC BY 4.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：742 个文件（HTML 0，文档源 739）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/github_actions_docs_main_src_en.tar",
+ "size_mb": 3.8,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2401.10774",
+  "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.10774",
+ "version": "v3",
+ "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+ "authors": [
+  "Tianle Cai",
+  "Yuhong Li",
+  "Zhengyang Geng",
+  "Hongwu Peng",
+  "Jason D. Lee",
+  "Deming Chen",
+  "Tri Dao"
+ ],
+ "author_count": 7,
+ "published": "2024-01-19",
+ "updated": "2024-06-14",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.10774v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2024_Cai_MedusaSimpleLlmInferenceAcceleration_en.pdf"
+}

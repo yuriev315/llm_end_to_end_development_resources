@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2407.01492",
+  "title": "RegMix: Data Mixture as Regression for Language Model Pre-training",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.01492",
+ "version": "v2",
+ "title": "RegMix: Data Mixture as Regression for Language Model Pre-training",
+ "authors": [
+  "Qian Liu",
+  "Xiaosen Zheng",
+  "Niklas Muennighoff",
+  "Guangtao Zeng",
+  "Longxu Dou",
+  "Tianyu Pang",
+  "Jing Jiang",
+  "Min Lin"
+ ],
+ "author_count": 8,
+ "published": "2024-07-01",
+ "updated": "2025-01-23",
+ "verify": "pypdf 可解析 36 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.01492v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Liu_RegmixDataMixtureRegressionLanguage_en.pdf"
+}

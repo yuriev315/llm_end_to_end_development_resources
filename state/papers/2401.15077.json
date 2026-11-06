@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2401.15077",
+  "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.15077",
+ "version": "v3",
+ "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+ "authors": [
+  "Yuhui Li",
+  "Fangyun Wei",
+  "Chao Zhang",
+  "Hongyang Zhang"
+ ],
+ "author_count": 4,
+ "published": "2024-01-26",
+ "updated": "2025-03-04",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.15077v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2024_Li_EagleSpeculativeSamplingRequiresRethinking_en.pdf"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2501.00656",
+  "title": "2 OLMo 2 Furious",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2501.00656",
+ "version": "v3",
+ "title": "2 OLMo 2 Furious",
+ "authors": [
+  "Team OLMo",
+  "Pete Walsh",
+  "Luca Soldaini",
+  "Dirk Groeneveld",
+  "Kyle Lo",
+  "Shane Arora",
+  "Akshita Bhagia",
+  "Yuling Gu"
+ ],
+ "author_count": 43,
+ "published": "2024-12-31",
+ "updated": "2025-10-08",
+ "verify": "pypdf 可解析 58 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2501.00656v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_OLMo_2Olmo2Furious_en.pdf"
+}

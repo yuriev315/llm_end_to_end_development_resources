@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2402.00838",
+  "title": "OLMo: Accelerating the Science of Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.00838",
+ "version": "v4",
+ "title": "OLMo: Accelerating the Science of Language Models",
+ "authors": [
+  "Dirk Groeneveld",
+  "Iz Beltagy",
+  "Pete Walsh",
+  "Akshita Bhagia",
+  "Rodney Kinney",
+  "Oyvind Tafjord",
+  "Ananya Harsh Jha",
+  "Hamish Ivison"
+ ],
+ "author_count": 43,
+ "published": "2024-02-01",
+ "updated": "2024-06-07",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.00838v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_Groeneveld_OlmoAcceleratingScienceLanguageModels_en.pdf"
+}

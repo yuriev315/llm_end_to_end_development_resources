@@ -1,0 +1,23 @@
+{
+ "id": "C11",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/Stanford_CS329S_2022Winter_NotesSlides_en",
+ "sibling_id": "A19-01",
+ "kind": "courses",
+ "mods": "10",
+ "title": "CS 329S: Machine Learning Systems Design (Winter 2022) — Lecture Notes and Slides",
+ "author": "Chip Huyen",
+ "school": "Stanford University",
+ "version": "Winter 2022",
+ "year": "Winter 2022",
+ "license": "未声明许可证",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "18 个 PDF 全部 HTTP 200 且可解析，合计 1125 页",
+ "scope": "",
+ "type": "课程（讲义+课件）",
+ "path": "papers_books_courses/courses/Stanford_CS329S_2022Winter_NotesSlides_en",
+ "size_mb": 49.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

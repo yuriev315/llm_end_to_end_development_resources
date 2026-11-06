@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2210.03629",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "classic": "经典：ReAct"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2022_Yao_ReActSynergizingReasoningActingLanguage_en.pdf",
+ "arxiv_id": "2210.03629",
+ "version": "v3",
+ "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+ "path": "papers_books_courses/papers/08/2022_Yao_ReActSynergizingReasoningActingLanguage_en.pdf",
+ "verify": "pypdf 可解析 33 页；首两页标题词匹配 0.83；参考文献节存在",
+ "published": ""
+}

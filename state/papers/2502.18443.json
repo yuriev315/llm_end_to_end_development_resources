@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2502.18443",
+  "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2502.18443",
+ "version": "v3",
+ "title": "olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models",
+ "authors": [
+  "Jake Poznanski",
+  "Aman Rangapur",
+  "Jon Borchardt",
+  "Jason Dunkelberger",
+  "Regan Huff",
+  "Daniel Lin",
+  "Aman Rangapur",
+  "Christopher Wilhelm"
+ ],
+ "author_count": 10,
+ "published": "2025-02-25",
+ "updated": "2025-07-02",
+ "verify": "pypdf 可解析 33 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2502.18443v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2025_Poznanski_OlmocrUnlockingTrillionsTokensPdfs_en.pdf"
+}

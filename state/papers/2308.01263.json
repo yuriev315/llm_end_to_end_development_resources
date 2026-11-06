@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2308.01263",
+  "title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2308.01263",
+ "version": "v3",
+ "title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models",
+ "authors": [
+  "Paul Röttger",
+  "Hannah Rose Kirk",
+  "Bertie Vidgen",
+  "Giuseppe Attanasio",
+  "Federico Bianchi",
+  "Dirk Hovy"
+ ],
+ "author_count": 6,
+ "published": "2023-08-02",
+ "updated": "2024-04-01",
+ "verify": "pypdf 可解析 24 页；首两页标题词匹配 0.90；参考文献节存在",
+ "url": "https://arxiv.org/abs/2308.01263v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Rttger_XstestTestSuiteIdentifyingExaggerated_en.pdf"
+}

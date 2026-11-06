@@ -1,0 +1,23 @@
+{
+ "id": "C04",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/Stanford_CS224N_2026Winter_Slides_en",
+ "sibling_id": "A09-01",
+ "kind": "courses",
+ "mods": "01",
+ "title": "CS224N Natural Language Processing with Deep Learning (Winter 2026) — Lecture Slides",
+ "author": "Diyi Yang; Yejin Choi",
+ "school": "Stanford University",
+ "version": "Winter 2026",
+ "year": "Winter 2026",
+ "license": "课程官网公开 PDF（未见许可证声明）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "17 个 PDF 全部 HTTP 200 且可解析，合计 1062 页；文件链接取自官方索引页 https://web.stanford.edu/class/cs224n/（该页列出的全部匹配文件均已下载）",
+ "scope": "",
+ "type": "课程（完整课件包）",
+ "path": "papers_books_courses/courses/Stanford_CS224N_2026Winter_Slides_en",
+ "size_mb": 93.6,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

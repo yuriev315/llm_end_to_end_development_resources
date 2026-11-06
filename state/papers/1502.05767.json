@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "1502.05767",
+  "title": "Automatic differentiation in machine learning: a survey",
+  "classic": "经典：自动微分综述"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1502.05767",
+ "version": "v4",
+ "title": "Automatic differentiation in machine learning: a survey",
+ "authors": [
+  "Atilim Gunes Baydin",
+  "Barak A. Pearlmutter",
+  "Alexey Andreyevich Radul",
+  "Jeffrey Mark Siskind"
+ ],
+ "author_count": 4,
+ "published": "2015-02-20",
+ "updated": "2018-02-05",
+ "verify": "pypdf 可解析 43 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1502.05767v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2015_Baydin_AutomaticDifferentiationMachineLearningSurvey_en.pdf"
+}

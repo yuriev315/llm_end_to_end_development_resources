@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2407.13623",
+  "title": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.13623",
+ "version": "v3",
+ "title": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+ "authors": [
+  "Chaofan Tao",
+  "Qian Liu",
+  "Longxu Dou",
+  "Niklas Muennighoff",
+  "Zhongwei Wan",
+  "Ping Luo",
+  "Min Lin",
+  "Ngai Wong"
+ ],
+ "author_count": 8,
+ "published": "2024-07-18",
+ "updated": "2024-11-01",
+ "verify": "pypdf 可解析 33 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.13623v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_Tao_ScalingLawsVocabularyLargerModels_en.pdf"
+}

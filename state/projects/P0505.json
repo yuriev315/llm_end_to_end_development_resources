@@ -1,0 +1,96 @@
+{
+ "id": "P0505",
+ "repo": "SWE-bench/SWE-bench",
+ "upstream": "https://github.com/SWE-bench/SWE-bench",
+ "seed": {
+  "id": "P0505",
+  "repo": "SWE-bench/SWE-bench",
+  "mod": "05",
+  "x": [
+   "08"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "仓库级补丁评测：Docker 构建、测试执行与判定"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "02e7a74ffd0b707aab73d203fe87bdc7c76afc8e",
+ "ref": "v5.0.1",
+ "version": "v5.0.1",
+ "kind": "发布标签",
+ "commit": "87ab1f6ced28f75ba73ca899dc759b019310944a",
+ "commit_date": "2026-08-17",
+ "commit_subject": "Release 5.0.1",
+ "static": {
+  "file_count": 663,
+  "size_mb": 4.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 23,
+  "ci": [
+   ".github/workflows/deploy-docs.yml",
+   ".github/workflows/pytest.yaml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 31,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "swebench"
+  ],
+  "torch_spec": "",
+  "dep_count": 16,
+  "optional_groups": [
+   "datasets",
+   "inference",
+   "test",
+   "docs"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone git@github.com:SWE-bench/SWE-bench.git",
+   "pip install -e ."
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-09-02",
+ "archived": "否",
+ "archive": "evaluation/P0505_SWE-bench_SWE-bench_v5.0.1_src_en.tar",
+ "archive_mb": 5.3,
+ "archive_prefix": "SWE-bench-v5.0.1",
+ "finished": "2026-10-29T19:56:12Z"
+}

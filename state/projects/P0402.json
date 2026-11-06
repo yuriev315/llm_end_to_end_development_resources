@@ -1,0 +1,138 @@
+{
+ "id": "P0402",
+ "repo": "huggingface/peft",
+ "upstream": "https://github.com/huggingface/peft",
+ "seed": {
+  "id": "P0402",
+  "repo": "huggingface/peft",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LoRA/QLoRA 等参数高效微调与适配器保存加载"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "21c63eea07ae2907cedb242693fbe45bc2e66664",
+ "ref": "v0.21.2",
+ "version": "v0.21.2",
+ "kind": "发布标签",
+ "commit": "eaa35c777c7ba554a2a3639ac9c79bb690f39a57",
+ "commit_date": "2026-10-01",
+ "commit_subject": "Patch release v0.21.2 changes (#3855)",
+ "static": {
+  "file_count": 987,
+  "size_mb": 25.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "examples/adamss_finetuning",
+   "examples/boft_controlnet",
+   "method_comparison/test_sanitizer.py",
+   "tests"
+  ],
+  "test_file_count": 63,
+  "ci": [
+   ".github/workflows/build_pr_documentation.yml",
+   ".github/workflows/trufflehog.yml",
+   ".github/workflows/build_documentation.yml",
+   ".github/workflows/torch_compile_tests.yml",
+   ".github/workflows/zizmor.yaml",
+   ".github/workflows/build_docker_images.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/stale.yml",
+   ".github/workflows/triage_prs.yml",
+   ".github/workflows/test-docker-build.yml",
+   ".github/workflows/integrations_tests.yml",
+   ".github/workflows/deploy_method_comparison_app.yml",
+   ".github/workflows/upload_pr_documentation.yml",
+   ".github/workflows/nightly.yml",
+   ".github/workflows/deploy_peft_shop_app.yml",
+   ".github/workflows/tests-main.yml"
+  ],
+  "docker": [
+   "docker/peft-gpu/Dockerfile",
+   "docker/peft-cpu/Dockerfile",
+   "examples/lora_finetuning_transformer_engine/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "setup.py",
+   "method_comparison/MetaMathQA/requirements.txt",
+   "method_comparison/peft-shop/requirements.txt",
+   "method_comparison/image-gen/requirements.txt",
+   "examples/token_classification/requirements.txt",
+   "examples/lora_dreambooth/requirements.txt",
+   "examples/frod_finetuning/requirements.txt",
+   "examples/sft/requirements.txt",
+   "examples/boft_dreambooth/requirements.txt",
+   "examples/hra_dreambooth/requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "method_comparison/requirements-app.txt",
+   "method_comparison/MetaMathQA/requirements.txt",
+   "method_comparison/peft-shop/requirements.txt",
+   "method_comparison/image-gen/requirements.txt",
+   "examples/token_classification/requirements.txt",
+   "examples/lora_dreambooth/requirements.txt",
+   "examples/frod_finetuning/requirements.txt",
+   "examples/sft/requirements.txt",
+   "examples/sft/requirements_colab.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 86,
+  "config_files": 8,
+  "config_dirs": [
+   "examples/sft",
+   "method_comparison/text_generation_benchmark"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "method_comparison/app_embed.py",
+   "method_comparison/app.py",
+   "scripts/evaluate-lora-conversion.py",
+   "scripts/train_memory.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install peft"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "adaptation_alignment/P0402_huggingface_peft_v0.21.2_src_en.tar",
+ "archive_mb": 26.3,
+ "archive_prefix": "peft-v0.21.2",
+ "finished": "2026-10-29T19:55:31Z"
+}

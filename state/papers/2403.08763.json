@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2403.08763",
+  "title": "Simple and Scalable Strategies to Continually Pre-train Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2403.08763",
+ "version": "v4",
+ "title": "Simple and Scalable Strategies to Continually Pre-train Large Language Models",
+ "authors": [
+  "Adam Ibrahim",
+  "Benjamin Thérien",
+  "Kshitij Gupta",
+  "Mats L. Richter",
+  "Quentin Anthony",
+  "Timothée Lesort",
+  "Eugene Belilovsky",
+  "Irina Rish"
+ ],
+ "author_count": 8,
+ "published": "2024-03-13",
+ "updated": "2024-09-04",
+ "verify": "pypdf 可解析 45 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2403.08763v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Ibrahim_SimpleScalableStrategiesContinuallyPre_en.pdf"
+}

@@ -1,0 +1,127 @@
+{
+ "id": "P0202",
+ "repo": "docling-project/docling",
+ "upstream": "https://github.com/docling-project/docling",
+ "seed": {
+  "id": "P0202",
+  "repo": "docling-project/docling",
+  "mod": "02",
+  "x": [
+   "07",
+   "12"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "文档解析：PDF/Office/HTML、版面、表格、公式、OCR，输出带来源定位的结构"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "af2dbadb4cd3fa39786916157a5c174eeb9bb7bf",
+ "ref": "v2.145.0",
+ "version": "v2.145.0",
+ "kind": "发布标签",
+ "commit": "45d334e33f7aca345fc26880777288b8cd14262d",
+ "commit_date": "2026-10-29",
+ "commit_subject": "chore: bump version to 2.145.0 [skip ci]",
+ "static": {
+  "file_count": 1901,
+  "size_mb": 215.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 226,
+  "ci": [
+   ".github/workflows/ci-heavy-examples.yml",
+   ".github/workflows/ci-docs.yml",
+   ".github/workflows/ci-main.yml",
+   ".github/workflows/pypi.yml",
+   ".github/workflows/cd-docs.yml",
+   ".github/workflows/dco-advisor.yml",
+   ".github/workflows/discord-release.yml",
+   ".github/workflows/cd.yml",
+   ".github/workflows/checks.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/pr-reminders.yml",
+   ".github/workflows/docs.yml",
+   ".github/workflows/update-deps.yml",
+   ".github/workflows/pr-fast-checks.yml",
+   ".github/workflows/ai-pr-triage.yml"
+  ],
+  "docker": [
+   "Dockerfile",
+   ".actor/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "packages/docling-client/pyproject.toml",
+   "packages/docling/pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 165,
+  "config_files": 2,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "docs/examples/data/normal_4pages.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<4.0",
+  "py_scripts": [
+   "docling",
+   "docling-tools"
+  ],
+  "torch_spec": "",
+  "dep_count": 9,
+  "optional_groups": [
+   "convert-core",
+   "extract-core",
+   "format-pdf-pypdfium2",
+   "format-pdf-docling",
+   "format-pdf",
+   "format-docx",
+   "format-pptx",
+   "format-xlsx",
+   "format-office",
+   "format-opendocument",
+   "format-html",
+   "format-markdown"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install docling"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "data/P0202_docling-project_docling_v2.145.0_src_en.tar",
+ "archive_mb": 217.3,
+ "archive_prefix": "docling-v2.145.0",
+ "finished": "2026-10-29T19:54:00Z"
+}

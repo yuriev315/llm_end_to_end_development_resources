@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2309.15817",
+  "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2309.15817",
+ "version": "v2",
+ "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+ "authors": [
+  "Yangjun Ruan",
+  "Honghua Dong",
+  "Andrew Wang",
+  "Silviu Pitis",
+  "Yongchao Zhou",
+  "Jimmy Ba",
+  "Yann Dubois",
+  "Chris J. Maddison"
+ ],
+ "author_count": 9,
+ "published": "2023-09-25",
+ "updated": "2024-05-17",
+ "verify": "pypdf 可解析 70 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2309.15817v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2023_Ruan_IdentifyingRisksLmAgentsLm_en.pdf"
+}

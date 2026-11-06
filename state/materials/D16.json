@@ -1,0 +1,23 @@
+{
+ "id": "D16",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/kubernetes_docs_main_src_en.tar",
+ "sibling_id": "14D11",
+ "kind": "official_docs",
+ "mods": "10",
+ "title": "Kubernetes 官方文档源（website content/en）",
+ "author": "Kubernetes Authors (CNCF)",
+ "school": "",
+ "version": "main 提交（对应当前发布版）",
+ "year": "",
+ "license": "CC BY 4.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：1796 个文件（HTML 6，文档源 1726）",
+ "scope": "content/en/docs：概念、任务、教程、参考（kubectl 与 API 参考页已生成提交）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/kubernetes_docs_main_src_en.tar",
+ "size_mb": 21.1,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

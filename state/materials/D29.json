@@ -1,0 +1,23 @@
+{
+ "id": "D29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/openai_agents_python_docs_src_en.tar",
+ "sibling_id": "15D14",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "OpenAI Agents SDK（Python）文档源与示例",
+ "author": "OpenAI",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "MIT",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：744 个文件（HTML 2，文档源 478）",
+ "scope": "docs/（ref/ 为 mkdocstrings 指令，API 正文未含）+ examples/",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/openai_agents_python_docs_src_en.tar",
+ "size_mb": 9.2,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

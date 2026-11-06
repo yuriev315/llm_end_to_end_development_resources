@@ -1,0 +1,25 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2405.14734",
+  "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.14734",
+ "version": "v3",
+ "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+ "authors": [
+  "Yu Meng",
+  "Mengzhou Xia",
+  "Danqi Chen"
+ ],
+ "author_count": 3,
+ "published": "2024-05-23",
+ "updated": "2024-11-01",
+ "verify": "pypdf 可解析 32 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.14734v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Meng_SimpoSimplePreferenceOptimizationReference_en.pdf"
+}

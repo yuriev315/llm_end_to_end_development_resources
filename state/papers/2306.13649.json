@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2306.13649",
+  "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2306.13649",
+ "version": "v3",
+ "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
+ "authors": [
+  "Rishabh Agarwal",
+  "Nino Vieillard",
+  "Yongchao Zhou",
+  "Piotr Stanczyk",
+  "Sabela Ramos",
+  "Matthieu Geist",
+  "Olivier Bachem"
+ ],
+ "author_count": 7,
+ "published": "2023-06-23",
+ "updated": "2024-01-17",
+ "verify": "pypdf 可解析 18 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2306.13649v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2023_Agarwal_PolicyDistillationLanguageModelsLearning_en.pdf"
+}

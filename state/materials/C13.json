@@ -1,0 +1,23 @@
+{
+ "id": "C13",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/courses/CMU_17645_MLinProduction_2025_src_en.tar",
+ "sibling_id": "04C02",
+ "kind": "courses",
+ "mods": "10",
+ "title": "CMU 17-445/645 Machine Learning in Production（课件与实验）",
+ "author": "Christian Kästner 等",
+ "school": "Carnegie Mellon University",
+ "version": "Spring 2025（仓库提交）",
+ "year": "2025",
+ "license": "CC BY-NC-SA 4.0（以仓库为准）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：903 个文件（HTML 4，文档源 48）",
+ "scope": "",
+ "type": "大学课程资料",
+ "path": "papers_books_courses/courses/CMU_17645_MLinProduction_2025_src_en.tar",
+ "size_mb": 327.1,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

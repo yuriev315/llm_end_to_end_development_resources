@@ -1,0 +1,23 @@
+{
+ "id": "D37",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/pyright_1.1.414_docs_src_en.tar",
+ "sibling_id": "06D03",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "Pyright 1.1.414 文档（docs/）",
+ "author": "Microsoft",
+ "school": "",
+ "version": "1.1.414",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：36 个文件（HTML 1，文档源 28）",
+ "scope": "仓库 docs/（配置、类型推断、类型概念）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/pyright_1.1.414_docs_src_en.tar",
+ "size_mb": 0.5,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

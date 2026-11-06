@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2408.09869",
+  "title": "Docling Technical Report",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2408.09869",
+ "version": "v5",
+ "title": "Docling Technical Report",
+ "authors": [
+  "Christoph Auer",
+  "Maksym Lysak",
+  "Ahmed Nassar",
+  "Michele Dolfi",
+  "Nikolaos Livathinos",
+  "Panos Vagenas",
+  "Cesar Berrospi Ramis",
+  "Matteo Omenetti"
+ ],
+ "author_count": 19,
+ "published": "2024-08-19",
+ "updated": "2024-12-09",
+ "verify": "pypdf 可解析 9 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2408.09869v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Auer_DoclingTechnicalReport_en.pdf"
+}

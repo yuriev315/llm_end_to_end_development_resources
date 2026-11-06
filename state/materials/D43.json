@@ -1,0 +1,23 @@
+{
+ "id": "D43",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/nist_sp800_63b_4_en.pdf",
+ "sibling_id": "16D05",
+ "kind": "official_docs",
+ "mods": "09",
+ "title": "NIST SP 800-63B-4 Digital Identity Guidelines: Authentication",
+ "author": "NIST",
+ "school": "",
+ "version": "Rev. 4",
+ "year": "2025",
+ "license": "美国政府作品（公有领域）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：pypdf 可解析 129 页；标题词匹配 1.0",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/nist_sp800_63b_4_en.pdf",
+ "size_mb": 1.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

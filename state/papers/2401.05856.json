@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2401.05856",
+  "title": "Seven Failure Points When Engineering a Retrieval Augmented Generation System",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.05856",
+ "version": "v1",
+ "title": "Seven Failure Points When Engineering a Retrieval Augmented Generation System",
+ "authors": [
+  "Scott Barnett",
+  "Stefanus Kurniawan",
+  "Srikanth Thudumu",
+  "Zach Brannelly",
+  "Mohamed Abdelrazek"
+ ],
+ "author_count": 5,
+ "published": "2024-01-11",
+ "updated": "2024-01-11",
+ "verify": "pypdf 可解析 6 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.05856v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Barnett_SevenFailurePointsWhenEngineering_en.pdf"
+}

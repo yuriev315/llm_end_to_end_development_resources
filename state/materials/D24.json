@@ -1,0 +1,23 @@
+{
+ "id": "D24",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/langchain_docs_main_src_en.tar",
+ "sibling_id": "15D03",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "LangChain / LangGraph 官方文档源（docs.langchain.com）",
+ "author": "LangChain Inc.",
+ "school": "",
+ "version": "main 提交（对应 langchain 1.4.x）",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：951 个文件（HTML 0，文档源 772）",
+ "scope": "src/oss（LangChain、LangGraph Python/JS 指南与集成页，MDX）；API 参考在 reference.langchain.com 单独生成，未含",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/langchain_docs_main_src_en.tar",
+ "size_mb": 65.8,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

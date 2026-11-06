@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2401.16380",
+  "title": "Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.16380",
+ "version": "v1",
+ "title": "Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling",
+ "authors": [
+  "Pratyush Maini",
+  "Skyler Seto",
+  "He Bai",
+  "David Grangier",
+  "Yizhe Zhang",
+  "Navdeep Jaitly"
+ ],
+ "author_count": 6,
+ "published": "2024-01-29",
+ "updated": "2024-01-29",
+ "verify": "pypdf 可解析 33 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.16380v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Maini_RephrasingWebRecipeComputeData_en.pdf"
+}

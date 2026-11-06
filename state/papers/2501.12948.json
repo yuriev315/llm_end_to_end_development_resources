@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2501.12948",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2501.12948",
+ "version": "v2",
+ "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+ "authors": [
+  " DeepSeek-AI",
+  "Daya Guo",
+  "Dejian Yang",
+  "Haowei Zhang",
+  "Junxiao Song",
+  "Peiyi Wang",
+  "Qihao Zhu",
+  "Runxin Xu"
+ ],
+ "author_count": 200,
+ "published": "2025-01-22",
+ "updated": "2026-01-04",
+ "verify": "pypdf 可解析 86 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2501.12948v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2025_DeepSeekAI_DeepseekR1IncentivizingReasoningCapability_en.pdf"
+}

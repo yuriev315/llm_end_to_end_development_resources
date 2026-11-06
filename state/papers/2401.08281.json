@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2401.08281",
+  "title": "The Faiss library",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.08281",
+ "version": "v4",
+ "title": "The Faiss library",
+ "authors": [
+  "Matthijs Douze",
+  "Alexandr Guzhva",
+  "Chengqi Deng",
+  "Jeff Johnson",
+  "Gergely Szilvasy",
+  "Pierre-Emmanuel Mazaré",
+  "Maria Lomeli",
+  "Lucas Hosseini"
+ ],
+ "author_count": 9,
+ "published": "2024-01-16",
+ "updated": "2025-10-23",
+ "verify": "pypdf 可解析 25 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.08281v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Douze_FaissLibrary_en.pdf"
+}

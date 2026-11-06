@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2203.15556",
+  "title": "Training Compute-Optimal Large Language Models",
+  "classic": "经典：计算最优缩放"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2203.15556",
+ "version": "v1",
+ "title": "Training Compute-Optimal Large Language Models",
+ "authors": [
+  "Jordan Hoffmann",
+  "Sebastian Borgeaud",
+  "Arthur Mensch",
+  "Elena Buchatskaya",
+  "Trevor Cai",
+  "Eliza Rutherford",
+  "Diego de Las Casas",
+  "Lisa Anne Hendricks"
+ ],
+ "author_count": 22,
+ "published": "2022-03-29",
+ "updated": "2022-03-29",
+ "verify": "pypdf 可解析 36 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2203.15556v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2022_Hoffmann_TrainingComputeOptimalLargeLanguage_en.pdf"
+}

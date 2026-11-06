@@ -1,0 +1,78 @@
+{
+ "id": "P0101",
+ "repo": "karpathy/micrograd",
+ "upstream": "https://github.com/karpathy/micrograd",
+ "seed": {
+  "id": "P0101",
+  "repo": "karpathy/micrograd",
+  "mod": "01",
+  "x": [],
+  "routes": "A",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "标量自动微分与小型神经网络（反向传播教学）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+ "ref": "master",
+ "version": "master@7bc720e951",
+ "kind": "分支快照",
+ "commit": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+ "commit_date": "2026-08-02",
+ "commit_subject": "link to microgpt",
+ "static": {
+  "file_count": 13,
+  "size_mb": 0.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "test"
+  ],
+  "test_file_count": 1,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "setup.py"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install micrograd",
+   "python -m pytest"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-08-03",
+ "archived": "否",
+ "archive": "foundations/P0101_karpathy_micrograd_master-7bc720e951_src_en.tar",
+ "archive_mb": 0.2,
+ "archive_prefix": "micrograd-master-7bc720e951",
+ "finished": "2026-10-29T19:53:30Z"
+}

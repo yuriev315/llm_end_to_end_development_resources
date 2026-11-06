@@ -1,0 +1,23 @@
+{
+ "id": "D40",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/owasp_asvs_5.0_src_en.tar",
+ "sibling_id": "16D02",
+ "kind": "official_docs",
+ "mods": "12",
+ "title": "OWASP ASVS 5.0（应用安全验证标准）",
+ "author": "OWASP Foundation",
+ "school": "",
+ "version": "5.0（仓库提交）",
+ "year": "2025",
+ "license": "CC BY-SA 4.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：35 个文件（HTML 0，文档源 34）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/owasp_asvs_5.0_src_en.tar",
+ "size_mb": 0.4,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

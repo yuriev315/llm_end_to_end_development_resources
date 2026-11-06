@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2306.00978",
+  "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2306.00978",
+ "version": "v6",
+ "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+ "authors": [
+  "Ji Lin",
+  "Jiaming Tang",
+  "Haotian Tang",
+  "Shang Yang",
+  "Wei-Ming Chen",
+  "Wei-Chen Wang",
+  "Guangxuan Xiao",
+  "Xingyu Dang"
+ ],
+ "author_count": 10,
+ "published": "2023-06-01",
+ "updated": "2026-04-25",
+ "verify": "pypdf 可解析 15 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2306.00978v6",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2023_Lin_AwqActivationAwareWeightQuantization_en.pdf"
+}

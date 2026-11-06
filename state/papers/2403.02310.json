@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2403.02310",
+  "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2024_Agrawal_TamingThroughputLatencyTradeoffLLM_en.pdf",
+ "arxiv_id": "2403.02310",
+ "version": "v3",
+ "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+ "path": "papers_books_courses/papers/06/2024_Agrawal_TamingThroughputLatencyTradeoffLLM_en.pdf",
+ "verify": "pypdf 可解析 18 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

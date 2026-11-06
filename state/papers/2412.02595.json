@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2412.02595",
+  "title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2412.02595",
+ "version": "v2",
+ "title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+ "authors": [
+  "Dan Su",
+  "Kezhi Kong",
+  "Ying Lin",
+  "Joseph Jennings",
+  "Brandon Norick",
+  "Markus Kliegl",
+  "Mostofa Patwary",
+  "Mohammad Shoeybi"
+ ],
+ "author_count": 9,
+ "published": "2024-12-03",
+ "updated": "2025-05-30",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2412.02595v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Su_NemotronCcTransformingCommonCrawl_en.pdf"
+}

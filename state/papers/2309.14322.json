@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2309.14322",
+  "title": "Small-scale proxies for large-scale Transformer training instabilities",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2309.14322",
+ "version": "v2",
+ "title": "Small-scale proxies for large-scale Transformer training instabilities",
+ "authors": [
+  "Mitchell Wortsman",
+  "Peter J. Liu",
+  "Lechao Xiao",
+  "Katie Everett",
+  "Alex Alemi",
+  "Ben Adlam",
+  "John D. Co-Reyes",
+  "Izzeddin Gur"
+ ],
+ "author_count": 16,
+ "published": "2023-09-25",
+ "updated": "2023-10-16",
+ "verify": "pypdf 可解析 26 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2309.14322v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2023_Wortsman_SmallScaleProxiesLargeScale_en.pdf"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "D42",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/bandit_docs_src_en.tar",
+ "sibling_id": "16D08",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "Bandit 文档源（Python 安全静态分析）",
+ "author": "PyCQA",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "Apache-2.0",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：76 个文件（HTML 0，文档源 73）",
+ "scope": "doc/source（Sphinx 源；插件 API 由 docstring 生成部分未含）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/bandit_docs_src_en.tar",
+ "size_mb": 0.2,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

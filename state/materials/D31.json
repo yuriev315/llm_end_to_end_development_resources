@@ -1,0 +1,23 @@
+{
+ "id": "D31",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/celery_docs_src_en.tar",
+ "sibling_id": "09D05",
+ "kind": "official_docs",
+ "mods": "09",
+ "title": "Celery 文档源（异步任务队列）",
+ "author": "Celery 项目",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "BSD-3-Clause",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：325 个文件（HTML 4，文档源 252）",
+ "scope": "docs/（Sphinx 源；API 参考由 docstring 生成，未含）+ examples/",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/celery_docs_src_en.tar",
+ "size_mb": 3.1,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

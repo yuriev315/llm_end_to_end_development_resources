@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2309.17453",
+  "title": "Efficient Streaming Language Models with Attention Sinks",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2309.17453",
+ "version": "v4",
+ "title": "Efficient Streaming Language Models with Attention Sinks",
+ "authors": [
+  "Guangxuan Xiao",
+  "Yuandong Tian",
+  "Beidi Chen",
+  "Song Han",
+  "Mike Lewis"
+ ],
+ "author_count": 5,
+ "published": "2023-09-29",
+ "updated": "2024-04-07",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2309.17453v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2023_Xiao_EfficientStreamingLanguageModelsAttention_en.pdf"
+}

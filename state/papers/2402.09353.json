@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2402.09353",
+  "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.09353",
+ "version": "v6",
+ "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+ "authors": [
+  "Shih-Yang Liu",
+  "Chien-Yi Wang",
+  "Hongxu Yin",
+  "Pavlo Molchanov",
+  "Yu-Chiang Frank Wang",
+  "Kwang-Ting Cheng",
+  "Min-Hung Chen"
+ ],
+ "author_count": 7,
+ "published": "2024-02-14",
+ "updated": "2024-07-09",
+ "verify": "pypdf 可解析 23 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.09353v6",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Liu_DoraWeightDecomposedLowRank_en.pdf"
+}

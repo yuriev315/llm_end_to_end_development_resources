@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2402.01306",
+  "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.01306",
+ "version": "v5",
+ "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+ "authors": [
+  "Kawin Ethayarajh",
+  "Winnie Xu",
+  "Niklas Muennighoff",
+  "Dan Jurafsky",
+  "Douwe Kiela"
+ ],
+ "author_count": 5,
+ "published": "2024-02-02",
+ "updated": "2026-09-08",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.01306v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Ethayarajh_KtoModelAlignmentProspectTheoretic_en.pdf"
+}

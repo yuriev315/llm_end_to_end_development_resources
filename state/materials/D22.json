@@ -1,0 +1,23 @@
+{
+ "id": "D22",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/sentence_transformers_sbert_mirror_en.tar",
+ "sibling_id": "15D01",
+ "kind": "official_docs",
+ "mods": "07",
+ "title": "Sentence Transformers 文档（sbert.net 离线镜像）",
+ "author": "UKP Lab / Hugging Face",
+ "school": "",
+ "version": "当前站点（对应 v6.2.0）",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：213 个文件（HTML 168，文档源 1）",
+ "scope": "sbert.net 全站（用户指南、包参考、示例说明）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/sentence_transformers_sbert_mirror_en.tar",
+ "size_mb": 39.4,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

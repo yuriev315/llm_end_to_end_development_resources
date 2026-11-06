@@ -1,0 +1,96 @@
+{
+ "id": "P0104",
+ "repo": "karpathy/nanochat",
+ "upstream": "https://github.com/karpathy/nanochat",
+ "seed": {
+  "id": "P0104",
+  "repo": "karpathy/nanochat",
+  "mod": "01",
+  "x": [
+   "03",
+   "04",
+   "05",
+   "06",
+   "09"
+  ],
+  "routes": "A",
+  "role": "完整工程",
+  "tag": "HEAD",
+  "purpose": "小规模全流程：分词器→预训练→SFT→RL→评测→命令行对话（scripts/chat_cli.py）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+ "ref": "master",
+ "version": "master@92d63d4e8b",
+ "kind": "分支快照",
+ "commit": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+ "commit_date": "2026-07-03",
+ "commit_subject": "clean up fragile code",
+ "static": {
+  "file_count": 53,
+  "size_mb": 1.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 6,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "torch==2.9.1",
+  "dep_count": 9,
+  "optional_groups": [
+   "cpu",
+   "gpu"
+  ],
+  "entry_files": [
+   "runs/runcpu.sh"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "uv sync --extra gpu    # Use for CUDA (A100/H100/etc.)",
+   "uv sync --extra cpu    # (or) Use for CPU-only / MPS",
+   "uv sync --extra gpu --group dev",
+   "bash runs/speedrun.sh",
+   "python -m scripts.chat_cli"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-07-03",
+ "archived": "否",
+ "archive": "foundations/P0104_karpathy_nanochat_master-92d63d4e8b_src_en.tar",
+ "archive_mb": 1.2,
+ "archive_prefix": "nanochat-master-92d63d4e8b",
+ "finished": "2026-10-29T19:53:45Z"
+}

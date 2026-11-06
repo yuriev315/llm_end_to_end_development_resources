@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2410.06511",
+  "title": "TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2024_Liang_TorchTitanOneStopPyTorchNative_en.pdf",
+ "arxiv_id": "2410.06511",
+ "version": "v3",
+ "title": "TorchTitan: One-stop PyTorch native solution for production ready LLM pre-training",
+ "path": "papers_books_courses/papers/03/2024_Liang_TorchTitanOneStopPyTorchNative_en.pdf",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 0.91；参考文献节存在",
+ "published": ""
+}

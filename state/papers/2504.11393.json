@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2504.11393",
+  "title": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2504.11393",
+ "version": "v2",
+ "title": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+ "authors": [
+  "Ian Magnusson",
+  "Nguyen Tai",
+  "Ben Bogin",
+  "David Heineman",
+  "Jena D. Hwang",
+  "Luca Soldaini",
+  "Akshita Bhagia",
+  "Jiacheng Liu"
+ ],
+ "author_count": 13,
+ "published": "2025-04-15",
+ "updated": "2025-07-13",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2504.11393v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2025_Magnusson_DatadecideHowPredictBestPretraining_en.pdf"
+}

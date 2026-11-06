@@ -1,0 +1,168 @@
+{
+ "id": "P0502",
+ "repo": "UKGovernmentBEIS/inspect_ai",
+ "upstream": "https://github.com/UKGovernmentBEIS/inspect_ai",
+ "seed": {
+  "id": "P0502",
+  "repo": "UKGovernmentBEIS/inspect_ai",
+  "mod": "05",
+  "x": [
+   "08",
+   "12"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "评测框架：自定义任务、工具调用、沙箱、打分器、日志查看"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "6f5f9c20a6215be3b17f005c6079c69a6f8a73aa",
+ "ref": "0.3.286",
+ "version": "0.3.286",
+ "kind": "发布标签",
+ "commit": "5dcbc98f86b6fd3d4a045b6ad001c6be41a10646",
+ "commit_date": "2026-10-28",
+ "commit_subject": "chore(main): release 0.3.286 (#6082)",
+ "static": {
+  "file_count": 2360,
+  "size_mb": 56.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   ".agents/skills",
+   "src/inspect_ai",
+   "src/inspect_sandbox_tools",
+   "tests"
+  ],
+  "test_file_count": 688,
+  "ci": [
+   ".github/workflows/sync_model_data.yml",
+   ".github/workflows/build.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/publish-parity.yml",
+   ".github/workflows/sandbox-tools-build.yml",
+   ".github/workflows/publish.yml",
+   ".github/workflows/release-pr-checks.yml",
+   ".github/workflows/log_viewer.yml",
+   ".github/workflows/pr-stale.yml",
+   ".github/workflows/docker.yml",
+   ".github/workflows/pr-gate.yml",
+   ".github/workflows/pr-title-lint.yml",
+   ".github/workflows/npm-publish.yml",
+   ".github/workflows/test.yml",
+   ".github/workflows/suppressions-comment.yml",
+   ".github/workflows/suppressions.yml",
+   ".github/workflows/changelog-lint.yml"
+  ],
+  "docker": [
+   ".devcontainer/Dockerfile",
+   "src/inspect_ai/util/_sandbox/docker/Dockerfile",
+   "src/inspect_ai/util/_sandbox/docker/Dockerfile.kali",
+   "src/inspect_ai/util/_sandbox/docker/Dockerfile.ubuntu",
+   "src/inspect_ai/tool/_sandbox_tools_utils/Dockerfile.pyinstaller",
+   "src/inspect_ai/tool/_sandbox_tools_utils/Dockerfile.pyinstaller.musl",
+   "src/inspect_ai/tool/_tools/_computer/_resources/Dockerfile",
+   "examples/http_proxy/Dockerfile",
+   "examples/evals_in_eval/Dockerfile",
+   "examples/human/Dockerfile",
+   "examples/intervention/shell/Dockerfile",
+   "tests/tools/docker-mcp-server/Dockerfile",
+   "tests/tools/docker-compose-context-alpine/Dockerfile",
+   "tests/tools/docker-compose-context/Dockerfile.rootless",
+   "tests/tools/docker-compose-context/Dockerfile"
+  ],
+  "compose": [
+   "examples/computer/compose.yaml",
+   "examples/browser/compose.yaml",
+   "examples/http_proxy/compose.yaml",
+   "examples/skills/compose.yaml",
+   "examples/evals_in_eval/compose.yaml",
+   "examples/human/compose.yaml",
+   "examples/intervention/multi_tool/compose.yaml",
+   "examples/intervention/computer/compose.yaml",
+   "examples/intervention/shell/compose.yaml",
+   "tests/tools/skills/compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "src/inspect_sandbox_tools/pyproject.toml",
+   "scripts/build-dist/requirements.txt",
+   "tests/test_package/pyproject.toml"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "requirements-math.txt",
+   "requirements-doc.txt",
+   "requirements-dev.txt",
+   "requirements-dist.txt",
+   "scripts/build-dist/requirements.txt",
+   "scripts/build-dist/requirements.in"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 220,
+  "config_files": 14,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "tests/agent/fixtures/live_localharness_functionresponse_model_turn.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "src/inspect_ai/_view/ts-mono",
+    "url": "https://github.com/meridianlabs-ai/ts-mono.git",
+    "commit": "3af0becda0b4c23c032ffa9523d430bb904f287f"
+   }
+  ],
+  "requires_python": ">=3.11",
+  "py_scripts": [
+   "inspect"
+  ],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "examples/evalset.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/UKGovernmentBEIS/inspect_ai.git",
+   "uv sync",
+   "make hooks",
+   "make check",
+   "make test",
+   "uv sync --extra doc",
+   "uv run quarto render # or 'uv run quarto preview'"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "evaluation/P0502_UKGovernmentBEIS_inspect_ai_0.3.286_src_en.tar",
+ "archive_mb": 58.3,
+ "archive_prefix": "inspect_ai-0.3.286",
+ "finished": "2026-10-29T19:55:52Z"
+}

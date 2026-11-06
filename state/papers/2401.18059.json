@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2401.18059",
+  "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.18059",
+ "version": "v1",
+ "title": "RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+ "authors": [
+  "Parth Sarthi",
+  "Salman Abdullah",
+  "Aditi Tuli",
+  "Shubh Khanna",
+  "Anna Goldie",
+  "Christopher D. Manning"
+ ],
+ "author_count": 6,
+ "published": "2024-01-31",
+ "updated": "2024-01-31",
+ "verify": "pypdf 可解析 23 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.18059v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Sarthi_RaptorRecursiveAbstractiveProcessingTree_en.pdf"
+}

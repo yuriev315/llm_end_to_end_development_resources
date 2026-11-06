@@ -1,0 +1,122 @@
+{
+ "id": "P0506",
+ "repo": "stanford-crfm/helm",
+ "upstream": "https://github.com/stanford-crfm/helm",
+ "seed": {
+  "id": "P0506",
+  "repo": "stanford-crfm/helm",
+  "mod": "05",
+  "x": [
+   "11"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "整体评测框架（含 MedHELM 医疗场景）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "63754d05db6f874e41a395880fb573890a13e791",
+ "ref": "v0.5.16",
+ "version": "v0.5.16",
+ "kind": "发布标签",
+ "commit": "ef439fc94e58568fd1274d5c07ceb1b711360a55",
+ "commit_date": "2026-04-29",
+ "commit_subject": "Release v0.5.16 (#4239)",
+ "static": {
+  "file_count": 1409,
+  "size_mb": 29.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "src/helm"
+  ],
+  "test_file_count": 115,
+  "ci": [
+   ".github/workflows/upgrade-dependencies.yml",
+   ".github/workflows/test-scenarios.yml",
+   ".github/workflows/build-frontend.yml",
+   ".github/workflows/test-frontend.yml",
+   ".github/workflows/deploy-frontend.yaml",
+   ".github/workflows/update-dependencies.yml",
+   ".github/workflows/test-python.yml",
+   ".github/workflows/publish-pypi.yml",
+   ".github/workflows/manage-python-cache.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "helm-frontend/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock",
+   "helm-frontend/yarn.lock"
+  ],
+  "docs_files": 38,
+  "config_files": 3,
+  "config_dirs": [
+   "src/helm"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "helm-run",
+   "helm-summarize",
+   "helm-server",
+   "helm-create-plots",
+   "crfm-proxy-server",
+   "crfm-proxy-cli"
+  ],
+  "torch_spec": "torch>=1.13.1,<3.0.0",
+  "dep_count": 25,
+  "optional_groups": [
+   "proxy-server",
+   "dspy",
+   "scenarios",
+   "metrics",
+   "ranking",
+   "summarization",
+   "plots",
+   "decodingtrust",
+   "slurm",
+   "cleva",
+   "images",
+   "mongo"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install crfm-helm",
+   "helm-run --run-entries mmlu:subject=philosophy,model=openai/gpt2 --suite my-suite --max-eval-instances 10",
+   "helm-summarize --suite my-suite",
+   "helm-server --suite my-suite"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-06-05",
+ "archived": "否",
+ "archive": "evaluation/P0506_stanford-crfm_helm_v0.5.16_src_en.tar",
+ "archive_mb": 30.7,
+ "archive_prefix": "helm-v0.5.16",
+ "finished": "2026-10-29T19:56:17Z"
+}

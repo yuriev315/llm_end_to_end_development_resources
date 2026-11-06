@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2402.13446",
+  "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.13446",
+ "version": "v3",
+ "title": "Large Language Models for Data Annotation and Synthesis: A Survey",
+ "authors": [
+  "Zhen Tan",
+  "Dawei Li",
+  "Song Wang",
+  "Alimohammad Beigi",
+  "Bohan Jiang",
+  "Amrita Bhattacharjee",
+  "Mansooreh Karami",
+  "Jundong Li"
+ ],
+ "author_count": 10,
+ "published": "2024-02-21",
+ "updated": "2024-12-02",
+ "verify": "pypdf 可解析 29 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.13446v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Tan_LargeLanguageModelsDataAnnotation_en.pdf"
+}

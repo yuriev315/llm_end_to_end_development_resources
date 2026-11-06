@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2409.12517",
+  "title": "Scaling FP8 training to trillion-token LLMs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.12517",
+ "version": "v2",
+ "title": "Scaling FP8 training to trillion-token LLMs",
+ "authors": [
+  "Maxim Fishman",
+  "Brian Chmiel",
+  "Ron Banner",
+  "Daniel Soudry"
+ ],
+ "author_count": 4,
+ "published": "2024-09-19",
+ "updated": "2025-02-10",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.12517v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2024_Fishman_ScalingFp8TrainingTrillionToken_en.pdf"
+}

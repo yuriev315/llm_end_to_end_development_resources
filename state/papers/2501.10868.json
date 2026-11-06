@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2501.10868",
+  "title": "Generating Structured Outputs from Language Models: Benchmark and Studies",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2501.10868",
+ "version": "v3",
+ "title": "JSONSchemaBench: A Rigorous Benchmark of Structured Outputs for Language Models",
+ "authors": [
+  "Saibo Geng",
+  "Hudson Cooper",
+  "Michał Moskal",
+  "Samuel Jenkins",
+  "Julian Berman",
+  "Nathan Ranchin",
+  "Robert West",
+  "Eric Horvitz"
+ ],
+ "author_count": 9,
+ "published": "2025-01-18",
+ "updated": "2025-02-27",
+ "verify": "pypdf 可解析 32 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2501.10868v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2025_Geng_JsonschemabenchRigorousBenchmarkStructuredOutputs_en.pdf"
+}

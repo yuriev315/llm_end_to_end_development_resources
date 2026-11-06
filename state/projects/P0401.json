@@ -1,0 +1,127 @@
+{
+ "id": "P0401",
+ "repo": "huggingface/trl",
+ "upstream": "https://github.com/huggingface/trl",
+ "seed": {
+  "id": "P0401",
+  "repo": "huggingface/trl",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "SFT/DPO/GRPO/奖励模型/GKD 蒸馏训练器"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "775de52a5805cbcd427556bde96677b946457ada",
+ "ref": "v1.17.0",
+ "version": "v1.17.0",
+ "kind": "发布标签",
+ "commit": "e257382de9e046b8181a5d1f91586f9bce324126",
+ "commit_date": "2026-10-29",
+ "commit_subject": "Release: v1.17 (#8021)",
+ "static": {
+  "file_count": 575,
+  "size_mb": 9.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 42,
+  "ci": [
+   ".github/workflows/build_pr_documentation.yml",
+   ".github/workflows/quality.yml",
+   ".github/workflows/trufflehog.yml",
+   ".github/workflows/build_documentation.yml",
+   ".github/workflows/pr_template_check.yml",
+   ".github/workflows/tests_python_versions.yml",
+   ".github/workflows/sync-huggingface-skills.yml",
+   ".github/workflows/tests.yml",
+   ".github/workflows/tests-experimental.yml",
+   ".github/workflows/labeler.yml",
+   ".github/workflows/publish.yml",
+   ".github/workflows/docker-build-dev.yml",
+   ".github/workflows/upload_pr_documentation.yml",
+   ".github/workflows/version_check.yml",
+   ".github/workflows/codeQL.yml",
+   ".github/workflows/tests_transformers_branch.yml",
+   ".github/workflows/tests_latest.yml",
+   ".github/workflows/docker-build.yml",
+   ".github/workflows/chat_templates_check.yml"
+  ],
+  "docker": [
+   "docker/trl/Dockerfile",
+   "docker/trl-dev/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 59,
+  "config_files": 10,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASE.md"
+  ],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11",
+  "py_scripts": [
+   "trl"
+  ],
+  "torch_spec": "torch>=2.6.0",
+  "dep_count": 12,
+  "optional_groups": [
+   "deepspeed",
+   "harbor",
+   "kernels",
+   "liger",
+   "math_verify",
+   "openreward",
+   "peft",
+   "quality",
+   "quantization",
+   "test",
+   "vllm",
+   "vlm"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install trl",
+   "pip install git+https://github.com/huggingface/trl.git",
+   "git clone https://github.com/huggingface/trl.git",
+   "git clone https://github.com/huggingface/trl.git",
+   "pip install -e .[dev]"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "adaptation_alignment/P0401_huggingface_trl_v1.17.0_src_en.tar",
+ "archive_mb": 10.1,
+ "archive_prefix": "trl-v1.17.0",
+ "finished": "2026-10-29T19:55:26Z"
+}

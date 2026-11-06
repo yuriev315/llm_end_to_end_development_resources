@@ -1,0 +1,23 @@
+{
+ "id": "D06",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/hf_accelerate_v1.15.0_docs_built_en.zip",
+ "sibling_id": "05D23",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "Hugging Face Accelerate 文档（分布式、FSDP/DeepSpeed 集成、调试） v1.15.0",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "v1.15.0",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：218 个文件（HTML 58，文档源 60）",
+ "scope": "hf-doc-build 官方构建包 accelerate/v1.15.0.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/hf_accelerate_v1.15.0_docs_built_en.zip",
+ "size_mb": 2.1,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

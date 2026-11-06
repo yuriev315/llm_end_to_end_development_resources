@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2402.15627",
+  "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.15627",
+ "version": "v1",
+ "title": "MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs",
+ "authors": [
+  "Ziheng Jiang",
+  "Haibin Lin",
+  "Yinmin Zhong",
+  "Qi Huang",
+  "Yangrui Chen",
+  "Zhi Zhang",
+  "Yanghua Peng",
+  "Xiang Li"
+ ],
+ "author_count": 32,
+ "published": "2024-02-23",
+ "updated": "2024-02-23",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.15627v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2024_Jiang_MegascaleScalingLargeLanguageModel_en.pdf"
+}

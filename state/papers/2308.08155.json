@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2308.08155",
+  "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2308.08155",
+ "version": "v2",
+ "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+ "authors": [
+  "Qingyun Wu",
+  "Gagan Bansal",
+  "Jieyu Zhang",
+  "Yiran Wu",
+  "Beibin Li",
+  "Erkang Zhu",
+  "Li Jiang",
+  "Xiaoyun Zhang"
+ ],
+ "author_count": 14,
+ "published": "2023-08-16",
+ "updated": "2023-10-03",
+ "verify": "pypdf 可解析 43 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2308.08155v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2023_Wu_AutogenEnablingNextGenLlm_en.pdf"
+}

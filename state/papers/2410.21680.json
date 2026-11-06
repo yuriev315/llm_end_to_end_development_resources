@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2410.21680",
+  "title": "Revisiting Reliability in Large-Scale Machine Learning Research Clusters",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2410.21680",
+ "version": "v2",
+ "title": "Revisiting Reliability in Large-Scale Machine Learning Research Clusters",
+ "authors": [
+  "Apostolos Kokolis",
+  "Michael Kuchnik",
+  "John Hoffman",
+  "Adithya Kumar",
+  "Parth Malani",
+  "Faye Ma",
+  "Zachary DeVito",
+  "Shubho Sengupta"
+ ],
+ "author_count": 10,
+ "published": "2024-10-29",
+ "updated": "2025-02-06",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2410.21680v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2024_Kokolis_RevisitingReliabilityLargeScaleMachine_en.pdf"
+}

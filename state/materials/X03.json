@@ -1,0 +1,23 @@
+{
+ "id": "X03",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/fastapi_full_stack_template_master_en.tar",
+ "sibling_id": "09X02",
+ "kind": "courses",
+ "mods": "09",
+ "title": "Full Stack FastAPI Template（官方全栈模板）",
+ "author": "FastAPI（Sebastián Ramírez）",
+ "school": "",
+ "version": "master 提交",
+ "year": "2026",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：248 个文件（HTML 4，文档源 10）",
+ "scope": "",
+ "type": "实验/习题/参考项目",
+ "path": "papers_books_courses/courses/fastapi_full_stack_template_master_en.tar",
+ "size_mb": 2.4,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

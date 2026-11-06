@@ -1,0 +1,23 @@
+{
+ "id": "D15",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/docker_docs_main_src_en.tar",
+ "sibling_id": "14D10",
+ "kind": "official_docs",
+ "mods": "10",
+ "title": "Docker 官方文档源（docker/docs content）",
+ "author": "Docker Inc.",
+ "school": "",
+ "version": "main 提交",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：574 个文件（HTML 0，文档源 430）",
+ "scope": "Engine、Build、Compose、入门与指南、Compose 文件参考；Dockerfile/CLI 参考在构建时自 buildkit 与 docker/cli 引入，另见 14D12/14D13",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/docker_docs_main_src_en.tar",
+ "size_mb": 13.4,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

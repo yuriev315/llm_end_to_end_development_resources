@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2406.12036",
+  "title": "MedCalc-Bench: Evaluating Large Language Models for Medical Calculations",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.12036",
+ "version": "v4",
+ "title": "MedCalc-Bench: Evaluating Large Language Models for Medical Calculations",
+ "authors": [
+  "Nikhil Khandekar",
+  "Qiao Jin",
+  "Guangzhi Xiong",
+  "Soren Dunn",
+  "Serina S Applebaum",
+  "Zain Anwar",
+  "Maame Sarfo-Gyamfi",
+  "Conrad W Safranek"
+ ],
+ "author_count": 17,
+ "published": "2024-06-17",
+ "updated": "2024-06-30",
+ "verify": "pypdf 可解析 45 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.12036v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2024_Khandekar_MedcalcBenchEvaluatingLargeLanguage_en.pdf"
+}

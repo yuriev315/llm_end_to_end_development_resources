@@ -1,0 +1,25 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2312.02724",
+  "title": "RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2312.02724",
+ "version": "v1",
+ "title": "RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!",
+ "authors": [
+  "Ronak Pradeep",
+  "Sahel Sharifymoghaddam",
+  "Jimmy Lin"
+ ],
+ "author_count": 3,
+ "published": "2023-12-05",
+ "updated": "2023-12-05",
+ "verify": "pypdf 可解析 14 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2312.02724v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2023_Pradeep_RankzephyrEffectiveRobustZeroShot_en.pdf"
+}

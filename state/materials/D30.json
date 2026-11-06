@@ -1,0 +1,23 @@
+{
+ "id": "D30",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/fastapi_0.162.0_docs_src_en.tar",
+ "sibling_id": "09D01",
+ "kind": "official_docs",
+ "mods": "09",
+ "title": "FastAPI 0.162.0 文档（英文）与文档示例源码",
+ "author": "FastAPI（Sebastián Ramírez）",
+ "school": "",
+ "version": "0.162.0",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：913 个文件（HTML 6，文档源 157）",
+ "scope": "docs/en（教程、高级用户指南、部署）+ docs_src（全部示例代码）；docs/en/docs/reference 为 mkdocstrings 指令，正文未含",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/fastapi_0.162.0_docs_src_en.tar",
+ "size_mb": 20.8,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "D44",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/vllm_0.32.0_docs_src_en.tar",
+ "sibling_id": "14D06",
+ "kind": "official_docs",
+ "mods": "06",
+ "title": "vLLM v0.32.0 文档源与示例",
+ "author": "vLLM 项目",
+ "school": "",
+ "version": "0.32.0",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：633 个文件（HTML 4，文档源 266）",
+ "scope": "docs/（入门、部署、服务、配置、设计）+ examples/；API 参考页由 mkdocstrings 生成，未含",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/vllm_0.32.0_docs_src_en.tar",
+ "size_mb": 39.2,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2501.01005",
+  "title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2501.01005",
+ "version": "v2",
+ "title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving",
+ "authors": [
+  "Zihao Ye",
+  "Lequn Chen",
+  "Ruihang Lai",
+  "Wuwei Lin",
+  "Yineng Zhang",
+  "Stephanie Wang",
+  "Tianqi Chen",
+  "Baris Kasikci"
+ ],
+ "author_count": 11,
+ "published": "2025-01-02",
+ "updated": "2025-04-21",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2501.01005v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2025_Ye_FlashinferEfficientCustomizableAttentionEngine_en.pdf"
+}

@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2310.05736",
+  "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2310.05736",
+ "version": "v2",
+ "title": "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",
+ "authors": [
+  "Huiqiang Jiang",
+  "Qianhui Wu",
+  "Chin-Yew Lin",
+  "Yuqing Yang",
+  "Lili Qiu"
+ ],
+ "author_count": 5,
+ "published": "2023-10-09",
+ "updated": "2023-12-06",
+ "verify": "pypdf 可解析 19 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2310.05736v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Jiang_LlmlinguaCompressingPromptsAcceleratedInference_en.pdf"
+}

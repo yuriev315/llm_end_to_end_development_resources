@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2409.18839",
+  "title": "MinerU: An Open-Source Solution for Precise Document Content Extraction",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.18839",
+ "version": "v1",
+ "title": "MinerU: An Open-Source Solution for Precise Document Content Extraction",
+ "authors": [
+  "Bin Wang",
+  "Chao Xu",
+  "Xiaomeng Zhao",
+  "Linke Ouyang",
+  "Fan Wu",
+  "Zhiyuan Zhao",
+  "Rui Xu",
+  "Kaiwen Liu"
+ ],
+ "author_count": 18,
+ "published": "2024-09-27",
+ "updated": "2024-09-27",
+ "verify": "pypdf 可解析 14 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.18839v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Wang_MineruOpenSourceSolutionPrecise_en.pdf"
+}

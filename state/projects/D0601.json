@@ -1,0 +1,80 @@
+{
+ "id": "D0601",
+ "repo": "openai/openai-openapi",
+ "upstream": "https://github.com/openai/openai-openapi",
+ "seed": {
+  "id": "D0601",
+  "repo": "openai/openai-openapi",
+  "mod": "06",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "接口规范",
+  "tag": "HEAD",
+  "purpose": "OpenAI API OpenAPI 规范（事实标准的 Chat Completions/Responses 接口，vLLM/LiteLLM 兼容目标）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "089b14f36daffb267f94770535e2de56b17de785",
+ "ref": "main",
+ "version": "main@089b14f36d",
+ "kind": "分支快照",
+ "commit": "089b14f36daffb267f94770535e2de56b17de785",
+ "commit_date": "2026-10-29",
+ "commit_subject": "Add experimental 'time_awareness' setting to agent configuration",
+ "static": {
+  "file_count": 11,
+  "size_mb": 10.6,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [
+   ".github/workflows/generated-files.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明",
+  "明确入口",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D0601_openai_openai-openapi_main-089b14f36d_src_en.tar",
+ "archive_mb": 10.6,
+ "archive_prefix": "openai-openapi-main-089b14f36d",
+ "finished": "2026-10-29T20:04:30Z"
+}

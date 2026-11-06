@@ -1,0 +1,23 @@
+{
+ "id": "D23",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/faiss_wiki_en.tar",
+ "sibling_id": "15D02",
+ "kind": "official_docs",
+ "mods": "07",
+ "title": "FAISS Wiki（官方使用文档）",
+ "author": "Meta AI (FAIR)",
+ "school": "",
+ "version": "wiki 提交",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：176 个文件（HTML 1，文档源 58）",
+ "scope": "GitHub wiki 全部页面（入门、索引选择、GPU、FAQ、调优）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/faiss_wiki_en.tar",
+ "size_mb": 21.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

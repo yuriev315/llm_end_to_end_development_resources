@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2310.17623",
+  "title": "Proving Test Set Contamination in Black Box Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2310.17623",
+ "version": "v2",
+ "title": "Proving Test Set Contamination in Black Box Language Models",
+ "authors": [
+  "Yonatan Oren",
+  "Nicole Meister",
+  "Niladri Chatterji",
+  "Faisal Ladhak",
+  "Tatsunori B. Hashimoto"
+ ],
+ "author_count": 5,
+ "published": "2023-10-26",
+ "updated": "2023-11-24",
+ "verify": "pypdf 可解析 18 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2310.17623v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2023_Oren_ProvingTestSetContaminationBlack_en.pdf"
+}

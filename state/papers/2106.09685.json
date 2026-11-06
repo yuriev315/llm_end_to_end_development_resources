@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2106.09685",
+  "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "classic": "经典：LoRA"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2106.09685",
+ "version": "v2",
+ "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+ "authors": [
+  "Edward J. Hu",
+  "Yelong Shen",
+  "Phillip Wallis",
+  "Zeyuan Allen-Zhu",
+  "Yuanzhi Li",
+  "Shean Wang",
+  "Lu Wang",
+  "Weizhu Chen"
+ ],
+ "author_count": 8,
+ "published": "2021-06-17",
+ "updated": "2021-10-16",
+ "verify": "pypdf 可解析 26 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2106.09685v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2021_Hu_LoraLowRankAdaptationLarge_en.pdf"
+}

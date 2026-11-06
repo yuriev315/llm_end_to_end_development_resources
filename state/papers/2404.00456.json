@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2404.00456",
+  "title": "QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.00456",
+ "version": "v2",
+ "title": "QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs",
+ "authors": [
+  "Saleh Ashkboos",
+  "Amirkeivan Mohtashami",
+  "Maximilian L. Croci",
+  "Bo Li",
+  "Pashmina Cameron",
+  "Martin Jaggi",
+  "Dan Alistarh",
+  "Torsten Hoefler"
+ ],
+ "author_count": 9,
+ "published": "2024-03-30",
+ "updated": "2024-10-29",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.00456v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2024_Ashkboos_QuarotOutlierFree4Bit_en.pdf"
+}

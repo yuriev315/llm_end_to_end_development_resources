@@ -1,0 +1,95 @@
+{
+ "id": "D1201",
+ "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
+ "upstream": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications",
+ "seed": {
+  "id": "D1201",
+  "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "安全规范",
+  "tag": "HEAD",
+  "purpose": "OWASP LLM 应用十大风险（2025 版源文件、多语言译本）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "99f4395589bdbd120ae961f9cd179e79d7f9b27f",
+ "ref": "main",
+ "version": "main@99f4395589",
+ "kind": "分支快照",
+ "commit": "99f4395589bdbd120ae961f9cd179e79d7f9b27f",
+ "commit_date": "2026-08-05",
+ "commit_subject": "Fix Pages build for archived release tab (#865)",
+ "static": {
+  "file_count": 899,
+  "size_mb": 471.2,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "CC-BY-SA",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [
+   ".github/workflows/check-filenames-pr.yml"
+  ],
+  "docker": [
+   "initiatives/genai_red_team_handbook/sandboxes/RAG_local/Containerfile",
+   "initiatives/genai_red_team_handbook/sandboxes/llm_local/Containerfile",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/langgraph/multi_agent/Dockerfile",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/langgraph/github_improper_output_handling/Dockerfile",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/autogen/autogen_refund_demo/Dockerfile",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/custom_code/ai_recruiter/Dockerfile"
+  ],
+  "compose": [
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/langgraph/docker-compose.yml",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/langgraph/github_improper_output_handling/docker-compose.yml",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/autogen/autogen_refund_demo/docker-compose.yml",
+   "initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/custom_code/ai_recruiter/docker-compose.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "Gemfile"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 4,
+  "config_files": 10,
+  "config_dirs": [
+   "initiatives/genai_red_team_handbook"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "changes.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "明确入口",
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-08-05",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D1201_OWASP_www-project-top-10-for-large-language-model-applications_main-99f4395589_src_en.tar",
+ "archive_mb": 473.0,
+ "archive_prefix": "www-project-top-10-for-large-language-model-applications-main-99f4395589",
+ "finished": "2026-10-29T20:05:08Z"
+}

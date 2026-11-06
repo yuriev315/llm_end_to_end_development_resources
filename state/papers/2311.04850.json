@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2311.04850",
+  "title": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2311.04850",
+ "version": "v2",
+ "title": "Rethinking Benchmark and Contamination for Language Models with Rephrased Samples",
+ "authors": [
+  "Shuo Yang",
+  "Wei-Lin Chiang",
+  "Lianmin Zheng",
+  "Joseph E. Gonzalez",
+  "Ion Stoica"
+ ],
+ "author_count": 5,
+ "published": "2023-11-08",
+ "updated": "2023-11-11",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2311.04850v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2023_Yang_RethinkingBenchmarkContaminationLanguageModels_en.pdf"
+}

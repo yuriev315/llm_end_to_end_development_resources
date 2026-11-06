@@ -1,0 +1,81 @@
+{
+ "id": "P0305",
+ "repo": "stas00/ml-engineering",
+ "upstream": "https://github.com/stas00/ml-engineering",
+ "seed": {
+  "id": "P0305",
+  "repo": "stas00/ml-engineering",
+  "mod": "03",
+  "x": [
+   "10"
+  ],
+  "routes": "A,B",
+  "role": "运行手册",
+  "tag": "HEAD",
+  "purpose": "大模型训练与推理工程手册：硬件、网络、故障排查、调试、稳定性"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "adab2fa8732e13029acd8ab992c1941604f5f94d",
+ "ref": "master",
+ "version": "master@adab2fa873",
+ "kind": "分支快照",
+ "commit": "adab2fa8732e13029acd8ab992c1941604f5f94d",
+ "commit_date": "2026-10-26",
+ "commit_subject": "Intel GPU D-series (#146)",
+ "static": {
+  "file_count": 243,
+  "size_mb": 26.3,
+  "license_files": [
+   "LICENSE-CC-BY-SA"
+  ],
+  "license_guess": "CC 类",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "build/requirements.txt"
+  ],
+  "req_files": [
+   "build/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "training/P0305_stas00_ml-engineering_master-adab2fa873_src_en.tar",
+ "archive_mb": 26.5,
+ "archive_prefix": "ml-engineering-master-adab2fa873",
+ "finished": "2026-10-29T19:55:22Z"
+}

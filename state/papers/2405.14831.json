@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2405.14831",
+  "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.14831",
+ "version": "v3",
+ "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+ "authors": [
+  "Bernal Jiménez Gutiérrez",
+  "Yiheng Shu",
+  "Yu Gu",
+  "Michihiro Yasunaga",
+  "Yu Su"
+ ],
+ "author_count": 5,
+ "published": "2024-05-23",
+ "updated": "2025-01-14",
+ "verify": "pypdf 可解析 31 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.14831v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Gutirrez_HipporagNeurobiologicallyInspiredLongTerm_en.pdf"
+}

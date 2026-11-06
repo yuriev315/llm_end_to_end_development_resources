@@ -1,0 +1,23 @@
+{
+ "P0104": {"external": "预训练数据：nanochat/dataset.py 中 BASE_URL 指向 HF 数据集 karpathy/climbmix-400b-shuffle（parquet 分片，运行时按需下载）；评测/对话数据由 tasks/ 脚本运行时获取", "access": "公开 HF 数据集（以数据集卡许可为准）", "blockers": "完整 speedrun 需多卡 GPU（README.md:81 提及 8XA100 可运行但更慢）；缺数据分片时无法预训练", "conditions": "最小验证用 runs/runcpu.sh（README.md:112：CPU/Apple Silicon 缩小模型示例）", "verify_cmds": ["uv sync --extra cpu", "pytest -x -q tests", "bash runs/runcpu.sh  # 会下载数据分片，需联网与磁盘空间"]},
+ "P0403": {"external": "基座模型权重（HF，按模型卡许可）；仓库自带小型示例数据 data/alpaca_en_demo.json、dpo_en_demo.json、glaive_toolcall_en_demo.json 等", "access": "部分基座需在 HF 申请访问", "blockers": "v0.9.5 依赖约束 trl<=0.24.0、peft<=0.18.1、vllm<=0.11.0（pyproject.toml 与 requirements/vllm.txt），与本库收录的 TRL 1.17.0/PEFT 0.21.2/vLLM 0.32.0 不兼容，须按其自身约束安装", "conditions": "显存需求表见 README.md:490 起（上游原文，未核实）"},
+ "P0404": {"external": "基座权重；RL 数据集", "access": "", "blockers": "pyproject.toml 固定 vllm==0.24.0、sglang==0.5.12，与本库收录 vLLM 0.32.0/SGLang 0.5.22 不同", "conditions": "多 GPU；Ray 集群"},
+ "P0601": {"external": "模型权重（运行时从 HF 下载，不在本库）", "access": "按模型卡", "blockers": "无 GPU 时仅能用 docker/Dockerfile.cpu 构建 CPU 版本（功能与性能受限，未验证）", "conditions": "结构化输出依赖 xgrammar==0.2.8（requirements/common.txt，与本库 P0605 版本一致）"},
+ "P0505": {"external": "SWE-bench 数据集（HF：SWE-bench/SWE-bench 等）与按实例构建的 Docker 镜像", "access": "公开", "blockers": "README.md:112 建议 x86_64、≥120GB 磁盘、16GB 内存、8 核", "conditions": "需 Docker；镜像构建量大"},
+ "P1101": {"external": "PubMed/Textbooks/StatPearls/Wikipedia 语料及 Contriever/MedCPT/SPECTER 预计算嵌入（README.md:16：首次初始化自动下载；StatPearls 嵌入不提供）；生成模型如 Mixtral/Llama-2/Meditron（HF）", "access": "部分模型需申请", "blockers": "语料与嵌入体积大，未下载；仓库无依赖声明文件", "conditions": "仅研究用途；不用于诊断（无临床验证声明）"},
+ "P1102": {"external": "benchmark.json 已随快照提供", "access": "", "blockers": "无依赖声明；评测脚本需配合 MedRAG", "conditions": "研究评测"},
+ "P1105": {"external": "数据集 CC-BY-SA 4.0（README.md:127 起声明）；评测需 LLM", "access": "", "blockers": "无 LICENSE 文件，代码许可未单独声明，仅 README 声明数据许可", "conditions": "计算器实现为研究代码，未经临床验证"},
+ "P1114": {"external": "OpenFOAM v10（README.md:35：容器内预装）；LLM API（README 示例 FOAMAGENT_MODEL_VERSION）", "access": "需模型 API 密钥（仅占位）", "blockers": "快照含 57 个 Git LFS 指针文件未取回（clone 时跳过 LFS）", "conditions": "仿真辅助研究；FoamBench 结果为上游报告（README.md:10），非任意算例保证"},
+ "P1115": {"external": "OpenPLC Runtime v4 + matiec（README.md:49，Docker 环境）；LLM API 密钥（README.md:109）", "access": "需模型 API 密钥（仅占位）", "blockers": "上游流程会把生成的 ST 程序部署到 OpenPLC 运行时（README.md:25）——只能在隔离的软 PLC/仿真环境中验证，严禁连接真实设备", "conditions": "仅研究"},
+ "P1111": {"external": "本地 FreeCAD 安装与 addon/FreeCADMCP（README.md:40）", "access": "", "blockers": "需图形环境与 FreeCAD", "conditions": "设计辅助；结果需工程师复核"},
+ "P0702": {"external": "Docker Compose 拉取 Elasticsearch/Infinity、MySQL、MinIO、Redis 等镜像（docker/docker-compose.yml 及 docker/.env）；嵌入/对话模型由用户配置", "access": "", "blockers": "完整栈需较多内存与磁盘（以上游文档为准，未核实）", "conditions": "docker compose -f docker/docker-compose.yml config 仅做配置校验"},
+ "P0901": {"external": "MongoDB、Meilisearch、RAG API 等（docker-compose.yml）；模型端点在 librechat.yaml 配置", "access": "", "blockers": "README 未含安装段落（安装文档在独立文档站，见 D0901）", "conditions": "", "level": "L1", "level_note": "静态核对（人工）：README 无安装段，但官方文档站源 D0901 与 docker-compose.yml、.env.example、librechat.example.yaml 齐备"},
+ "P0804": {"external": "VS Code / JetBrains；Node 环境", "access": "", "blockers": "README 无安装段（文档在 docs/）", "conditions": ""},
+ "P0811": {"external": "Docker（工作区沙箱）；模型经 LiteLLM 调用", "access": "模型 API 密钥（仅占位）", "blockers": "pyproject.toml 固定 litellm==1.93.0，与本库 LiteLLM 1.106.6 快照不同", "conditions": ""},
+ "P1206": {"external": "Llama Guard / Prompt Guard 权重（HF，Llama 社区许可，需申请）", "access": "需在 HF 接受许可", "blockers": "仓库为多组件集合，入口分散在各子目录", "conditions": ""},
+ "P1203": {"external": "实现位于 Rust crate lingua-rs（PyPI 轮子内编译），本快照仅含 Python 打包配置、测试数据与准确率报告", "access": "", "blockers": "源码实现不在快照中", "conditions": ""},
+ "P1207": {"external": "", "access": "", "blockers": "上游仓库已归档（只读），不建议新项目依赖", "conditions": ""},
+ "P1223": {"external": "", "access": "", "blockers": "上游仓库已归档（只读）", "conditions": ""},
+ "P0208": {"external": "解析模型权重（首次运行下载）；README_zh-CN.md:444 起列出不同后端的模型体积与内存需求（上游原文）", "access": "MinerU 开源许可 = Apache-2.0 + 附加条款（LICENSE.md）", "blockers": "", "conditions": ""},
+ "P0202": {"external": "版面/表格/OCR 模型权重，如 ibm-granite/granite-docling-258M（README 提及）", "access": "", "blockers": "", "conditions": "tests/data 含样例文档与期望输出，可作离线回归基准"}
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2306.05499",
+  "title": "Prompt Injection attack against LLM-integrated Applications",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2306.05499",
+ "version": "v3",
+ "title": "Prompt Injection attack against LLM-integrated Applications",
+ "authors": [
+  "Yi Liu",
+  "Gelei Deng",
+  "Yuekang Li",
+  "Kailong Wang",
+  "Zihao Wang",
+  "Xiaofeng Wang",
+  "Tianwei Zhang",
+  "Yepang Liu"
+ ],
+ "author_count": 12,
+ "published": "2023-06-08",
+ "updated": "2025-12-29",
+ "verify": "pypdf 可解析 18 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2306.05499v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Liu_PromptInjectionAttackAgainstLlm_en.pdf"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2409.12186",
+  "title": "Qwen2.5-Coder Technical Report",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.12186",
+ "version": "v3",
+ "title": "Qwen2.5-Coder Technical Report",
+ "authors": [
+  "Binyuan Hui",
+  "Jian Yang",
+  "Zeyu Cui",
+  "Jiaxi Yang",
+  "Dayiheng Liu",
+  "Lei Zhang",
+  "Tianyu Liu",
+  "Jiajun Zhang"
+ ],
+ "author_count": 24,
+ "published": "2024-09-18",
+ "updated": "2024-11-12",
+ "verify": "pypdf 可解析 32 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.12186v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Hui_Qwen25CoderTechnicalReport_en.pdf"
+}

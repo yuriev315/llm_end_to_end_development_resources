@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2305.14627",
+  "title": "Enabling Large Language Models to Generate Text with Citations",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2305.14627",
+ "version": "v2",
+ "title": "Enabling Large Language Models to Generate Text with Citations",
+ "authors": [
+  "Tianyu Gao",
+  "Howard Yen",
+  "Jiatong Yu",
+  "Danqi Chen"
+ ],
+ "author_count": 4,
+ "published": "2023-05-24",
+ "updated": "2023-10-31",
+ "verify": "pypdf 可解析 24 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2305.14627v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2023_Gao_EnablingLargeLanguageModelsGenerate_en.pdf"
+}

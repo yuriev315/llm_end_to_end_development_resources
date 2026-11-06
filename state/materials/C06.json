@@ -1,0 +1,23 @@
+{
+ "id": "C06",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/CMU_11766_2026Spring_Slides_en",
+ "sibling_id": "A10-04",
+ "kind": "courses",
+ "mods": "09",
+ "title": "11-766 Large Language Model Applications (Spring 2026) — Lecture Slides",
+ "author": "Fernando Diaz; Daphne Ippolito",
+ "school": "Carnegie Mellon University",
+ "version": "Spring 2026",
+ "year": "Spring 2026",
+ "license": "课程网站公开 PDF（未见许可证声明）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "25 个 PDF 全部 HTTP 200 且可解析，合计 1616 页；文件链接取自官方索引页 https://cmu-llms.org/schedule/（该页列出的全部匹配文件均已下载）",
+ "scope": "",
+ "type": "课程（完整课件包）",
+ "path": "papers_books_courses/courses/CMU_11766_2026Spring_Slides_en",
+ "size_mb": 301.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

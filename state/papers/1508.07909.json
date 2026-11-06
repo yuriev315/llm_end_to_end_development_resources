@@ -1,0 +1,25 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "1508.07909",
+  "title": "Neural Machine Translation of Rare Words with Subword Units",
+  "classic": "经典：BPE 分词"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1508.07909",
+ "version": "v5",
+ "title": "Neural Machine Translation of Rare Words with Subword Units",
+ "authors": [
+  "Rico Sennrich",
+  "Barry Haddow",
+  "Alexandra Birch"
+ ],
+ "author_count": 3,
+ "published": "2015-08-31",
+ "updated": "2016-06-10",
+ "verify": "pypdf 可解析 11 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1508.07909v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2015_Sennrich_NeuralMachineTranslationRareWords_en.pdf"
+}

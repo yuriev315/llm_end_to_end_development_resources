@@ -1,0 +1,23 @@
+{
+ "id": "D13",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/nccl_user_guide_mirror_en.tar",
+ "sibling_id": "13D06",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "NCCL 用户指南（离线镜像）",
+ "author": "NVIDIA",
+ "school": "",
+ "version": "当前版本（页内为准）",
+ "year": "",
+ "license": "NVIDIA 文档许可（仅个人保存）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：160 个文件（HTML 63，文档源 62）",
+ "scope": "NCCL 用户指南全部页面（集合通信、环境变量、排障）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/nccl_user_guide_mirror_en.tar",
+ "size_mb": 11.9,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

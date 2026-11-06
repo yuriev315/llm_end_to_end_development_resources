@@ -1,0 +1,23 @@
+{
+ "id": "X01",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/anthropic_claude_cookbooks_main_en.tar",
+ "sibling_id": "15X51",
+ "kind": "courses",
+ "mods": "12",
+ "title": "Anthropic Claude Cookbooks",
+ "author": "Anthropic",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：605 个文件（HTML 0，文档源 233）",
+ "scope": "",
+ "type": "实验/习题/参考项目",
+ "path": "papers_books_courses/courses/anthropic_claude_cookbooks_main_en.tar",
+ "size_mb": 220.9,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

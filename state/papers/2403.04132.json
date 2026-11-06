@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2403.04132",
+  "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2403.04132",
+ "version": "v1",
+ "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+ "authors": [
+  "Wei-Lin Chiang",
+  "Lianmin Zheng",
+  "Ying Sheng",
+  "Anastasios Nikolas Angelopoulos",
+  "Tianle Li",
+  "Dacheng Li",
+  "Hao Zhang",
+  "Banghua Zhu"
+ ],
+ "author_count": 11,
+ "published": "2024-03-07",
+ "updated": "2024-03-07",
+ "verify": "pypdf 可解析 29 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2403.04132v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Chiang_ChatbotArenaOpenPlatformEvaluating_en.pdf"
+}

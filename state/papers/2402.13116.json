@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2402.13116",
+  "title": "A Survey on Knowledge Distillation of Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.13116",
+ "version": "v4",
+ "title": "A Survey on Knowledge Distillation of Large Language Models",
+ "authors": [
+  "Xiaohan Xu",
+  "Ming Li",
+  "Chongyang Tao",
+  "Tao Shen",
+  "Reynold Cheng",
+  "Jinyang Li",
+  "Can Xu",
+  "Dacheng Tao"
+ ],
+ "author_count": 9,
+ "published": "2024-02-20",
+ "updated": "2024-10-21",
+ "verify": "pypdf 可解析 43 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.13116v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Xu_SurveyKnowledgeDistillationLargeLanguage_en.pdf"
+}

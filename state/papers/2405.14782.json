@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2405.14782",
+  "title": "Lessons from the Trenches on Reproducible Evaluation of Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.14782",
+ "version": "v3",
+ "title": "Lessons from the Trenches on Reproducible Evaluation of Language Models",
+ "authors": [
+  "Stella Biderman",
+  "Hailey Schoelkopf",
+  "Lintang Sutawika",
+  "Leo Gao",
+  "Jonathan Tow",
+  "Baber Abbasi",
+  "Alham Fikri Aji",
+  "Pawan Sasanka Ammanamanchi"
+ ],
+ "author_count": 30,
+ "published": "2024-05-23",
+ "updated": "2026-05-31",
+ "verify": "pypdf 可解析 31 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.14782v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Biderman_LessonsTrenchesReproducibleEvaluationLanguage_en.pdf"
+}

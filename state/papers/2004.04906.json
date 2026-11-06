@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2004.04906",
+  "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+  "classic": "经典：DPR"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2020_Karpukhin_DensePassageRetrievalOpenDomain_en.pdf",
+ "arxiv_id": "2004.04906",
+ "version": "v3",
+ "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+ "path": "papers_books_courses/papers/07/2020_Karpukhin_DensePassageRetrievalOpenDomain_en.pdf",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

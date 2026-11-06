@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2107.03374",
+  "title": "Evaluating Large Language Models Trained on Code",
+  "classic": "经典：HumanEval"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2107.03374",
+ "version": "v2",
+ "title": "Evaluating Large Language Models Trained on Code",
+ "authors": [
+  "Mark Chen",
+  "Jerry Tworek",
+  "Heewoo Jun",
+  "Qiming Yuan",
+  "Henrique Ponde de Oliveira Pinto",
+  "Jared Kaplan",
+  "Harri Edwards",
+  "Yuri Burda"
+ ],
+ "author_count": 58,
+ "published": "2021-07-07",
+ "updated": "2021-07-14",
+ "verify": "pypdf 可解析 35 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2107.03374v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2021_Chen_EvaluatingLargeLanguageModelsTrained_en.pdf"
+}

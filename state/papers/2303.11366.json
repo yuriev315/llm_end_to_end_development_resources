@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2303.11366",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Shinn_ReflexionLanguageAgentsVerbalReinforcement_en.pdf",
+ "arxiv_id": "2303.11366",
+ "version": "v4",
+ "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+ "path": "papers_books_courses/papers/08/2023_Shinn_ReflexionLanguageAgentsVerbalReinforcement_en.pdf",
+ "verify": "pypdf 可解析 19 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

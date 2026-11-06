@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2107.06499",
+  "title": "Deduplicating Training Data Makes Language Models Better",
+  "classic": "经典：去重"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2107.06499",
+ "version": "v2",
+ "title": "Deduplicating Training Data Makes Language Models Better",
+ "authors": [
+  "Katherine Lee",
+  "Daphne Ippolito",
+  "Andrew Nystrom",
+  "Chiyuan Zhang",
+  "Douglas Eck",
+  "Chris Callison-Burch",
+  "Nicholas Carlini"
+ ],
+ "author_count": 7,
+ "published": "2021-07-14",
+ "updated": "2022-03-24",
+ "verify": "pypdf 可解析 22 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2107.06499v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2021_Lee_DeduplicatingTrainingDataMakesLanguage_en.pdf"
+}

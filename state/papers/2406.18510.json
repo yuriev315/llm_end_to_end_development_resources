@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2406.18510",
+  "title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.18510",
+ "version": "v1",
+ "title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+ "authors": [
+  "Liwei Jiang",
+  "Kavel Rao",
+  "Seungju Han",
+  "Allyson Ettinger",
+  "Faeze Brahman",
+  "Sachin Kumar",
+  "Niloofar Mireshghallah",
+  "Ximing Lu"
+ ],
+ "author_count": 11,
+ "published": "2024-06-26",
+ "updated": "2024-06-26",
+ "verify": "pypdf 可解析 59 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.18510v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2024_Jiang_WildteamingScaleWildJailbreaksAdversarially_en.pdf"
+}

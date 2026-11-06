@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2402.00159",
+  "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.00159",
+ "version": "v2",
+ "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+ "authors": [
+  "Luca Soldaini",
+  "Rodney Kinney",
+  "Akshita Bhagia",
+  "Dustin Schwenk",
+  "David Atkinson",
+  "Russell Authur",
+  "Ben Bogin",
+  "Khyathi Chandu"
+ ],
+ "author_count": 36,
+ "published": "2024-01-31",
+ "updated": "2024-06-06",
+ "verify": "pypdf 可解析 64 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.00159v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Soldaini_DolmaOpenCorpusThreeTrillion_en.pdf"
+}

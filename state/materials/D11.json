@@ -1,0 +1,23 @@
+{
+ "id": "D11",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/deepspeed_0.19.8_docs_src_en.tar",
+ "sibling_id": "13D04",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "DeepSpeed 0.19.8 文档（教程站点源 + Read the Docs API 源）",
+ "author": "DeepSpeed (LF AI & Data)",
+ "school": "",
+ "version": "0.19.8",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：308 个文件（HTML 31，文档源 123）",
+ "scope": "docs/_tutorials、_pages（ZeRO、配置 JSON、推理）+ docs/code-docs（Sphinx 源；API 正文由 docstring 生成，未含）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/deepspeed_0.19.8_docs_src_en.tar",
+ "size_mb": 45.9,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

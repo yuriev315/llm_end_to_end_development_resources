@@ -1,0 +1,83 @@
+{
+ "id": "P0102",
+ "repo": "karpathy/minbpe",
+ "upstream": "https://github.com/karpathy/minbpe",
+ "seed": {
+  "id": "P0102",
+  "repo": "karpathy/minbpe",
+  "mod": "01",
+  "x": [
+   "02"
+  ],
+  "routes": "A",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "BPE 分词器最小实现（训练/编码/解码，含测试）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "1acefe89412b20245db5a22d2a02001e547dc602",
+ "ref": "master",
+ "version": "master@1acefe8941",
+ "kind": "分支快照",
+ "commit": "1acefe89412b20245db5a22d2a02001e547dc602",
+ "commit_date": "2024-04-22",
+ "commit_subject": "Merge pull request #67 from shubham0204/master",
+ "static": {
+  "file_count": 16,
+  "size_mb": 0.5,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 1,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "train.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pytest -v ."
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2024-04-22",
+ "archived": "否",
+ "archive": "foundations/P0102_karpathy_minbpe_master-1acefe8941_src_en.tar",
+ "archive_mb": 0.5,
+ "archive_prefix": "minbpe-master-1acefe8941",
+ "finished": "2026-10-29T19:53:32Z"
+}

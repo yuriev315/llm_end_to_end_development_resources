@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2309.06180",
+  "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Kwon_EfficientMemoryManagementLargeLanguage_en.pdf",
+ "arxiv_id": "2309.06180",
+ "version": "v1",
+ "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+ "path": "papers_books_courses/papers/06/2023_Kwon_EfficientMemoryManagementLargeLanguage_en.pdf",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

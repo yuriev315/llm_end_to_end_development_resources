@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2407.21772",
+  "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.21772",
+ "version": "v2",
+ "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
+ "authors": [
+  "Wenjun Zeng",
+  "Yuchi Liu",
+  "Ryan Mullins",
+  "Ludovic Peran",
+  "Joe Fernandez",
+  "Hamza Harkous",
+  "Karthik Narasimhan",
+  "Drew Proud"
+ ],
+ "author_count": 12,
+ "published": "2024-07-31",
+ "updated": "2024-08-04",
+ "verify": "pypdf 可解析 11 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.21772v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2024_Zeng_ShieldgemmaGenerativeAiContentModeration_en.pdf"
+}

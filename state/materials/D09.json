@@ -1,0 +1,23 @@
+{
+ "id": "D09",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/hf_evaluate_v0.4.6_docs_built_en.zip",
+ "sibling_id": "05D27",
+ "kind": "official_docs",
+ "mods": "05",
+ "title": "Hugging Face Evaluate 文档 v0.4.6",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "v0.4.6",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：61 个文件（HTML 20，文档源 0）",
+ "scope": "hf-doc-build 官方构建包 evaluate/v0.4.6.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/hf_evaluate_v0.4.6_docs_built_en.zip",
+ "size_mb": 0.4,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

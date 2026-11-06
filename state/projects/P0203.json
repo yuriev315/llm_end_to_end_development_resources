@@ -1,0 +1,109 @@
+{
+ "id": "P0203",
+ "repo": "argilla-io/distilabel",
+ "upstream": "https://github.com/argilla-io/distilabel",
+ "seed": {
+  "id": "P0203",
+  "repo": "argilla-io/distilabel",
+  "mod": "02",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "合成数据与 AI 反馈流水线（指令、偏好数据生成）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "313fac85b1a2472dd88db1a31c2b754599f46476",
+ "ref": "1.5.3",
+ "version": "1.5.3",
+ "kind": "发布标签",
+ "commit": "1b6c101c3012c9d1306227566ed9ad8dd463309b",
+ "commit_date": "2025-01-28",
+ "commit_subject": "Fix pipeline getting stuck when multiple step replicas (#1113)",
+ "static": {
+  "file_count": 557,
+  "size_mb": 10.5,
+  "license_files": [
+   "LICENSE",
+   "LICENSE_HEADER"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 129,
+  "ci": [
+   ".github/workflows/docs-pr-close.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/docs-pr.yml",
+   ".github/workflows/test.yml",
+   ".github/workflows/codspeed.yml",
+   ".github/workflows/docs.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 130,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.9",
+  "py_scripts": [
+   "distilabel"
+  ],
+  "torch_spec": "",
+  "dep_count": 16,
+  "optional_groups": [
+   "dev",
+   "docs",
+   "tests",
+   "anthropic",
+   "argilla",
+   "cohere",
+   "groq",
+   "hf-inference-endpoints",
+   "hf-transformers",
+   "instructor",
+   "litellm",
+   "llama-cpp"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install distilabel --upgrade",
+   "pip install \"distilabel[hf-inference-endpoints]\" --upgrade"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-12-15",
+ "archived": "否",
+ "archive": "data/P0203_argilla-io_distilabel_1.5.3_src_en.tar",
+ "archive_mb": 11.0,
+ "archive_prefix": "distilabel-1.5.3",
+ "finished": "2026-10-29T19:54:04Z"
+}

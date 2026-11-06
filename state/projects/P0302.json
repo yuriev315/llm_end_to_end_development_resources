@@ -1,0 +1,167 @@
+{
+ "id": "P0302",
+ "repo": "NVIDIA/Megatron-LM",
+ "upstream": "https://github.com/NVIDIA/Megatron-LM",
+ "seed": {
+  "id": "P0302",
+  "repo": "NVIDIA/Megatron-LM",
+  "mod": "03",
+  "x": [
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^core_v(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Megatron-Core 大规模分布式训练（张量/流水/专家并行、分布式检查点）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "bc9a10e909a39372b4cfe1c57929d1532eb848b2",
+ "ref": "core_v0.19.2",
+ "version": "core_v0.19.2",
+ "kind": "发布标签",
+ "commit": "4b4acac9a1d28ea6829c8d4f566d75698a21249d",
+ "commit_date": "2026-09-18",
+ "commit_subject": "chore: bump megatron-core to v0.19.2 (#7489)",
+ "static": {
+  "file_count": 2966,
+  "size_mb": 59.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "megatron/training",
+   "tests",
+   "tools/run_inference_performance_test.py"
+  ],
+  "test_file_count": 379,
+  "ci": [
+   ".gitlab-ci.yml",
+   ".github/workflows/claude-fix.yml",
+   ".github/workflows/claude_review.yml",
+   ".github/workflows/auto-reminder-bot.yml",
+   ".github/workflows/cicd-main.yml",
+   ".github/workflows/_update_dependencies.yml",
+   ".github/workflows/release-docs.yml",
+   ".github/workflows/cherry-pick-release-commit.yml",
+   ".github/workflows/auto-assign-milestone.yml",
+   ".github/workflows/multi-approval-bot.yml",
+   ".github/workflows/force-draft-pr.yml",
+   ".github/workflows/auto-update-copy-pr-bot.yml",
+   ".github/workflows/_claude-fix-attempt.yml",
+   ".github/workflows/oncall-rotation.yml",
+   ".github/workflows/_build_test_publish_wheel.yml",
+   ".github/workflows/release.yaml",
+   ".github/workflows/trigger-mbridge-tests.yml",
+   ".github/workflows/claude-copy-to-main.yml",
+   ".github/workflows/release-nightly-docs.yml",
+   ".github/workflows/close-inactive-issue-pr.yml",
+   ".github/workflows/community-request-assignee.yml",
+   ".github/workflows/review-trigger.yml",
+   ".github/workflows/copyright-check.yml",
+   ".github/workflows/oncall-assign.yml",
+   ".github/workflows/nightly-sync-main-to-dev.yml",
+   ".github/workflows/release-freeze.yml",
+   ".github/workflows/cicd-approve-test-queue.yml",
+   ".github/workflows/community-bot.yml",
+   ".github/workflows/sync-team-usergroups.yml",
+   ".github/workflows/dependabot.yml",
+   ".github/workflows/install-test.yml",
+   ".github/workflows/claude-complexity-label.yml",
+   ".github/workflows/auto-swap-labels.yml",
+   ".github/workflows/request-nvskills-ci.yml",
+   ".github/workflows/config/changelog-config.json"
+  ],
+  "docker": [
+   "docker/Dockerfile.linting",
+   "docker/Dockerfile.ci.lts",
+   "docker/Dockerfile.ci.dev",
+   "docker/Dockerfile.ci.nemo",
+   "examples/mamba/Dockerfile",
+   "examples/post_training/modelopt/Dockerfile",
+   "examples/multimodal/Dockerfile",
+   "examples/multimodal/llama_3p1_nemotron_nano_vl_8b_v1/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "setup.py",
+   "docker/lts/requirements.txt",
+   "megatron/core/requirements.txt"
+  ],
+  "req_files": [
+   "docker/lts/requirements.txt",
+   "megatron/core/requirements.txt"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 93,
+  "config_files": 60,
+  "config_dirs": [
+   ".github/workflows",
+   "examples/mimo",
+   "megatron/core",
+   "megatron/training",
+   "tests/test_utils",
+   "tests/unit_tests"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "tests/performance_tests/client/data/gsm8k_prompts.jsonl"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.12",
+  "py_scripts": [],
+  "torch_spec": "torch>=2.6.0",
+  "dep_count": 3,
+  "optional_groups": [
+   "training",
+   "mlm",
+   "dev",
+   "lts",
+   "te",
+   "ssm"
+  ],
+  "entry_files": [
+   "pretrain_gpt.py",
+   "pretrain_hybrid.py",
+   "train_rl.py",
+   "pretrain_mamba.py",
+   "pretrain_vlm.py",
+   "tools/run_inference_performance_test.py",
+   "tools/run_vlm_text_generation.py",
+   "tools/run_hybrid_text_generation_server_completions.py",
+   "tools/run_hybrid_text_generation_server.py",
+   "tools/run_dynamic_text_generation_server.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "uv pip install megatron-core",
+   "git clone https://github.com/NVIDIA/Megatron-LM.git",
+   "uv pip install -e ."
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "training/P0302_NVIDIA_Megatron-LM_core_v0.19.2_src_en.tar",
+ "archive_mb": 64.2,
+ "archive_prefix": "Megatron-LM-core_v0.19.2",
+ "finished": "2026-10-29T19:55:11Z"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "D03",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/hf_transformers_v5.21.1_docs_built_en.zip",
+ "sibling_id": "05D20",
+ "kind": "official_docs",
+ "mods": "04",
+ "title": "Hugging Face Transformers 文档（含 API、导出与推理部署） v5.21.1",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "v5.21.1",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：4174 个文件（HTML 1373，文档源 1399）",
+ "scope": "hf-doc-build 官方构建包 transformers/v5.21.1.zip（en 子目录：渲染后的 Markdown 含 API 正文 + 页面片段）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/hf_transformers_v5.21.1_docs_built_en.zip",
+ "size_mb": 61.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

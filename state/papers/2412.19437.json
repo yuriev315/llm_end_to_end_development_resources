@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2412.19437",
+  "title": "DeepSeek-V3 Technical Report",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2024_DeepSeekAI_DeepSeekV3TechnicalReport_en.pdf",
+ "arxiv_id": "2412.19437",
+ "version": "v2",
+ "title": "DeepSeek-V3 Technical Report",
+ "path": "papers_books_courses/papers/01/2024_DeepSeekAI_DeepSeekV3TechnicalReport_en.pdf",
+ "verify": "pypdf 可解析 53 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

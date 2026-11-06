@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2307.14377",
+  "title": "How Can Large Language Models Help Humans in Design and Manufacturing?",
+  "classic": "经典：设计与制造综合评估"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2307.14377",
+ "version": "v1",
+ "title": "How Can Large Language Models Help Humans in Design and Manufacturing?",
+ "authors": [
+  "Liane Makatura",
+  "Michael Foshey",
+  "Bohan Wang",
+  "Felix HähnLein",
+  "Pingchuan Ma",
+  "Bolei Deng",
+  "Megan Tjandrasuwita",
+  "Andrew Spielberg"
+ ],
+ "author_count": 18,
+ "published": "2023-07-25",
+ "updated": "2023-07-25",
+ "verify": "pypdf 可解析 100 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2307.14377v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2023_Makatura_HowCanLargeLanguageModels_en.pdf"
+}

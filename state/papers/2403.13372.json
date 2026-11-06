@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2403.13372",
+  "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2403.13372",
+ "version": "v4",
+ "title": "LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models",
+ "authors": [
+  "Yaowei Zheng",
+  "Richong Zhang",
+  "Junhao Zhang",
+  "Yanhan Ye",
+  "Zheyan Luo",
+  "Zhangchi Feng",
+  "Yongqiang Ma"
+ ],
+ "author_count": 7,
+ "published": "2024-03-20",
+ "updated": "2024-06-27",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 0.88；参考文献节存在",
+ "url": "https://arxiv.org/abs/2403.13372v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Zheng_LlamafactoryUnifiedEfficientFineTuning_en.pdf"
+}

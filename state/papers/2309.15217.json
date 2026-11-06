@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2309.15217",
+  "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Es_RagasAutomatedEvaluationRetrievalAugmented_en.pdf",
+ "arxiv_id": "2309.15217",
+ "version": "v2",
+ "title": "Ragas: Automated Evaluation of Retrieval Augmented Generation",
+ "path": "papers_books_courses/papers/07/2023_Es_RagasAutomatedEvaluationRetrievalAugmented_en.pdf",
+ "verify": "pypdf 可解析 8 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

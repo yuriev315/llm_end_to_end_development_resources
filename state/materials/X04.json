@@ -1,0 +1,23 @@
+{
+ "id": "X04",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/deepspeed_examples_master_en.tar",
+ "sibling_id": "13X03",
+ "kind": "courses",
+ "mods": "03",
+ "title": "DeepSpeedExamples",
+ "author": "DeepSpeed",
+ "school": "",
+ "version": "master 提交",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：769 个文件（HTML 0，文档源 130）",
+ "scope": "完整示例仓库（训练/推理/压缩）",
+ "type": "实验/习题/参考项目",
+ "path": "papers_books_courses/courses/deepspeed_examples_master_en.tar",
+ "size_mb": 71.9,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

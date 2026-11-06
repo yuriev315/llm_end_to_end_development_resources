@@ -1,0 +1,24 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "1711.05101",
+  "title": "Decoupled Weight Decay Regularization",
+  "classic": "经典：AdamW"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1711.05101",
+ "version": "v3",
+ "title": "Decoupled Weight Decay Regularization",
+ "authors": [
+  "Ilya Loshchilov",
+  "Frank Hutter"
+ ],
+ "author_count": 2,
+ "published": "2017-11-14",
+ "updated": "2019-01-04",
+ "verify": "pypdf 可解析 19 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1711.05101v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2017_Loshchilov_DecoupledWeightDecayRegularization_en.pdf"
+}

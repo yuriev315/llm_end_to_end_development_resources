@@ -1,0 +1,25 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "1503.02531",
+  "title": "Distilling the Knowledge in a Neural Network",
+  "classic": "经典：知识蒸馏"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "1503.02531",
+ "version": "v1",
+ "title": "Distilling the Knowledge in a Neural Network",
+ "authors": [
+  "Geoffrey Hinton",
+  "Oriol Vinyals",
+  "Jeff Dean"
+ ],
+ "author_count": 3,
+ "published": "2015-03-09",
+ "updated": "2015-03-09",
+ "verify": "pypdf 可解析 9 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/1503.02531v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2015_Hinton_DistillingKnowledgeNeuralNetwork_en.pdf"
+}

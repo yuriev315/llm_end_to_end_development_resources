@@ -1,0 +1,149 @@
+{
+ "id": "P0403",
+ "repo": "hiyouga/LLaMA-Factory",
+ "upstream": "https://github.com/hiyouga/LLaMA-Factory",
+ "seed": {
+  "id": "P0403",
+  "repo": "hiyouga/LLaMA-Factory",
+  "mod": "04",
+  "x": [
+   "06",
+   "10"
+  ],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "统一微调框架：数据格式、SFT/DPO/KTO/PPO、导出合并、API 服务、Docker"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+ "ref": "v0.9.5",
+ "version": "v0.9.5",
+ "kind": "发布标签",
+ "commit": "7af909522a951e3ad9f022ea6f88b6755257eaa5",
+ "commit_date": "2026-05-30",
+ "commit_subject": "[version] release v0.9.5 (#10532)",
+ "static": {
+  "file_count": 539,
+  "size_mb": 13.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "scripts/api_example",
+   "src/llamafactory",
+   "tests",
+   "tests_v1/accelerator",
+   "tests_v1/config",
+   "tests_v1/core",
+   "tests_v1/plugins",
+   "tests_v1/sampler",
+   "tests_v1/trainers"
+  ],
+  "test_file_count": 46,
+  "ci": [
+   ".github/workflows/tests.yml",
+   ".github/workflows/publish.yml",
+   ".github/workflows/docker.yml",
+   ".github/workflows/docs.yml",
+   ".github/workflows/tests_cuda.yml",
+   ".github/workflows/tests_npu.yml",
+   ".github/workflows/label_issue.yml"
+  ],
+  "docker": [
+   "docker/docker-npu/Dockerfile",
+   "docker/docker-cuda/Dockerfile.megatron",
+   "docker/docker-cuda/Dockerfile",
+   "docker/docker-cuda/Dockerfile.base",
+   "docker/docker-rocm/Dockerfile"
+  ],
+  "compose": [
+   "docker/docker-npu/docker-compose.yml",
+   "docker/docker-cuda/docker-compose.yml",
+   "docker/docker-rocm/docker-compose.yml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 62,
+  "config_files": 89,
+  "config_dirs": [
+   "src/llamafactory",
+   "tests_v1/config"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "data/alpaca_zh_demo.json",
+   "data/alpaca_en_demo.json",
+   "data/v1_sft_demo.jsonl",
+   "data/mllm_video_audio_demo.json",
+   "data/glaive_toolcall_zh_demo.json",
+   "data/mllm_audio_demo.json",
+   "data/mllm_video_demo.json",
+   "data/reason_tool_use_demo_50.jsonl"
+  ],
+  "readme": [
+   "README.md",
+   "README_zh.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11.0",
+  "py_scripts": [
+   "llamafactory-cli",
+   "lmf"
+  ],
+  "torch_spec": "torch>=2.4.0",
+  "dep_count": 31,
+  "optional_groups": [],
+  "entry_files": [
+   "src/train.py",
+   "scripts/eval_bleu_rouge.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install \"huggingface_hub<1.0.0\"",
+   "git clone --depth 1 https://github.com/hiyouga/LlamaFactory.git",
+   "pip install -e .",
+   "pip install -r requirements/metrics.txt",
+   "docker run -it --rm --gpus=all --ipc=host hiyouga/llamafactory:latest",
+   "uv run llamafactory-cli webui",
+   "pip uninstall torch torchvision torchaudio",
+   "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126",
+   "python -c \"import torch; print(torch.cuda.is_available())\"",
+   "pip install https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.2.post2-py3-none-win_amd64.whl",
+   "docker pull hiyouga/llamafactory:latest-npu-a2",
+   "docker pull hiyouga/llamafactory:latest-npu-a3",
+   "docker pull quay.io/ascend/llamafactory:latest-npu-a2",
+   "docker pull quay.io/ascend/llamafactory:latest-npu-a3",
+   "git clone -b multi-backend-refactor https://github.com/bitsandbytes-foundation/bitsandbytes.git"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "adaptation_alignment/P0403_hiyouga_LLaMA-Factory_v0.9.5_src_en.tar",
+ "archive_mb": 13.7,
+ "archive_prefix": "LLaMA-Factory-v0.9.5",
+ "finished": "2026-10-29T19:55:35Z"
+}

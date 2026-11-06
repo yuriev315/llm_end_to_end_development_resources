@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2306.05685",
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Zheng_JudgingLLMAsJudgeMT_en.pdf",
+ "arxiv_id": "2306.05685",
+ "version": "v4",
+ "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+ "path": "papers_books_courses/papers/05/2023_Zheng_JudgingLLMAsJudgeMT_en.pdf",
+ "verify": "pypdf 可解析 29 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

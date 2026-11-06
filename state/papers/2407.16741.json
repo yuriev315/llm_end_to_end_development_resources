@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2407.16741",
+  "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2024_Wang_OpenHandsOpenPlatformAISoftware_en.pdf",
+ "arxiv_id": "2407.16741",
+ "version": "v3",
+ "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+ "path": "papers_books_courses/papers/08/2024_Wang_OpenHandsOpenPlatformAISoftware_en.pdf",
+ "verify": "pypdf 可解析 38 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

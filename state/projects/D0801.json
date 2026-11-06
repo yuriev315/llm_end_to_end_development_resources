@@ -1,0 +1,120 @@
+{
+ "id": "D0801",
+ "repo": "modelcontextprotocol/modelcontextprotocol",
+ "upstream": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+ "seed": {
+  "id": "D0801",
+  "repo": "modelcontextprotocol/modelcontextprotocol",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "接口规范",
+  "tag": "HEAD",
+  "purpose": "MCP 规范与文档（本轮最新提交；另有复用的较早快照）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "84d845729393f79b3fd3d392aa17cb86f5b6f95c",
+ "ref": "main",
+ "version": "main@84d8457293",
+ "kind": "分支快照",
+ "commit": "84d845729393f79b3fd3d392aa17cb86f5b6f95c",
+ "commit_date": "2026-10-29",
+ "commit_subject": "Merge pull request #3392 from pja-ant/pja/sep-extension-lifecycle",
+ "static": {
+  "file_count": 969,
+  "size_mb": 57.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tools/sep-automation"
+  ],
+  "test_file_count": 7,
+  "ci": [
+   ".github/workflows/slash-commands.yml",
+   ".github/workflows/publish-release.yml",
+   ".github/workflows/labeler.yml",
+   ".github/workflows/stage-blog.yml",
+   ".github/workflows/cut-release.yml",
+   ".github/workflows/main.yml",
+   ".github/workflows/sep-lifecycle-manual.yml",
+   ".github/workflows/sep-reminder.yml",
+   ".github/workflows/blog-preview.yml",
+   ".github/workflows/deploy-blog.yml",
+   ".github/workflows/sep-lifecycle.yml",
+   ".github/workflows/render-seps.yml",
+   ".github/workflows/markdown-format.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "tools/sep-automation/package.json",
+   "blog/go.mod"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json",
+   "tools/sep-automation/package-lock.json",
+   "blog/go.sum"
+  ],
+  "docs_files": 456,
+  "config_files": 258,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {
+   "node": ">=24"
+  },
+  "npm_scripts": [
+   "generate",
+   "generate:schema",
+   "generate:schema:json",
+   "generate:schema:md",
+   "generate:seps",
+   "format",
+   "format:docs",
+   "format:schema",
+   "check",
+   "check:schema",
+   "check:schema:ts",
+   "check:schema:json",
+   "check:schema:examples",
+   "check:schema:md",
+   "check:docs"
+  ],
+  "entry_files": [],
+  "readme_has_install": false,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "安装/运行说明"
+ ],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D0801_modelcontextprotocol_modelcontextprotocol_main-84d8457293_src_en.tar",
+ "archive_mb": 58.5,
+ "archive_prefix": "modelcontextprotocol-main-84d8457293",
+ "finished": "2026-10-29T20:05:14Z"
+}

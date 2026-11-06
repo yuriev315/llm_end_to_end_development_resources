@@ -1,0 +1,23 @@
+{
+ "id": "C02",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/practice/Stanford_CS336_A1_Basics_Repo_en",
+ "sibling_id": "D10-01",
+ "kind": "courses",
+ "mods": "01",
+ "title": "CS336 Assignment 1 — Basics (BPE tokenizer, Transformer LM, training)",
+ "author": "Percy Liang; Tatsunori Hashimoto（CS336 课程组）",
+ "school": "Stanford University",
+ "version": "仓库 HEAD 快照（2026-10-29）",
+ "year": "仓库 HEAD 快照（2026-10-29）",
+ "license": "MIT（GitHub 仓库许可证）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "官方仓库快照 commit a158843b2010：归档 zip 完整性通过，解压 52 个文件（0 个 notebook）；应有文件已见 ['README.md', 'tests/']；许可证文件 ['LICENSE']",
+ "scope": "",
+ "type": "官方实践材料",
+ "path": "papers_books_courses/courses/Stanford_CS336_A1_Basics_Repo_en",
+ "size_mb": 16.8,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "1710.03740",
+  "title": "Mixed Precision Training",
+  "classic": "经典：混合精度"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2017_Micikevicius_MixedPrecisionTraining_en.pdf",
+ "arxiv_id": "1710.03740",
+ "version": "v3",
+ "title": "Mixed Precision Training",
+ "path": "papers_books_courses/papers/03/2017_Micikevicius_MixedPrecisionTraining_en.pdf",
+ "verify": "pypdf 可解析 12 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

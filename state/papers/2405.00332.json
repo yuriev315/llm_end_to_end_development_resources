@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2405.00332",
+  "title": "A Careful Examination of Large Language Model Performance on Grade School Arithmetic",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.00332",
+ "version": "v4",
+ "title": "A Careful Examination of Large Language Model Performance on Grade School Arithmetic",
+ "authors": [
+  "Hugh Zhang",
+  "Jeff Da",
+  "Dean Lee",
+  "Vaughn Robinson",
+  "Catherine Wu",
+  "Will Song",
+  "Tiffany Zhao",
+  "Pranav Raja"
+ ],
+ "author_count": 15,
+ "published": "2024-05-01",
+ "updated": "2024-11-22",
+ "verify": "pypdf 可解析 45 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.00332v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Zhang_CarefulExaminationLargeLanguageModel_en.pdf"
+}

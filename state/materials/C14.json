@@ -1,0 +1,23 @@
+{
+ "id": "C14",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/practice/karpathy_nn_zero_to_hero_master_en.tar",
+ "sibling_id": "05X52",
+ "kind": "courses",
+ "mods": "01",
+ "title": "Neural Networks: Zero to Hero（笔记本与练习）",
+ "author": "Andrej Karpathy",
+ "school": "",
+ "version": "master 提交",
+ "year": "2024",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：9 个文件（HTML 0，文档源 8）",
+ "scope": "",
+ "type": "实验/习题/参考项目",
+ "path": "papers_books_courses/courses/karpathy_nn_zero_to_hero_master_en.tar",
+ "size_mb": 1.2,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

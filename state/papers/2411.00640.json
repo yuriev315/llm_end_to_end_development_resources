@@ -1,0 +1,23 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2411.00640",
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2411.00640",
+ "version": "v1",
+ "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+ "authors": [
+  "Evan Miller"
+ ],
+ "author_count": 1,
+ "published": "2024-11-01",
+ "updated": "2024-11-01",
+ "verify": "pypdf 可解析 14 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2411.00640v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Miller_AddingErrorBarsEvalsStatistical_en.pdf"
+}

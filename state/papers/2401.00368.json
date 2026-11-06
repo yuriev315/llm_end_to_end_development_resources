@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2401.00368",
+  "title": "Improving Text Embeddings with Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.00368",
+ "version": "v3",
+ "title": "Improving Text Embeddings with Large Language Models",
+ "authors": [
+  "Liang Wang",
+  "Nan Yang",
+  "Xiaolong Huang",
+  "Linjun Yang",
+  "Rangan Majumder",
+  "Furu Wei"
+ ],
+ "author_count": 6,
+ "published": "2023-12-31",
+ "updated": "2024-05-31",
+ "verify": "pypdf 可解析 20 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.00368v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2023_Wang_ImprovingTextEmbeddingsLargeLanguage_en.pdf"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2305.14251",
+  "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2305.14251",
+ "version": "v2",
+ "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+ "authors": [
+  "Sewon Min",
+  "Kalpesh Krishna",
+  "Xinxi Lyu",
+  "Mike Lewis",
+  "Wen-tau Yih",
+  "Pang Wei Koh",
+  "Mohit Iyyer",
+  "Luke Zettlemoyer"
+ ],
+ "author_count": 9,
+ "published": "2023-05-23",
+ "updated": "2023-10-11",
+ "verify": "pypdf 可解析 25 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2305.14251v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Min_FactscoreFineGrainedAtomicEvaluation_en.pdf"
+}

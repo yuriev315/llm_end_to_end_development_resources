@@ -1,0 +1,23 @@
+{
+ "id": "D02",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/pytorch_tutorials_html_en.tar",
+ "sibling_id": "05D02",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "PyTorch 官方教程（构建 HTML，含入门、分布式、导出、性能剖析）",
+ "author": "PyTorch Foundation",
+ "school": "",
+ "version": "gh-pages 提交（按提交日期记录）",
+ "year": "",
+ "license": "BSD-3-Clause",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：2304 个文件（HTML 338，文档源 681）",
+ "scope": "docs.pytorch.org/tutorials 发布分支的构建 HTML（不含 _downloads 下的笔记本压缩包）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/pytorch_tutorials_html_en.tar",
+ "size_mb": 328.5,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

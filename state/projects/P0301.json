@@ -1,0 +1,144 @@
+{
+ "id": "P0301",
+ "repo": "pytorch/torchtitan",
+ "upstream": "https://github.com/pytorch/torchtitan",
+ "seed": {
+  "id": "P0301",
+  "repo": "pytorch/torchtitan",
+  "mod": "03",
+  "x": [],
+  "routes": "A",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "PyTorch 原生大模型预训练参考：FSDP2/TP/PP/CP、float8、检查点、TOML 配置"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "09c98e528f3f2b69214894823d91c8475a54dd01",
+ "ref": "v0.4.0",
+ "version": "v0.4.0",
+ "kind": "发布标签",
+ "commit": "45e33cd413b64cb37a7840cfd3c9765d3c639ae1",
+ "commit_date": "2026-10-28",
+ "commit_subject": "[release] Finalize TorchTitan 0.4.0 version (#5653)",
+ "static": {
+  "file_count": 1078,
+  "size_mb": 20.1,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "BSD 类",
+  "tests": [
+   ".claude/skills",
+   "scripts/checkpoint_compat_test.py",
+   "tests",
+   "torchtitan/experiments",
+   "torchtitan_recipes/tests"
+  ],
+  "test_file_count": 254,
+  "ci": [
+   ".github/workflows/unit_test_gpu.yaml",
+   ".github/workflows/integration_test_rocm.yaml",
+   ".github/workflows/docker-builds.yml",
+   ".github/workflows/integration_test_8gpu_graph_trainer_h100.yaml",
+   ".github/workflows/release.yml",
+   ".github/workflows/integration_test_b200.yaml",
+   ".github/workflows/integration_test_8gpu_rl.yaml",
+   ".github/workflows/unit_test_cpu_torchft.yaml",
+   ".github/workflows/integration_test_rl_b200.yaml",
+   ".github/workflows/test_release.yml",
+   ".github/workflows/set-matrix.yaml",
+   ".github/workflows/validate_release_gpu.yml",
+   ".github/workflows/integration_test_8gpu_graph_trainer.yaml",
+   ".github/workflows/build_whl_and_publish.yaml",
+   ".github/workflows/claude-code.yml",
+   ".github/workflows/integration_test_b200_graph_trainer.yaml",
+   ".github/workflows/todo_debt_tracker.yaml",
+   ".github/workflows/unit_test_cpu_rl.yaml",
+   ".github/workflows/unit_test_cpu.yaml",
+   ".github/workflows/integration_test_rl_h100.yaml",
+   ".github/workflows/validate_rc.yaml",
+   ".github/workflows/integration_test.yaml",
+   ".github/workflows/integration_test_h100.yaml",
+   ".github/workflows/integration_test_8gpu_torchft.yaml",
+   ".github/workflows/integration_test_8gpu_transformers_modeling_backend.yaml",
+   ".github/workflows/unit_test_gpu_rl.yaml",
+   ".github/workflows/lint.yaml"
+  ],
+  "docker": [
+   ".ci/docker/ubuntu/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   ".ci/docker/requirements.txt",
+   "torchtitan/rl/requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "requirements-dev.txt",
+   ".ci/docker/requirements-transformers-modeling-backend.txt",
+   ".ci/docker/requirements-vlm.txt",
+   ".ci/docker/requirements-rl.txt",
+   ".ci/docker/requirements.txt",
+   ".ci/docker/requirements-flux.txt",
+   ".ci/docker/requirements-dev.txt",
+   "torchtitan/rl/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 6,
+  "config_files": 0,
+  "config_dirs": [
+   "tests/unit_tests",
+   "torchtitan/config",
+   "torchtitan/experiments"
+  ],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "RELEASE.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "run_train.sh",
+   "torchtitan/training_engine.py",
+   "torchtitan/trainer.py",
+   "torchtitan/train.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone https://github.com/pytorch/torchtitan && cd torchtitan",
+   "pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu132",
+   "pip install -r requirements.txt",
+   "python scripts/download_hf_assets.py --repo_id meta-llama/Llama-3.1-8B --assets tokenizer --hf_token=...",
+   "pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu132 --force-reinstall",
+   "pip install --pre torchtitan --index-url https://download.pytorch.org/whl/nightly/cu132",
+   "pip install torchtitan",
+   "conda install conda-forge::torchtitan"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "training/P0301_pytorch_torchtitan_v0.4.0_src_en.tar",
+ "archive_mb": 21.1,
+ "archive_prefix": "torchtitan-v0.4.0",
+ "finished": "2026-10-29T19:55:06Z"
+}

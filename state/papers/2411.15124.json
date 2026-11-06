@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2411.15124",
+  "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2411.15124",
+ "version": "v5",
+ "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+ "authors": [
+  "Nathan Lambert",
+  "Jacob Morrison",
+  "Valentina Pyatkin",
+  "Shengyi Huang",
+  "Hamish Ivison",
+  "Faeze Brahman",
+  "Lester James V. Miranda",
+  "Alisa Liu"
+ ],
+ "author_count": 23,
+ "published": "2024-11-22",
+ "updated": "2025-04-14",
+ "verify": "pypdf 可解析 82 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2411.15124v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Lambert_Tulu3PushingFrontiersOpen_en.pdf"
+}

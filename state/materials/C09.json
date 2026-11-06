@@ -1,0 +1,23 @@
+{
+ "id": "C09",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/courses/hf_llm_course_main_built_en.zip",
+ "sibling_id": "05C50",
+ "kind": "courses",
+ "mods": "04",
+ "title": "Hugging Face LLM Course（构建版，含 Transformers/Datasets/Tokenizers/微调/推理）",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "main 构建包",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：5174 个文件（HTML 1042，文档源 1094）",
+ "scope": "hf-doc-build course/main.zip（全部章节；仅保留其中英文与中文在包内原样）",
+ "type": "大学课程资料",
+ "path": "papers_books_courses/courses/hf_llm_course_main_built_en.zip",
+ "size_mb": 53.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

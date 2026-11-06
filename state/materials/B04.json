@@ -1,0 +1,23 @@
+{
+ "id": "B04",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Prince_UnderstandingDeepLearning_2023_en.pdf",
+ "sibling_id": "B07-01",
+ "kind": "books",
+ "mods": "01",
+ "title": "Understanding Deep Learning",
+ "author": "Simon J. D. Prince",
+ "school": "MIT Press（作者官网免费 PDF）",
+ "version": "2023 版（作者持续修订）",
+ "year": "2023",
+ "license": "CC BY-NC-ND（作者官网）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 541 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Prince_UnderstandingDeepLearning_2023_en.pdf",
+ "size_mb": 22.3,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

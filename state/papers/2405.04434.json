@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2405.04434",
+  "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.04434",
+ "version": "v5",
+ "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+ "authors": [
+  " DeepSeek-AI",
+  "Aixin Liu",
+  "Bei Feng",
+  "Bin Wang",
+  "Bingxuan Wang",
+  "Bo Liu",
+  "Chenggang Zhao",
+  "Chengqi Dengr"
+ ],
+ "author_count": 157,
+ "published": "2024-05-07",
+ "updated": "2024-06-19",
+ "verify": "pypdf 可解析 52 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.04434v5",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_DeepSeekAI_DeepseekV2StrongEconomicalEfficient_en.pdf"
+}

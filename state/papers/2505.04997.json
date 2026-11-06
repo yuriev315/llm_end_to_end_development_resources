@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2505.04997",
+  "title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2505.04997",
+ "version": "v3",
+ "title": "Foam-Agent: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows",
+ "authors": [
+  "Ling Yue",
+  "Nithin Somasekharan",
+  "Tingwen Zhang",
+  "Yadi Cao",
+  "Zhangze Chen",
+  "Shimin Di",
+  "Shaowu Pan"
+ ],
+ "author_count": 7,
+ "published": "2025-05-08",
+ "updated": "2026-08-13",
+ "verify": "pypdf 可解析 36 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2505.04997v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2025_Yue_FoamAgentLargeLanguageModel_en.pdf"
+}

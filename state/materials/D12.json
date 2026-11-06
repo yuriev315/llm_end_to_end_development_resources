@@ -1,0 +1,23 @@
+{
+ "id": "D12",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/deepspeed_api_rtd_mirror_en.tar",
+ "sibling_id": "13D05",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "DeepSpeed API 参考（deepspeed.readthedocs.io 离线镜像）",
+ "author": "DeepSpeed",
+ "school": "",
+ "version": "latest（页内版本为准）",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：70 个文件（HTML 36，文档源 1）",
+ "scope": "deepspeed.readthedocs.io/en/latest 全部页面",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/deepspeed_api_rtd_mirror_en.tar",
+ "size_mb": 6.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

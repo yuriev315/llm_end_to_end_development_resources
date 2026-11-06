@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2402.19173",
+  "title": "StarCoder 2 and The Stack v2: The Next Generation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.19173",
+ "version": "v1",
+ "title": "StarCoder 2 and The Stack v2: The Next Generation",
+ "authors": [
+  "Anton Lozhkov",
+  "Raymond Li",
+  "Loubna Ben Allal",
+  "Federico Cassano",
+  "Joel Lamy-Poirier",
+  "Nouamane Tazi",
+  "Ao Tang",
+  "Dmytro Pykhtar"
+ ],
+ "author_count": 66,
+ "published": "2024-02-29",
+ "updated": "2024-02-29",
+ "verify": "pypdf 可解析 61 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.19173v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Lozhkov_Starcoder2StackV2Next_en.pdf"
+}

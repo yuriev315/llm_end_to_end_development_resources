@@ -1,0 +1,23 @@
+{
+ "id": "D45",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/llama.cpp_b11985_docs_src_en.tar",
+ "sibling_id": "14D07",
+ "kind": "official_docs",
+ "mods": "06",
+ "title": "llama.cpp b11985 文档、工具说明与示例",
+ "author": "ggml-org",
+ "school": "",
+ "version": "b11985",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：1470 个文件（HTML 1，文档源 172）",
+ "scope": "docs/（构建、后端、量化）、tools/（server、quantize 等 README 与源码）、examples/",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/llama.cpp_b11985_docs_src_en.tar",
+ "size_mb": 58.4,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,106 @@
+{
+ "id": "P0503",
+ "repo": "evalplus/evalplus",
+ "upstream": "https://github.com/evalplus/evalplus",
+ "seed": {
+  "id": "P0503",
+  "repo": "evalplus/evalplus",
+  "mod": "05",
+  "x": [
+   "08"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "代码生成执行评测（HumanEval+/MBPP+），含安全执行"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "26d6d00bb1fd0fa37f39c99d5290da67891d1c5e",
+ "ref": "v0.3.1",
+ "version": "v0.3.1",
+ "kind": "发布标签",
+ "commit": "e5d0ed0bab96280b60b637ec7f15b5e4841b0cb2",
+ "commit_date": "2024-10-20",
+ "commit_subject": "feat(README): instructions of using docker",
+ "static": {
+  "file_count": 117,
+  "size_mb": 0.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 2,
+  "ci": [],
+  "docker": [
+   "Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "setup.cfg",
+   "tools/requirements.txt",
+   "tools/tsr/requirements.txt",
+   "tests/requirements.txt"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "requirements-evalperf.txt",
+   "tools/requirements.txt",
+   "tools/tsr/requirements.txt",
+   "tests/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 3,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "release.sh"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [],
+  "entry_files": [
+   "evalplus/evalperf.py",
+   "evalplus/evaluate.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "pip install --upgrade \"evalplus[vllm] @ git+https://github.com/evalplus/evalplus\"",
+   "docker run --rm ganler/evalplus:latest -v $(pwd)/evalplus_results:/app \\",
+   "pip install --upgrade \"evalplus[perf,vllm] @ git+https://github.com/evalplus/evalplus\"",
+   "docker run --cap-add PERFMON --rm ganler/evalplus:latest -v $(pwd)/evalplus_results:/app \\",
+   "pip install packaging ninja",
+   "pip install flash-attn --no-build-isolation",
+   "git clone https://github.com/evalplus/evalplus.git",
+   "pip install -r requirements.txt"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-10-02",
+ "archived": "否",
+ "archive": "evaluation/P0503_evalplus_evalplus_v0.3.1_src_en.tar",
+ "archive_mb": 1.0,
+ "archive_prefix": "evalplus-v0.3.1",
+ "finished": "2026-10-29T19:55:55Z"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2406.11794",
+  "title": "DataComp-LM: In search of the next generation of training sets for language models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.11794",
+ "version": "v4",
+ "title": "DataComp-LM: In search of the next generation of training sets for language models",
+ "authors": [
+  "Jeffrey Li",
+  "Alex Fang",
+  "Georgios Smyrnis",
+  "Maor Ivgi",
+  "Matt Jordan",
+  "Samir Gadre",
+  "Hritik Bansal",
+  "Etash Guha"
+ ],
+ "author_count": 59,
+ "published": "2024-06-17",
+ "updated": "2025-04-21",
+ "verify": "pypdf 可解析 89 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.11794v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Li_DatacompLmSearchNextGeneration_en.pdf"
+}

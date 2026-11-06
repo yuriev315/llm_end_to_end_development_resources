@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2507.05201",
+  "title": "MedGemma Technical Report",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2507.05201",
+ "version": "v4",
+ "title": "MedGemma Technical Report",
+ "authors": [
+  "Andrew Sellergren",
+  "Sahar Kazemzadeh",
+  "Tiam Jaroensri",
+  "Atilla Kiraly",
+  "Madeleine Traverse",
+  "Timo Kohlberger",
+  "Shawn Xu",
+  "Fayaz Jamil"
+ ],
+ "author_count": 81,
+ "published": "2025-07-07",
+ "updated": "2026-04-06",
+ "verify": "pypdf 可解析 60 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2507.05201v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2025_Sellergren_MedgemmaTechnicalReport_en.pdf"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2311.03285",
+  "title": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2311.03285",
+ "version": "v3",
+ "title": "S-LoRA: Serving Thousands of Concurrent LoRA Adapters",
+ "authors": [
+  "Ying Sheng",
+  "Shiyi Cao",
+  "Dacheng Li",
+  "Coleman Hooper",
+  "Nicholas Lee",
+  "Shuo Yang",
+  "Christopher Chou",
+  "Banghua Zhu"
+ ],
+ "author_count": 12,
+ "published": "2023-11-06",
+ "updated": "2024-06-05",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2311.03285v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2023_Sheng_SLoraServingThousandsConcurrent_en.pdf"
+}

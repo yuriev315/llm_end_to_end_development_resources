@@ -1,0 +1,181 @@
+{
+ "id": "P0404",
+ "repo": "volcengine/verl",
+ "upstream": "https://github.com/volcengine/verl",
+ "seed": {
+  "id": "P0404",
+  "repo": "volcengine/verl",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "大模型强化学习（PPO/GRPO 等）与 vLLM/SGLang rollout 集成"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a08ea02a784d7d4982b1d81df36d188a476192bb",
+ "ref": "v0.9.1",
+ "version": "v0.9.1",
+ "kind": "发布标签",
+ "commit": "1876b06d0a3e4e71e06230be10af14492ca8a75b",
+ "commit_date": "2026-09-20",
+ "commit_subject": "[misc] chore: bump version to 0.9.1 (#7947)",
+ "static": {
+  "file_count": 1230,
+  "size_mb": 11.8,
+  "license_files": [
+   "Notice.txt",
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 229,
+  "ci": [
+   ".github/workflows/e2e_sft_llm_ascend.yml",
+   ".github/workflows/e2e_ppo_trainer.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_sglang.yml",
+   ".github/workflows/docker-build-ascend-a3.yml",
+   ".github/workflows/e2e_sft_vlm.yml",
+   ".github/workflows/e2e_ascend.yml",
+   ".github/workflows/reward_model_vllm_ascend.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_vllm_2_ascend.yml",
+   ".github/workflows/reward_model_sglang.yml",
+   ".github/workflows/doc.yml",
+   ".github/workflows/e2e_v1_separate_async_opd.yml",
+   ".github/workflows/precommit-autofix.yml",
+   ".github/workflows/vllm.yml",
+   ".github/workflows/nightly_ascend_multinode.yml",
+   ".github/workflows/e2e_v1_separate_async_ascend.yml",
+   ".github/workflows/pre-commit.yml",
+   ".github/workflows/e2e_v1_separate_async.yml",
+   ".github/workflows/sgl_ascend.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_sglang_ascend.yml",
+   ".github/workflows/docker-build-ascend-sglang-a2.yml",
+   ".github/workflows/docker-build-ascend-a2.yml",
+   ".github/workflows/README.md",
+   ".github/workflows/reward_model_sglang_ascend.yml",
+   ".github/workflows/npu_unit_tests.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_vllm.yml",
+   ".github/workflows/e2e_ppo_trainer_veomni_vllm.yml",
+   ".github/workflows/scorecard.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_sglang_2.yml",
+   ".github/workflows/vllm_ascend.yml",
+   ".github/workflows/cpu_unit_tests.yml",
+   ".github/workflows/model.yml",
+   ".github/workflows/nightly_ascend.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_sglang_2_ascend.yml",
+   ".github/workflows/e2e_ppo_grpo_trainer_trtllm.yml",
+   ".github/workflows/check-pr-title.yml",
+   ".github/workflows/model_ascend.yml",
+   ".github/workflows/secrets_scan.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_vllm_rocm.yml",
+   ".github/workflows/e2e_ppo_trainer_megatron_vllm_2.yml",
+   ".github/workflows/type-coverage-check.yml",
+   ".github/workflows/reward_model_vllm.yml",
+   ".github/workflows/gpu_unit_tests.yml",
+   ".github/workflows/docker-build-ascend-sglang-a3.yml",
+   ".github/workflows/sanity.yml",
+   ".github/workflows/e2e_sft_llm.yml",
+   ".github/workflows/docker-build-ascend-a5.yml",
+   ".github/workflows/e2e_ppo_trainer_veomni_vllm_ascend.yml",
+   ".github/workflows/sgl.yml",
+   ".github/workflows/.stash/e2e_ppo_trainer_torchtitan_vllm.yml"
+  ],
+  "docker": [
+   "docker/Dockerfile.stable.sglang",
+   "docker/Dockerfile.stable.trtllm",
+   "docker/Dockerfile.isaaclab230",
+   "docker/Dockerfile.stable.vllm",
+   "docker/Dockerfile.uv.cu130",
+   "docker/aws/Dockerfile.extention.awsefa",
+   "docker/aws/Dockerfile.ngc.vllm0.8.sagemaker",
+   "docker/verl0.6-cu128-torch2.8.0-fa2.7.4/Dockerfile.vllm011.mcore_gpt-oss",
+   "docker/verl0.6-cu128-torch2.8.0-fa2.7.4/Dockerfile.app.sglang",
+   "docker/verl0.6-cu128-torch2.8.0-fa2.7.4/Dockerfile.base",
+   "docker/verl0.5-cu126-torch2.7-fa2.7.4/Dockerfile.app.vllm.mcore0.15",
+   "docker/verl0.5-cu126-torch2.7-fa2.7.4/Dockerfile.app.sglang0.4.9.post6.mcore0.13",
+   "docker/verl0.5-cu126-torch2.7-fa2.7.4/Dockerfile.app.vllm.mcore0.13",
+   "docker/verl0.5-cu126-torch2.7-fa2.7.4/Dockerfile.app.sglang0.4.10.post2.mcore0.13",
+   "docker/verl0.5-cu126-torch2.7-fa2.7.4/Dockerfile.base.torch2.7.1"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "requirements.txt",
+   "pyproject.toml",
+   "setup.py"
+  ],
+  "req_files": [
+   "requirements.txt",
+   "requirements-test.txt",
+   "requirements-npu.txt",
+   "docs/requirements-docs.txt"
+  ],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 131,
+  "config_files": 53,
+  "config_dirs": [
+   "tests/workers",
+   "verl/experimental",
+   "verl/trainer",
+   "verl/workers"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [
+   {
+    "path": "recipe",
+    "url": "https://github.com/verl-project/verl-recipe.git",
+    "commit": "e7f889574b8301cc0f0fc1d57c6d67f31ffeb689"
+   }
+  ],
+  "requires_python": ">=3.10,<3.13",
+  "py_scripts": [],
+  "torch_spec": "",
+  "dep_count": 0,
+  "optional_groups": [
+   "test",
+   "math",
+   "mcore",
+   "transferqueue",
+   "verl-core",
+   "flash-attn-cu130torch211",
+   "cupy-cu130",
+   "vllm",
+   "sglang",
+   "fsdp",
+   "megatron",
+   "ci"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "adaptation_alignment/P0404_volcengine_verl_v0.9.1_src_en.tar",
+ "archive_mb": 12.9,
+ "archive_prefix": "verl-v0.9.1",
+ "finished": "2026-10-29T19:55:39Z"
+}

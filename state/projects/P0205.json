@@ -1,0 +1,128 @@
+{
+ "id": "P0205",
+ "repo": "allenai/dolma",
+ "upstream": "https://github.com/allenai/dolma",
+ "seed": {
+  "id": "P0205",
+  "repo": "allenai/dolma",
+  "mod": "02",
+  "x": [
+   "03"
+  ],
+  "routes": "A",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "预训练语料工具：打标、布隆过滤去重、混合配比"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "669f534823b08d266a8fff01f8a1c916a5a56576",
+ "ref": "v1.2.1",
+ "version": "v1.2.1",
+ "kind": "发布标签",
+ "commit": "fd22a34972a36bf1a60d2f161533d55b2be4c047",
+ "commit_date": "2025-06-25",
+ "commit_subject": "Adding tool to reshard npy files based on maximum desired size. (#269)",
+ "static": {
+  "file_count": 643,
+  "size_mb": 38.8,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "configs/test",
+   "contrib/code-file-concat",
+   "contrib/fill-in-middle",
+   "contrib/tokens-sanitizer",
+   "tests"
+  ],
+  "test_file_count": 31,
+  "ci": [
+   ".github/workflows/CI.yml",
+   ".github/workflows/ISSUE_TEMPLATE/bug_report.yml",
+   ".github/workflows/ISSUE_TEMPLATE/feature_request.yml",
+   ".github/workflows/ISSUE_TEMPLATE/documentation.yml",
+   ".github/workflows/ISSUE_TEMPLATE/question.yml"
+  ],
+  "docker": [
+   ".devcontainer/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "Cargo.toml",
+   "contrib/code-file-concat/Cargo.toml",
+   "contrib/fill-in-middle/Cargo.toml",
+   "contrib/tokens-sanitizer/Cargo.toml",
+   "sources/starcoder/requirements.txt"
+  ],
+  "req_files": [
+   "sources/starcoder/requirements.txt"
+  ],
+  "lock_files": [
+   "Cargo.lock",
+   "contrib/code-file-concat/Cargo.lock",
+   "contrib/fill-in-middle/Cargo.lock",
+   "contrib/tokens-sanitizer/Cargo.lock"
+  ],
+  "docs_files": 31,
+  "config_files": 306,
+  "config_dirs": [
+   "configs/c4-replication",
+   "configs/dolma-v1_5",
+   "configs/dolma-v1_6",
+   "configs/dolma-v1_7",
+   "configs/dolma2-resharding",
+   "configs/pes2o-dedup",
+   "configs/test",
+   "tests/config"
+  ],
+  "examples_dirs": [],
+  "sample_data": [
+   "python/dolma/data/naughty_words_en.txt",
+   "python/dolma/data/ext_to_lang_mapping.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10,<3.13",
+  "py_scripts": [
+   "dolma"
+  ],
+  "torch_spec": "",
+  "dep_count": 24,
+  "optional_groups": [
+   "dev",
+   "code",
+   "pii",
+   "lang",
+   "warc",
+   "trafilatura",
+   "resiliparse",
+   "all"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2025-09-19",
+ "archived": "否",
+ "archive": "data/P0205_allenai_dolma_v1.2.1_src_en.tar",
+ "archive_mb": 39.3,
+ "archive_prefix": "dolma-v1.2.1",
+ "finished": "2026-10-29T19:54:28Z"
+}

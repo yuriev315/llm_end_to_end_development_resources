@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2310.18313",
+  "title": "FP8-LM: Training FP8 Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2310.18313",
+ "version": "v2",
+ "title": "FP8-LM: Training FP8 Large Language Models",
+ "authors": [
+  "Houwen Peng",
+  "Kan Wu",
+  "Yixuan Wei",
+  "Guoshuai Zhao",
+  "Yuxiang Yang",
+  "Ze Liu",
+  "Yifan Xiong",
+  "Ziyue Yang"
+ ],
+ "author_count": 20,
+ "published": "2023-10-27",
+ "updated": "2023-12-19",
+ "verify": "pypdf 可解析 23 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2310.18313v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2023_Peng_Fp8LmTrainingFp8Large_en.pdf"
+}

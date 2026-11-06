@@ -1,0 +1,23 @@
+{
+ "id": "B08",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/books/Austin_HowToScaleYourModel_src_en.tar",
+ "sibling_id": "13B04",
+ "kind": "books",
+ "mods": "03",
+ "title": "How to Scale Your Model: A Systems View of LLMs on TPUs",
+ "author": "Jacob Austin 等（Google DeepMind）",
+ "school": "",
+ "version": "online（仓库提交）",
+ "year": "2025",
+ "license": "以仓库为准",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：345 个文件（HTML 3，文档源 16）",
+ "scope": "",
+ "type": "教材/参考书",
+ "path": "papers_books_courses/books/Austin_HowToScaleYourModel_src_en.tar",
+ "size_mb": 67.8,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

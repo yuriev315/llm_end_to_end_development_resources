@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2404.05427",
+  "title": "AutoCodeRover: Autonomous Program Improvement",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.05427",
+ "version": "v3",
+ "title": "AutoCodeRover: Autonomous Program Improvement",
+ "authors": [
+  "Yuntong Zhang",
+  "Haifeng Ruan",
+  "Zhiyu Fan",
+  "Abhik Roychoudhury"
+ ],
+ "author_count": 4,
+ "published": "2024-04-08",
+ "updated": "2024-07-25",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.05427v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Zhang_AutocoderoverAutonomousProgramImprovement_en.pdf"
+}

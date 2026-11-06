@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2502.12115",
+  "title": "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2502.12115",
+ "version": "v4",
+ "title": "SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?",
+ "authors": [
+  "Samuel Miserendino",
+  "Michele Wang",
+  "Tejal Patwardhan",
+  "Johannes Heidecke"
+ ],
+ "author_count": 4,
+ "published": "2025-02-17",
+ "updated": "2025-05-29",
+ "verify": "pypdf 可解析 39 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2502.12115v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2025_Miserendino_SweLancerCanFrontierLlms_en.pdf"
+}

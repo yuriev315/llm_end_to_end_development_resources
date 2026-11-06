@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2312.16903",
+  "title": "Spike No More: Stabilizing the Pre-training of Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2312.16903",
+ "version": "v4",
+ "title": "Spike No More: Stabilizing the Pre-training of Large Language Models",
+ "authors": [
+  "Sho Takase",
+  "Shun Kiyono",
+  "Sosuke Kobayashi",
+  "Jun Suzuki"
+ ],
+ "author_count": 4,
+ "published": "2023-12-28",
+ "updated": "2025-07-25",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2312.16903v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2023_Takase_SpikeNoMoreStabilizingPre_en.pdf"
+}

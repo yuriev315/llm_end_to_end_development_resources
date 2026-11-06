@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2406.18665",
+  "title": "RouteLLM: Learning to Route LLMs with Preference Data",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.18665",
+ "version": "v4",
+ "title": "RouteLLM: Learning to Route LLMs with Preference Data",
+ "authors": [
+  "Isaac Ong",
+  "Amjad Almahairi",
+  "Vincent Wu",
+  "Wei-Lin Chiang",
+  "Tianhao Wu",
+  "Joseph E. Gonzalez",
+  "M Waleed Kadous",
+  "Ion Stoica"
+ ],
+ "author_count": 8,
+ "published": "2024-06-26",
+ "updated": "2025-02-23",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 0.83；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.18665v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2024_Ong_RoutellmLearningRouteLlmsPreference_en.pdf"
+}

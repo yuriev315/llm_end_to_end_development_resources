@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2310.06770",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Jimenez_SWEBenchLanguageModelsResolve_en.pdf",
+ "arxiv_id": "2310.06770",
+ "version": "v3",
+ "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+ "path": "papers_books_courses/papers/08/2023_Jimenez_SWEBenchLanguageModelsResolve_en.pdf",
+ "verify": "pypdf 可解析 52 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

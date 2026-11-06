@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2501.09136",
+  "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2501.09136",
+ "version": "v4",
+ "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+ "authors": [
+  "Aditi Singh",
+  "Abul Ehtesham",
+  "Saket Kumar",
+  "Tala Talaei Khoei",
+  "Athanasios V. Vasilakos"
+ ],
+ "author_count": 5,
+ "published": "2025-01-15",
+ "updated": "2026-04-01",
+ "verify": "pypdf 可解析 42 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2501.09136v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2025_Singh_AgenticRetrievalAugmentedGenerationSurvey_en.pdf"
+}

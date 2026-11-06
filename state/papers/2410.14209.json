@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2410.14209",
+  "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2410.14209",
+ "version": "v2",
+ "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+ "authors": [
+  "Zihan Liu",
+  "Ruinan Zeng",
+  "Dongxia Wang",
+  "Gengyun Peng",
+  "Jingyi Wang",
+  "Qiang Liu",
+  "Peiyu Liu",
+  "Wenhai Wang"
+ ],
+ "author_count": 8,
+ "published": "2024-10-18",
+ "updated": "2024-12-25",
+ "verify": "pypdf 可解析 12 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2410.14209v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2024_Liu_Agents4plcAutomatingClosedLoopPlc_en.pdf"
+}

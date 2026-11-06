@@ -1,0 +1,23 @@
+{
+ "id": "B07",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Reddi_MachineLearningSystems_Vol2_en.pdf",
+ "sibling_id": "B19-02",
+ "kind": "books",
+ "mods": "03",
+ "title": "Machine Learning Systems, Volume II: Advanced Machine Learning Systems",
+ "author": "Vijay Janapa Reddi et al.",
+ "school": "Harvard / MIT Press（官方 GitHub Release PDF）",
+ "version": "vol2-v0.3.0（2026-10-24）",
+ "year": "2025",
+ "license": "CC BY-NC-SA 4.0（仓库声明）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 1686 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Reddi_MachineLearningSystems_Vol2_en.pdf",
+ "size_mb": 18.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

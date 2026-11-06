@@ -1,0 +1,105 @@
+{
+ "id": "D0902",
+ "repo": "open-webui/docs",
+ "upstream": "https://github.com/open-webui/docs",
+ "seed": {
+  "id": "D0902",
+  "repo": "open-webui/docs",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Open WebUI 官方文档站源（部署、RBAC、管道）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "excluded",
+ "default_branch": "main",
+ "head_commit": "c4f49998d7416a1defba7c2e78dbcf9c16ff8ac4",
+ "ref": "main",
+ "version": "main@c4f49998d7",
+ "kind": "分支快照",
+ "commit": "c4f49998d7416a1defba7c2e78dbcf9c16ff8ac4",
+ "commit_date": "2026-10-29",
+ "commit_subject": "Drop em-dashes and serial commas from the ai& provider pages",
+ "static": {
+  "file_count": 942,
+  "size_mb": 97.4,
+  "license_files": [],
+  "license_guess": "",
+  "tests": [],
+  "test_file_count": 0,
+  "ci": [
+   ".github/workflows/gh-pages.yml",
+   ".github/workflows/ci.yml"
+  ],
+  "docker": [],
+  "compose": [
+   "static/docker-compose.otel.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json",
+   "workers/docs-search/package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "package-lock.json",
+   "workers/docs-search/package-lock.json"
+  ],
+  "docs_files": 511,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {
+   "node": ">=18.0"
+  },
+  "npm_scripts": [
+   "docusaurus",
+   "start",
+   "prebuild",
+   "build",
+   "postbuild",
+   "raw-docs",
+   "search-corpus",
+   "llms-files",
+   "test:docs-search",
+   "test:analytics",
+   "swizzle",
+   "deploy",
+   "clear",
+   "serve",
+   "write-translations"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": []
+ },
+ "level": "L0",
+ "level_missing": [
+  "许可证文件"
+ ],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D0902_open-webui_docs_main-c4f49998d7_src_en.tar",
+ "archive_mb": 98.2,
+ "archive_prefix": "docs-main-c4f49998d7",
+ "finished": "2026-10-29T20:03:48Z",
+ "error": "上游文档仓库无 LICENSE 文件且 README 无许可声明；按无许可证不收录规则排除（未删除，移至缓存 excluded/）",
+ "excluded_archive": "/root/.cache/lede_lit/excluded/D0902_open-webui_docs_main-c4f49998d7_src_en.tar"
+}

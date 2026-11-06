@@ -1,0 +1,23 @@
+{
+ "id": "D33",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/mlflow_3.17.2_docs_src_en.tar",
+ "sibling_id": "04D05",
+ "kind": "official_docs",
+ "mods": "04",
+ "title": "MLflow 3.17.2 文档源（Docusaurus）",
+ "author": "MLflow Project (LF AI & Data)",
+ "school": "",
+ "version": "3.17.2",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：449 个文件（HTML 0，文档源 432）",
+ "scope": "docs/docs（经典 ML 与 GenAI 指南、部署、模型格式）+ docs/api_reference/source（Sphinx 源；API 正文由 docstring 生成，未含）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/mlflow_3.17.2_docs_src_en.tar",
+ "size_mb": 6.8,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

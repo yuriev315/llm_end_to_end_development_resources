@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2404.10102",
+  "title": "Chinchilla Scaling: A replication attempt",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.10102",
+ "version": "v2",
+ "title": "Chinchilla Scaling: A replication attempt",
+ "authors": [
+  "Tamay Besiroglu",
+  "Ege Erdil",
+  "Matthew Barnett",
+  "Josh You"
+ ],
+ "author_count": 4,
+ "published": "2024-04-15",
+ "updated": "2024-05-15",
+ "verify": "pypdf 可解析 7 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.10102v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_Besiroglu_ChinchillaScalingReplicationAttempt_en.pdf"
+}

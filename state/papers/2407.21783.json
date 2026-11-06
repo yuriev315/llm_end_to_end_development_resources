@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2407.21783",
+  "title": "The Llama 3 Herd of Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.21783",
+ "version": "v3",
+ "title": "The Llama 3 Herd of Models",
+ "authors": [
+  "Aaron Grattafiori",
+  "Abhimanyu Dubey",
+  "Abhinav Jauhri",
+  "Abhinav Pandey",
+  "Abhishek Kadian",
+  "Ahmad Al-Dahle",
+  "Aiesha Letman",
+  "Akhil Mathur"
+ ],
+ "author_count": 561,
+ "published": "2024-07-31",
+ "updated": "2024-11-23",
+ "verify": "pypdf 可解析 92 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.21783v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2024_Grattafiori_Llama3HerdModels_en.pdf"
+}

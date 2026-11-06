@@ -1,0 +1,23 @@
+{
+ "id": "D25",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/llamaindex_0.14.25_docs_src_en.tar",
+ "sibling_id": "15D04",
+ "kind": "official_docs",
+ "mods": "07",
+ "title": "LlamaIndex v0.14.25 文档源（含示例笔记本）",
+ "author": "LlamaIndex Inc.",
+ "school": "",
+ "version": "0.14.25",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "部分资料（已核验，范围见说明）",
+ "sibling_verify": "通过：1094 个文件（HTML 7，文档源 879）",
+ "scope": "docs/src（框架指南）+ docs/examples（笔记本）；api_reference 由 mkdocstrings 生成，未含",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/llamaindex_0.14.25_docs_src_en.tar",
+ "size_mb": 157.4,
+ "complete": false,
+ "access_date": "2026-10-29"
+}

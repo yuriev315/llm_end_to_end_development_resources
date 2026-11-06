@@ -1,0 +1,141 @@
+{
+ "id": "P0208",
+ "repo": "opendatalab/MinerU",
+ "upstream": "https://github.com/opendatalab/MinerU",
+ "seed": {
+  "id": "P0208",
+  "repo": "opendatalab/MinerU",
+  "mod": "02",
+  "x": [
+   "07",
+   "11"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^(?:mineru-)?v?(\\d+)\\.(\\d+)\\.(\\d+)(?:-released)?$",
+  "purpose": "PDF 解析：表格、公式、扫描件 OCR 到 Markdown/JSON"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "master",
+ "head_commit": "14db546c732e9829c949dbaefd9f1459c3da55a7",
+ "ref": "mineru-4.1.2-released",
+ "version": "mineru-4.1.2-released",
+ "kind": "发布标签",
+ "commit": "88db50f08035e6803335079cee05e7a362ef2a47",
+ "commit_date": "2026-10-30",
+ "commit_subject": "chore(release): prepare MinerU 4.1.2",
+ "static": {
+  "file_count": 1358,
+  "size_mb": 34.1,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 199,
+  "ci": [
+   ".github/workflows/cli.yml",
+   ".github/workflows/cla.yml",
+   ".github/workflows/mkdocs.yml",
+   ".github/workflows/python-package.yml"
+  ],
+  "docker": [
+   "docker/china/maca.Dockerfile",
+   "docker/china/kxpu.Dockerfile",
+   "docker/china/Dockerfile",
+   "docker/china/ppu.Dockerfile",
+   "docker/china/mlu.Dockerfile",
+   "docker/china/npu.Dockerfile",
+   "docker/china/musa.Dockerfile",
+   "docker/china/dcu.Dockerfile",
+   "docker/china/gcu.Dockerfile",
+   "docker/china/corex.Dockerfile",
+   "docker/global/Dockerfile"
+  ],
+  "compose": [
+   "docker/compose.yaml"
+  ],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 356,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [
+   "mineru/model/ocr/data/ppocrv6_dict.txt",
+   "tests/fixtures/demo1_mfr_table_inputs.json",
+   "tests/fixtures/seal_crop_degenerate.json",
+   "tests/fixtures/native_pdf_table_issue5669.json",
+   "tests/fixtures/model_image_reference.json",
+   "tests/fixtures/hybrid_pdf_script_inputs.json",
+   "tests/fixtures/hybrid_native_script_inputs.json",
+   "tests/fixtures/pdf_mixed_font_script_line.json"
+  ],
+  "readme": [
+   "README_zh-CN.md",
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.11,<3.15",
+  "py_scripts": [
+   "mineru",
+   "mineru-kit",
+   "mineru-router",
+   "mineru-webui",
+   "mineru-openai-server",
+   "mineru-models-download",
+   "mineru-api"
+  ],
+  "torch_spec": "",
+  "dep_count": 41,
+  "optional_groups": [
+   "dev",
+   "test",
+   "torch",
+   "full",
+   "all"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install uv",
+   "uv venv .mineru --python 3.12",
+   "uv pip install -U \"mineru>=4.0,<5\"",
+   "uv tool upgrade \"mineru>=4.0,<5\"",
+   "uv python find 3.12",
+   "uv python find 3.13",
+   "uv python find 3.14",
+   "uv python find 3.11",
+   "uv python install 3.12",
+   "uv tool install --python 3.12 \"mineru>=4.0,<5\"",
+   "python3.12 --version",
+   "pip --version",
+   "pip install \"mineru>=4.0,<5\"",
+   "uv tool install --force \"mineru[full]>=4.0,<5\""
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "data/P0208_opendatalab_MinerU_mineru-4.1.2-released_src_en.tar",
+ "archive_mb": 35.3,
+ "archive_prefix": "MinerU-mineru-4.1.2-released",
+ "finished": "2026-10-29T19:55:00Z"
+}

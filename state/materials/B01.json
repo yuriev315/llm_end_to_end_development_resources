@@ -1,0 +1,23 @@
+{
+ "id": "B01",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Xiao_FoundationsOfLargeLanguageModels_2025_en.pdf",
+ "sibling_id": "B10-01",
+ "kind": "books",
+ "mods": "01",
+ "title": "Foundations of Large Language Models",
+ "author": "Tong Xiao; Jingbo Zhu",
+ "school": "arXiv 2501.09223（作者版）",
+ "version": "arXiv 作者版（检索日官方版本）",
+ "year": "2025",
+ "license": "arXiv 许可",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 315 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Xiao_FoundationsOfLargeLanguageModels_2025_en.pdf",
+ "size_mb": 2.3,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

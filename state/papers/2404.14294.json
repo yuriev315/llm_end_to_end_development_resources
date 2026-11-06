@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2404.14294",
+  "title": "A Survey on Efficient Inference for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.14294",
+ "version": "v3",
+ "title": "A Survey on Efficient Inference for Large Language Models",
+ "authors": [
+  "Zixuan Zhou",
+  "Xuefei Ning",
+  "Ke Hong",
+  "Tianyu Fu",
+  "Jiaming Xu",
+  "Shiyao Li",
+  "Yuming Lou",
+  "Luning Wang"
+ ],
+ "author_count": 15,
+ "published": "2024-04-22",
+ "updated": "2024-07-19",
+ "verify": "pypdf 可解析 36 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.14294v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2024_Zhou_SurveyEfficientInferenceLargeLanguage_en.pdf"
+}

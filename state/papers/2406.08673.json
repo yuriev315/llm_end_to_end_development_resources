@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2406.08673",
+  "title": "HelpSteer2: Open-source dataset for training top-performing reward models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.08673",
+ "version": "v1",
+ "title": "HelpSteer2: Open-source dataset for training top-performing reward models",
+ "authors": [
+  "Zhilin Wang",
+  "Yi Dong",
+  "Olivier Delalleau",
+  "Jiaqi Zeng",
+  "Gerald Shen",
+  "Daniel Egert",
+  "Jimmy J. Zhang",
+  "Makesh Narsimhan Sreedhar"
+ ],
+ "author_count": 9,
+ "published": "2024-06-12",
+ "updated": "2024-06-12",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.08673v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Wang_Helpsteer2OpenSourceDatasetTraining_en.pdf"
+}

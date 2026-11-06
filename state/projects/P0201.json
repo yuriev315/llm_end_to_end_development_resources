@@ -1,0 +1,119 @@
+{
+ "id": "P0201",
+ "repo": "huggingface/datatrove",
+ "upstream": "https://github.com/huggingface/datatrove",
+ "seed": {
+  "id": "P0201",
+  "repo": "huggingface/datatrove",
+  "mod": "02",
+  "x": [
+   "03"
+  ],
+  "routes": "A,B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "大规模文本处理：抽取、语言识别、质量过滤、MinHash 去重、分词统计"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "4c488a135cc582b482df81895e631aadff2fa4c1",
+ "ref": "v0.10.1",
+ "version": "v0.10.1",
+ "kind": "发布标签",
+ "commit": "1977fbb0f3c163d43cace334b073dda17fa3ef26",
+ "commit_date": "2026-09-30",
+ "commit_subject": "release: bump version to 0.10.1 (#546)",
+ "static": {
+  "file_count": 247,
+  "size_mb": 21.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 54,
+  "ci": [
+   ".github/workflows/trufflehog.yml",
+   ".github/workflows/pypi-release.yml",
+   ".github/workflows/testing.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "uv.lock"
+  ],
+  "docs_files": 0,
+  "config_files": 1,
+  "config_dirs": [],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [
+   "Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10.0",
+  "py_scripts": [
+   "check_dataset",
+   "merge_stats",
+   "launch_pickled_pipeline",
+   "failed_logs",
+   "inspect_data",
+   "jobs_status",
+   "track_jobs"
+  ],
+  "torch_spec": "",
+  "dep_count": 8,
+  "optional_groups": [
+   "cli",
+   "io",
+   "s3",
+   "processing",
+   "decont",
+   "multilingual",
+   "inference",
+   "ray",
+   "quality",
+   "testing",
+   "all",
+   "dev"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "uv sync",
+   "git clone git@github.com:huggingface/datatrove.git && cd datatrove",
+   "uv sync --extra dev",
+   "make quality",
+   "make style",
+   "make quality-full",
+   "make style-full",
+   "pytest -sv ./tests/"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-27",
+ "archived": "否",
+ "archive": "data/P0201_huggingface_datatrove_v0.10.1_src_en.tar",
+ "archive_mb": 22.1,
+ "archive_prefix": "datatrove-v0.10.1",
+ "finished": "2026-10-29T19:53:50Z"
+}

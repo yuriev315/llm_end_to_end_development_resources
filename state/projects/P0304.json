@@ -1,0 +1,113 @@
+{
+ "id": "P0304",
+ "repo": "Lightning-AI/litgpt",
+ "upstream": "https://github.com/Lightning-AI/litgpt",
+ "seed": {
+  "id": "P0304",
+  "repo": "Lightning-AI/litgpt",
+  "mod": "03",
+  "x": [
+   "04",
+   "06"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "预训练/继续预训练/微调/LoRA/评测/服务一体化，YAML 配置"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "4738993a5e0190b851162a52173729827d3884e7",
+ "ref": "v0.5.13",
+ "version": "v0.5.13",
+ "kind": "发布标签",
+ "commit": "26857050fe3ff627cd714fe92f5838f51a3d5efa",
+ "commit_date": "2026-06-29",
+ "commit_subject": "chore: bump version to 0.5.13 (#2279)",
+ "static": {
+  "file_count": 252,
+  "size_mb": 2.9,
+  "license_files": [
+   "LICENSE.md"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "tests"
+  ],
+  "test_file_count": 51,
+  "ci": [
+   ".github/workflows/cpu-tests.yml",
+   ".github/workflows/publish-pkg.yml",
+   ".github/workflows/check-links.yml",
+   ".github/workflows/mkdocs-deploy.yml"
+  ],
+  "docker": [
+   ".devcontainer/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml"
+  ],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [
+   "tutorials"
+  ],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [
+   "litgpt"
+  ],
+  "torch_spec": "torch>=2.7",
+  "dep_count": 8,
+  "optional_groups": [
+   "compiler",
+   "extra",
+   "test"
+  ],
+  "entry_files": [
+   "litgpt/pretrain.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "pip install 'litgpt[extra]'",
+   "git clone https://github.com/Lightning-AI/litgpt",
+   "uv sync --all-extras",
+   "pip install -e \".[extra,compiler,test]\"",
+   "litgpt  serve     meta-llama/Llama-3.2-3B-Instruct",
+   "litgpt  finetune  meta-llama/Llama-3.2-3B-Instruct",
+   "litgpt  pretrain  meta-llama/Llama-3.2-3B-Instruct",
+   "litgpt  chat      meta-llama/Llama-3.2-3B-Instruct",
+   "litgpt  evaluate  meta-llama/Llama-3.2-3B-Instruct",
+   "litgpt finetune microsoft/phi-2 \\",
+   "litgpt chat out/custom-model/final",
+   "litgpt serve out/custom-model/final",
+   "litgpt serve microsoft/phi-2",
+   "litgpt serve path/to/microsoft/phi-2/checkpoint",
+   "litgpt evaluate microsoft/phi-2 --tasks 'truthfulqa_mc2,mmlu'"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-28",
+ "archived": "否",
+ "archive": "training/P0304_Lightning-AI_litgpt_v0.5.13_src_en.tar",
+ "archive_mb": 3.1,
+ "archive_prefix": "litgpt-v0.5.13",
+ "finished": "2026-10-29T19:55:18Z"
+}

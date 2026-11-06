@@ -1,0 +1,23 @@
+{
+ "id": "C08",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/courses/Berkeley_AdvLLMAgents_Spring2025_Slides_en",
+ "sibling_id": "15C02",
+ "kind": "courses",
+ "mods": "08",
+ "title": "UC Berkeley Advanced Large Language Model Agents (Spring 2025) 课件",
+ "author": "Dawn Song, Xinyun Chen, Kaiyu Yang",
+ "school": "UC Berkeley",
+ "version": "Spring 2025",
+ "year": "2025",
+ "license": "课程网站公开（版权保留）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：14 个文件均可解析（PDF 共 1269 页）",
+ "scope": "",
+ "type": "大学课程资料",
+ "path": "papers_books_courses/courses/Berkeley_AdvLLMAgents_Spring2025_Slides_en",
+ "size_mb": 146.6,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

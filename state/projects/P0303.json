@@ -1,0 +1,116 @@
+{
+ "id": "P0303",
+ "repo": "allenai/OLMo-core",
+ "upstream": "https://github.com/allenai/OLMo-core",
+ "seed": {
+  "id": "P0303",
+  "repo": "allenai/OLMo-core",
+  "mod": "03",
+  "x": [],
+  "routes": "A",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "OLMo 开放预训练代码：模型、训练配置、数据混合、检查点与恢复"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "ccf4ef4b5f6552e92f933589e9e6377d16fafb40",
+ "ref": "v3.0.0",
+ "version": "v3.0.0",
+ "kind": "发布标签",
+ "commit": "a800c06edcec8e4652de2f80fe0ea572d689fcc3",
+ "commit_date": "2026-09-30",
+ "commit_subject": "(chore) prepare for release v3.0.0",
+ "static": {
+  "file_count": 744,
+  "size_mb": 16.7,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "Apache-2.0",
+  "tests": [
+   "src/integration_tests",
+   "src/scripts",
+   "src/test"
+  ],
+  "test_file_count": 172,
+  "ci": [
+   ".github/workflows/pr_checks.yml",
+   ".github/workflows/main.yml",
+   ".github/workflows/docker.yml"
+  ],
+  "docker": [
+   "src/Dockerfile"
+  ],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "pyproject.toml",
+   "docs/requirements.txt"
+  ],
+  "req_files": [
+   "docs/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 63,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "CHANGELOG.md"
+  ],
+  "makefile": [
+   "Makefile",
+   "docs/Makefile"
+  ],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": ">=3.10",
+  "py_scripts": [],
+  "torch_spec": "torch>=2.10.0,<2.14",
+  "dep_count": 13,
+  "optional_groups": [
+   "dev",
+   "beaker",
+   "comet",
+   "dion",
+   "eval",
+   "fa4",
+   "fla",
+   "kernel-fun",
+   "profiling",
+   "torchao",
+   "transformers",
+   "wandb"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": true,
+  "readme_commands": [
+   "git clone https://github.com/allenai/Olmo-core.git",
+   "pip install -e .[all]",
+   "pip install ai2-olmo-core",
+   "torchrun --nproc-per-node=8 src/scripts/official/OLMo2/OLMo-2-0325-32B-train.py \\",
+   "torchrun --nproc-per-node=8 src/scripts/official/OLMo2/OLMo-2-0325-32B-train.py \\",
+   "torchrun --nproc-per-node=8 src/scripts/official/OLMo2/OLMo-2-0325-32B-anneal.py \\",
+   "pip install transformers>=4.57.0",
+   "pip install vllm>=0.11.0",
+   "python -m olmo_core.generate.chat https://olmo-checkpoints.org/ai2-llm/Olmo-3-1025-7B/stage3/step11921/ --max-new-tokens 512"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-23",
+ "archived": "否",
+ "archive": "training/P0303_allenai_OLMo-core_v3.0.0_src_en.tar",
+ "archive_mb": 17.4,
+ "archive_prefix": "OLMo-core-v3.0.0",
+ "finished": "2026-10-29T19:55:15Z"
+}

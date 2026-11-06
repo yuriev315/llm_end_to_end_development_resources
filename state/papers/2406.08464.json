@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2406.08464",
+  "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.08464",
+ "version": "v2",
+ "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing",
+ "authors": [
+  "Zhangchen Xu",
+  "Fengqing Jiang",
+  "Luyao Niu",
+  "Yuntian Deng",
+  "Radha Poovendran",
+  "Yejin Choi",
+  "Bill Yuchen Lin"
+ ],
+ "author_count": 7,
+ "published": "2024-06-12",
+ "updated": "2024-10-07",
+ "verify": "pypdf 可解析 32 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.08464v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2024_Xu_MagpieAlignmentDataSynthesisScratch_en.pdf"
+}

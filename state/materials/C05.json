@@ -1,0 +1,23 @@
+{
+ "id": "C05",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/CMU_11711_2025Fall_Slides_en",
+ "sibling_id": "A09-02",
+ "kind": "courses",
+ "mods": "01",
+ "title": "11-711 Advanced Natural Language Processing (Fall 2025) — Lecture Slides",
+ "author": "Sean Welleck",
+ "school": "Carnegie Mellon University",
+ "version": "Fall 2025",
+ "year": "Fall 2025",
+ "license": "课程官网公开 PDF（未见许可证声明）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "22 个 PDF 全部 HTTP 200 且可解析，合计 1431 页；文件链接取自官方索引页 https://cmu-l3.github.io/anlp-fall2025/（该页列出的全部匹配文件均已下载）",
+ "scope": "",
+ "type": "课程（完整课件包）",
+ "path": "papers_books_courses/courses/CMU_11711_2025Fall_Slides_en",
+ "size_mb": 302.7,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "01",
+  "aid": "2505.09388",
+  "title": "Qwen3 Technical Report",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2505.09388",
+ "version": "v1",
+ "title": "Qwen3 Technical Report",
+ "authors": [
+  "An Yang",
+  "Anfeng Li",
+  "Baosong Yang",
+  "Beichen Zhang",
+  "Binyuan Hui",
+  "Bo Zheng",
+  "Bowen Yu",
+  "Chang Gao"
+ ],
+ "author_count": 60,
+ "published": "2025-05-14",
+ "updated": "2025-05-14",
+ "verify": "pypdf 可解析 35 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2505.09388v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/01/2025_Yang_Qwen3TechnicalReport_en.pdf"
+}

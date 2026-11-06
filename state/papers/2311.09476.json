@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2311.09476",
+  "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2311.09476",
+ "version": "v2",
+ "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+ "authors": [
+  "Jon Saad-Falcon",
+  "Omar Khattab",
+  "Christopher Potts",
+  "Matei Zaharia"
+ ],
+ "author_count": 4,
+ "published": "2023-11-16",
+ "updated": "2024-03-31",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2311.09476v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2023_SaadFalcon_AresAutomatedEvaluationFrameworkRetrieval_en.pdf"
+}

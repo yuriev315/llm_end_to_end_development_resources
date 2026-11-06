@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2506.20920",
+  "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2506.20920",
+ "version": "v1",
+ "title": "FineWeb2: One Pipeline to Scale Them All -- Adapting Pre-Training Data Processing to Every Language",
+ "authors": [
+  "Guilherme Penedo",
+  "Hynek Kydlíček",
+  "Vinko Sabolčec",
+  "Bettina Messmer",
+  "Negar Foroutan",
+  "Amir Hossein Kargaran",
+  "Colin Raffel",
+  "Martin Jaggi"
+ ],
+ "author_count": 10,
+ "published": "2025-06-26",
+ "updated": "2025-06-26",
+ "verify": "pypdf 可解析 59 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2506.20920v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2025_Penedo_Fineweb2OnePipelineScaleThem_en.pdf"
+}

@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2406.12045",
+  "title": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2024_Yao_BenchBenchmarkToolAgentUser_en.pdf",
+ "arxiv_id": "2406.12045",
+ "version": "v1",
+ "title": "$τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+ "path": "papers_books_courses/papers/12/2024_Yao_BenchBenchmarkToolAgentUser_en.pdf",
+ "verify": "pypdf 可解析 50 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

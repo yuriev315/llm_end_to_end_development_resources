@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2401.00588",
+  "title": "Fairness in Serving Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2401.00588",
+ "version": "v2",
+ "title": "Fairness in Serving Large Language Models",
+ "authors": [
+  "Ying Sheng",
+  "Shiyi Cao",
+  "Dacheng Li",
+  "Banghua Zhu",
+  "Zhuohan Li",
+  "Danyang Zhuo",
+  "Joseph E. Gonzalez",
+  "Ion Stoica"
+ ],
+ "author_count": 8,
+ "published": "2023-12-31",
+ "updated": "2024-06-05",
+ "verify": "pypdf 可解析 24 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2401.00588v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2023_Sheng_FairnessServingLargeLanguageModels_en.pdf"
+}

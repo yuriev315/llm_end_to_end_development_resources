@@ -1,0 +1,198 @@
+{
+ "id": "P0504",
+ "repo": "promptfoo/promptfoo",
+ "upstream": "https://github.com/promptfoo/promptfoo",
+ "seed": {
+  "id": "P0504",
+  "repo": "promptfoo/promptfoo",
+  "mod": "05",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^(?:promptfoo-)?v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "应用级提示/RAG/智能体回归测试与红队，CI 集成"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "1b4dff170a589a31bbd57d4878e1abc59ef80655",
+ "ref": "0.125.1",
+ "version": "0.125.1",
+ "kind": "发布标签",
+ "commit": "8569e72ed6cf7737082a6042be8d925e40f9739d",
+ "commit_date": "2026-10-25",
+ "commit_subject": "chore(main): release 0.125.1 (#11968)",
+ "static": {
+  "file_count": 5960,
+  "size_mb": 245.2,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   ".github/scripts",
+   "examples/config-python-test-cases",
+   "examples/config-separate-test-configs",
+   "examples/eval-f-score",
+   "examples/eval-image-classification",
+   "examples/eval-rag-full",
+   "examples/integration-browser",
+   "examples/integration-docker",
+   "examples/integration-e2b",
+   "examples/integration-google-adk",
+   "examples/integration-jest",
+   "examples/integration-langgraph"
+  ],
+  "test_file_count": 1447,
+  "ci": [
+   ".github/workflows/mlflow-gateway-example.yml",
+   ".github/workflows/release-please-sha-drift.yml",
+   ".github/workflows/tusk-test-runner-app-vitest-unit-tests.yml",
+   ".github/workflows/redteam-api-example.yml",
+   ".github/workflows/python-example-dependencies.yml",
+   ".github/workflows/validate-renovate-config.yml",
+   ".github/workflows/browser-example-python.yml",
+   ".github/workflows/main.yml",
+   ".github/workflows/promptfoo-code-scan.yml",
+   ".github/workflows/docker.yml",
+   ".github/workflows/tusk-test-runner-vitest-unit-tests.yml",
+   ".github/workflows/examples.yml",
+   ".github/workflows/release-please-format.yml",
+   ".github/workflows/pydantic-ai-example.yml",
+   ".github/workflows/validate-pr-title.yml",
+   ".github/workflows/image-actions.yml",
+   ".github/workflows/release-please.yml",
+   ".github/workflows/mcp-example-python.yml",
+   ".github/workflows/deploy-launcher.yml"
+  ],
+  "docker": [
+   "Dockerfile",
+   ".devcontainer/Dockerfile.dev"
+  ],
+  "compose": [
+   ".devcontainer/docker-compose.yml"
+  ],
+  "helm_k8s": [
+   "helm/chart/promptfoo/Chart.yaml",
+   "helm/chart/promptfoo/values.yaml"
+  ],
+  "dep_files": [
+   "package.json",
+   "src/golang/go.mod",
+   "src/app/package.json",
+   "examples/provider-golang/go.mod",
+   "examples/redteam-tracing-example/package.json",
+   "examples/integration-langchain/requirements.txt",
+   "examples/redteam-indirect-web-pwn/package.json",
+   "examples/provider-python/requirements.txt",
+   "examples/config-ts/package.json",
+   "examples/config-stateful-session-management/package.json",
+   "examples/redteam-medical-agent/package.json",
+   "examples/eval-rag-full/requirements.txt"
+  ],
+  "req_files": [
+   "examples/integration-langchain/requirements.txt",
+   "examples/provider-python/requirements.txt",
+   "examples/eval-rag-full/requirements.txt",
+   "examples/integration-pydantic-ai/requirements.txt",
+   "examples/integration-langgraph/requirements.txt",
+   "examples/openai-agents/requirements.txt",
+   "examples/redteam-langchain/requirements.txt",
+   "examples/integration-google-adk/requirements.txt",
+   "examples/eval-image-classification/requirements.txt",
+   "examples/integration-e2b/requirements.txt"
+  ],
+  "lock_files": [
+   "package-lock.json",
+   "examples/provider-golang/go.sum",
+   "code-scan-action/package-lock.json"
+  ],
+  "docs_files": 16,
+  "config_files": 666,
+  "config_dirs": [
+   "examples/config-multiple-configs",
+   "examples/provider-python",
+   "src/codeScan",
+   "src/server",
+   "src/util",
+   "test/codeScans",
+   "test/smoke",
+   "test/util"
+  ],
+  "examples_dirs": [
+   "examples"
+  ],
+  "sample_data": [
+   "examples/provider-model-armor/datasets/model-armor-test.csv",
+   "examples/redteam-donotanswer/dataset/do_not_answer_data.csv",
+   "test/fixtures/vars-messages.json",
+   "test/fixtures/initialMessagesWithVars.json",
+   "test/fixtures/initialMessages.json"
+  ],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [
+   "release-please-config.json",
+   "CHANGELOG.md"
+  ],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {
+   "node": ">=22.22.0"
+  },
+  "npm_scripts": [
+   "audit:fix",
+   "architecture:baseline",
+   "architecture:check",
+   "bin",
+   "build:app",
+   "build:clean",
+   "build:watch",
+   "build",
+   "postbuild",
+   "citation:generate",
+   "db:generate",
+   "db:migrate",
+   "db:studio",
+   "openapi:generate",
+   "openapi:check"
+  ],
+  "entry_files": [
+   "src/evaluator.ts",
+   "src/evaluate.ts",
+   "src/cliState.ts",
+   "src/main.ts",
+   "src/mainUtils.ts",
+   "src/evaluatorHelpers.ts",
+   "test/main.test.ts",
+   "test/evaluator.integration.realTransforms.test.ts",
+   "test/evaluator.progress.test.ts",
+   "test/evaluatorHelpers.langfuse.test.ts"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "npm install -g promptfoo",
+   "promptfoo init --example getting-started",
+   "promptfoo eval",
+   "promptfoo view"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "evaluation/P0504_promptfoo_promptfoo_0.125.1_src_en.tar",
+ "archive_mb": 250.4,
+ "archive_prefix": "promptfoo-0.125.1",
+ "finished": "2026-10-29T19:56:08Z"
+}

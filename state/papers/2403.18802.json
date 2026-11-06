@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2403.18802",
+  "title": "Long-form factuality in large language models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2403.18802",
+ "version": "v4",
+ "title": "Long-form factuality in large language models",
+ "authors": [
+  "Jerry Wei",
+  "Chengrun Yang",
+  "Xinying Song",
+  "Yifeng Lu",
+  "Nathan Hu",
+  "Jie Huang",
+  "Dustin Tran",
+  "Daiyi Peng"
+ ],
+ "author_count": 12,
+ "published": "2024-03-27",
+ "updated": "2024-11-07",
+ "verify": "pypdf 可解析 72 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2403.18802v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2024_Wei_LongFormFactualityLargeLanguage_en.pdf"
+}

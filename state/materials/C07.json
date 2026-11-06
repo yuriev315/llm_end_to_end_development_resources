@@ -1,0 +1,23 @@
+{
+ "id": "C07",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/courses/Berkeley_CS294_LLMAgents_Fall2024_Slides_en",
+ "sibling_id": "15C01",
+ "kind": "courses",
+ "mods": "08",
+ "title": "UC Berkeley CS294/194-196 Large Language Model Agents (Fall 2024) 课件",
+ "author": "Dawn Song, Xinyun Chen",
+ "school": "UC Berkeley",
+ "version": "Fall 2024",
+ "year": "2024",
+ "license": "课程网站公开（版权保留）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：17 个章节 PDF 均可解析，共 1119 页",
+ "scope": "",
+ "type": "大学课程资料",
+ "path": "papers_books_courses/courses/Berkeley_CS294_LLMAgents_Fall2024_Slides_en",
+ "size_mb": 217.9,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "P0507",
+ "repo": "openai/simple-evals",
+ "upstream": "https://github.com/openai/simple-evals",
+ "seed": {
+  "id": "P0507",
+  "repo": "openai/simple-evals",
+  "mod": "05",
+  "x": [
+   "11"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "轻量评测实现（含 HealthBench 评分细则评测）"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "652c89d0ca9df547706735883097e9537d40dc47",
+ "ref": "main",
+ "version": "main@652c89d0ca",
+ "kind": "分支快照",
+ "commit": "652c89d0ca9df547706735883097e9537d40dc47",
+ "commit_date": "2026-04-22",
+ "commit_subject": "Merge pull request #108 from openai/rka/healthbench-professional-options",
+ "static": {
+  "file_count": 25,
+  "size_mb": 0.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "healthbench_eval_test.py",
+   "healthbench_meta_eval_test.py"
+  ],
+  "test_file_count": 2,
+  "ci": [],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [],
+  "req_files": [],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [
+   "run_multilingual_mmlu.py"
+  ],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/openai/human-eval",
+   "pip install -e human-eval",
+   "pip install openai",
+   "pip install anthropic",
+   "python -m simple-evals.simple_evals --list-models",
+   "python -m simple-evals.simple_evals --model <model_name> --examples <num_examples>"
+  ]
+ },
+ "level": "L0",
+ "level_missing": [
+  "依赖声明"
+ ],
+ "head_commit_date": "2026-04-22",
+ "archived": "否",
+ "archive": "evaluation/P0507_openai_simple-evals_main-652c89d0ca_src_en.tar",
+ "archive_mb": 0.3,
+ "archive_prefix": "simple-evals-main-652c89d0ca",
+ "finished": "2026-10-29T19:56:20Z"
+}

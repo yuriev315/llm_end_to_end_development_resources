@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2412.21139",
+  "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2412.21139",
+ "version": "v2",
+ "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+ "authors": [
+  "Jiayi Pan",
+  "Xingyao Wang",
+  "Graham Neubig",
+  "Navdeep Jaitly",
+  "Heng Ji",
+  "Alane Suhr",
+  "Yizhe Zhang"
+ ],
+ "author_count": 7,
+ "published": "2024-12-30",
+ "updated": "2025-06-06",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2412.21139v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Pan_TrainingSoftwareEngineeringAgentsVerifiers_en.pdf"
+}

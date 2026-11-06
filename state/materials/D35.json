@@ -1,0 +1,23 @@
+{
+ "id": "D35",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/wandb_docs_main_src_en.tar",
+ "sibling_id": "04D07",
+ "kind": "official_docs",
+ "mods": "03",
+ "title": "W&B 官方文档源（wandb/docs）",
+ "author": "Weights & Biases（CoreWeave 旗下）",
+ "school": "",
+ "version": "main 提交",
+ "year": "",
+ "license": "Apache-2.0（以仓库 LICENSE 为准）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：748 个文件（HTML 0，文档源 747）",
+ "scope": "wandb/docs 仓库英文主体（Mintlify MDX；SDK 参考 ref/ 已生成提交）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/wandb_docs_main_src_en.tar",
+ "size_mb": 4.5,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

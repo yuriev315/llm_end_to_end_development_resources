@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "02",
+  "aid": "2310.20707",
+  "title": "What's In My Big Data?",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2310.20707",
+ "version": "v2",
+ "title": "What's In My Big Data?",
+ "authors": [
+  "Yanai Elazar",
+  "Akshita Bhagia",
+  "Ian Magnusson",
+  "Abhilasha Ravichander",
+  "Dustin Schwenk",
+  "Alane Suhr",
+  "Pete Walsh",
+  "Dirk Groeneveld"
+ ],
+ "author_count": 13,
+ "published": "2023-10-31",
+ "updated": "2024-03-05",
+ "verify": "pypdf 可解析 56 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2310.20707v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/02/2023_Elazar_WhatSMyBigData_en.pdf"
+}

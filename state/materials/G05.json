@@ -1,0 +1,18 @@
+{
+ "id": "G05",
+ "title": "Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models",
+ "author": "WHO",
+ "version": "2024 (ISBN 9789240084759)",
+ "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+ "kind": "official_docs",
+ "mods": "11",
+ "license": "CC BY-NC-SA 3.0 IGO",
+ "source": "新下载",
+ "access_date": "2026-10-29",
+ "type": "官方指南/规范",
+ "verify": "pypdf 可解析 98 页；前 4 页标题词匹配 1.00",
+ "status": "done",
+ "path": "papers_books_courses/official_docs/WHO_EthicsGovernanceAIHealth_LMM_Guidance_2024_en.pdf",
+ "size_mb": 1.2,
+ "complete": true
+}

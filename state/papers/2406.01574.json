@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2406.01574",
+  "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.01574",
+ "version": "v6",
+ "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+ "authors": [
+  "Yubo Wang",
+  "Xueguang Ma",
+  "Ge Zhang",
+  "Yuansheng Ni",
+  "Abhranil Chandra",
+  "Shiguang Guo",
+  "Weiming Ren",
+  "Aaran Arulraj"
+ ],
+ "author_count": 17,
+ "published": "2024-06-03",
+ "updated": "2024-11-06",
+ "verify": "pypdf 可解析 24 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.01574v6",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Wang_MmluProMoreRobustChallenging_en.pdf"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "B02",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Zhao_LargeLanguageModels_LLMBook_cn.pdf",
+ "sibling_id": "B10-02",
+ "kind": "books",
+ "mods": "01",
+ "title": "大语言模型（LLMBook）",
+ "author": "赵鑫; 李军毅; 周昆; 唐天一; 文继荣",
+ "school": "中国人民大学 AI Box（作者官方 GitHub PDF）",
+ "version": "官方 GitHub 版",
+ "year": "2024",
+ "license": "作者 GitHub 公开（版权见书内声明）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 391 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Zhao_LargeLanguageModels_LLMBook_cn.pdf",
+ "size_mb": 10.8,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

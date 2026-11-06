@@ -1,0 +1,18 @@
+{
+ "id": "G02",
+ "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0) (NIST AI 100-1)",
+ "author": "NIST",
+ "version": "January 2023",
+ "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+ "kind": "official_docs",
+ "mods": "10",
+ "license": "美国政府作品（公有领域）",
+ "source": "新下载",
+ "access_date": "2026-10-29",
+ "type": "官方指南/规范",
+ "verify": "pypdf 可解析 48 页；前 4 页标题词匹配 1.00",
+ "status": "done",
+ "path": "papers_books_courses/official_docs/NIST_AI_100-1_AI_RMF_1.0_2023_en.pdf",
+ "size_mb": 1.9,
+ "complete": true
+}

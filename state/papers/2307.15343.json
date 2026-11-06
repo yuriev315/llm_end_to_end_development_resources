@@ -1,0 +1,25 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2307.15343",
+  "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2307.15343",
+ "version": "v2",
+ "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+ "authors": [
+  "Ankit Pal",
+  "Logesh Kumar Umapathi",
+  "Malaikannan Sankarasubbu"
+ ],
+ "author_count": 3,
+ "published": "2023-07-28",
+ "updated": "2023-10-14",
+ "verify": "pypdf 可解析 21 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2307.15343v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2023_Pal_MedHaltMedicalDomainHallucination_en.pdf"
+}

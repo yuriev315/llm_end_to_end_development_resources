@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2404.06395",
+  "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.06395",
+ "version": "v3",
+ "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+ "authors": [
+  "Shengding Hu",
+  "Yuge Tu",
+  "Xu Han",
+  "Chaoqun He",
+  "Ganqu Cui",
+  "Xiang Long",
+  "Zhi Zheng",
+  "Yewei Fang"
+ ],
+ "author_count": 25,
+ "published": "2024-04-09",
+ "updated": "2024-06-03",
+ "verify": "pypdf 可解析 32 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.06395v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2024_Hu_MinicpmUnveilingPotentialSmallLanguage_en.pdf"
+}

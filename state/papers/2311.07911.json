@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2311.07911",
+  "title": "Instruction-Following Evaluation for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2311.07911",
+ "version": "v1",
+ "title": "Instruction-Following Evaluation for Large Language Models",
+ "authors": [
+  "Jeffrey Zhou",
+  "Tianjian Lu",
+  "Swaroop Mishra",
+  "Siddhartha Brahma",
+  "Sujoy Basu",
+  "Yi Luan",
+  "Denny Zhou",
+  "Le Hou"
+ ],
+ "author_count": 8,
+ "published": "2023-11-14",
+ "updated": "2023-11-14",
+ "verify": "pypdf 可解析 43 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2311.07911v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2023_Zhou_InstructionFollowingEvaluationLargeLanguage_en.pdf"
+}

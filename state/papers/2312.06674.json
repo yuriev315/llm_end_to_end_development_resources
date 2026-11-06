@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2312.06674",
+  "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2312.06674",
+ "version": "v1",
+ "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+ "authors": [
+  "Hakan Inan",
+  "Kartikeya Upasani",
+  "Jianfeng Chi",
+  "Rashi Rungta",
+  "Krithika Iyer",
+  "Yuning Mao",
+  "Michael Tontchev",
+  "Qing Hu"
+ ],
+ "author_count": 11,
+ "published": "2023-12-07",
+ "updated": "2023-12-07",
+ "verify": "pypdf 可解析 15 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2312.06674v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2023_Inan_LlamaGuardLlmBasedInput_en.pdf"
+}

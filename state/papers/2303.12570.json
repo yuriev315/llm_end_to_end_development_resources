@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2303.12570",
+  "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2303.12570",
+ "version": "v3",
+ "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+ "authors": [
+  "Fengji Zhang",
+  "Bei Chen",
+  "Yue Zhang",
+  "Jacky Keung",
+  "Jin Liu",
+  "Daoguang Zan",
+  "Yi Mao",
+  "Jian-Guang Lou"
+ ],
+ "author_count": 9,
+ "published": "2023-03-22",
+ "updated": "2023-10-20",
+ "verify": "pypdf 可解析 14 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2303.12570v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2023_Zhang_RepocoderRepositoryLevelCodeCompletion_en.pdf"
+}

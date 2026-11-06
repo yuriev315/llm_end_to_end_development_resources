@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2404.07972",
+  "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.07972",
+ "version": "v2",
+ "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+ "authors": [
+  "Tianbao Xie",
+  "Danyang Zhang",
+  "Jixuan Chen",
+  "Xiaochuan Li",
+  "Siheng Zhao",
+  "Ruisheng Cao",
+  "Toh Jing Hua",
+  "Zhoujun Cheng"
+ ],
+ "author_count": 17,
+ "published": "2024-04-11",
+ "updated": "2024-05-30",
+ "verify": "pypdf 可解析 51 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.07972v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Xie_OsworldBenchmarkingMultimodalAgentsOpen_en.pdf"
+}

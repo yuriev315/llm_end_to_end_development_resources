@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2402.14740",
+  "title": "Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2402.14740",
+ "version": "v2",
+ "title": "Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs",
+ "authors": [
+  "Arash Ahmadian",
+  "Chris Cremer",
+  "Matthias Gallé",
+  "Marzieh Fadaee",
+  "Julia Kreutzer",
+  "Olivier Pietquin",
+  "Ahmet Üstün",
+  "Sara Hooker"
+ ],
+ "author_count": 8,
+ "published": "2024-02-22",
+ "updated": "2024-02-26",
+ "verify": "pypdf 可解析 28 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2402.14740v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Ahmadian_BackBasicsRevisitingReinforceStyle_en.pdf"
+}

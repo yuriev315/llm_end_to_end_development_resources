@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2404.06654",
+  "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2404.06654",
+ "version": "v3",
+ "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+ "authors": [
+  "Cheng-Ping Hsieh",
+  "Simeng Sun",
+  "Samuel Kriman",
+  "Shantanu Acharya",
+  "Dima Rekesh",
+  "Fei Jia",
+  "Yang Zhang",
+  "Boris Ginsburg"
+ ],
+ "author_count": 8,
+ "published": "2024-04-09",
+ "updated": "2024-08-06",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2404.06654v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Hsieh_RulerWhatSRealContext_en.pdf"
+}

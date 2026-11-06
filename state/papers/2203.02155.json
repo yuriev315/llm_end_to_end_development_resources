@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2203.02155",
+  "title": "Training language models to follow instructions with human feedback",
+  "classic": "经典：RLHF/InstructGPT"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2203.02155",
+ "version": "v1",
+ "title": "Training language models to follow instructions with human feedback",
+ "authors": [
+  "Long Ouyang",
+  "Jeff Wu",
+  "Xu Jiang",
+  "Diogo Almeida",
+  "Carroll L. Wainwright",
+  "Pamela Mishkin",
+  "Chong Zhang",
+  "Sandhini Agarwal"
+ ],
+ "author_count": 20,
+ "published": "2022-03-04",
+ "updated": "2022-03-04",
+ "verify": "pypdf 可解析 68 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2203.02155v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2022_Ouyang_TrainingLanguageModelsFollowInstructions_en.pdf"
+}

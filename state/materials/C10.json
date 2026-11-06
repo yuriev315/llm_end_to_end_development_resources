@@ -1,0 +1,23 @@
+{
+ "id": "C10",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/courses/hf_agents_course_main_src_en.tar",
+ "sibling_id": "15C50",
+ "kind": "courses",
+ "mods": "08",
+ "title": "Hugging Face Agents Course（仓库源）",
+ "author": "Hugging Face",
+ "school": "",
+ "version": "main 提交",
+ "year": "",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：80 个文件（HTML 0，文档源 78）",
+ "scope": "units/en 全部单元（MDX 与笔记本）",
+ "type": "大学课程资料",
+ "path": "papers_books_courses/courses/hf_agents_course_main_src_en.tar",
+ "size_mb": 0.7,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

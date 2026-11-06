@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2502.13595",
+  "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2502.13595",
+ "version": "v4",
+ "title": "MMTEB: Massive Multilingual Text Embedding Benchmark",
+ "authors": [
+  "Kenneth Enevoldsen",
+  "Isaac Chung",
+  "Imene Kerboua",
+  "Márton Kardos",
+  "Ashwin Mathur",
+  "David Stap",
+  "Jay Gala",
+  "Wissam Siblini"
+ ],
+ "author_count": 86,
+ "published": "2025-02-19",
+ "updated": "2025-11-13",
+ "verify": "pypdf 可解析 57 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2502.13595v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2025_Enevoldsen_MmtebMassiveMultilingualTextEmbedding_en.pdf"
+}

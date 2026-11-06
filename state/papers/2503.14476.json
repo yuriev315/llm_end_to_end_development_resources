@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2503.14476",
+  "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2503.14476",
+ "version": "v2",
+ "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+ "authors": [
+  "Qiying Yu",
+  "Zheng Zhang",
+  "Ruofei Zhu",
+  "Yufeng Yuan",
+  "Xiaochen Zuo",
+  "Yu Yue",
+  "Weinan Dai",
+  "Tiantian Fan"
+ ],
+ "author_count": 35,
+ "published": "2025-03-18",
+ "updated": "2025-05-20",
+ "verify": "pypdf 可解析 16 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2503.14476v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2025_Yu_DapoOpenSourceLlmReinforcement_en.pdf"
+}

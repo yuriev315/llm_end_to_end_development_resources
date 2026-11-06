@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "2407.20143",
+  "title": "ByteCheckpoint: A Unified Checkpointing System for Large Foundation Model Development",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.20143",
+ "version": "v4",
+ "title": "ByteCheckpoint: A Unified Checkpointing System for Large Foundation Model Development",
+ "authors": [
+  "Borui Wan",
+  "Mingji Han",
+  "Yiyao Sheng",
+  "Yanghua Peng",
+  "Haibin Lin",
+  "Mofan Zhang",
+  "Zhichao Lai",
+  "Menghan Yu"
+ ],
+ "author_count": 12,
+ "published": "2024-07-29",
+ "updated": "2025-04-02",
+ "verify": "pypdf 可解析 20 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.20143v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/03/2024_Wan_BytecheckpointUnifiedCheckpointingSystemLarge_en.pdf"
+}

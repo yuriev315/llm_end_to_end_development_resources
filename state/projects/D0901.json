@@ -1,0 +1,124 @@
+{
+ "id": "D0901",
+ "repo": "LibreChat-AI/librechat.ai",
+ "upstream": "https://github.com/LibreChat-AI/librechat.ai",
+ "seed": {
+  "id": "D0901",
+  "repo": "LibreChat-AI/librechat.ai",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "LibreChat 官方文档站源（配置 librechat.yaml、认证、部署）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "5d05fb5029fe3f8df6cc87872e92339d13769309",
+ "ref": "main",
+ "version": "main@5d05fb5029",
+ "kind": "分支快照",
+ "commit": "5d05fb5029fe3f8df6cc87872e92339d13769309",
+ "commit_date": "2026-10-29",
+ "commit_subject": "🔐 docs: Rewrite the Security Feature Pages (#886)",
+ "static": {
+  "file_count": 5075,
+  "size_mb": 110.3,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "MIT",
+  "tests": [
+   "__tests__/api-catalog.test.ts",
+   "__tests__/helpers.ts",
+   "__tests__/llms-route.test.ts",
+   "__tests__/mcp-route.test.ts",
+   "__tests__/proxy.test.ts",
+   "app/.well-known",
+   "app/actions",
+   "app/api",
+   "app/auth.md",
+   "app/openapi.json",
+   "e2e/agent-skills-discovery.spec.ts",
+   "e2e/ai-overview-search-verify.spec.ts"
+  ],
+  "test_file_count": 65,
+  "ci": [
+   ".github/workflows/generate_embeddings.yml",
+   ".github/workflows/update-screenshots.yml",
+   ".github/workflows/generate_starters.yml",
+   ".github/workflows/cache-purge.yml",
+   ".github/workflows/nextjs_bundle_analysis.yml",
+   ".github/workflows/ci.yml",
+   ".github/workflows/links.yml",
+   ".github/workflows/translate_docs.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "package.json"
+  ],
+  "req_files": [],
+  "lock_files": [
+   "pnpm-lock.yaml"
+  ],
+  "docs_files": 2,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "node_engines": {
+   "node": ">=22.0.0 <25"
+  },
+  "npm_scripts": [
+   "dev",
+   "build",
+   "postbuild",
+   "start",
+   "analyze",
+   "optimize:images",
+   "web-bot-auth:keygen",
+   "test",
+   "test:watch",
+   "sync:config-version",
+   "check:config-version",
+   "sync:locale-meta",
+   "check:locale-meta",
+   "docs:archive",
+   "typecheck"
+  ],
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "git clone https://github.com/LibreChat-AI/librechat.ai.git",
+   "pnpm install",
+   "pnpm dev",
+   "pnpm web-bot-auth:keygen",
+   "pnpm docs:archive v0.8.5 --ref=<commit-or-tag>"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D0901_LibreChat-AI_librechat.ai_main-5d05fb5029_src_en.tar",
+ "archive_mb": 115.5,
+ "archive_prefix": "librechat.ai-main-5d05fb5029",
+ "finished": "2026-10-29T20:03:41Z"
+}

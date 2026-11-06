@@ -1,0 +1,23 @@
+{
+ "id": "B05",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Zhang_DiveIntoDeepLearning_2023_en.pdf",
+ "sibling_id": "B07-02",
+ "kind": "books",
+ "mods": "01",
+ "title": "Dive into Deep Learning",
+ "author": "Aston Zhang; Zachary C. Lipton; Mu Li; Alexander J. Smola",
+ "school": "Cambridge University Press / d2l.ai（官方 PDF）",
+ "version": "英文版 2023",
+ "year": "2019",
+ "license": "CC BY-SA 4.0（文本）/ MIT-0（代码）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 1151 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Zhang_DiveIntoDeepLearning_2023_en.pdf",
+ "size_mb": 44.7,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

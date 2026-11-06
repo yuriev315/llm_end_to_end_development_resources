@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "03",
+  "aid": "1910.02054",
+  "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "classic": "经典：ZeRO"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2019_Rajbhandari_ZeROMemoryOptimizationsTowardTraining_en.pdf",
+ "arxiv_id": "1910.02054",
+ "version": "v3",
+ "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+ "path": "papers_books_courses/papers/03/2019_Rajbhandari_ZeROMemoryOptimizationsTowardTraining_en.pdf",
+ "verify": "pypdf 可解析 24 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

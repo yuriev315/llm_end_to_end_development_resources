@@ -1,0 +1,23 @@
+{
+ "id": "B09",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/books/Kastner_MachineLearningInProduction_html_en.tar",
+ "sibling_id": "04B04",
+ "kind": "books",
+ "mods": "10",
+ "title": "Machine Learning in Production: From Models to Products",
+ "author": "Christian Kästner",
+ "school": "Carnegie Mellon University",
+ "version": "online（CMU 课程教材）",
+ "year": "2025",
+ "license": "CC BY-NC-ND 4.0（以站点声明为准）",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：247 个文件（HTML 31，文档源 0）",
+ "scope": "",
+ "type": "教材/参考书",
+ "path": "papers_books_courses/books/Kastner_MachineLearningInProduction_html_en.tar",
+ "size_mb": 64.2,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

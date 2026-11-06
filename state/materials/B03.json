@@ -1,0 +1,23 @@
+{
+ "id": "B03",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en.pdf",
+ "sibling_id": "B09-01",
+ "kind": "books",
+ "mods": "01",
+ "title": "Speech and Language Processing (3rd ed. draft)",
+ "author": "Daniel Jurafsky; James H. Martin",
+ "school": "Stanford（作者官网草稿 PDF）",
+ "version": "第 3 版草稿（检索日官方版本）",
+ "year": "2000",
+ "license": "作者官网免费草稿",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "HTTP 200；%PDF；pypdf 可解析 646 页；名称短语已见",
+ "scope": "",
+ "type": "教科书/参考书",
+ "path": "papers_books_courses/books/Jurafsky_SpeechAndLanguageProcessing_3rdEdDraft_en.pdf",
+ "size_mb": 26.5,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

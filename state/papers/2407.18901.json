@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2407.18901",
+  "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2407.18901",
+ "version": "v1",
+ "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+ "authors": [
+  "Harsh Trivedi",
+  "Tushar Khot",
+  "Mareike Hartmann",
+  "Ruskin Manku",
+  "Vinty Dong",
+  "Edward Li",
+  "Shashank Gupta",
+  "Ashish Sabharwal"
+ ],
+ "author_count": 9,
+ "published": "2024-07-26",
+ "updated": "2024-07-26",
+ "verify": "pypdf 可解析 55 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2407.18901v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Trivedi_AppworldControllableWorldAppsPeople_en.pdf"
+}

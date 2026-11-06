@@ -1,0 +1,27 @@
+{
+ "seed": {
+  "mod": "07",
+  "aid": "2409.04701",
+  "title": "Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.04701",
+ "version": "v3",
+ "title": "Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models",
+ "authors": [
+  "Michael Günther",
+  "Isabelle Mohr",
+  "Daniel James Williams",
+  "Bo Wang",
+  "Han Xiao"
+ ],
+ "author_count": 5,
+ "published": "2024-09-07",
+ "updated": "2025-07-07",
+ "verify": "pypdf 可解析 14 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.04701v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/07/2024_Gnther_LateChunkingContextualChunkEmbeddings_en.pdf"
+}

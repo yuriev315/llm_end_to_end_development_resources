@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2406.15877",
+  "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2406.15877",
+ "version": "v4",
+ "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
+ "authors": [
+  "Terry Yue Zhuo",
+  "Minh Chien Vu",
+  "Jenny Chim",
+  "Han Hu",
+  "Wenhao Yu",
+  "Ratnadira Widyasari",
+  "Imam Nur Bani Yusuf",
+  "Haolan Zhan"
+ ],
+ "author_count": 33,
+ "published": "2024-06-22",
+ "updated": "2025-04-01",
+ "verify": "pypdf 可解析 55 页；首两页标题词匹配 0.78；参考文献节存在",
+ "url": "https://arxiv.org/abs/2406.15877v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2024_Zhuo_BigcodebenchBenchmarkingCodeGenerationDiverse_en.pdf"
+}

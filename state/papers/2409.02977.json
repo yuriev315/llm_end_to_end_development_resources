@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2409.02977",
+  "title": "Large Language Model-Based Agents for Software Engineering: A Survey",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2409.02977",
+ "version": "v2",
+ "title": "Large Language Model-Based Agents for Software Engineering: A Survey",
+ "authors": [
+  "Junwei Liu",
+  "Kaixin Wang",
+  "Yixuan Chen",
+  "Xin Peng",
+  "Zhenpeng Chen",
+  "Lingming Zhang",
+  "Yiling Lou"
+ ],
+ "author_count": 7,
+ "published": "2024-09-04",
+ "updated": "2025-12-03",
+ "verify": "pypdf 可解析 57 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2409.02977v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2024_Liu_LargeLanguageModelBasedAgents_en.pdf"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "D21",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/kserve_website_main_src_en.tar",
+ "sibling_id": "14D23",
+ "kind": "official_docs",
+ "mods": "10",
+ "title": "KServe 文档源（Kubernetes 模型服务）",
+ "author": "KServe 社区",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "Apache-2.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：235 个文件（HTML 0，文档源 157）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/kserve_website_main_src_en.tar",
+ "size_mb": 10.9,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

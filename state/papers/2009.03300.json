@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2009.03300",
+  "title": "Measuring Massive Multitask Language Understanding",
+  "classic": "经典：MMLU"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2009.03300",
+ "version": "v3",
+ "title": "Measuring Massive Multitask Language Understanding",
+ "authors": [
+  "Dan Hendrycks",
+  "Collin Burns",
+  "Steven Basart",
+  "Andy Zou",
+  "Mantas Mazeika",
+  "Dawn Song",
+  "Jacob Steinhardt"
+ ],
+ "author_count": 7,
+ "published": "2020-09-07",
+ "updated": "2021-01-12",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2009.03300v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2020_Hendrycks_MeasuringMassiveMultitaskLanguageUnderstanding_en.pdf"
+}

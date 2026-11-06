@@ -1,0 +1,26 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2503.23278",
+  "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2503.23278",
+ "version": "v3",
+ "title": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+ "authors": [
+  "Xinyi Hou",
+  "Yanjie Zhao",
+  "Shenao Wang",
+  "Haoyu Wang"
+ ],
+ "author_count": 4,
+ "published": "2025-03-30",
+ "updated": "2025-10-07",
+ "verify": "pypdf 可解析 37 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2503.23278v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/08/2025_Hou_ModelContextProtocolMcpLandscape_en.pdf"
+}

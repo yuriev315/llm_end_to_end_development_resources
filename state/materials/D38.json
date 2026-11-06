@@ -1,0 +1,23 @@
+{
+ "id": "D38",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/pytest_stable_docs_html_en.zip",
+ "sibling_id": "06D01",
+ "kind": "official_docs",
+ "mods": "05",
+ "title": "pytest 稳定版文档（Read the Docs HTML 包）",
+ "author": "pytest-dev",
+ "school": "",
+ "version": "stable（包内版本为准，对应 9.2）",
+ "year": "",
+ "license": "MIT",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：42 个文件（HTML 1，文档源 1）",
+ "scope": "Read the Docs 官方 HTML 包（单页构建：全部章节合并于 index.html，含入门、how-to、fixture、插件、API 参考）",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/pytest_stable_docs_html_en.zip",
+ "size_mb": 0.8,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

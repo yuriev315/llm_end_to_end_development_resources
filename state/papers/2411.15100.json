@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "06",
+  "aid": "2411.15100",
+  "title": "XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2411.15100",
+ "version": "v3",
+ "title": "XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models",
+ "authors": [
+  "Yixin Dong",
+  "Charlie F. Ruan",
+  "Yaxing Cai",
+  "Ruihang Lai",
+  "Ziyi Xu",
+  "Yilong Zhao",
+  "Tianqi Chen"
+ ],
+ "author_count": 7,
+ "published": "2024-11-22",
+ "updated": "2025-05-12",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2411.15100v3",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/06/2024_Dong_XgrammarFlexibleEfficientStructuredGeneration_en.pdf"
+}

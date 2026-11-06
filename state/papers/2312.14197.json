@@ -1,0 +1,29 @@
+{
+ "seed": {
+  "mod": "12",
+  "aid": "2312.14197",
+  "title": "Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2312.14197",
+ "version": "v4",
+ "title": "Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models",
+ "authors": [
+  "Jingwei Yi",
+  "Yueqi Xie",
+  "Bin Zhu",
+  "Emre Kiciman",
+  "Guangzhong Sun",
+  "Xing Xie",
+  "Fangzhao Wu"
+ ],
+ "author_count": 7,
+ "published": "2023-12-21",
+ "updated": "2025-01-27",
+ "verify": "pypdf 可解析 12 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2312.14197v4",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/12/2023_Yi_BenchmarkingDefendingAgainstIndirectPrompt_en.pdf"
+}

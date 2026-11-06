@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2410.05340",
+  "title": "Generating CAD Code with Vision-Language Models for 3D Designs",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2410.05340",
+ "version": "v2",
+ "title": "Generating CAD Code with Vision-Language Models for 3D Designs",
+ "authors": [
+  "Kamel Alrashedy",
+  "Pradyumna Tambwekar",
+  "Zulfiqar Zaidi",
+  "Megan Langwasser",
+  "Wei Xu",
+  "Matthew Gombolay"
+ ],
+ "author_count": 6,
+ "published": "2024-10-07",
+ "updated": "2025-02-28",
+ "verify": "pypdf 可解析 27 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2410.05340v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2024_Alrashedy_GeneratingCadCodeVisionLanguage_en.pdf"
+}

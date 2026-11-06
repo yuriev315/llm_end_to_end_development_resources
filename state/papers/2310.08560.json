@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2310.08560",
+  "title": "MemGPT: Towards LLMs as Operating Systems",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Packer_MemGPTTowardsLLMsAsOperating_en.pdf",
+ "arxiv_id": "2310.08560",
+ "version": "v2",
+ "title": "MemGPT: Towards LLMs as Operating Systems",
+ "path": "papers_books_courses/papers/08/2023_Packer_MemGPTTowardsLLMsAsOperating_en.pdf",
+ "verify": "pypdf 可解析 13 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}

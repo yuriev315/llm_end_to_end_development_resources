@@ -1,0 +1,28 @@
+{
+ "seed": {
+  "mod": "11",
+  "aid": "2009.13081",
+  "title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+  "classic": "经典：MedQA 数据集"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2009.13081",
+ "version": "v1",
+ "title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+ "authors": [
+  "Di Jin",
+  "Eileen Pan",
+  "Nassim Oufattole",
+  "Wei-Hung Weng",
+  "Hanyi Fang",
+  "Peter Szolovits"
+ ],
+ "author_count": 6,
+ "published": "2020-09-28",
+ "updated": "2020-09-28",
+ "verify": "pypdf 可解析 12 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2009.13081v1",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/11/2020_Jin_WhatDiseaseDoesThisPatient_en.pdf"
+}

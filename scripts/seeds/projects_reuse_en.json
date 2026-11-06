@@ -1,0 +1,29 @@
+[
+ {
+  "id": "P0105",
+  "title": "karpathy/nanoGPT（复用）",
+  "src": "/root/programming_reference_literature/practice/karpathy_nanoGPT_master_en.tar",
+  "mod": "01",
+  "routes": "A",
+  "role": "教学实现",
+  "purpose": "最小 GPT 训练/微调代码"
+ },
+ {
+  "id": "P0810",
+  "title": "SWE-agent/mini-swe-agent（复用）",
+  "src": "/root/programming_reference_literature/practice/mini_swe_agent_main_en.tar",
+  "mod": "08",
+  "routes": "C",
+  "role": "教学实现",
+  "purpose": "约百行的参考代码智能体"
+ },
+ {
+  "id": "P1007",
+  "title": "GokuMohandas/Made-With-ML（复用）",
+  "src": "/root/ai_undergraduate_graduate_curriculum_literature/practice/MadeWithML_repo_en",
+  "mod": "10",
+  "routes": "C",
+  "role": "教学实现",
+  "purpose": "MLOps 端到端课程代码（测试、CI/CD、部署）"
+ }
+]

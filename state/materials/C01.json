@@ -1,0 +1,23 @@
+{
+ "id": "C01",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/Stanford_CS336_2025Spring_Lectures_en",
+ "sibling_id": "A10-02",
+ "kind": "courses",
+ "mods": "01",
+ "title": "CS336 Language Modeling from Scratch (Spring 2025) — Lecture Materials",
+ "author": "Percy Liang; Tatsunori Hashimoto",
+ "school": "Stanford University",
+ "version": "Spring 2025",
+ "year": "Spring 2025",
+ "license": "MIT（GitHub 仓库许可证）",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "官方仓库快照 commit b98b08a98d9d：归档 zip 完整性通过，解压 416 个文件（0 个 notebook）；应有文件已见 ['README.md', 'nonexecutable/', 'lecture_01.py']；许可证文件 ['LICENSE']",
+ "scope": "",
+ "type": "课程（完整课件包）",
+ "path": "papers_books_courses/courses/Stanford_CS336_2025Spring_Lectures_en",
+ "size_mb": 161.2,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

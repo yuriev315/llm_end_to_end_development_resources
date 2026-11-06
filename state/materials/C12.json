@@ -1,0 +1,23 @@
+{
+ "id": "C12",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/ai_undergraduate_graduate_curriculum_literature/courses/FSDL_2022_LectureNotes_html_en",
+ "sibling_id": "A19-03",
+ "kind": "courses",
+ "mods": "10",
+ "title": "Full Stack Deep Learning 2022 — Lecture Notes",
+ "author": "Charles Frye; Sergey Karayev; Josh Tobin",
+ "school": "The Full Stack（FSDL 官方课程站；2021 版曾作为 UC Berkeley 课程开设）",
+ "version": "2022",
+ "year": "2022",
+ "license": "未声明许可证",
+ "sibling_status": "已下载，完整性核验通过",
+ "sibling_verify": "官方 HTML，10 个页面全部 HTTP 200 且正文 ≥ 1500 字符；wget 离线保存（页面资源、链接改写），共 198 个文件；页面清单 PAGES_en.txt",
+ "scope": "",
+ "type": "课程（完整文字讲义）",
+ "path": "papers_books_courses/courses/FSDL_2022_LectureNotes_html_en",
+ "size_mb": 59.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

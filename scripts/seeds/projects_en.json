@@ -1,0 +1,1344 @@
+[
+ {
+  "id": "P0101",
+  "repo": "karpathy/micrograd",
+  "mod": "01",
+  "x": [],
+  "routes": "A",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "标量自动微分与小型神经网络（反向传播教学）"
+ },
+ {
+  "id": "P0102",
+  "repo": "karpathy/minbpe",
+  "mod": "01",
+  "x": [
+   "02"
+  ],
+  "routes": "A",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "BPE 分词器最小实现（训练/编码/解码，含测试）"
+ },
+ {
+  "id": "P0103",
+  "repo": "rasbt/LLMs-from-scratch",
+  "mod": "01",
+  "x": [
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "教学实现",
+  "tag": "HEAD",
+  "purpose": "从零实现 GPT：注意力、预训练、分类与指令微调、DPO（配套书籍代码）"
+ },
+ {
+  "id": "P0104",
+  "repo": "karpathy/nanochat",
+  "mod": "01",
+  "x": [
+   "03",
+   "04",
+   "05",
+   "06",
+   "09"
+  ],
+  "routes": "A",
+  "role": "完整工程",
+  "tag": "HEAD",
+  "purpose": "小规模全流程：分词器→预训练→SFT→RL→评测→命令行对话（scripts/chat_cli.py）"
+ },
+ {
+  "id": "P0201",
+  "repo": "huggingface/datatrove",
+  "mod": "02",
+  "x": [
+   "03"
+  ],
+  "routes": "A,B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "大规模文本处理：抽取、语言识别、质量过滤、MinHash 去重、分词统计"
+ },
+ {
+  "id": "P0202",
+  "repo": "docling-project/docling",
+  "mod": "02",
+  "x": [
+   "07",
+   "12"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "文档解析：PDF/Office/HTML、版面、表格、公式、OCR，输出带来源定位的结构"
+ },
+ {
+  "id": "P0203",
+  "repo": "argilla-io/distilabel",
+  "mod": "02",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "合成数据与 AI 反馈流水线（指令、偏好数据生成）"
+ },
+ {
+  "id": "P0204",
+  "repo": "argilla-io/argilla",
+  "mod": "02",
+  "x": [
+   "04",
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "人工标注与专家审核平台（数据集版本、审核工作流、Docker 部署）"
+ },
+ {
+  "id": "P0205",
+  "repo": "allenai/dolma",
+  "mod": "02",
+  "x": [
+   "03"
+  ],
+  "routes": "A",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "预训练语料工具：打标、布隆过滤去重、混合配比"
+ },
+ {
+  "id": "P0206",
+  "repo": "HumanSignal/label-studio",
+  "mod": "02",
+  "x": [
+   "05",
+   "11"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "多模态人工标注平台（图纸/扫描件/文本标注、多人审核、Docker）"
+ },
+ {
+  "id": "P0207",
+  "repo": "iterative/dvc",
+  "mod": "02",
+  "x": [
+   "04",
+   "10"
+  ],
+  "routes": "A,B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "数据与模型版本管理、流水线与实验追踪（数据—模型—配置关联）"
+ },
+ {
+  "id": "P0208",
+  "repo": "opendatalab/MinerU",
+  "mod": "02",
+  "x": [
+   "07",
+   "11"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^(?:mineru-)?v?(\\d+)\\.(\\d+)\\.(\\d+)(?:-released)?$",
+  "purpose": "PDF 解析：表格、公式、扫描件 OCR 到 Markdown/JSON"
+ },
+ {
+  "id": "P0301",
+  "repo": "pytorch/torchtitan",
+  "mod": "03",
+  "x": [],
+  "routes": "A",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "PyTorch 原生大模型预训练参考：FSDP2/TP/PP/CP、float8、检查点、TOML 配置"
+ },
+ {
+  "id": "P0302",
+  "repo": "NVIDIA/Megatron-LM",
+  "mod": "03",
+  "x": [
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^core_v(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Megatron-Core 大规模分布式训练（张量/流水/专家并行、分布式检查点）"
+ },
+ {
+  "id": "P0303",
+  "repo": "allenai/OLMo-core",
+  "mod": "03",
+  "x": [],
+  "routes": "A",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "OLMo 开放预训练代码：模型、训练配置、数据混合、检查点与恢复"
+ },
+ {
+  "id": "P0304",
+  "repo": "Lightning-AI/litgpt",
+  "mod": "03",
+  "x": [
+   "04",
+   "06"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "预训练/继续预训练/微调/LoRA/评测/服务一体化，YAML 配置"
+ },
+ {
+  "id": "P0305",
+  "repo": "stas00/ml-engineering",
+  "mod": "03",
+  "x": [
+   "10"
+  ],
+  "routes": "A,B",
+  "role": "运行手册",
+  "tag": "HEAD",
+  "purpose": "大模型训练与推理工程手册：硬件、网络、故障排查、调试、稳定性"
+ },
+ {
+  "id": "P0401",
+  "repo": "huggingface/trl",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "SFT/DPO/GRPO/奖励模型/GKD 蒸馏训练器"
+ },
+ {
+  "id": "P0402",
+  "repo": "huggingface/peft",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LoRA/QLoRA 等参数高效微调与适配器保存加载"
+ },
+ {
+  "id": "P0403",
+  "repo": "hiyouga/LLaMA-Factory",
+  "mod": "04",
+  "x": [
+   "06",
+   "10"
+  ],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "统一微调框架：数据格式、SFT/DPO/KTO/PPO、导出合并、API 服务、Docker"
+ },
+ {
+  "id": "P0404",
+  "repo": "volcengine/verl",
+  "mod": "04",
+  "x": [],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "大模型强化学习（PPO/GRPO 等）与 vLLM/SGLang rollout 集成"
+ },
+ {
+  "id": "P0501",
+  "repo": "EleutherAI/lm-evaluation-harness",
+  "mod": "05",
+  "x": [
+   "03",
+   "04"
+  ],
+  "routes": "A,B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "离线基准评测框架，YAML 自定义任务，去污染工具"
+ },
+ {
+  "id": "P0502",
+  "repo": "UKGovernmentBEIS/inspect_ai",
+  "mod": "05",
+  "x": [
+   "08",
+   "12"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "评测框架：自定义任务、工具调用、沙箱、打分器、日志查看"
+ },
+ {
+  "id": "P0503",
+  "repo": "evalplus/evalplus",
+  "mod": "05",
+  "x": [
+   "08"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "代码生成执行评测（HumanEval+/MBPP+），含安全执行"
+ },
+ {
+  "id": "P0504",
+  "repo": "promptfoo/promptfoo",
+  "mod": "05",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^(?:promptfoo-)?v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "应用级提示/RAG/智能体回归测试与红队，CI 集成"
+ },
+ {
+  "id": "P0505",
+  "repo": "SWE-bench/SWE-bench",
+  "mod": "05",
+  "x": [
+   "08"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "仓库级补丁评测：Docker 构建、测试执行与判定"
+ },
+ {
+  "id": "P0506",
+  "repo": "stanford-crfm/helm",
+  "mod": "05",
+  "x": [
+   "11"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "整体评测框架（含 MedHELM 医疗场景）"
+ },
+ {
+  "id": "P0507",
+  "repo": "openai/simple-evals",
+  "mod": "05",
+  "x": [
+   "11"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "轻量评测实现（含 HealthBench 评分细则评测）"
+ },
+ {
+  "id": "P0601",
+  "repo": "vllm-project/vllm",
+  "mod": "06",
+  "x": [
+   "10",
+   "12"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "高吞吐推理服务：PagedAttention、连续批处理、量化、OpenAI 兼容 API、结构化输出、工具调用解析、基准脚本"
+ },
+ {
+  "id": "P0602",
+  "repo": "ggml-org/llama.cpp",
+  "mod": "06",
+  "x": [
+   "04"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^b(\\d+)$",
+  "purpose": "CPU/GPU 本地推理、GGUF 转换与量化、HTTP 服务、语法约束输出"
+ },
+ {
+  "id": "P0603",
+  "repo": "sgl-project/sglang",
+  "mod": "06",
+  "x": [],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "推理服务：RadixAttention 前缀缓存、结构化输出、调度"
+ },
+ {
+  "id": "P0604",
+  "repo": "dottxt-ai/outlines",
+  "mod": "06",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "受约束生成：JSON Schema/正则/语法"
+ },
+ {
+  "id": "P0605",
+  "repo": "mlc-ai/xgrammar",
+  "mod": "06",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "结构化生成语法引擎（vLLM/SGLang 后端）"
+ },
+ {
+  "id": "P0606",
+  "repo": "vllm-project/llm-compressor",
+  "mod": "06",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "训练后量化/稀疏化并导出 vLLM 可加载格式"
+ },
+ {
+  "id": "P0607",
+  "repo": "vllm-project/guidellm",
+  "mod": "06",
+  "x": [
+   "10"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "推理服务负载测试：吞吐、延迟、并发扫描"
+ },
+ {
+  "id": "P0701",
+  "repo": "deepset-ai/haystack",
+  "mod": "07",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "RAG/智能体管线框架：组件、检索、重排序、评测"
+ },
+ {
+  "id": "P0702",
+  "repo": "infiniflow/ragflow",
+  "mod": "07",
+  "x": [
+   "09",
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "完整 RAG 产品：深度文档解析、分块模板、引用、多租户、Docker Compose"
+ },
+ {
+  "id": "P0703",
+  "repo": "explodinggradients/ragas",
+  "mod": "07",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "RAG 评测指标与测试集生成"
+ },
+ {
+  "id": "P0704",
+  "repo": "facebookresearch/faiss",
+  "mod": "07",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "向量相似检索与索引库"
+ },
+ {
+  "id": "P0705",
+  "repo": "qdrant/qdrant",
+  "mod": "07",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "向量数据库：载荷过滤（按用户/租户/文档权限过滤）、快照、分布式部署"
+ },
+ {
+  "id": "P0706",
+  "repo": "FlagOpen/FlagEmbedding",
+  "mod": "07",
+  "x": [
+   "04"
+  ],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "BGE 嵌入与重排序模型的推理、微调、评测代码"
+ },
+ {
+  "id": "P0801",
+  "repo": "modelcontextprotocol/python-sdk",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "MCP 官方 Python SDK：工具/资源/提示接口，服务端与客户端"
+ },
+ {
+  "id": "P0802",
+  "repo": "Aider-AI/aider",
+  "mod": "08",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "终端结对编程：仓库地图、补丁编辑格式、lint/测试回路、git 集成"
+ },
+ {
+  "id": "P0803",
+  "repo": "OpenHands/OpenHands",
+  "mod": "08",
+  "x": [
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "OpenHands Agent Canvas（本版本为自托管前端/控制台：会话、自动化、Helm/Docker；智能体运行时在 P0811）"
+ },
+ {
+  "id": "P0811",
+  "repo": "OpenHands/software-agent-sdk",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "OpenHands 智能体 SDK 与 Agent Server：工具、沙箱工作区（Docker/远程）、安全分析与确认策略"
+ },
+ {
+  "id": "P0804",
+  "repo": "continuedev/continue",
+  "mod": "08",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v(\\d+)\\.(\\d+)\\.(\\d+)-vscode$",
+  "purpose": "IDE 集成（VS Code/JetBrains）代码助手与 CLI"
+ },
+ {
+  "id": "P0805",
+  "repo": "SWE-agent/SWE-agent",
+  "mod": "08",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "仓库问题修复智能体：ACI 工具、配置、轨迹、批量评测"
+ },
+ {
+  "id": "P0806",
+  "repo": "langchain-ai/langgraph",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "有状态智能体编排：检查点、人工中断审批、重试、持久执行"
+ },
+ {
+  "id": "P0807",
+  "repo": "microsoft/multilspy",
+  "mod": "08",
+  "x": [
+   "11"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "面向智能体的语言服务器（LSP）客户端：定义/引用/补全"
+ },
+ {
+  "id": "P0808",
+  "repo": "astral-sh/ruff",
+  "mod": "08",
+  "x": [
+   "11"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Python 静态检查与格式化（规则集、配置）"
+ },
+ {
+  "id": "P0809",
+  "repo": "mem0ai/mem0",
+  "mod": "08",
+  "x": [
+   "09",
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "对话记忆层：记忆写入/更新/删除、按用户/会话隔离"
+ },
+ {
+  "id": "P0901",
+  "repo": "danny-avila/LibreChat",
+  "mod": "09",
+  "x": [
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "多用户对话产品：认证、会话存储、文件上传、配额、多模型接入、Docker Compose"
+ },
+ {
+  "id": "P0902",
+  "repo": "huggingface/chat-ui",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "开源对话前后端（SvelteKit、MongoDB 会话、OpenAI 兼容后端）"
+ },
+ {
+  "id": "P0903",
+  "repo": "open-webui/open-webui",
+  "mod": "09",
+  "x": [
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "自托管对话界面：RBAC、RAG、管道、Ollama/OpenAI 接入"
+ },
+ {
+  "id": "P0904",
+  "repo": "langgenius/dify",
+  "mod": "09",
+  "x": [
+   "07",
+   "10"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LLM 应用平台：工作流、知识库、多租户、任务队列、Docker Compose"
+ },
+ {
+  "id": "P1001",
+  "repo": "vllm-project/production-stack",
+  "mod": "10",
+  "x": [
+   "06"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^vllm-stack-(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "vLLM 生产部署：Helm、路由、KV 缓存复用、Prometheus/Grafana 监控"
+ },
+ {
+  "id": "P1002",
+  "repo": "kserve/kserve",
+  "mod": "10",
+  "x": [
+   "06"
+  ],
+  "routes": "B,C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Kubernetes 模型服务：InferenceService、灰度、扩缩容"
+ },
+ {
+  "id": "P1003",
+  "repo": "BerriAI/litellm",
+  "mod": "10",
+  "x": [
+   "09",
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v(\\d+)\\.(\\d+)\\.(\\d+)(?:-stable)?$",
+  "purpose": "模型网关：统一接口、密钥/预算/限速、回退、日志"
+ },
+ {
+  "id": "P1004",
+  "repo": "langfuse/langfuse",
+  "mod": "10",
+  "x": [
+   "05",
+   "12"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LLM 可观测性：追踪、评测、人工评分、提示版本、数据集回流"
+ },
+ {
+  "id": "P1005",
+  "repo": "NVIDIA/k8s-device-plugin",
+  "mod": "10",
+  "x": [],
+  "routes": "B,C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Kubernetes GPU 设备插件（GPU 调度、时间切片、MIG）"
+ },
+ {
+  "id": "P1008",
+  "repo": "temporalio/sdk-python",
+  "mod": "10",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "持久执行：活动超时、重试策略、取消、幂等工作流（需 Temporal 服务）"
+ },
+ {
+  "id": "P1006",
+  "repo": "jd/tenacity",
+  "mod": "10",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "重试库：退避、停止条件、异步重试"
+ },
+ {
+  "id": "P1101",
+  "repo": "Teddy-XiongGZ/MedRAG",
+  "mod": "11",
+  "x": [
+   "07"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "医学 RAG 工具包（检索器、语料、MIRAGE 评测配套）"
+ },
+ {
+  "id": "P1102",
+  "repo": "Teddy-XiongGZ/MIRAGE",
+  "mod": "11",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "医学 RAG 评测基准（MMLU-Med、MedQA 等 5 个数据集）"
+ },
+ {
+  "id": "P1103",
+  "repo": "Google-Health/medgemma",
+  "mod": "11",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "MedGemma 官方笔记本：推理、微调示例（权重另有使用条款）"
+ },
+ {
+  "id": "P1104",
+  "repo": "FreedomIntelligence/HuatuoGPT-II",
+  "mod": "11",
+  "x": [
+   "04"
+  ],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "中文医疗领域一阶段适配训练代码与评测"
+ },
+ {
+  "id": "P1105",
+  "repo": "ncbi-nlp/MedCalc-Bench",
+  "mod": "11",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "医学计算器评测（公式与单位计算，含参考实现）"
+ },
+ {
+  "id": "P1106",
+  "repo": "medspacy/medspacy",
+  "mod": "11",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "临床文本处理：否定/上下文、段落、术语匹配"
+ },
+ {
+  "id": "P1107",
+  "repo": "nazrulworld/fhir.resources",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "FHIR 资源 Python 模型（与医疗业务系统对接的数据结构校验）"
+ },
+ {
+  "id": "P1108",
+  "repo": "hgrecco/pint",
+  "mod": "11",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)(?:\\.(\\d+))?$",
+  "purpose": "物理单位与量纲换算校验（医疗剂量单位、机械工程单位）"
+ },
+ {
+  "id": "P1109",
+  "repo": "CadQuery/cadquery",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "参数化 CAD 脚本库（LLM 生成 CAD 代码的执行目标）"
+ },
+ {
+  "id": "P1110",
+  "repo": "gumyr/build123d",
+  "mod": "11",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "参数化 CAD（基于 OCCT），导出 STEP/STL"
+ },
+ {
+  "id": "P1111",
+  "repo": "neka-nat/freecad-mcp",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "FreeCAD 的 MCP 服务器（设计辅助，需本地 FreeCAD）"
+ },
+ {
+  "id": "P1112",
+  "repo": "SadilKhan/Text2CAD",
+  "mod": "11",
+  "x": [],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "文本到 CAD 序列生成（研究代码）"
+ },
+ {
+  "id": "P1113",
+  "repo": "filapro/cad-recode",
+  "mod": "11",
+  "x": [],
+  "routes": "B",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "点云到 CadQuery 代码逆向（研究代码）"
+ },
+ {
+  "id": "P1114",
+  "repo": "csml-rpi/Foam-Agent",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "OpenFOAM 仿真智能体：前处理、运行、错误修复（仿真辅助）"
+ },
+ {
+  "id": "P1115",
+  "repo": "midea-ai/SemaPLC",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "PLC 结构化文本生成与验证门控（控制代码研究，不可直接下发设备）"
+ },
+ {
+  "id": "P1116",
+  "repo": "YuchenXia/LLM4IAS",
+  "mod": "11",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "工业自动化系统 LLM 智能体（仿真/实验环境控制研究）"
+ },
+ {
+  "id": "P1117",
+  "repo": "SWE-bench/SWE-smith",
+  "mod": "11",
+  "x": [
+   "04",
+   "08"
+  ],
+  "routes": "B",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Coding 智能体训练数据合成（任务实例生成、轨迹）"
+ },
+ {
+  "id": "P1201",
+  "repo": "microsoft/presidio",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "PII 识别与脱敏（分析器/匿名器、自定义识别器、Docker）"
+ },
+ {
+  "id": "P1202",
+  "repo": "Yelp/detect-secrets",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "凭据/密钥检测（插件、基线、审计）"
+ },
+ {
+  "id": "P1203",
+  "repo": "pemistahl/lingua-py",
+  "mod": "12",
+  "x": [
+   "02"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "语言识别（短文本、多语言置信度）"
+ },
+ {
+  "id": "P1204",
+  "repo": "NVIDIA-NeMo/Guardrails",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "运行时护栏：输入/输出/检索/执行 rails、对话流程、配置"
+ },
+ {
+  "id": "P1205",
+  "repo": "guardrails-ai/guardrails",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "输出校验器框架：结构、类型、重问修复"
+ },
+ {
+  "id": "P1206",
+  "repo": "meta-llama/PurpleLlama",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "Llama Guard/Prompt Guard 安全分类与 CyberSecEval 评测"
+ },
+ {
+  "id": "P1207",
+  "repo": "protectai/llm-guard",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "输入/输出扫描器：提示注入、PII、毒性、代码、URL"
+ },
+ {
+  "id": "P1208",
+  "repo": "lm-sys/RouteLLM",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "强弱模型路由（成本-质量权衡）"
+ },
+ {
+  "id": "P1209",
+  "repo": "aurelio-labs/semantic-router",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "基于嵌入的意图/路由判定"
+ },
+ {
+  "id": "P1210",
+  "repo": "google-research/camel-prompt-injection",
+  "mod": "12",
+  "x": [
+   "08"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "HEAD",
+  "purpose": "CaMeL：控制流/数据流隔离防提示注入（研究实现）"
+ },
+ {
+  "id": "P1211",
+  "repo": "ethz-spylab/agentdojo",
+  "mod": "12",
+  "x": [
+   "05",
+   "08"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "智能体提示注入攻防评测环境"
+ },
+ {
+  "id": "P1212",
+  "repo": "NVIDIA/garak",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "LLM 漏洞扫描（探针/检测器/报告）"
+ },
+ {
+  "id": "P1213",
+  "repo": "microsoft/PyRIT",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "生成式 AI 风险识别与红队自动化框架"
+ },
+ {
+  "id": "P1214",
+  "repo": "openfga/openfga",
+  "mod": "12",
+  "x": [
+   "07",
+   "09"
+  ],
+  "routes": "C",
+  "role": "完整工程",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "细粒度授权（关系型访问控制，适用于用户/租户/文档权限过滤）"
+ },
+ {
+  "id": "P1215",
+  "repo": "openai/model_spec",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "规范文档",
+  "tag": "HEAD",
+  "purpose": "模型行为规范（指令层级：平台/开发者/用户）"
+ },
+ {
+  "id": "P1216",
+  "repo": "microsoft/LLMLingua",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "提示/上下文压缩"
+ },
+ {
+  "id": "P1217",
+  "repo": "567-labs/instructor",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "单模块参考",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Pydantic 结构化输出、校验失败重试"
+ },
+ {
+  "id": "P1218",
+  "repo": "pydantic/pydantic",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "请求/响应数据模型与类型校验"
+ },
+ {
+  "id": "P1219",
+  "repo": "python-jsonschema/jsonschema",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "JSON Schema 校验"
+ },
+ {
+  "id": "P1220",
+  "repo": "shmsw25/FActScore",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "研究原型",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "长文本事实性逐条原子事实打分"
+ },
+ {
+  "id": "P1221",
+  "repo": "cure53/DOMPurify",
+  "mod": "12",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "前端 HTML 净化（防 XSS 的模型输出呈现）"
+ },
+ {
+  "id": "P1222",
+  "repo": "messense/nh3",
+  "mod": "12",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "工具库",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "Python 端 HTML 净化（ammonia 绑定）"
+ },
+ {
+  "id": "P1223",
+  "repo": "microsoft/BIPIA",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "间接提示注入基准（外部内容嵌入指令）"
+ },
+ {
+  "id": "P1224",
+  "repo": "uiuc-kang-lab/InjecAgent",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "工具集成智能体间接提示注入基准"
+ },
+ {
+  "id": "P1225",
+  "repo": "centerforaisafety/HarmBench",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "红队与拒答鲁棒性标准化评测"
+ },
+ {
+  "id": "P1226",
+  "repo": "JailbreakBench/jailbreakbench",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)\\.(\\d+)$",
+  "purpose": "越狱攻击/防御基准与评测器"
+ },
+ {
+  "id": "P1227",
+  "repo": "allenai/wildguard",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "B,C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "安全分类器与评测（有害提示/回复/拒答）"
+ },
+ {
+  "id": "P1228",
+  "repo": "ShishirPatil/gorilla",
+  "mod": "12",
+  "x": [
+   "05",
+   "08"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "^v?(\\d+)\\.(\\d+)(?:\\.(\\d+))?$",
+  "purpose": "含 BFCL 函数调用评测（名称/参数/多轮）"
+ },
+ {
+  "id": "P1229",
+  "repo": "paul-rottger/xstest",
+  "mod": "12",
+  "x": [
+   "05"
+  ],
+  "routes": "C",
+  "role": "评测基准",
+  "tag": "HEAD",
+  "purpose": "过度拒答（误报）测试集"
+ },
+ {
+  "id": "D0901",
+  "repo": "LibreChat-AI/librechat.ai",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "LibreChat 官方文档站源（配置 librechat.yaml、认证、部署）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D0902",
+  "repo": "open-webui/docs",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Open WebUI 官方文档站源（部署、RBAC、管道）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D0903",
+  "repo": "langgenius/dify-docs",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Dify 官方文档源（自托管、环境变量、知识库）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D1001",
+  "repo": "langfuse/langfuse-docs",
+  "mod": "10",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Langfuse 官方文档站源（自托管、追踪、评测、提示管理）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D0601",
+  "repo": "openai/openai-openapi",
+  "mod": "06",
+  "x": [
+   "09"
+  ],
+  "routes": "C",
+  "role": "接口规范",
+  "tag": "HEAD",
+  "purpose": "OpenAI API OpenAPI 规范（事实标准的 Chat Completions/Responses 接口，vLLM/LiteLLM 兼容目标）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D1201",
+  "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
+  "mod": "12",
+  "x": [],
+  "routes": "C",
+  "role": "安全规范",
+  "tag": "HEAD",
+  "purpose": "OWASP LLM 应用十大风险（2025 版源文件、多语言译本）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ {
+  "id": "D0801",
+  "repo": "modelcontextprotocol/modelcontextprotocol",
+  "mod": "08",
+  "x": [
+   "12"
+  ],
+  "routes": "C",
+  "role": "接口规范",
+  "tag": "HEAD",
+  "purpose": "MCP 规范与文档（本轮最新提交；另有复用的较早快照）",
+  "dir": "papers_books_courses/official_docs"
+ }
+]

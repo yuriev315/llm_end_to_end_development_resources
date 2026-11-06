@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "04",
+  "aid": "2405.09673",
+  "title": "LoRA Learns Less and Forgets Less",
+  "classic": ""
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2405.09673",
+ "version": "v2",
+ "title": "LoRA Learns Less and Forgets Less",
+ "authors": [
+  "Dan Biderman",
+  "Jacob Portes",
+  "Jose Javier Gonzalez Ortiz",
+  "Mansheej Paul",
+  "Philip Greengard",
+  "Connor Jennings",
+  "Daniel King",
+  "Sam Havens"
+ ],
+ "author_count": 12,
+ "published": "2024-05-15",
+ "updated": "2024-09-20",
+ "verify": "pypdf 可解析 39 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2405.09673v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/04/2024_Biderman_LoraLearnsLessForgetsLess_en.pdf"
+}

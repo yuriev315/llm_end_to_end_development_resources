@@ -1,0 +1,88 @@
+{
+ "id": "D0903",
+ "repo": "langgenius/dify-docs",
+ "upstream": "https://github.com/langgenius/dify-docs",
+ "seed": {
+  "id": "D0903",
+  "repo": "langgenius/dify-docs",
+  "mod": "09",
+  "x": [],
+  "routes": "C",
+  "role": "官方文档",
+  "tag": "HEAD",
+  "purpose": "Dify 官方文档源（自托管、环境变量、知识库）",
+  "dir": "papers_books_courses/official_docs"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "default_branch": "main",
+ "head_commit": "a044036b34ca090bf3a736f03f53df835c5a1bf0",
+ "ref": "main",
+ "version": "main@a044036b34",
+ "kind": "分支快照",
+ "commit": "a044036b34ca090bf3a736f03f53df835c5a1bf0",
+ "commit_date": "2026-10-29",
+ "commit_subject": "docs: limit stable anchor ids to product deep links (#1156)",
+ "static": {
+  "file_count": 1213,
+  "size_mb": 52.9,
+  "license_files": [
+   "LICENSE"
+  ],
+  "license_guess": "CC 类",
+  "tests": [
+   ".claude/skills",
+   "tools/tests"
+  ],
+  "test_file_count": 3,
+  "ci": [
+   ".github/workflows/check_external_links.yml",
+   ".github/workflows/check_links.yml",
+   ".github/workflows/backport.yml",
+   ".github/workflows/backport-clear-assignee.yml"
+  ],
+  "docker": [],
+  "compose": [],
+  "helm_k8s": [],
+  "dep_files": [
+   "tools/requirements.txt"
+  ],
+  "req_files": [
+   "tools/requirements.txt"
+  ],
+  "lock_files": [],
+  "docs_files": 0,
+  "config_files": 0,
+  "config_dirs": [],
+  "examples_dirs": [],
+  "sample_data": [],
+  "readme": [
+   "README.md"
+  ],
+  "changelog": [],
+  "makefile": [],
+  "lfs_patterns": [],
+  "lfs_pointer_files": 0,
+  "lfs_pointer_examples": [],
+  "submodules": [],
+  "requires_python": "",
+  "py_scripts": [],
+  "torch_spec": "",
+  "entry_files": [],
+  "readme_has_install": true,
+  "readme_mentions_gpu": false,
+  "readme_commands": [
+   "npm i -g mintlify",
+   "git clone https://github.com/langgenius/dify-docs.git",
+   "npm i -g mintlify"
+  ]
+ },
+ "level": "L1",
+ "level_missing": [],
+ "head_commit_date": "2026-10-29",
+ "archived": "否",
+ "archive": "papers_books_courses/official_docs/D0903_langgenius_dify-docs_main-a044036b34_src_en.tar",
+ "archive_mb": 54.1,
+ "archive_prefix": "dify-docs-main-a044036b34",
+ "finished": "2026-10-29T20:03:54Z"
+}

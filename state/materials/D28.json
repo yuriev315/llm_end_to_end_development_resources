@@ -1,0 +1,23 @@
+{
+ "id": "D28",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/official_docs/vscode_extension_api_docs_src_en.tar",
+ "sibling_id": "15D12",
+ "kind": "official_docs",
+ "mods": "08",
+ "title": "VS Code 扩展 API 文档源",
+ "author": "Microsoft",
+ "school": "",
+ "version": "main 提交",
+ "year": "2026",
+ "license": "CC BY 4.0",
+ "sibling_status": "完整（已核验）",
+ "sibling_verify": "通过：347 个文件（HTML 0，文档源 81）",
+ "scope": "",
+ "type": "官方文档/系统教程",
+ "path": "papers_books_courses/official_docs/vscode_extension_api_docs_src_en.tar",
+ "size_mb": 2.0,
+ "complete": true,
+ "access_date": "2026-10-29"
+}

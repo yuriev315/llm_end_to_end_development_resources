@@ -1,0 +1,30 @@
+{
+ "seed": {
+  "mod": "05",
+  "aid": "2211.09110",
+  "title": "Holistic Evaluation of Language Models",
+  "classic": "经典：HELM"
+ },
+ "access_date": "2026-10-29",
+ "arxiv_id": "2211.09110",
+ "version": "v2",
+ "title": "Holistic Evaluation of Language Models",
+ "authors": [
+  "Percy Liang",
+  "Rishi Bommasani",
+  "Tony Lee",
+  "Dimitris Tsipras",
+  "Dilara Soylu",
+  "Michihiro Yasunaga",
+  "Yian Zhang",
+  "Deepak Narayanan"
+ ],
+ "author_count": 50,
+ "published": "2022-11-16",
+ "updated": "2023-10-01",
+ "verify": "pypdf 可解析 162 页；首两页标题词匹配 1.00；参考文献节存在",
+ "url": "https://arxiv.org/abs/2211.09110v2",
+ "status": "done",
+ "source": "新下载",
+ "path": "papers_books_courses/papers/05/2022_Liang_HolisticEvaluationLanguageModels_en.pdf"
+}

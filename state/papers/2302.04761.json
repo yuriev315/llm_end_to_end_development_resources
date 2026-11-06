@@ -1,0 +1,18 @@
+{
+ "seed": {
+  "mod": "08",
+  "aid": "2302.04761",
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "classic": "经典：工具学习"
+ },
+ "access_date": "2026-10-29",
+ "status": "done",
+ "source": "复用",
+ "reuse_from": "/root/programming_reference_literature/papers/2023_Schick_ToolformerLanguageModelsTeachThemselves_en.pdf",
+ "arxiv_id": "2302.04761",
+ "version": "v1",
+ "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+ "path": "papers_books_courses/papers/08/2023_Schick_ToolformerLanguageModelsTeachThemselves_en.pdf",
+ "verify": "pypdf 可解析 17 页；首两页标题词匹配 1.00；参考文献节存在",
+ "published": ""
+}
